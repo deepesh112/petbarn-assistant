@@ -94,6 +94,23 @@ def choose_default_provider() -> str:
     return config.default_provider()
 
 
+def api_key_widget_key(provider: llm.Provider) -> str:
+    """Session-state key for this provider's sidebar API-key box.
+
+    Per-provider on purpose. A single shared key meant the value typed for one
+    backend was handed to the next one you switched to -- paste a Gemini key,
+    switch to Groq, and Groq was sent the Gemini key and rejected it. Separate
+    keys also let the sidebar remember a key per backend, so switching back and
+    forth does not mean retyping.
+    """
+    return f"api_key_{provider.name}"
+
+
+def model_widget_key(provider: llm.Provider) -> str:
+    """Session-state key for this provider's model picker."""
+    return f"model_{provider.name}"
+
+
 def resolve_api_key(provider: llm.Provider) -> tuple[str | None, str]:
     """Find an API key for ``provider``. Returns the key and where it came from.
 
@@ -103,7 +120,7 @@ def resolve_api_key(provider: llm.Provider) -> tuple[str | None, str]:
     if not provider.requires_api_key:
         return None, "not needed"
 
-    typed = (st.session_state.get("api_key_input") or "").strip()
+    typed = (st.session_state.get(api_key_widget_key(provider)) or "").strip()
     if typed:
         return typed, "sidebar"
 
@@ -169,16 +186,23 @@ def render_backend_controls() -> tuple[llm.Provider, str | None, str, llm.Health
     api_key: str | None = None
     if provider.requires_api_key:
         api_key, origin = resolve_api_key(provider)
+        # persist_state keeps each backend's key for the session, so switching
+        # away and back does not clear the box.
+        field = dict(
+            label=f"{provider.label} API key",
+            key=api_key_widget_key(provider),
+            type="password",
+            persist_state="session",
+            placeholder="paste your key",
+        )
         if origin in {"secrets", "environment"}:
             st.success(f"API key loaded from {origin}", icon="🔑")
             with st.expander("Use your own key instead"):
-                st.text_input(
-                    "API key", key="api_key_input", type="password", placeholder="gsk_..."
-                )
+                st.text_input(**field)
         else:
-            st.text_input("API key", key="api_key_input", type="password", placeholder="gsk_...")
+            st.text_input(**field)
             if not api_key and provider.key_url:
-                st.caption(f"Get a free key at [{provider.key_url}]({provider.key_url})")
+                st.caption(f"Get a key at [{provider.key_url}]({provider.key_url})")
         api_key, _ = resolve_api_key(provider)
 
     if provider.is_local:
@@ -190,12 +214,22 @@ def render_backend_controls() -> tuple[llm.Provider, str | None, str, llm.Health
         health = llm.check(provider, api_key=api_key)
 
     options = health.models or list(provider.suggested_models)
-    preferred = provider.default_model if provider.default_model in options else (options[0] if options else "")
-    model = (
-        st.selectbox("Model", options=options, index=options.index(preferred) if preferred else 0)
-        if options
-        else ""
-    )
+    model = ""
+    if options:
+        widget_key = model_widget_key(provider)
+        # A remembered model that no longer exists -- an Ollama model deleted
+        # since it was picked -- would make the selectbox raise. Drop it and let
+        # the provider's default take over.
+        if st.session_state.get(widget_key) not in options:
+            st.session_state.pop(widget_key, None)
+        preferred = provider.default_model if provider.default_model in options else options[0]
+        model = st.selectbox(
+            "Model",
+            options=options,
+            index=options.index(preferred),
+            key=widget_key,
+            persist_state="session",
+        )
 
     if provider.is_local and health.ok:
         st.caption(f"🟢 Ollama reachable · {health.detail}")

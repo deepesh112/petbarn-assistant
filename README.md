@@ -281,6 +281,7 @@ Petbarn's permission.
 ```bash
 python scripts/smoke_test.py       # all 5 tools, live + offline — 104 checks, no model needed
 python scripts/loop_test.py        # agent loop + Claude adapter, stubbed — 88 checks, no model
+python scripts/ui_test.py          # the Streamlit UI via AppTest — 30 checks, no model
 python scripts/agent_test.py                         # the brief's questions, through a real model
 python scripts/agent_test.py --model granite4.1:3b   # pick a local model
 python scripts/agent_test.py --provider groq         # against the hosted backend
@@ -288,7 +289,7 @@ python scripts/agent_test.py --offline               # forced onto the snapshot
 python scripts/build_snapshot.py --verify            # check the committed dataset is intact
 ```
 
-The first two need no model and no API key at all, which is deliberate: the parts most likely to
+The first three need no model and no API key at all, which is deliberate: the parts most likely to
 break are the parts that do not involve an LLM.
 
 `smoke_test.py` is the one that matters most. The agent is only as good as the tools beneath it, and
@@ -303,7 +304,14 @@ expired key, and the per-provider request differences. The tools underneath stay
 proves tool results are packaged into messages the API would accept with their call ids matched up.
 It found a live bug — an empty model completion rendered as silence, which reads as a crash.
 
-`agent_test.py` covers what neither can: whether the *model* picks the right tools. It prints the
+`ui_test.py` drives the sidebar through Streamlit's `AppTest` harness. It exists because of a bug it
+would have caught: the API-key box used one session-state key for every backend, so a key typed for
+one provider was handed to whichever provider you switched to next — paste a Gemini key, switch to
+Groq, and Groq was sent the Gemini key and rejected it. Both other suites stayed green throughout,
+because the fault was entirely in widget state and nothing exercised it. Each backend now has its own
+keyed widget, and each remembers its own key for the session.
+
+`agent_test.py` covers what none of them can: whether the *model* picks the right tools. It prints the
 full trace per question, including the cases a demo tends to trip on — an off-catalog product, a
 request for only the critical reviews, and a bare "what can you help me with".
 
@@ -383,6 +391,7 @@ scripts/
   build_snapshot.py         Ingestion and dataset verification
   smoke_test.py             Tool-level tests, live and offline (no model needed)
   loop_test.py              Agent-loop tests against a stubbed model (no model needed)
+  ui_test.py                Streamlit UI tests via AppTest (no model needed)
   agent_test.py             End-to-end tests through a real model
 ```
 
@@ -417,4 +426,3 @@ scripts/
   applicable category — "waste of money" in a review praising a *different* brand reads as a price
   complaint. Quotes are returned with every finding precisely so a reader can judge for themselves.
 - **Answers are not streamed.** The tool loop needs each round's result before the next.
-- **No automated tests for the UI layer** beyond a render check via Streamlit's `AppTest`.
