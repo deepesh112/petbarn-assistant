@@ -27,6 +27,7 @@ import re
 from dataclasses import dataclass
 from functools import lru_cache
 
+from vaderSentiment import vaderSentiment as vader_module
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 from .models import AspectSummary, Quote, Review, ReviewBundle, SentimentReport
@@ -182,15 +183,49 @@ _DOMAIN_LEXICON: dict[str, float] = {
     "leaked": -2.0, "leaking": -1.8, "resealable": 1.0, "undamaged": 1.0,
     # intent
     "repurchase": 1.8, "restock": 1.0, "reordered": 1.4,
+    # Complaint nouns VADER simply does not carry. Adding them is not just about
+    # scoring the complaint: it is what lets "no issues" work at all. Without an
+    # entry for "issues", VADER has nothing for "no" to negate, so "no" falls
+    # back to its own -1.2 valence and a sentence meaning "it works fine" scores
+    # -0.30. "No issues" is how 15 reviews in this corpus pay a compliment.
+    "issue": -1.5, "issues": -1.5,
+    "hassle": -1.4, "hassles": -1.4,
+    "drama": -1.2, "dramas": -1.2,
+}
+
+
+#: Double-negative praise, which VADER reads as negation. "Could not be happier
+#: with this food" scores -0.42 and was offered as a product's example
+#: *complaint* -- a visible defect, even though the phrasing turns up only once
+#: in ~1,500 reviews. Kept deliberately small: these are the forms that occur,
+#: not every phrase one could imagine.
+#:
+#: Two mechanical constraints shape this table. VADER matches sequences of at
+#: most three words, so "could not be happier" must be registered as the trigram
+#: "not be happier". And the idiom is only consulted when the sequence's final
+#: word is itself in VADER's lexicon, which is why "never looked back" cannot be
+#: corrected this way -- "back" carries no sentiment of its own.
+_DOMAIN_IDIOMS: dict[str, float] = {
+    "not be happier": 3.0,
+    "couldn't be happier": 3.0,
+    "not fault": 2.5,
+    "not hesitate": 2.0,
+    "not disappointed": 2.0,
+    "not go wrong": 2.0,
 }
 
 
 @lru_cache(maxsize=1)
 def get_analyzer() -> SentimentIntensityAnalyzer:
-    """Return the shared VADER analyser, extended with retail vocabulary."""
+    """Return the shared VADER analyser, extended for pet-retail review prose."""
     analyzer = SentimentIntensityAnalyzer()
     for word, score in _DOMAIN_LEXICON.items():
         analyzer.lexicon.setdefault(word, score)
+
+    # VADER reads its idiom table from a module global rather than from the
+    # instance, so the phrases have to be registered there. lru_cache keeps this
+    # to a single application per process.
+    vader_module.SPECIAL_CASES.update(_DOMAIN_IDIOMS)
     return analyzer
 
 
@@ -262,16 +297,57 @@ def _summarise_aspect(aspect: Aspect, mentions: list[_Mention]) -> AspectSummary
 
     summary.weak_evidence = len(mentions) < MIN_MENTIONS_FOR_VERDICT
 
-    ranked = sorted(mentions, key=lambda m: m.score, reverse=True)
-    summary.supporting_quotes = [
-        _to_quote(m) for m in ranked[:MAX_QUOTES_PER_ASPECT] if m.score >= POLARITY_THRESHOLD
-    ]
-    summary.critical_quotes = [
-        _to_quote(m)
-        for m in reversed(ranked[-MAX_QUOTES_PER_ASPECT:])
-        if m.score <= -POLARITY_THRESHOLD
-    ]
+    summary.supporting_quotes = _pick_quotes(mentions, positive=True)
+    summary.critical_quotes = _pick_quotes(mentions, positive=False)
     return summary
+
+
+def _pick_quotes(mentions: list[_Mention], *, positive: bool) -> list[Quote]:
+    """Choose quotes that genuinely stand up as evidence.
+
+    Two guards, both learned from quotes that embarrassed themselves:
+
+    **The star rating must agree with the text.** "No more runny poos!!" is
+    emphatic praise, but VADER sees only the unpleasant noun and scores it -0.42,
+    which offered it as a five-star reviewer's complaint. Rather than keep
+    patching the lexicon for every such phrasing, a sentence is only quoted as
+    criticism when the reviewer also *rated* the product poorly. Chasing this
+    through the lexicon alone is a losing game: "no longer stocking the smaller
+    rolls" is a real complaint using the same construction, and only the star
+    rating separates the two.
+
+    **The excerpt must still carry the sentiment.** Quotes are truncated for
+    display, and a long sentence can lose the very clause that made it negative,
+    leaving a "complaint" that reads as praise. The shortened form is re-scored
+    and dropped if it no longer supports the claim.
+    """
+    threshold = POLARITY_THRESHOLD if positive else -POLARITY_THRESHOLD
+    candidates = [
+        m
+        for m in mentions
+        if (m.score >= threshold if positive else m.score <= threshold)
+        and _rating_agrees(m.review.rating, positive=positive)
+    ]
+    candidates.sort(key=lambda m: m.score, reverse=positive)
+
+    quotes: list[Quote] = []
+    for mention in candidates:
+        quote = _to_quote(mention)
+        if len(quote.text) < len(mention.sentence):
+            excerpt_score = polarity(quote.text)
+            if (excerpt_score < threshold) if positive else (excerpt_score > threshold):
+                continue
+        quotes.append(quote)
+        if len(quotes) == MAX_QUOTES_PER_ASPECT:
+            break
+    return quotes
+
+
+def _rating_agrees(rating: int | None, *, positive: bool) -> bool:
+    """Whether a reviewer's stars back up the sentiment read from their words."""
+    if rating is None:
+        return True  # nothing to contradict it
+    return rating >= 4 if positive else rating <= 3
 
 
 def _to_quote(mention: _Mention) -> Quote:

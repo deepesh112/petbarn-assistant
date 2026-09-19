@@ -46,12 +46,12 @@ To use the hosted backend instead, pick **Groq** in the sidebar and paste a free
 ## How it works
 
 ```
-  Streamlit chat UI  ──►  PetbarnAgent  ──►  4 tools  ──►  cache ─► live fetch ─► snapshot
+  Streamlit chat UI  ──►  PetbarnAgent  ──►  5 tools  ──►  cache ─► live fetch ─► snapshot
   (shows tool trace)      (bounded tool       (SKU-keyed)        petbarn.com.au / Bazaarvoice
                            loop, any backend)
 ```
 
-The model is given four tools and decides which to call. Nothing about a product reaches an answer
+The model is given five tools and decides which to call. Nothing about a product reaches an answer
 unless a tool returned it during that conversation.
 
 ### Model backends
@@ -99,9 +99,9 @@ Two traps in the data that the parser handles explicitly:
 There is also a public GraphQL endpoint at `mesh.petbarn.com.au`; it returns **403** to anything
 that is not the storefront, and it is not needed.
 
-### The four tools
+### The five tools
 
-The brief asks for two. Two more exist because they measurably improve the answers:
+The brief asks for two. Three more exist because testing showed they measurably improve answers:
 
 | Tool | Purpose |
 |---|---|
@@ -109,6 +109,14 @@ The brief asks for two. Two more exist because they measurably improve the answe
 | `get_product_details` | Specifications, regular and member price, brand, category, size, availability, barcode, description, other sizes, delivery options. |
 | `get_product_reviews` | Individual reviews with ratings, dates, verified-purchaser flags and helpful votes, plus the aggregate picture: average, star distribution, recommend rate, and Petbarn's own Quality / Value / Pet-satisfaction averages. Filterable by rating and sortable, so "what do the one-star reviews say" is answerable. |
 | `analyze_review_sentiment` | Sentiment broken down by theme, with counts, average stars and verbatim quotes per theme, plus ranked pros and cons. |
+| `compare_products` | Two or three products side by side in **one** call. This exists because comparison is the question shape models get half-right: granite4.1:8b resolved both products, analysed only one, and wrote a confident comparison from one side of it. A single atomic call removes the opportunity. |
+
+Payloads are shaped for the model rather than for a machine. Each aspect ships a **pre-written
+sentence** (`"Price & value for money: 24 mentions, 23 positive and 1 negative (96% positive),
+averaging 4.95 stars."`) because giving a small model figures to combine produced invented ones — a
+3B read `positive_share: 0.788` on a 74-mention aspect and wrote "78 of 74 mentions positive".
+Ratios were replaced with whole percentages for the same reason, and thin evidence carries an
+explicit `weak_evidence` flag rather than being left for the model to infer from a count.
 
 ### Sentiment is computed, not guessed
 
@@ -132,8 +140,18 @@ So `petbarn/sentiment.py` does the analysis itself:
 - **Star ratings are reported alongside polarity, never blended into it.** Where the two disagree —
   a five-star review with a specific complaint — that is counted and surfaced as
   `star_vs_text_disagreements` rather than averaged away.
-- Thin evidence is flagged as `weak_evidence` rather than left for the model to infer from a count,
-  because a small model will happily turn three comments into "customers say".
+- **A quote must satisfy both signals before it is offered as evidence.** VADER scores
+  *"No more runny poos!!"* at −0.42, seeing only the unpleasant noun, so it was being presented as a
+  five-star reviewer's complaint. A sentence is only quoted as criticism when the reviewer also
+  *rated* the product poorly. Lexicon tuning cannot settle this on its own: *"no longer stocking the
+  smaller rolls"* is a genuine complaint in the same construction, and only the star rating tells
+  them apart. Quotes are also re-scored after truncation and dropped if the shortened form no longer
+  supports the claim.
+- **Two genuine gaps in VADER's lexicon are filled.** `issue`/`issues` are simply absent, which
+  meant "no issues" had nothing for "no" to negate — so "no" fell back to its own −1.2 valence and a
+  sentence meaning *it works fine* scored −0.30. That is how 15 reviews here pay a compliment.
+  Double-negative praise ("could not be happier") is corrected the same way, via VADER's idiom
+  table.
 
 An aspect needs at least three mentions before it can become a pro or a con, and the thresholds for
 the two do not overlap, so an aspect is never presented as both.
@@ -296,11 +314,17 @@ scripts/
 ## Limitations
 
 - **Small local models are the weak link.** The tools are deterministic; the choice of which to call
-  is not. `granite4.1:3b` answers in about 10 seconds but sometimes over-reads thin evidence;
-  `granite4.1:8b` is slower on a 6GB GPU and noticeably more careful. An early 3B run quoted a price
-  it had lifted from a review's text — the fix was to name payload fields unambiguously and forbid
-  it in the prompt, but a larger model is simply better at this. The UI flags any answer produced
-  with no tool calls at all.
+  is not. On this 6GB laptop GPU `granite4.1:3b` answers in 10-20 seconds, while `granite4.1:8b`
+  takes 70-90 because it partly spills to CPU — and it is not uniformly better: the 8B chose
+  `max_rating` correctly first try where the 3B did not, but the 3B fetched both products for a
+  comparison where the 8B fetched one.
+
+  Every error observed during testing was met with a structural fix rather than a prompt plea: a
+  price lifted from a review's text led to unambiguous field names and an explicit prohibition; a
+  ratio misread as a count led to pre-written summary sentences; a half-finished comparison led to
+  `compare_products`; `min_rating=1` used to mean "one-star reviews" led to worked examples in the
+  schema. A larger model still handles all of this more reliably, which is what the Groq option is
+  for. The UI flags any answer produced with no tool calls at all.
 - **Ten products.** `search_catalog` says so plainly and lists what it does cover rather than
   improvising. Widening it is a matter of re-running the ingestion with a larger `--count`.
 - **No stock, order or delivery data**, and no veterinary advice — the assistant is instructed to

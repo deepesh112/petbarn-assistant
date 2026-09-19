@@ -256,6 +256,35 @@ class AspectSummary:
     supporting_quotes: list[Quote] = field(default_factory=list)
     critical_quotes: list[Quote] = field(default_factory=list)
 
+    @property
+    def positive_percent(self) -> int | None:
+        """Positive share as a whole percentage.
+
+        A 0-1 ratio is dangerous in a tool payload: a model read
+        ``positive_share: 0.788`` on an aspect with 74 mentions and wrote
+        "78 of 74 mentions positive". A percentage cannot be mistaken for a count.
+        """
+        if self.positive_share is None:
+            return None
+        return round(self.positive_share * 100)
+
+    def describe(self) -> str:
+        """A ready-to-quote sentence stating this aspect's evidence.
+
+        Handing the model finished prose rather than numbers to combine removes
+        the arithmetic, and with it the invented totals and mislabelled aspects
+        that raw figures kept producing on smaller models.
+        """
+        parts = [f"{self.mentions} mention{'s' if self.mentions != 1 else ''}"]
+        if self.positive_percent is not None:
+            parts.append(f"{self.positive} positive and {self.negative} negative ({self.positive_percent}% positive)")
+        if self.mean_stars is not None:
+            parts.append(f"averaging {self.mean_stars} stars")
+        sentence = f"{self.label}: {', '.join(parts)}."
+        if self.weak_evidence:
+            sentence += " Too few mentions to generalise from."
+        return sentence
+
     def to_dict(self) -> dict[str, Any]:
         return dataclasses.asdict(self)
 

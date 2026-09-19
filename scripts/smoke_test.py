@@ -166,7 +166,7 @@ def test_sentiment(sku: str) -> None:
     for aspect in payload["aspects"]:
         print(f"    {aspect['aspect']:26} n={aspect['mentions']:3d} "
               f"+{aspect['positive']:3d}/-{aspect['negative']:3d} "
-              f"share={aspect['positive_share']} stars={aspect['mean_stars_of_mentioning_reviews']}")
+              f"pos%={aspect['positive_percent']} stars={aspect['mean_stars_of_mentioning_reviews']}")
     print(f"    PROS: {payload['pros']}")
     print(f"    CONS: {payload['cons']}")
 

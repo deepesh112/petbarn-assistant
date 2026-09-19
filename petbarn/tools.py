@@ -15,11 +15,22 @@ the *freshness* of an answer rather than the ability to answer at all. Which
 layer served a call travels back in the payload as ``source``, so neither the
 model nor the reader has to guess.
 
-Four tools are exposed where the brief asks for two. ``search_catalog`` exists
-because every other tool is keyed by SKU and the model must never guess one.
-``analyze_review_sentiment`` is separate from ``get_product_reviews`` so that
-"what are the pros and cons" is answered from counted evidence rather than from
-the model's impression of a wall of text.
+Five tools are exposed where the brief asks for two, each earning its place:
+
+``search_catalog``
+    Every other tool is keyed by SKU, and a model left to guess one will invent
+    it and then answer confidently about a product that does not exist.
+
+``analyze_review_sentiment``
+    Separate from ``get_product_reviews`` so that "what are the pros and cons" is
+    answered from counted evidence rather than the model's impression of a wall
+    of text.
+
+``compare_products``
+    Comparison is the question shape models reliably get half-right: they resolve
+    both products, analyse one, and write a confident comparison from one side of
+    it. Observed in testing on two different models. Making it a single call
+    removes the opportunity.
 """
 
 from __future__ import annotations
@@ -31,7 +42,7 @@ from typing import Any, Callable
 
 from . import config, reviews as review_api
 from .catalog import Catalog, get_catalog, pretty_brand
-from .http import FetchError, get_session
+from .http import FetchError, get_session, now_iso
 from .models import ProductDetails, Review, ReviewBundle, Source
 from .scraper import ProductParseError, fetch_product
 from .sentiment import analyse
@@ -388,6 +399,114 @@ def tool_get_product_reviews(
     }
 
 
+#: Aspects included per product in a comparison. Enough to be useful, few
+#: enough that two products still fit comfortably in a local model's context.
+COMPARE_TOP_ASPECTS = 4
+
+
+def _first_quote(aspects: list[Any], *, critical: bool) -> dict[str, Any] | None:
+    """Pull one verbatim review quote from the most-discussed aspect that has one."""
+    for aspect in aspects:
+        quotes = aspect.critical_quotes if critical else aspect.supporting_quotes
+        if quotes:
+            return quotes[0].to_dict()
+    return None
+
+
+def tool_compare_products(skus: list[str] | str) -> dict[str, Any]:
+    """Side-by-side pricing, ratings and review sentiment for two or three products.
+
+    This exists because comparison is the one question shape models reliably get
+    half-right: they resolve both products, then analyse only the first and
+    write a confident comparison from one side of it. Making the comparison a
+    single call removes the opportunity -- either both products are fetched or
+    the call fails.
+    """
+    if isinstance(skus, str):
+        skus = [part.strip() for part in skus.split(",") if part.strip()]
+    skus = [str(sku).strip() for sku in (skus or [])]
+    if len(skus) < 2:
+        raise ToolError("compare_products needs at least two SKUs from search_catalog")
+    if len(skus) > 3:
+        raise ToolError("compare_products handles at most three products at a time")
+
+    catalog = get_catalog()
+    summaries: list[dict[str, Any]] = []
+    sources: list[Source] = []
+
+    for sku in skus:
+        product = load_product(sku)
+        bundle = load_reviews(sku, limit=ANALYSIS_REVIEW_LIMIT)
+        entry = catalog.get(sku)
+        report = analyse(
+            bundle,
+            product_name=product.name,
+            category=entry.category if entry else product.category,
+        )
+        sources.extend([product.source, bundle.source])
+
+        summaries.append(
+            {
+                "sku": sku,
+                "name": product.name,
+                "brand": pretty_brand(product.brand),
+                "category": product.category,
+                "price": product.price,
+                "loyalty_member_price": product.member_price,
+                "currency": product.currency,
+                "average_rating": product.average_rating,
+                "total_reviews": bundle.stats.total_reviews,
+                "aspect_rating_averages": bundle.stats.secondary_rating_averages,
+                "reviews_analysed": report.reviews_analysed,
+                "top_aspects": [
+                    {
+                        "aspect": item.label,
+                        # A pre-written sentence to quote, so there are no
+                        # figures left for the model to combine and mislabel.
+                        "summary": item.describe(),
+                        "mentions": item.mentions,
+                        "positive": item.positive,
+                        "negative": item.negative,
+                        "positive_percent": item.positive_percent,
+                        "mean_stars": item.mean_stars,
+                        "weak_evidence": item.weak_evidence,
+                    }
+                    for item in report.aspects[:COMPARE_TOP_ASPECTS]
+                    if item.mentions
+                ],
+                "pros": report.pros[:3],
+                "cons": report.cons[:3],
+                # One real quote each way. Without the praise counterpart the
+                # model filled the gap by quoting an aspect's statistics
+                # sentence as though a customer had said it.
+                "example_praise": _first_quote(report.aspects, critical=False),
+                "example_complaint": _first_quote(report.aspects, critical=True),
+            }
+        )
+
+    priced = [s for s in summaries if s["price"] is not None]
+    rated = [s for s in summaries if s["average_rating"] is not None]
+    return {
+        "products": summaries,
+        "at_a_glance": {
+            "cheapest": min(priced, key=lambda s: s["price"])["name"] if priced else None,
+            "highest_rated": max(rated, key=lambda s: s["average_rating"])["name"] if rated else None,
+            "most_reviewed": max(summaries, key=lambda s: s["total_reviews"] or 0)["name"],
+        },
+        "guidance": (
+            "Cover every product listed here. Note where they genuinely differ rather than "
+            "restating both profiles, and say when a difference is too small to matter. "
+            "Prices are not comparable across different pack sizes -- say so if the sizes differ."
+        ),
+        # The weakest link decides: if either product fell back to the snapshot,
+        # the comparison as a whole is not fully live.
+        **_provenance(
+            "snapshot" if "snapshot" in sources else ("live" if "live" in sources else "cache"),
+            now_iso(),
+        ),
+    }
+
+
 def tool_analyze_review_sentiment(sku: str) -> dict[str, Any]:
     """Aspect-level sentiment, pros and cons, computed from the review text."""
     sku = str(sku).strip()
@@ -427,12 +546,13 @@ def tool_analyze_review_sentiment(sku: str) -> dict[str, Any]:
         "aspects": [
             {
                 "aspect": item.label,
+                "summary": item.describe(),
                 "mentions": item.mentions,
                 "weak_evidence": item.weak_evidence,
                 "positive": item.positive,
                 "neutral": item.neutral,
                 "negative": item.negative,
-                "positive_share": item.positive_share,
+                "positive_percent": item.positive_percent,
                 "mean_stars_of_mentioning_reviews": item.mean_stars,
                 "mean_polarity": item.mean_polarity,
                 "positive_quotes": [quote.to_dict() for quote in item.supporting_quotes],
@@ -444,8 +564,9 @@ def tool_analyze_review_sentiment(sku: str) -> dict[str, Any]:
         "pros": report.pros,
         "cons": report.cons,
         "guidance": (
-            "Quote the reviewers' own words when summarising. An aspect with few mentions is weak "
-            "evidence -- say so rather than presenting it as a finding."
+            "Each aspect carries a ready-written 'summary' sentence: quote its figures rather "
+            "than recomputing them. Quote the reviewers' own words too. An aspect flagged "
+            "weak_evidence must not be presented as a general finding."
         ),
         **_provenance(report.source, report.fetched_at),
     }
@@ -531,16 +652,52 @@ TOOL_SCHEMAS: list[dict[str, Any]] = [
                         "enum": sorted(review_api.SORT_ORDERS),
                         "description": "Ordering. Use 'most_recent' for recent feedback, 'lowest_rating' to investigate complaints.",
                     },
+                    # Spelled out with worked examples because the two are easy to
+                    # confuse, and confusing them fails silently: min_rating=1
+                    # matches every review, so a request for one-star reviews comes
+                    # back as the whole set and the answer looks plausible.
                     "min_rating": {
                         "type": "integer",
-                        "description": "Only reviews with at least this many stars (1-5).",
+                        "description": (
+                            "Keep only reviews with AT LEAST this many stars, 1-5. Raises the "
+                            "floor. Use 4 for positive reviews only. Do not use this for negative "
+                            "reviews: min_rating=1 matches everything."
+                        ),
                     },
                     "max_rating": {
                         "type": "integer",
-                        "description": "Only reviews with at most this many stars (1-5). Use 2 to find complaints.",
+                        "description": (
+                            "Keep only reviews with AT MOST this many stars, 1-5. Lowers the "
+                            "ceiling. This is the one for negative feedback: use max_rating=1 for "
+                            "one-star reviews only, max_rating=2 for all complaints."
+                        ),
                     },
                 },
                 "required": ["sku"],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "compare_products",
+            "description": (
+                "Compare two or three products side by side in ONE call: price, loyalty price, "
+                "rating, review counts, per-theme sentiment, and each one's pros and cons. "
+                "ALWAYS use this instead of calling the other tools per product whenever the user "
+                "asks to compare, or asks which of several is better, cheaper or better reviewed. "
+                "Resolve every product with search_catalog first, then pass all their SKUs here."
+            ),
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "skus": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": "Two or three SKUs returned by search_catalog.",
+                    }
+                },
+                "required": ["skus"],
             },
         },
     },
@@ -573,6 +730,7 @@ TOOL_FUNCTIONS: dict[str, Callable[..., dict[str, Any]]] = {
     "get_product_details": tool_get_product_details,
     "get_product_reviews": tool_get_product_reviews,
     "analyze_review_sentiment": tool_analyze_review_sentiment,
+    "compare_products": tool_compare_products,
 }
 
 assert {schema["function"]["name"] for schema in TOOL_SCHEMAS} == set(TOOL_FUNCTIONS), (

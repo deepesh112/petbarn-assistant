@@ -21,6 +21,7 @@ from types import SimpleNamespace
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from petbarn import llm  # noqa: E402
+from petbarn.tools import TOOL_SCHEMAS  # noqa: E402
 from petbarn.agent import PetbarnAgent  # noqa: E402
 from petbarn.catalog import get_catalog  # noqa: E402
 
@@ -252,7 +253,8 @@ def test_provider_wiring() -> None:
 
         check(agent.provider.name == name, f"{name}: provider is selected")
         check(request["model"] == "stub-model", f"{name}: the chosen model is requested")
-        check(len(request["tools"]) == 4, f"{name}: all four tools are offered")
+        check(len(request["tools"]) == len(TOOL_SCHEMAS),
+              f"{name}: all {len(TOOL_SCHEMAS)} tools are offered")
         # Ollama defaults to a small context window; it must be asked for a bigger
         # one explicitly or tool payloads get silently truncated.
         if spec.is_local:
