@@ -393,7 +393,11 @@ def tool_analyze_review_sentiment(sku: str) -> dict[str, Any]:
     sku = str(sku).strip()
     bundle = load_reviews(sku, limit=ANALYSIS_REVIEW_LIMIT)
     entry = get_catalog().get(sku)
-    report = analyse(bundle, product_name=entry.name if entry else None)
+    report = analyse(
+        bundle,
+        product_name=entry.name if entry else None,
+        category=entry.category if entry else None,
+    )
 
     return {
         "sku": report.sku,
@@ -403,18 +407,28 @@ def tool_analyze_review_sentiment(sku: str) -> dict[str, Any]:
             "VADER sentence-level polarity with a pet-retail lexicon extension, bucketed into "
             "aspects by keyword. Star ratings are reported separately, not blended in."
         ),
-        "overall": {
-            "mean_stars": report.mean_stars,
+        # Every key here is named for the *sample*, not the product. A field
+        # called "mean_stars" gets quoted back as the product's rating, which it
+        # is not: it is the mean of the reviews analysed here. The authoritative
+        # product-wide average lives in get_product_reviews' rating_summary.
+        "sample_statistics": {
+            "note": (
+                "These describe only the reviews analysed above, not the product's lifetime "
+                "figures. For the official average rating and total review count, use "
+                "get_product_reviews."
+            ),
+            "mean_stars_in_sample": report.mean_stars,
             "mean_text_polarity": report.mean_polarity,
-            "positive_reviews": report.positive,
-            "neutral_reviews": report.neutral,
-            "negative_reviews": report.negative,
+            "positive_reviews_in_sample": report.positive,
+            "neutral_reviews_in_sample": report.neutral,
+            "negative_reviews_in_sample": report.negative,
             "star_vs_text_disagreements": report.mixed_signal_count,
         },
         "aspects": [
             {
                 "aspect": item.label,
                 "mentions": item.mentions,
+                "weak_evidence": item.weak_evidence,
                 "positive": item.positive,
                 "neutral": item.neutral,
                 "negative": item.negative,
@@ -566,15 +580,32 @@ assert {schema["function"]["name"] for schema in TOOL_SCHEMAS} == set(TOOL_FUNCT
 )
 
 
-def execute(name: str, arguments: dict[str, Any] | None = None) -> ToolResult:
+def execute(
+    name: str,
+    arguments: dict[str, Any] | None = None,
+    *,
+    review_cap: int | None = None,
+) -> ToolResult:
     """Run one tool by name, capturing timing, provenance and any failure.
 
     Errors are returned rather than raised: the model needs to be told that a
     lookup failed so it can say so, and an exception escaping here would end the
     turn with a stack trace instead of an answer.
+
+    ``review_cap`` trims how many reviews a payload may carry. A local 8B model
+    has a fraction of a hosted model's context, and overflowing it silently drops
+    the *start* of the conversation -- including the instructions that keep
+    answers grounded -- so the caller narrows the payload instead.
     """
     arguments = dict(arguments or {})
     started = time.perf_counter()
+
+    if review_cap is not None and name == "get_product_reviews":
+        try:
+            requested = int(arguments.get("limit") or DEFAULT_REVIEW_LIMIT)
+        except (TypeError, ValueError):
+            requested = DEFAULT_REVIEW_LIMIT
+        arguments["limit"] = max(1, min(requested, review_cap))
 
     function = TOOL_FUNCTIONS.get(name)
     if function is None:

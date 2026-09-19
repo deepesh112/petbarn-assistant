@@ -20,7 +20,7 @@ from types import SimpleNamespace
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from petbarn import config  # noqa: E402
+from petbarn import llm  # noqa: E402
 from petbarn.agent import PetbarnAgent  # noqa: E402
 from petbarn.catalog import get_catalog  # noqa: E402
 
@@ -77,8 +77,15 @@ class ScriptedClient:
         return [m for m in self.requests[-1]["messages"] if m.get("role") == "tool"]
 
 
-def agent_with(script: list[object], **kwargs) -> tuple[PetbarnAgent, ScriptedClient]:
-    agent = PetbarnAgent("gsk_stub_key", **kwargs)
+def agent_with(
+    script: list[object], *, provider: str = "ollama", **kwargs
+) -> tuple[PetbarnAgent, ScriptedClient]:
+    """Build an agent whose model is a script. Defaults to the Ollama provider.
+
+    The real client is constructed and then replaced, which also proves the
+    provider wiring builds cleanly for whichever backend is under test.
+    """
+    agent = PetbarnAgent("stub-key", provider=provider, model="stub-model", **kwargs)
     client = ScriptedClient(script)
     agent._client = client  # noqa: SLF001 - substituting the model is the point
     return agent, client
@@ -214,17 +221,68 @@ def test_never_answers_with_silence() -> None:
 
 
 def test_api_error() -> None:
-    section("An API failure becomes a readable message, not a traceback")
-    for error, expected in (
-        (Exception("Error code: 401 - invalid api key provided"), "rejected"),
-        (Exception("Error code: 429 - rate limit reached for model"), "rate limit"),
-        (Exception("connection error while contacting host"), "reach Groq"),
-    ):
-        agent, _ = agent_with([error])
+    section("A backend failure becomes a readable message, not a traceback")
+    cases = [
+        # Hosted failures.
+        ("groq", "Error code: 401 - invalid api key provided", "rejected"),
+        ("groq", "Error code: 429 - rate limit reached for model", "rate limit"),
+        ("groq", "connection error while contacting host", "check the connection"),
+        # Local failures need their own advice: restarting a server and pulling a
+        # model are the fixes, and neither applies to a hosted provider.
+        ("ollama", "connection refused to localhost:11434", "ollama serve"),
+        ("ollama", "model 'nope' not found, try pulling it", "ollama pull"),
+    ]
+    for provider, message, expected in cases:
+        agent, _ = agent_with([Exception(message)], provider=provider)
         reply = agent.reply([{"role": "user", "content": "hello"}])
-        check(reply.error is not None, f"{str(error)[:34]!r} -> reported as an error")
-        check(expected.lower() in reply.text.lower(), f"{str(error)[:34]!r} -> message mentions {expected!r}")
-        check(reply.text == reply.error, "the user-facing text is the explanation, not a stack trace")
+        label = f"{provider}: {message[:30]!r}"
+        check(reply.error is not None, f"{label} -> reported as an error")
+        check(expected.lower() in reply.text.lower(), f"{label} -> advice mentions {expected!r}")
+        check(reply.text == reply.error, f"{label} -> text is the explanation, not a stack trace")
+
+
+def test_provider_wiring() -> None:
+    section("Each provider is wired up the way its backend expects")
+    for name, spec in llm.PROVIDERS.items():
+        agent, client = agent_with(
+            [SimpleNamespace(content="hi", tool_calls=None)], provider=name
+        )
+        agent.reply([{"role": "user", "content": "hello"}])
+        request = client.requests[0]
+
+        check(agent.provider.name == name, f"{name}: provider is selected")
+        check(request["model"] == "stub-model", f"{name}: the chosen model is requested")
+        check(len(request["tools"]) == 4, f"{name}: all four tools are offered")
+        # Ollama defaults to a small context window; it must be asked for a bigger
+        # one explicitly or tool payloads get silently truncated.
+        if spec.is_local:
+            options = (request.get("extra_body") or {}).get("options") or {}
+            check(options.get("num_ctx") == spec.context_tokens,
+                  f"{name}: an explicit context window is requested ({spec.context_tokens})")
+        else:
+            check("extra_body" not in request, f"{name}: no Ollama-only options are sent")
+
+
+def test_review_cap() -> None:
+    section("Review payloads are capped to what the backend's context can hold")
+    sku = get_catalog().skus[0]
+    agent, client = agent_with(
+        [
+            SimpleNamespace(
+                content="",
+                tool_calls=[
+                    tool_call("c1", "get_product_reviews", f'{{"sku": "{sku}", "limit": 25}}')
+                ],
+            ),
+            SimpleNamespace(content="done", tool_calls=None),
+        ],
+        provider="ollama",
+    )
+    reply = agent.reply([{"role": "user", "content": "reviews please"}])
+    cap = llm.PROVIDERS["ollama"].max_reviews_to_model
+    check(reply.trace[0].arguments["limit"] == cap,
+          f"a request for 25 reviews is trimmed to {cap} for a local model")
+    check(reply.trace[0].ok, "the capped call still succeeds")
 
 
 def test_system_prompt() -> None:
@@ -237,9 +295,6 @@ def test_system_prompt() -> None:
     check(str(len(get_catalog())) in messages[0]["content"], "the catalog size is interpolated")
     check("{catalog_size}" not in messages[0]["content"], "no placeholder was left unfilled")
     check(messages[1] == {"role": "user", "content": "hello"}, "the user turn follows it")
-    check(client.requests[0]["tools"] and len(client.requests[0]["tools"]) == 4,
-          "all four tools are offered")
-    check(client.requests[0]["model"] == config.DEFAULT_MODEL, "the configured model is requested")
 
 
 def main() -> int:
@@ -249,6 +304,8 @@ def main() -> int:
     test_round_limit()
     test_never_answers_with_silence()
     test_api_error()
+    test_provider_wiring()
+    test_review_cap()
     test_system_prompt()
 
     section("Result")

@@ -159,9 +159,9 @@ def test_sentiment(sku: str) -> None:
     if not check(result.ok, "sentiment call succeeds"):
         return
     payload = result.payload
-    overall = payload["overall"]
-    print(f"    {payload['reviews_analysed']} reviews analysed; mean {overall['mean_stars']}* "
-          f"polarity {overall['mean_text_polarity']}; "
+    overall = payload["sample_statistics"]
+    print(f"    {payload['reviews_analysed']} reviews analysed; mean "
+          f"{overall['mean_stars_in_sample']}* polarity {overall['mean_text_polarity']}; "
           f"{overall['star_vs_text_disagreements']} star/text disagreements")
     for aspect in payload["aspects"]:
         print(f"    {aspect['aspect']:26} n={aspect['mentions']:3d} "

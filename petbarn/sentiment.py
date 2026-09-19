@@ -56,10 +56,25 @@ class Aspect:
     key: str
     label: str
     keywords: tuple[str, ...]
+    #: Substrings of a product's category this aspect is meaningful for. Empty
+    #: means "all products". Some themes simply do not apply everywhere: taste is
+    #: a real signal for food and a category error for cat litter, and no amount
+    #: of keyword tuning fixes that, because the words genuinely appear
+    #: ("my cat eats the pellets"). Gating by category removes the nonsense at
+    #: source rather than relying on the model to disregard it.
+    categories: tuple[str, ...] = ()
 
     @property
     def pattern(self) -> re.Pattern[str]:
         return _compile_aspect(self.keywords)
+
+    def applies_to(self, category: str | None) -> bool:
+        if not self.categories:
+            return True
+        if not category:
+            return True  # unknown category: measure it and let the counts speak
+        folded = category.casefold()
+        return any(needle in folded for needle in self.categories)
 
 
 #: The themes that actually recur in Australian pet-retail reviews. Keyword
@@ -86,12 +101,22 @@ ASPECTS: tuple[Aspect, ...] = (
     Aspect(
         "palatability",
         "Taste & palatability",
+        # Deliberately free of generic affection words. "loves" and "love it"
+        # were in this list and matched 36 cat-litter reviews ("my cat loves
+        # this product"), reporting taste findings for a product nothing eats.
+        # A sentence that is merely warm belongs to no aspect: it still counts
+        # towards overall sentiment, just not towards a specific claim.
+        # "smell" is likewise excluded -- on litter it means odour control, which
+        # the effectiveness aspect already covers.
         (
-            "taste", "tasty", "flavour", "flavor", "palatable", "fussy", "picky", "loves",
-            "love it", "gobble", "devour", "refuse", "refuses", "refused", "wont eat",
-            "won't eat", "eats", "eating", "appetite", "smell", "smells", "aroma", "yummy",
-            "delicious", "treat",
+            "taste", "tasty", "flavour", "flavor", "palatable", "fussy", "picky",
+            "gobble", "gobbles", "devour", "devours", "refuses", "refused",
+            "wont eat", "won't eat", "eats", "eating", "ate", "appetite",
+            "yummy", "delicious", "fussy eater", "mealtime",
         ),
+        # Only things a pet actually eats: food, treats, and the chewable
+        # parasite tablets, which reviewers routinely complain about refusing.
+        categories=("food", "treat", "chew", "milk", "biscuit", "flea", "worm", "dental"),
     ),
     Aspect(
         "effectiveness",
@@ -235,6 +260,8 @@ def _summarise_aspect(aspect: Aspect, mentions: list[_Mention]) -> AspectSummary
         values = list(stars_by_review.values())
         summary.mean_stars = round(sum(values) / len(values), 2)
 
+    summary.weak_evidence = len(mentions) < MIN_MENTIONS_FOR_VERDICT
+
     ranked = sorted(mentions, key=lambda m: m.score, reverse=True)
     summary.supporting_quotes = [
         _to_quote(m) for m in ranked[:MAX_QUOTES_PER_ASPECT] if m.score >= POLARITY_THRESHOLD
@@ -292,8 +319,17 @@ def _verdicts(aspects: list[AspectSummary]) -> tuple[list[str], list[str]]:
     return [text for _, text in pros], [text for _, text in cons]
 
 
-def analyse(bundle: ReviewBundle, *, product_name: str | None = None) -> SentimentReport:
-    """Build an aspect-level sentiment report from a bundle of reviews."""
+def analyse(
+    bundle: ReviewBundle,
+    *,
+    product_name: str | None = None,
+    category: str | None = None,
+) -> SentimentReport:
+    """Build an aspect-level sentiment report from a bundle of reviews.
+
+    ``category`` gates which aspects are measured at all -- see
+    :attr:`Aspect.categories`. Omitting it measures everything.
+    """
     reviews = bundle.with_text_only()
     report = SentimentReport(
         sku=bundle.sku,
@@ -305,7 +341,8 @@ def analyse(bundle: ReviewBundle, *, product_name: str | None = None) -> Sentime
     if not reviews:
         return report
 
-    mentions: dict[str, list[_Mention]] = {aspect.key: [] for aspect in ASPECTS}
+    aspects = tuple(aspect for aspect in ASPECTS if aspect.applies_to(category))
+    mentions: dict[str, list[_Mention]] = {aspect.key: [] for aspect in aspects}
     review_polarities: list[float] = []
     stars: list[int] = []
 
@@ -330,7 +367,7 @@ def analyse(bundle: ReviewBundle, *, product_name: str | None = None) -> Sentime
 
         for sentence in split_sentences(body):
             sentence_score: float | None = None
-            for aspect in ASPECTS:
+            for aspect in aspects:
                 if not aspect.pattern.search(sentence):
                     continue
                 if sentence_score is None:
@@ -342,7 +379,7 @@ def analyse(bundle: ReviewBundle, *, product_name: str | None = None) -> Sentime
         report.mean_stars = round(sum(stars) / len(stars), 2)
 
     report.aspects = sorted(
-        (_summarise_aspect(aspect, mentions[aspect.key]) for aspect in ASPECTS),
+        (_summarise_aspect(aspect, mentions[aspect.key]) for aspect in aspects),
         key=lambda item: item.mentions,
         reverse=True,
     )

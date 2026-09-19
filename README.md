@@ -4,6 +4,9 @@ An agentic Streamlit chatbot that answers questions about [Petbarn](https://www.
 products by calling tools on demand — scraping product pages and retrieving real customer reviews
 while the conversation is happening, rather than answering from a prompt stuffed with data.
 
+It runs **fully offline on a local Ollama model** by default: no API key, no per-request cost, and
+nothing leaves the machine. A hosted backend (Groq) is one dropdown away, for deployment.
+
 **Live app:** _<!-- DEPLOY_URL -->deployment pending_
 
 ```
@@ -14,22 +17,29 @@ while the conversation is happening, rather than answering from a prompt stuffed
 
 ---
 
-## Quick start
+## Quick start (fully offline)
 
 ```bash
 git clone <this-repo> && cd petbarn-assistant
 python -m venv .venv && .venv/Scripts/activate      # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
+```
 
-cp .streamlit/secrets.toml.example .streamlit/secrets.toml   # add a free Groq key
+Install [Ollama](https://ollama.com/download), then pull a model that can **call tools** — this app
+cannot work without tool support:
+
+```bash
+ollama pull granite4.1:8b     # ~5GB, best tool calling
+ollama pull granite4.1:3b     # ~2GB, fits a 6GB GPU entirely, much faster
 streamlit run streamlit_app.py
 ```
 
-A free Groq key comes from [console.groq.com/keys](https://console.groq.com/keys). If no key is
-configured the app still runs — it shows the catalog and explains what it needs — and a key can be
-pasted into the sidebar at any time.
+The sidebar lists whatever models you have installed, so both can sit side by side and you can
+switch per question. The repo ships with a working dataset, so nothing needs scraping first.
 
-The repo ships with a working dataset, so nothing needs scraping before the first run.
+To use the hosted backend instead, pick **Groq** in the sidebar and paste a free key from
+[console.groq.com/keys](https://console.groq.com/keys) (or put `GROQ_API_KEY` in
+`.streamlit/secrets.toml`).
 
 ---
 
@@ -37,12 +47,35 @@ The repo ships with a working dataset, so nothing needs scraping before the firs
 
 ```
   Streamlit chat UI  ──►  PetbarnAgent  ──►  4 tools  ──►  cache ─► live fetch ─► snapshot
-  (shows tool trace)      (Groq, bounded      (SKU-keyed)        petbarn.com.au / Bazaarvoice
-                           tool loop)
+  (shows tool trace)      (bounded tool       (SKU-keyed)        petbarn.com.au / Bazaarvoice
+                           loop, any backend)
 ```
 
 The model is given four tools and decides which to call. Nothing about a product reaches an answer
 unless a tool returned it during that conversation.
+
+### Model backends
+
+Both are reached through the same **OpenAI-compatible** chat-completions interface, so the agent
+loop never learns which one it is talking to. That is also why there is no `groq` SDK dependency —
+one client type covers both.
+
+| | Ollama (default) | Groq |
+|---|---|---|
+| Runs | On your machine | Hosted |
+| API key | None | Free key required |
+| Works offline | Yes, entirely | No |
+| Tool-calling quality | Good on 8B, patchier on 3B | Very reliable |
+| Reachable from a deployed app | **No** | Yes |
+
+Two details that matter for the local path:
+
+- **Ollama's default context window is small**, and an overflowing context silently drops the
+  *start* of the conversation — including the instructions that keep answers grounded. The app
+  requests `num_ctx` explicitly and narrows review payloads to 8 reviews per call for local models
+  instead of 25, so a tool result never arrives half-eaten.
+- **Model lists are discovered from the running server**, not hard-coded. What is installed is a
+  property of your machine, and a baked-in list would start rotting immediately.
 
 ### The data sources
 
@@ -89,13 +122,18 @@ So `petbarn/sentiment.py` does the analysis itself:
 - **VADER** scores polarity sentence by sentence. It is rule-based, so the same review always
   produces the same number, and the reviewer's words drive the result rather than the model's
   impression of them.
-- Its lexicon is extended with ~37 pet-retail terms VADER lacks (`overpriced`, `clumping`, `dusty`,
+- Its lexicon is extended with 37 pet-retail terms VADER lacks (`overpriced`, `clumping`, `dusty`,
   `fussy`, `resealable`, `diarrhoea`…). Terms VADER already scores are left untouched.
 - Sentences are bucketed into themes by keyword, so "great food but pricey" counts positively for
   quality and negatively for price.
+- **Aspects are gated by product category.** Taste is a real signal for food and a category error
+  for cat litter — and keyword tuning cannot fix that, because the words genuinely appear ("my cat
+  eats the pellets"). Litter is therefore never measured for palatability at all.
 - **Star ratings are reported alongside polarity, never blended into it.** Where the two disagree —
   a five-star review with a specific complaint — that is counted and surfaced as
   `star_vs_text_disagreements` rather than averaged away.
+- Thin evidence is flagged as `weak_evidence` rather than left for the model to infer from a count,
+  because a small model will happily turn three comments into "customers say".
 
 An aspect needs at least three mentions before it can become a pro or a con, and the thresholds for
 the two do not overlap, so an aspect is never presented as both.
@@ -110,7 +148,8 @@ Every tool resolves its data the same way:
 1. **A recent local cache** (`.cache/`, 6-hour TTL, keyed by request hash).
 2. **A live fetch** through one shared session: 3 retries with exponential backoff, ~1 request per
    second per host, 15-second timeout, realistic user agent.
-3. **The snapshot committed to this repo** (`data/snapshot/`) — 10 products and 1,474 real written reviews (drawn from 7,616 underlying ratings).
+3. **The snapshot committed to this repo** (`data/snapshot/`) — 10 products and 1,474 real written
+   reviews (drawn from 7,616 underlying ratings).
 
 The consequence is that a blocked request, a rotated Bazaarvoice key, a site outage or a host with
 no egress degrades the *freshness* of an answer rather than the ability to answer at all. If the
@@ -118,19 +157,22 @@ network fails but an expired cache entry exists, the expired entry is served rat
 
 Which layer served each call travels back in the payload as `source`, is rendered as a badge in the
 tool trace, and the assistant is instructed to say so out loud when an answer rests on the snapshot.
-Toggle **Fetch live data** off in the sidebar (or set `PETBARN_LIVE=0`) to force the offline path.
+Toggle **Fetch live data** off in the sidebar (or set `PETBARN_LIVE=0`) to force the offline path —
+combined with Ollama, that makes the whole application work with the network unplugged.
 
 ### The agent loop
 
-Groq, defaulting to `llama-3.3-70b-versatile` for its **parallel tool calling** — comparing two
-products issues both review lookups in one round, and they execute concurrently in a thread pool
-rather than one after the other.
+Tool calls requested together execute concurrently in a thread pool: a capable model asks for both
+products' reviews in one round when comparing them, and running those in sequence would double the
+wait for nothing. Weaker local models tend to call one tool at a time instead, which the loop
+handles identically, just over more rounds.
 
 The loop is bounded at 5 rounds; on the last round the model is asked once more with tools disabled,
 which turns a runaway into an answer instead of a timeout. Tool failures are passed back to the
-model as tool results so it can tell the user what it could not find out. Tool messages are not
-carried between turns, keeping context small and preventing stale tool output from leaking into a
-later question.
+model as tool results so it can tell the user what it could not find out. An empty completion is
+replaced with an explanation, because silence in a chat window reads as a crash. Tool messages are
+not carried between turns, keeping context small and preventing stale tool output from leaking into
+a later question.
 
 ---
 
@@ -155,27 +197,29 @@ Petbarn's permission.
 ## Testing
 
 ```bash
-python scripts/smoke_test.py       # all 4 tools, live + offline — 94 checks, no API key needed
-python scripts/loop_test.py        # the agent loop against a stubbed model — 40 checks, no key
-python scripts/agent_test.py       # the brief's questions through the real model (needs a key)
-python scripts/agent_test.py --offline           # same, forced onto the snapshot
-python scripts/build_snapshot.py --verify        # check the committed dataset is intact
+python scripts/smoke_test.py       # all 4 tools, live + offline — 94 checks, no model needed
+python scripts/loop_test.py        # the agent loop against a stubbed model — 54 checks, no model
+python scripts/agent_test.py                         # the brief's questions, through a real model
+python scripts/agent_test.py --model granite4.1:3b   # pick a local model
+python scripts/agent_test.py --provider groq         # against the hosted backend
+python scripts/agent_test.py --offline               # forced onto the snapshot
+python scripts/build_snapshot.py --verify            # check the committed dataset is intact
 ```
 
-Two of the three need no API key and cost nothing, which is deliberate: the parts most likely to
-break are the parts that do not involve the model.
+The first two need no model and no API key at all, which is deliberate: the parts most likely to
+break are the parts that do not involve an LLM.
 
-`smoke_test.py` is the one that matters most: the agent is only as good as the tools beneath it, and
+`smoke_test.py` is the one that matters most. The agent is only as good as the tools beneath it, and
 every failure worth guarding against lives there — a scraper that silently returns no price, a
 snapshot that cannot satisfy a filter the live API can, a payload missing the provenance the UI
-renders. It costs nothing to run.
+renders.
 
 `loop_test.py` substitutes a scripted model for the real one, because you cannot make a real model
 reliably produce the cases worth testing on demand: two tool calls in a single round, malformed tool
 arguments, a hallucinated tool name, a request for tools that never stops, an empty completion, an
-expired key. The tools underneath stay real, so it also proves tool results are packaged into
-messages the API would accept with their call ids matched up. It found a live bug — an empty model
-completion rendered as silence, which reads as a crash.
+expired key, and the per-provider request differences. The tools underneath stay real, so it also
+proves tool results are packaged into messages the API would accept with their call ids matched up.
+It found a live bug — an empty model completion rendered as silence, which reads as a crash.
 
 `agent_test.py` covers what neither can: whether the *model* picks the right tools. It prints the
 full trace per question, including the cases a demo tends to trip on — an off-catalog product, a
@@ -199,16 +243,23 @@ can be re-run and audited without touching the network.
 
 ## Deployment (Streamlit Community Cloud)
 
+A hosted container cannot reach an Ollama server on your laptop, so the deployed app runs on Groq.
+The backend is a config value, not a code change.
+
 1. Push this repo to a **public** GitHub repository.
 2. At [share.streamlit.io](https://share.streamlit.io): **New app** → select the repo → main file
    `streamlit_app.py` → **Advanced settings → Python 3.12**.
 3. In **Settings → Secrets**, add:
    ```toml
    GROQ_API_KEY = "gsk_..."
+   PETBARN_PROVIDER = "groq"
    ```
 4. Deploy, then put the public URL at the top of this file.
 
-`.cache/` is ephemeral on a hosted container, which is expected — the snapshot is the durable
+Visitors can still paste their own key in the sidebar, which spends their quota rather than yours —
+useful when a free tier runs dry.
+
+`.cache/` is ephemeral on a hosted container, which is expected: the snapshot is the durable
 fallback, not the cache.
 
 ---
@@ -216,7 +267,7 @@ fallback, not the cache.
 ## Project layout
 
 ```
-streamlit_app.py            Chat UI, sidebar, tool-trace rendering
+streamlit_app.py            Chat UI, backend picker, tool-trace rendering
 petbarn/
   config.py                 Endpoints, tuning, env overrides — no magic strings elsewhere
   models.py                 Dataclasses shared by every layer; JSON round-trips both ways
@@ -227,22 +278,29 @@ petbarn/
   sentiment.py              VADER + retail lexicon + aspect mining → pros and cons
   catalog.py                Curated catalog and fuzzy "what did they mean" → SKU
   tools.py                  Tool schemas, payload shaping, the 3-layer fallback chain
-  agent.py                  Groq tool loop: parallel calls, bounded rounds, trace capture
+  llm.py                    Provider registry: Ollama and Groq behind one interface
+  agent.py                  Tool loop: parallel calls, bounded rounds, trace capture
 data/
   catalog.json              The 10 curated products
   snapshot/                 Offline fallback: product + review JSON per SKU
   raw/                      Gzipped raw HTML and API responses, for auditing
 scripts/
   build_snapshot.py         Ingestion and dataset verification
-  smoke_test.py             Tool-level tests, live and offline (no API key)
-  loop_test.py              Agent-loop tests against a stubbed model (no API key)
-  agent_test.py             End-to-end tests through the real model
+  smoke_test.py             Tool-level tests, live and offline (no model needed)
+  loop_test.py              Agent-loop tests against a stubbed model (no model needed)
+  agent_test.py             End-to-end tests through a real model
 ```
 
 ---
 
 ## Limitations
 
+- **Small local models are the weak link.** The tools are deterministic; the choice of which to call
+  is not. `granite4.1:3b` answers in about 10 seconds but sometimes over-reads thin evidence;
+  `granite4.1:8b` is slower on a 6GB GPU and noticeably more careful. An early 3B run quoted a price
+  it had lifted from a review's text — the fix was to name payload fields unambiguously and forbid
+  it in the prompt, but a larger model is simply better at this. The UI flags any answer produced
+  with no tool calls at all.
 - **Ten products.** `search_catalog` says so plainly and lists what it does cover rather than
   improvising. Widening it is a matter of re-running the ingestion with a larger `--count`.
 - **No stock, order or delivery data**, and no veterinary advice — the assistant is instructed to
@@ -250,9 +308,8 @@ scripts/
 - **Review coverage is capped** at 150 written reviews per product. On a product with 1,200+
   reviews, sentiment describes a recent sample rather than the entire history; the tool reports how
   many it analysed so the answer can be honest about it.
-- **Aspect matching is keyword-based**, so a sentence can land in the wrong theme — "waste of money"
-  in a review praising a *different* brand reads as a price complaint. Quotes are returned with every
-  finding precisely so a reader can judge for themselves.
-- **Answers are not streamed.** The tool loop needs each round's result before the next, and Groq is
-  fast enough that a live tool-progress indicator is the better trade.
+- **Aspect matching is keyword-based**, so a sentence can still land in the wrong theme within an
+  applicable category — "waste of money" in a review praising a *different* brand reads as a price
+  complaint. Quotes are returned with every finding precisely so a reader can judge for themselves.
+- **Answers are not streamed.** The tool loop needs each round's result before the next.
 - **No automated tests for the UI layer** beyond a render check via Streamlit's `AppTest`.

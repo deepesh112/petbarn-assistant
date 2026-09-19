@@ -1,5 +1,5 @@
 streamlit>=1.50
-groq>=0.13
+openai>=1.60
 requests>=2.32
 beautifulsoup4>=4.12
 vaderSentiment>=3.3.2

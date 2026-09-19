@@ -1,19 +1,22 @@
 """Petbarn Product Assistant -- Streamlit chat UI.
 
-Entry point for Streamlit Community Cloud.
+Entry point for local runs and for Streamlit Community Cloud.
 
-Two decisions shape this file:
+Three decisions shape this file:
 
 **The tool trace is part of the interface, not debug output.** Every answer ships
 with an expander listing the tools the model chose, the arguments it passed, how
 long each took, and whether the data came from petbarn.com.au live or from the
 bundled snapshot. An agentic app whose tool use is invisible is indistinguishable
-from one that made the numbers up, so the trace is shown by default.
+from one that made the numbers up, so the trace is always available.
 
-**The app stays usable without the owner's API key.** It reads a key from
-Streamlit secrets when deployed, and otherwise offers a sidebar input, so the
-hosted demo keeps working when its free-tier quota runs out and a reviewer can
-try it with their own key straight away.
+**The model backend is a choice, made here.** Ollama runs the whole thing
+offline on your own machine with no key and no cost; Groq is there because a
+hosted deployment cannot reach your laptop. Neither is hard-coded.
+
+**Nothing is assumed to be working.** The sidebar probes the chosen backend
+before the chat opens, so a stopped Ollama server or a missing model produces
+the instruction that fixes it rather than an exception mid-answer.
 """
 
 from __future__ import annotations
@@ -22,7 +25,7 @@ import os
 
 import streamlit as st
 
-from petbarn import config
+from petbarn import config, llm
 from petbarn.agent import AgentReply, PetbarnAgent, TraceEntry
 from petbarn.catalog import get_catalog, pretty_brand
 
@@ -45,29 +48,43 @@ SOURCE_BADGES = {
 
 
 # --------------------------------------------------------------------------- #
-# Configuration plumbing
+# Backend plumbing
 # --------------------------------------------------------------------------- #
 
 
-def resolve_api_key() -> tuple[str | None, str]:
-    """Find a Groq key. Returns the key and where it came from.
+@st.cache_data(ttl=10, show_spinner=False)
+def discover_ollama_models(base_url: str) -> list[str]:
+    """List models installed on the local Ollama server.
 
-    A key typed into the sidebar wins, so a visitor can always override the
-    deployment's own key -- with their own quota rather than the owner's.
+    Cached briefly because Streamlit reruns the whole script on every widget
+    interaction, and probing a socket on each keystroke would be wasteful. Ten
+    seconds is short enough that a freshly pulled model shows up promptly.
     """
+    return llm.list_local_models(base_url)
+
+
+def resolve_api_key(provider: llm.Provider) -> tuple[str | None, str]:
+    """Find an API key for ``provider``. Returns the key and where it came from.
+
+    A key typed into the sidebar wins, so a visitor to a deployed app can always
+    use their own quota rather than the owner's.
+    """
+    if not provider.requires_api_key:
+        return None, "not needed"
+
     typed = (st.session_state.get("api_key_input") or "").strip()
     if typed:
         return typed, "sidebar"
 
+    name = f"{provider.name.upper()}_API_KEY"
     try:
-        secret = str(st.secrets.get("GROQ_API_KEY", "") or "").strip()
+        secret = str(st.secrets.get(name, "") or "").strip()
     except Exception:  # noqa: BLE001 - no secrets file configured at all
         secret = ""
     if secret:
         return secret, "secrets"
 
-    env = config.groq_api_key()
-    if env:
+    if env := config.api_key_for(provider.name):
         return env, "environment"
     return None, "missing"
 
@@ -107,40 +124,63 @@ def render_trace(trace: list[TraceEntry], *, reply: AgentReply | None = None) ->
                 st.caption(f":red[{entry.error}]")
 
 
-def render_sidebar() -> tuple[str | None, str, str]:
-    """Draw the sidebar. Returns the API key, its origin and the chosen model."""
-    with st.sidebar:
-        st.subheader("Settings")
+def render_backend_controls() -> tuple[llm.Provider, str | None, str, llm.Health]:
+    """Draw the backend picker and probe it. Returns provider, key, model, health."""
+    names = list(llm.PROVIDERS)
+    default_index = names.index(config.default_provider()) if config.default_provider() in names else 0
+    provider = llm.PROVIDERS[
+        st.selectbox(
+            "Model backend",
+            options=names,
+            index=default_index,
+            format_func=lambda name: llm.PROVIDERS[name].label,
+            help="Ollama runs on this machine with no key. Groq is hosted and needs a free key.",
+        )
+    ]
+    st.caption(provider.notes)
 
-        api_key, origin = resolve_api_key()
+    api_key: str | None = None
+    if provider.requires_api_key:
+        api_key, origin = resolve_api_key(provider)
         if origin in {"secrets", "environment"}:
-            st.success(f"Groq key loaded from {origin}", icon="🔑")
+            st.success(f"API key loaded from {origin}", icon="🔑")
             with st.expander("Use your own key instead"):
                 st.text_input(
-                    "Groq API key",
-                    key="api_key_input",
-                    type="password",
-                    placeholder="gsk_...",
-                    help="Overrides the deployed key, so requests count against your quota.",
+                    "API key", key="api_key_input", type="password", placeholder="gsk_..."
                 )
         else:
-            st.text_input(
-                "Groq API key",
-                key="api_key_input",
-                type="password",
-                placeholder="gsk_...",
-                help="Free keys are available at console.groq.com/keys",
-            )
-            if not api_key:
-                st.caption("Get a free key at [console.groq.com/keys](https://console.groq.com/keys)")
-        api_key, origin = resolve_api_key()
+            st.text_input("API key", key="api_key_input", type="password", placeholder="gsk_...")
+            if not api_key and provider.key_url:
+                st.caption(f"Get a free key at [{provider.key_url}]({provider.key_url})")
+        api_key, _ = resolve_api_key(provider)
 
-        model = st.selectbox(
-            "Model",
-            options=list(config.GROQ_MODELS),
-            index=0,
-            help="The default supports parallel tool calls, which speeds up comparisons.",
-        )
+    if provider.is_local:
+        installed = discover_ollama_models(provider.base_url)
+        health = llm.Health(bool(installed), f"{len(installed)} model(s) installed", installed)
+        if not installed:
+            health = llm.check(provider)
+    else:
+        health = llm.check(provider, api_key=api_key)
+
+    options = health.models or list(provider.suggested_models)
+    preferred = provider.default_model if provider.default_model in options else (options[0] if options else "")
+    model = (
+        st.selectbox("Model", options=options, index=options.index(preferred) if preferred else 0)
+        if options
+        else ""
+    )
+
+    if provider.is_local and health.ok:
+        st.caption(f"🟢 Ollama reachable · {health.detail}")
+
+    return provider, api_key, model, health
+
+
+def render_sidebar() -> tuple[llm.Provider, str | None, str, llm.Health]:
+    """Draw the whole sidebar."""
+    with st.sidebar:
+        st.subheader("Settings")
+        provider, api_key, model, health = render_backend_controls()
 
         live = st.toggle(
             "Fetch live data",
@@ -187,7 +227,42 @@ def render_sidebar() -> tuple[str | None, str, str]:
                 "with the app — so an answer degrades in freshness rather than disappearing."
             )
 
-    return api_key, origin, model
+    return provider, api_key, model, health
+
+
+def render_backend_help(provider: llm.Provider, health: llm.Health) -> None:
+    """Explain how to make an unavailable backend work."""
+    if provider.is_local:
+        st.warning(f"**Ollama is not ready.** {health.detail}", icon="🦙")
+        st.markdown(
+            f"""
+Ollama runs the assistant entirely on this machine — no API key, no cost, and it
+works with the network unplugged.
+
+1. **Install it** from [ollama.com/download](https://ollama.com/download).
+2. **Pull a model that can call tools** — this app is useless without tool support:
+   ```
+   ollama pull {provider.default_model}
+   ```
+   Other good options: {", ".join(f"`{m}`" for m in provider.suggested_models[1:])}
+3. Ollama serves automatically once installed. If not, run `ollama serve`.
+
+Then reload this page. Or switch the backend to **Groq** in the sidebar to use a
+hosted model instead.
+"""
+        )
+    else:
+        st.info(
+            f"**An API key is needed to chat.** Add one in the sidebar — free keys are at "
+            f"[{provider.key_url}]({provider.key_url}).",
+            icon="🔑",
+        )
+
+    st.markdown(
+        "Everything except the conversation works regardless. The catalog in the sidebar was "
+        "scraped from petbarn.com.au, and the tools behind this assistant can be exercised "
+        "directly with `python scripts/smoke_test.py`."
+    )
 
 
 def render_welcome() -> None:
@@ -207,14 +282,15 @@ def render_welcome() -> None:
 
 
 def answer_turn(agent: PetbarnAgent) -> None:
-    """Run one agent turn, streaming tool progress into a status container."""
+    """Run one agent turn, reporting tool progress into a status container."""
     history = [
         {"role": message["role"], "content": message["content"]}
         for message in st.session_state.messages
     ]
 
     with st.chat_message("assistant", avatar="🐾"):
-        status = st.status("Looking this up…", expanded=True)
+        hint = " (a local model can take a while)" if agent.provider.is_local else ""
+        status = st.status(f"Looking this up…{hint}", expanded=True)
 
         def on_tool_result(entry: TraceEntry) -> None:
             icon = "✅" if entry.ok else "⚠️"
@@ -236,14 +312,14 @@ def answer_turn(agent: PetbarnAgent) -> None:
         render_trace(reply.trace, reply=reply)
         if reply.used_snapshot:
             st.caption("🟡 Some figures above came from the offline snapshot, not a live fetch.")
+        if not reply.error and not reply.trace:
+            st.caption(
+                "⚠️ This answer used no tools, so it may not be grounded in Petbarn's data. "
+                "Smaller local models sometimes skip tool calls — try a larger one."
+            )
 
     st.session_state.messages.append(
-        {
-            "role": "assistant",
-            "content": reply.text,
-            "trace": reply.trace,
-            "reply": reply,
-        }
+        {"role": "assistant", "content": reply.text, "trace": reply.trace, "reply": reply}
     )
 
 
@@ -256,27 +332,18 @@ def main() -> None:
     st.set_page_config(page_title=PAGE_TITLE, page_icon="🐾", layout="centered")
     st.session_state.setdefault("messages", [])
 
-    api_key, origin, model = render_sidebar()
-
-    st.title("🐾 Petbarn Product Assistant")
-
     try:
         get_catalog()
     except FileNotFoundError as exc:
-        st.error(f"{exc}")
+        st.error(str(exc))
         st.stop()
 
-    if not api_key:
-        st.info(
-            "**A Groq API key is needed to chat.** Add one in the sidebar — free keys are "
-            "available at [console.groq.com/keys](https://console.groq.com/keys).",
-            icon="🔑",
-        )
-        st.markdown(
-            "Everything except the conversation works without a key. The catalog in the sidebar "
-            "was scraped from petbarn.com.au, and the tools behind this assistant can be "
-            "exercised directly with `python scripts/smoke_test.py`."
-        )
+    provider, api_key, model, health = render_sidebar()
+
+    st.title("🐾 Petbarn Product Assistant")
+
+    if not health.ok or not model:
+        render_backend_help(provider, health)
         st.stop()
 
     if not st.session_state.messages:
@@ -300,7 +367,7 @@ def main() -> None:
         st.markdown(prompt)
 
     try:
-        agent = PetbarnAgent(api_key, model=model)
+        agent = PetbarnAgent(api_key, provider=provider, model=model)
     except ValueError as exc:
         st.error(str(exc))
         return

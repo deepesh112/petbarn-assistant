@@ -1,13 +1,18 @@
-"""The agent: a Groq chat loop that decides when to call which tool.
+"""The agent: a chat loop that decides when to call which tool.
+
+Backend-agnostic. :mod:`petbarn.llm` hands over an OpenAI-compatible client, so
+the same loop drives a local Ollama model and a hosted one without knowing which
+it has.
 
 The loop is deliberately small. Everything that could go wrong with *data* is
 handled in :mod:`petbarn.tools`; what is handled here is everything that can go
 wrong with the *model*:
 
-* **Parallel tool calls run in parallel.** ``llama-3.3-70b-versatile`` will ask
-  for two products' reviews in one turn when comparing them. Executing those
+* **Parallel tool calls run in parallel.** A capable model asks for two
+  products' reviews in one turn when comparing them. Executing those
   sequentially would double the wait for no reason, so they go through a thread
-  pool.
+  pool. Weaker local models tend to call one tool at a time instead, which the
+  loop handles identically, just over more rounds.
 * **The loop is bounded.** A confused model can request tools forever; a free
   tier cannot. After :data:`petbarn.config.MAX_TOOL_ITERATIONS` rounds the model
   is asked once more with tools disabled, which turns a runaway into an answer.
@@ -30,10 +35,9 @@ from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from typing import Any, Callable, Iterable
 
-from groq import Groq
-
 from . import config
 from .catalog import get_catalog
+from .llm import Provider, build_client, describe_error, extra_request_options, get_provider
 from .tools import TOOL_SCHEMAS, ToolResult, execute
 
 #: How the assistant is told to behave. This is load-bearing: the rules about
@@ -62,6 +66,12 @@ get_product_reviews when verbatim quotes would strengthen the answer.
 
 BEING HONEST
 - Say only what the tools returned. Never invent a review, quote, price or rating.
+- A price comes only from get_product_details. Reviewers quote old prices, sale \
+prices and rival products, so never take a price, rating or review count from \
+the text of a review.
+- The product's average rating and total review count come only from \
+get_product_reviews. Sentiment figures labelled "in_sample" describe the reviews \
+that were analysed, not the whole product - do not present them as the rating.
 - If search_catalog finds no match, say the product is not in the range you \
 cover, and list what you do cover.
 - If two candidates are close, ask which one they mean instead of guessing.
@@ -121,6 +131,7 @@ class AgentReply:
     trace: list[TraceEntry] = field(default_factory=list)
     rounds: int = 0
     model: str = ""
+    provider: str = ""
     prompt_tokens: int = 0
     completion_tokens: int = 0
     error: str | None = None
@@ -165,22 +176,24 @@ def _summarise(result: ToolResult) -> str:
 
 
 class PetbarnAgent:
-    """Wraps a Groq client with the catalog tools and a bounded tool loop."""
+    """Wraps a model backend with the catalog tools and a bounded tool loop."""
 
     def __init__(
         self,
-        api_key: str,
+        api_key: str | None = None,
         *,
-        model: str = config.DEFAULT_MODEL,
+        provider: str | Provider = config.default_provider(),
+        model: str | None = None,
+        base_url: str | None = None,
         temperature: float = config.LLM_TEMPERATURE,
         max_rounds: int = config.MAX_TOOL_ITERATIONS,
     ) -> None:
-        if not api_key:
-            raise ValueError("a Groq API key is required")
-        self._client = Groq(api_key=api_key)
-        self.model = model
+        self.provider = provider if isinstance(provider, Provider) else get_provider(provider)
+        self.model = model or self.provider.default_model
         self.temperature = temperature
         self.max_rounds = max_rounds
+        self._client = build_client(self.provider, api_key=api_key, base_url=base_url)
+        self._request_extras = extra_request_options(self.provider)
 
     # ----------------------------------------------------------------- #
     # Public API
@@ -202,14 +215,14 @@ class PetbarnAgent:
             {"role": "system", "content": SYSTEM_PROMPT.format(catalog_size=len(get_catalog()))},
             *({"role": m["role"], "content": m["content"]} for m in history),
         ]
-        answer = AgentReply(text="", model=self.model)
+        answer = AgentReply(text="", model=self.model, provider=self.provider.name)
 
         for round_index in range(self.max_rounds):
             answer.rounds = round_index + 1
             try:
                 message = self._call_model(messages, answer, with_tools=True)
             except Exception as exc:  # noqa: BLE001 - surfaced to the user as text
-                answer.error = _describe_api_error(exc)
+                answer.error = describe_error(exc, self.provider)
                 answer.text = answer.error
                 return answer
 
@@ -239,7 +252,7 @@ class PetbarnAgent:
             final = self._call_model(messages, answer, with_tools=False)
             answer.text = _ensure_text(final.content, answer)
         except Exception as exc:  # noqa: BLE001
-            answer.error = _describe_api_error(exc)
+            answer.error = describe_error(exc, self.provider)
             answer.text = answer.error
         return answer
 
@@ -257,6 +270,7 @@ class PetbarnAgent:
         if with_tools:
             kwargs["tools"] = TOOL_SCHEMAS
             kwargs["tool_choice"] = "auto"
+        kwargs.update(self._request_extras)
 
         response = self._client.chat.completions.create(**kwargs)
         usage = getattr(response, "usage", None)
@@ -284,7 +298,7 @@ class PetbarnAgent:
                     ok=False,
                     error=f"could not parse arguments: {parse_error}",
                 )
-            return call.id, execute(name, arguments)
+            return call.id, execute(name, arguments, review_cap=self.provider.max_reviews_to_model)
 
         if len(tool_calls) == 1:
             return [invoke(tool_calls[0])]
@@ -344,23 +358,3 @@ def _parse_arguments(raw: str | None) -> tuple[dict[str, Any], str | None]:
     # Models occasionally emit nulls for optional parameters; dropping them lets
     # the tool's own defaults apply instead of overriding them with None.
     return {key: value for key, value in parsed.items() if value is not None}, None
-
-
-def _describe_api_error(exc: Exception) -> str:
-    """Turn a Groq SDK exception into something worth showing a user."""
-    name = type(exc).__name__
-    text = str(exc)
-    lowered = text.lower()
-
-    if "authentication" in lowered or "invalid api key" in lowered or "401" in text:
-        return "That Groq API key was rejected. Check the key and try again."
-    if "rate limit" in lowered or "429" in text:
-        return (
-            "Groq's rate limit has been reached. Wait a moment and resend, or switch to a "
-            "different model in the sidebar."
-        )
-    if "model" in lowered and ("not found" in lowered or "decommissioned" in lowered):
-        return "That model is unavailable on this Groq account. Pick another in the sidebar."
-    if "connection" in lowered or "timeout" in lowered:
-        return "Could not reach Groq. Check the network connection and try again."
-    return f"The language model call failed ({name}): {text}"

@@ -113,17 +113,26 @@ def live_fetch_enabled() -> bool:
 
 
 # --------------------------------------------------------------------------- #
-# LLM (Groq)
+# Language model
 # --------------------------------------------------------------------------- #
 
-#: Tool-calling capable Groq models. The default supports *parallel* tool calls,
-#: which lets a single turn fetch two products at once when comparing them.
-GROQ_MODELS = (
-    "llama-3.3-70b-versatile",
-    "openai/gpt-oss-120b",
-    "llama-3.1-8b-instant",
-)
-DEFAULT_MODEL = GROQ_MODELS[0]
+#: Where the local Ollama server listens. The ``/v1`` suffix is its
+#: OpenAI-compatible endpoint, which is what this app speaks.
+OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434/v1")
+
+#: Which backend to use when nothing says otherwise. Ollama is the default so a
+#: fresh clone runs fully offline with no account, no key and no cost.
+_DEFAULT_PROVIDER = "ollama"
+
+
+def default_provider() -> str:
+    """The model backend to start with: ``ollama`` or ``groq``.
+
+    A deployed app sets ``PETBARN_PROVIDER=groq``, because a local Ollama server
+    is not reachable from a hosted container.
+    """
+    return (_clean_env("PETBARN_PROVIDER") or _DEFAULT_PROVIDER).lower()
+
 
 #: Ceiling on agent tool-call rounds per user turn, so a confused model cannot
 #: loop indefinitely (and cannot burn through a free-tier quota).
@@ -131,19 +140,26 @@ MAX_TOOL_ITERATIONS = 5
 
 #: Caps on how much review text is handed back to the model. Tool payloads are
 #: trimmed rather than truncated mid-thought, keeping turns cheap and focused.
+#: Providers narrow this further -- a local 8B model has far less context to
+#: spend than a hosted 70B.
 MAX_REVIEWS_TO_MODEL = 25
 MAX_REVIEW_CHARS = 420
 
 LLM_TEMPERATURE = float(os.environ.get("PETBARN_TEMPERATURE", "0.2"))
 
+#: Seconds to wait on a model response. Generous, because a local model on a
+#: laptop GPU is far slower than a hosted one and a timeout mid-answer is worse
+#: than a wait.
+LLM_TIMEOUT = float(os.environ.get("PETBARN_LLM_TIMEOUT", "180"))
 
-def groq_api_key() -> str | None:
-    """Read the Groq key from the environment.
 
-    Streamlit secrets are layered on top of this in the UI, so that a deployed
-    app works from platform secrets while a visitor can still supply their own.
+def api_key_for(provider: str) -> str | None:
+    """Read a provider's API key from the environment.
+
+    Streamlit secrets are layered on top of this in the UI, so a deployed app
+    works from platform secrets while a visitor can still supply their own key.
     """
-    return _clean_env("GROQ_API_KEY")
+    return _clean_env(f"{provider.upper()}_API_KEY")
 
 
 # --------------------------------------------------------------------------- #

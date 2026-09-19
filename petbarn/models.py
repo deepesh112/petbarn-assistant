@@ -249,6 +249,10 @@ class AspectSummary:
     mean_stars: float | None = None
     #: Mean VADER compound polarity of the matching sentences, -1.0 to 1.0.
     mean_polarity: float | None = None
+    #: True when too few people mentioned this for it to support a claim. Given
+    #: to the model explicitly rather than left for it to infer from the count,
+    #: because a small model will happily turn three comments into "customers say".
+    weak_evidence: bool = True
     supporting_quotes: list[Quote] = field(default_factory=list)
     critical_quotes: list[Quote] = field(default_factory=list)
 
