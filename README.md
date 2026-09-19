@@ -5,7 +5,9 @@ products by calling tools on demand — scraping product pages and retrieving re
 while the conversation is happening, rather than answering from a prompt stuffed with data.
 
 It runs **fully offline on a local Ollama model** by default: no API key, no per-request cost, and
-nothing leaves the machine. A hosted backend (Groq) is one dropdown away, for deployment.
+nothing leaves the machine. Four hosted backends — **Groq**, **Google Gemini**, **OpenAI** and
+**Anthropic Claude** — are one dropdown away, for deployment or for when a bigger model is worth the
+round trip.
 
 **Live app:** _<!-- DEPLOY_URL -->deployment pending_
 
@@ -37,9 +39,9 @@ streamlit run streamlit_app.py
 The sidebar lists whatever models you have installed, so both can sit side by side and you can
 switch per question. The repo ships with a working dataset, so nothing needs scraping first.
 
-To use the hosted backend instead, pick **Groq** in the sidebar and paste a free key from
-[console.groq.com/keys](https://console.groq.com/keys) (or put `GROQ_API_KEY` in
-`.streamlit/secrets.toml`).
+To use a hosted backend instead, pick it in the sidebar and paste a key. Free tiers:
+[Groq](https://console.groq.com/keys) and [Google AI Studio](https://aistudio.google.com/apikey).
+Or put the matching `<PROVIDER>_API_KEY` in `.streamlit/secrets.toml`.
 
 ---
 
@@ -90,13 +92,34 @@ Both are reached through the same **OpenAI-compatible** chat-completions interfa
 loop never learns which one it is talking to. That is also why there is no `groq` SDK dependency —
 one client type covers both.
 
-| | Ollama (default) | Groq |
-|---|---|---|
-| Runs | On your machine | Hosted |
-| API key | None | Free key required |
-| Works offline | Yes, entirely | No |
-| Tool-calling quality | Good on 8B, patchier on 3B | Very reliable |
-| Reachable from a deployed app | **No** | Yes |
+| Backend | Runs | Key | Offline | Env var | Notes |
+|---|---|---|---|---|---|
+| **Ollama** *(default)* | Your machine | None | **Yes** | — | Free and private; a container can't reach it |
+| **Groq** | Hosted | [Free](https://console.groq.com/keys) | No | `GROQ_API_KEY` | Fast, reliable tool use |
+| **Google Gemini** | Hosted | [Free](https://aistudio.google.com/apikey) | No | `GEMINI_API_KEY` | Large free tier |
+| **OpenAI** | Hosted | [Paid](https://platform.openai.com/api-keys) | No | `OPENAI_API_KEY` | `gpt-5.6-luna` is the cheapest |
+| **Anthropic Claude** | Hosted | [Paid](https://console.anthropic.com/settings/keys) | No | `ANTHROPIC_API_KEY` | Official SDK, not a compat shim |
+
+Four of the five needed nothing but a registry entry — no client, no branching in the agent, no new
+dependency — because they all speak OpenAI's chat-completions dialect. Gemini was added in one entry
+and eight lines of error-message wording.
+
+**Claude is the deliberate exception.** Anthropic publishes an OpenAI-compatible endpoint too, and
+using it would have been a one-entry change as well — but it is a compatibility shim with reduced
+feature support, and Anthropic's own guidance is to use the real SDK. So Claude goes through the
+official `anthropic` client behind `_AnthropicMessagesAdapter`, which translates between the two
+message formats. Three differences make that non-trivial, and all three are covered by tests:
+
+- The system prompt is a top-level argument, not a message with a role.
+- A tool call is a `tool_use` block on the assistant turn and its result is a `tool_result` block in
+  a **user** turn — and all results from one assistant turn must arrive in a *single* user message,
+  or the model is trained out of calling tools in parallel.
+- `temperature` is rejected outright by current Claude models, so the adapter drops it rather than
+  forwarding the agent's default.
+
+The only other provider-specific code anywhere is the wording of error messages: Groq says "invalid
+api key", Gemini says "API key not valid", Anthropic says "invalid x-api-key", and each should still
+reach the user as one plain sentence.
 
 Two details that matter for the local path:
 
@@ -257,7 +280,7 @@ Petbarn's permission.
 
 ```bash
 python scripts/smoke_test.py       # all 5 tools, live + offline — 104 checks, no model needed
-python scripts/loop_test.py        # the agent loop against a stubbed model — 54 checks, no model
+python scripts/loop_test.py        # agent loop + Claude adapter, stubbed — 88 checks, no model
 python scripts/agent_test.py                         # the brief's questions, through a real model
 python scripts/agent_test.py --model granite4.1:3b   # pick a local model
 python scripts/agent_test.py --provider groq         # against the hosted backend
@@ -318,9 +341,9 @@ The backend is a config value, not a code change.
 1. Push this repo to a **public** GitHub repository.
 2. At [share.streamlit.io](https://share.streamlit.io): **New app** → select the repo → main file
    `streamlit_app.py` → **Advanced settings → Python 3.12**.
-3. In **Settings → Secrets**, add:
+3. In **Settings → Secrets**, add a key for whichever hosted backend you want:
    ```toml
-   GROQ_API_KEY = "gsk_..."
+   GROQ_API_KEY = "gsk_..."          # or GEMINI_API_KEY / OPENAI_API_KEY / ANTHROPIC_API_KEY
    ```
 4. Deploy, then put the public URL at the top of this file.
 
@@ -350,7 +373,7 @@ petbarn/
   sentiment.py              VADER + retail lexicon + aspect mining → pros and cons
   catalog.py                Curated catalog and fuzzy "what did they mean" → SKU
   tools.py                  Tool schemas, payload shaping, the 3-layer fallback chain
-  llm.py                    Provider registry: Ollama and Groq behind one interface
+  llm.py                    Provider registry: 5 backends + the Claude adapter, one interface
   agent.py                  Tool loop: parallel calls, bounded rounds, trace capture
 data/
   catalog.json              The 10 curated products
@@ -367,6 +390,10 @@ scripts/
 
 ## Limitations
 
+- **Only Ollama and Groq have been exercised end to end.** OpenAI, Gemini and Anthropic are wired up
+  and their request/response translation is covered by tests, but I had no keys for them, so no real
+  answer has been generated through those three. The Claude adapter in particular deserves a live
+  run before it is relied on.
 - **Small local models are the weak link.** The tools are deterministic; the choice of which to call
   is not. On this 6GB laptop GPU `granite4.1:3b` answers in 10-20 seconds, while `granite4.1:8b`
   takes 70-90 because it partly spills to CPU — and it is not uniformly better: the 8B chose

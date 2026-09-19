@@ -14,6 +14,7 @@ accept, with the call ids matched up correctly.
 
 from __future__ import annotations
 
+import json
 import sys
 from pathlib import Path
 from types import SimpleNamespace
@@ -224,10 +225,13 @@ def test_never_answers_with_silence() -> None:
 def test_api_error() -> None:
     section("A backend failure becomes a readable message, not a traceback")
     cases = [
-        # Hosted failures.
+        # Hosted failures. Each provider words the same cause differently, so
+        # both phrasings are asserted rather than only the one we wrote first.
         ("groq", "Error code: 401 - invalid api key provided", "rejected"),
-        ("groq", "Error code: 429 - rate limit reached for model", "rate limit"),
+        ("groq", "Error code: 429 - rate limit reached for model", "rate or quota limit"),
         ("groq", "connection error while contacting host", "check the connection"),
+        ("gemini", "400 API key not valid. Please pass a valid API key.", "rejected"),
+        ("gemini", "429 RESOURCE_EXHAUSTED: quota exceeded for this project", "rate or quota limit"),
         # Local failures need their own advice: restarting a server and pulling a
         # model are the fixes, and neither applies to a hosted provider.
         ("ollama", "connection refused to localhost:11434", "ollama serve"),
@@ -299,6 +303,94 @@ def test_system_prompt() -> None:
     check(messages[1] == {"role": "user", "content": "hello"}, "the user turn follows it")
 
 
+def test_anthropic_adapter() -> None:
+    section("Claude's adapter translates both directions correctly")
+    from petbarn.llm import _AnthropicMessagesAdapter
+
+    captured: dict = {}
+
+    class FakeMessages:
+        def create(self, **kwargs):
+            captured.update(kwargs)
+            return SimpleNamespace(
+                content=[
+                    SimpleNamespace(type="text", text="Here you go."),
+                    SimpleNamespace(
+                        type="tool_use", id="tu_1", name="get_product_details",
+                        input={"sku": "30295"},
+                    ),
+                ],
+                usage=SimpleNamespace(input_tokens=120, output_tokens=34),
+            )
+
+    adapter = _AnthropicMessagesAdapter(SimpleNamespace(messages=FakeMessages()))
+    response = adapter.chat.completions.create(
+        model="claude-opus-5",
+        max_tokens=1400,
+        temperature=0.2,
+        tool_choice="auto",
+        tools=[{
+            "type": "function",
+            "function": {
+                "name": "get_product_details",
+                "description": "Look a product up",
+                "parameters": {"type": "object", "properties": {"sku": {"type": "string"}}},
+            },
+        }],
+        messages=[
+            {"role": "system", "content": "You are the Petbarn assistant."},
+            {"role": "user", "content": "compare two things"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"id": "a", "type": "function",
+                 "function": {"name": "get_product_details", "arguments": '{"sku": "1"}'}},
+                {"id": "b", "type": "function",
+                 "function": {"name": "get_product_details", "arguments": '{"sku": "2"}'}},
+            ]},
+            {"role": "tool", "tool_call_id": "a", "name": "get_product_details", "content": '{"ok":1}'},
+            {"role": "tool", "tool_call_id": "b", "name": "get_product_details", "content": '{"ok":2}'},
+        ],
+    )
+
+    # --- request translation ---
+    check(captured["system"] == "You are the Petbarn assistant.",
+          "the system prompt becomes a top-level argument, not a message")
+    check(all(m["role"] != "system" for m in captured["messages"]),
+          "no system message is left in the messages array")
+    check("temperature" not in captured,
+          "temperature is dropped (current Claude models reject it with a 400)")
+    check(captured["tools"][0]["input_schema"]["properties"]["sku"]["type"] == "string",
+          "tool parameters become input_schema")
+    check("parameters" not in captured["tools"][0], "the OpenAI-only 'parameters' key is gone")
+    check(captured["tool_choice"] == {"type": "auto"}, "tool_choice is converted to Anthropic's shape")
+
+    assistant = [m for m in captured["messages"] if m["role"] == "assistant"][0]
+    uses = [b for b in assistant["content"] if b["type"] == "tool_use"]
+    check(len(uses) == 2, "both tool calls become tool_use blocks on the assistant turn")
+    check(uses[0]["input"] == {"sku": "1"}, "tool arguments are parsed from JSON into a dict")
+
+    # The important one: two results from one assistant turn must share a single
+    # user message, or the model is trained out of calling tools in parallel.
+    user_turns = [m for m in captured["messages"] if m["role"] == "user"]
+    results = [b for m in user_turns if isinstance(m["content"], list)
+               for b in m["content"] if b["type"] == "tool_result"]
+    result_turns = [m for m in user_turns
+                    if isinstance(m["content"], list)
+                    and any(b["type"] == "tool_result" for b in m["content"])]
+    check(len(results) == 2, "both tool results are carried across")
+    check(len(result_turns) == 1, "both results share ONE user message, not two")
+    check([b["tool_use_id"] for b in results] == ["a", "b"], "each result keeps its call id")
+
+    # --- response translation ---
+    message = response.choices[0].message
+    check(message.content == "Here you go.", "text blocks become the message content")
+    check(len(message.tool_calls) == 1, "tool_use blocks become tool_calls")
+    check(message.tool_calls[0].function.name == "get_product_details", "the tool name survives")
+    check(json.loads(message.tool_calls[0].function.arguments) == {"sku": "30295"},
+          "tool input is re-serialised as JSON arguments")
+    check(response.usage.prompt_tokens == 120 and response.usage.completion_tokens == 34,
+          "token usage is mapped onto the names the agent reads")
+
+
 def main() -> int:
     test_parallel_tool_calls()
     test_malformed_arguments()
@@ -307,6 +399,7 @@ def main() -> int:
     test_never_answers_with_silence()
     test_api_error()
     test_provider_wiring()
+    test_anthropic_adapter()
     test_review_cap()
     test_system_prompt()
 

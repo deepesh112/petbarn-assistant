@@ -1,5 +1,6 @@
 streamlit>=1.50
 openai>=1.60
+anthropic>=0.40
 requests>=2.32
 beautifulsoup4>=4.12
 vaderSentiment>=3.3.2

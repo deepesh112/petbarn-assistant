@@ -1,21 +1,27 @@
-"""Language-model providers: a local Ollama server, or Groq's hosted API.
+"""Language-model providers: a local Ollama server, or four hosted APIs.
 
-Both are reached through the **OpenAI-compatible** chat-completions interface,
-which Ollama and Groq each expose. That means one client type, one request
-shape and one error taxonomy for both, and the agent loop in :mod:`petbarn.agent`
-never learns which provider it is talking to.
-
-The two exist for different jobs:
+Every backend is presented to :mod:`petbarn.agent` as a chat-completions
+client, so the agent loop never learns which one it is talking to. Ollama, Groq,
+OpenAI and Gemini all speak that dialect natively and need only a base URL.
 
 ``ollama``
     Runs entirely on your machine. No API key, no per-request cost, no data
     leaving the computer, and it works with the network unplugged. The catch is
     that a local model cannot be reached from a hosted deployment, and small
-    models are noticeably weaker at choosing tools than a 70B hosted one.
+    models are noticeably weaker at choosing tools than a large hosted one.
 
-``groq``
-    Needs a free API key and an internet connection, but is fast, reliable at
-    tool calling, and reachable from a deployed app.
+``groq`` / ``gemini``
+    Free tiers, reliable tool calling, reachable from a deployed app.
+
+``openai`` / ``anthropic``
+    Paid, and the strongest at tool use.
+
+**Claude is the exception, deliberately.** Anthropic publishes an
+OpenAI-compatible endpoint, but it is a compatibility shim with reduced feature
+support and Anthropic's own guidance is to use the real SDK. So Claude goes
+through the official ``anthropic`` client, and the cost of that -- translating
+between two message formats -- is paid once in
+:class:`_AnthropicMessagesAdapter` rather than leaking into the agent loop.
 
 Model lists for Ollama are **discovered from the running server** rather than
 hard-coded, because what is installed is a property of the machine and any
@@ -28,6 +34,7 @@ import json
 import urllib.error
 import urllib.request
 from dataclasses import dataclass, field
+from types import SimpleNamespace
 from typing import Any
 
 from . import config
@@ -95,6 +102,55 @@ PROVIDERS: dict[str, Provider] = {
         key_url="https://console.groq.com/keys",
         notes="Fast and reliable at tool use, and reachable from a deployed app.",
     ),
+    "openai": Provider(
+        name="openai",
+        label="OpenAI (hosted)",
+        base_url="https://api.openai.com/v1",
+        requires_api_key=True,
+        default_model="gpt-5.6-terra",
+        suggested_models=(
+            "gpt-5.6-terra",
+            "gpt-5.6-luna",
+            "gpt-5.6-sol",
+            "gpt-6-astra",
+        ),
+        key_url="https://platform.openai.com/api-keys",
+        notes="Paid only, no free tier. Very reliable at tool use. 'luna' is the cheapest.",
+    ),
+    "anthropic": Provider(
+        name="anthropic",
+        label="Anthropic Claude (hosted)",
+        # Unused: Claude goes through the official anthropic SDK, not the
+        # OpenAI-compatible shim. See _AnthropicMessagesAdapter.
+        base_url="",
+        requires_api_key=True,
+        default_model="claude-opus-5",
+        suggested_models=(
+            "claude-opus-5",
+            "claude-sonnet-5",
+            "claude-haiku-4-5",
+        ),
+        key_url="https://console.anthropic.com/settings/keys",
+        notes="Paid only. Strongest tool use of the five; uses the official Anthropic SDK.",
+    ),
+    "gemini": Provider(
+        name="gemini",
+        label="Google Gemini (hosted)",
+        # Gemini speaks OpenAI's chat-completions dialect at this path, which is
+        # why it needs no client of its own. Google describes the compatibility
+        # layer as beta, so it is the likeliest of the three to shift.
+        base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+        requires_api_key=True,
+        default_model="gemini-3.8-flash",
+        suggested_models=(
+            "gemini-3.8-flash",
+            "gemini-3.7-flash",
+            "gemini-2.5-flash",
+            "gemini-3.5-flash-lite",
+        ),
+        key_url="https://aistudio.google.com/apikey",
+        notes="Large free tier and strong tool use. Also reachable from a deployed app.",
+    ),
 }
 
 DEFAULT_PROVIDER = config.default_provider()
@@ -111,18 +167,182 @@ def get_provider(name: str | None) -> Provider:
 
 
 def build_client(provider: Provider, *, api_key: str | None = None, base_url: str | None = None):
-    """Create an OpenAI-compatible client pointed at ``provider``."""
-    from openai import OpenAI  # imported lazily so tests can stub the client
-
+    """Create a client for ``provider``, exposing the chat-completions surface."""
     key = (api_key or "").strip() or provider.placeholder_key
     if provider.requires_api_key and not (api_key or "").strip():
         raise ValueError(f"{provider.label} requires an API key")
+
+    if provider.name == "anthropic":
+        return _build_anthropic_client(key)
+
+    from openai import OpenAI  # imported lazily so tests can stub the client
 
     return OpenAI(
         api_key=key,
         base_url=base_url or provider.base_url,
         timeout=config.LLM_TIMEOUT,
         max_retries=1,
+    )
+
+
+def _build_anthropic_client(api_key: str):
+    """Wrap the official Anthropic SDK in the chat-completions shape.
+
+    Anthropic does publish an OpenAI-compatible endpoint, but it is explicitly a
+    compatibility shim with reduced feature support, and Anthropic's own guidance
+    is to use the real SDK. So Claude gets the official client, and the cost of
+    that decision -- translating between two message formats -- is paid once,
+    here, rather than leaking into the agent loop.
+    """
+    import anthropic  # imported lazily: only this provider needs it
+
+    return _AnthropicMessagesAdapter(
+        anthropic.Anthropic(api_key=api_key, timeout=config.LLM_TIMEOUT, max_retries=1)
+    )
+
+
+class _AnthropicMessagesAdapter:
+    """Speaks ``chat.completions.create`` on the outside, Messages API within.
+
+    The two formats differ in three ways that matter here:
+
+    * The system prompt is a top-level argument, not a message with a role.
+    * A tool call is a ``tool_use`` content block on the assistant turn, and its
+      result is a ``tool_result`` block inside a **user** turn -- and all results
+      from one assistant turn must arrive in a single user message, or the model
+      learns to stop making parallel calls.
+    * ``temperature`` is rejected outright by the current Claude models, so it is
+      dropped rather than forwarded.
+    """
+
+    def __init__(self, client: Any) -> None:
+        self._client = client
+        self.chat = SimpleNamespace(completions=SimpleNamespace(create=self._create))
+
+    def _create(
+        self,
+        *,
+        model: str,
+        messages: list[dict[str, Any]],
+        max_tokens: int = 1024,
+        tools: list[dict[str, Any]] | None = None,
+        tool_choice: str | None = None,
+        temperature: float | None = None,  # noqa: ARG002 - deliberately unused
+        **_ignored: Any,
+    ) -> Any:
+        system, converted = _to_anthropic_messages(messages)
+
+        request: dict[str, Any] = {
+            "model": model,
+            "max_tokens": max_tokens,
+            "messages": converted,
+        }
+        if system:
+            request["system"] = system
+        if tools:
+            request["tools"] = [_to_anthropic_tool(tool) for tool in tools]
+            if tool_choice == "auto":
+                request["tool_choice"] = {"type": "auto"}
+
+        return _from_anthropic_response(self._client.messages.create(**request))
+
+
+def _to_anthropic_tool(tool: dict[str, Any]) -> dict[str, Any]:
+    """Convert one OpenAI tool schema into Anthropic's shape."""
+    function = tool.get("function", tool)
+    return {
+        "name": function["name"],
+        "description": function.get("description", ""),
+        "input_schema": function.get("parameters") or {"type": "object", "properties": {}},
+    }
+
+
+def _to_anthropic_messages(
+    messages: list[dict[str, Any]],
+) -> tuple[str, list[dict[str, Any]]]:
+    """Split out the system prompt and convert the rest to Messages format."""
+    system_parts: list[str] = []
+    converted: list[dict[str, Any]] = []
+
+    for message in messages:
+        role = message.get("role")
+
+        if role == "system":
+            system_parts.append(str(message.get("content") or ""))
+
+        elif role == "tool":
+            # Results belong in a user turn, and every result from the same
+            # assistant turn has to share one message.
+            block = {
+                "type": "tool_result",
+                "tool_use_id": message.get("tool_call_id"),
+                "content": str(message.get("content") or ""),
+            }
+            if converted and converted[-1]["role"] == "user" and isinstance(
+                converted[-1]["content"], list
+            ):
+                converted[-1]["content"].append(block)
+            else:
+                converted.append({"role": "user", "content": [block]})
+
+        elif role == "assistant":
+            content: list[dict[str, Any]] = []
+            if text := str(message.get("content") or "").strip():
+                content.append({"type": "text", "text": text})
+            for call in message.get("tool_calls") or []:
+                function = call["function"]
+                try:
+                    arguments = json.loads(function.get("arguments") or "{}")
+                except json.JSONDecodeError:
+                    arguments = {}
+                content.append(
+                    {
+                        "type": "tool_use",
+                        "id": call["id"],
+                        "name": function["name"],
+                        "input": arguments,
+                    }
+                )
+            # An assistant turn with neither text nor tool calls is not sendable.
+            if content:
+                converted.append({"role": "assistant", "content": content})
+
+        else:
+            converted.append({"role": "user", "content": str(message.get("content") or "")})
+
+    return "\n\n".join(part for part in system_parts if part), converted
+
+
+def _from_anthropic_response(response: Any) -> Any:
+    """Reshape a Messages response into what the agent loop reads."""
+    text_parts: list[str] = []
+    tool_calls: list[SimpleNamespace] = []
+
+    for block in response.content:
+        if block.type == "text":
+            text_parts.append(block.text)
+        elif block.type == "tool_use":
+            tool_calls.append(
+                SimpleNamespace(
+                    id=block.id,
+                    type="function",
+                    function=SimpleNamespace(
+                        name=block.name, arguments=json.dumps(block.input)
+                    ),
+                )
+            )
+
+    message = SimpleNamespace(
+        content="".join(text_parts),
+        tool_calls=tool_calls or None,
+    )
+    usage = getattr(response, "usage", None)
+    return SimpleNamespace(
+        choices=[SimpleNamespace(message=message)],
+        usage=SimpleNamespace(
+            prompt_tokens=getattr(usage, "input_tokens", 0) or 0,
+            completion_tokens=getattr(usage, "output_tokens", 0) or 0,
+        ),
     )
 
 
@@ -219,12 +439,28 @@ def describe_error(exc: Exception, provider: Provider) -> str:
                 f"Try a tool-capable one, e.g. `ollama pull {provider.default_model}`."
             )
     else:
-        if "authentication" in lowered or "invalid api key" in lowered or "401" in text:
-            return "That API key was rejected. Check the key and try again."
-        if "rate limit" in lowered or "429" in text:
+        # Each provider words the same failure differently: Groq says "invalid
+        # api key", Gemini says "API key not valid" and "RESOURCE_EXHAUSTED".
+        # Matching on all the phrasings keeps one readable message per cause.
+        if (
+            "authentication" in lowered
+            or "invalid api key" in lowered
+            or "api key not valid" in lowered
+            or "api_key_invalid" in lowered
+            or "invalid x-api-key" in lowered
+            or "401" in text
+        ):
+            return f"That {provider.label} API key was rejected. Check the key and try again."
+        if (
+            "rate limit" in lowered
+            or "quota" in lowered
+            or "resource_exhausted" in lowered
+            or "credit balance" in lowered
+            or "429" in text
+        ):
             return (
-                "The provider's rate limit has been reached. Wait a moment and resend, "
-                "or switch model in the sidebar."
+                f"{provider.label} has hit a rate or quota limit. Wait a moment and resend, "
+                "switch model in the sidebar, or use a different backend."
             )
 
     if "model" in lowered and ("not found" in lowered or "decommissioned" in lowered):
