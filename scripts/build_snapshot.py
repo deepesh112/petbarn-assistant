@@ -217,6 +217,12 @@ def ingest(target_count: int = TARGET_COUNT) -> list[CatalogEntry]:
             rejected.append(f"{label}: no resolvable price (parent product?)")
             continue
 
+        if not product.url.startswith("http"):
+            # A site-relative URL is unusable later: the live fetch fails and the
+            # snapshot silently answers in its place. Reject it at ingestion.
+            rejected.append(f"{label}: URL is not absolute ({product.url})")
+            continue
+
         if product.is_bundle:
             # Multi-buy bundles share their single-unit sibling's reviews, so
             # including both would double-count the same customer feedback.

@@ -24,6 +24,7 @@ from __future__ import annotations
 import json
 import re
 from typing import Any
+from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
@@ -212,6 +213,20 @@ def _is_bundle(node: dict[str, Any]) -> bool:
     return False
 
 
+def _absolute_url(value: Any) -> str | None:
+    """Resolve a JSON-LD URL against the site root.
+
+    Petbarn is inconsistent here: most nodes carry a fully-qualified URL, but
+    some emit a site-relative path. One product in ten did, which was enough to
+    make its live fetch fail ("No scheme supplied") and quietly serve the
+    snapshot instead -- a real fetch failure hiding behind a working answer.
+    """
+    text = str(_first(value) or "").strip()
+    if not text:
+        return None
+    return urljoin(config.SITE_ROOT, text)
+
+
 def _offer_of(node: dict[str, Any]) -> dict[str, Any]:
     offer = _first(node.get("offers"))
     return offer if isinstance(offer, dict) else {}
@@ -229,7 +244,7 @@ def _variant_to_offer(node: dict[str, Any]) -> Offer:
         currency=offer.get("priceCurrency") or "AUD",
         availability=_availability_label(offer.get("availability")),
         gtin=node.get("gtin") or node.get("gtin13"),
-        url=node.get("url") or offer.get("url"),
+        url=_absolute_url(node.get("url") or offer.get("url")),
     )
 
 
@@ -309,11 +324,11 @@ def parse_product(
     return ProductDetails(
         sku=sku,
         name=clean_text(chosen_node.get("name") or node.get("name")) or sku,
-        url=chosen_node.get("url") or node.get("url") or url,
+        url=_absolute_url(chosen_node.get("url") or node.get("url")) or url,
         brand=_brand_name(chosen_node) or _brand_name(node),
         category=node.get("category") or chosen_node.get("category"),
         description=extract_description(html) or clean_text(node.get("description")) or None,
-        image=_first(chosen_node.get("image")) or _first(node.get("image")),
+        image=_absolute_url(chosen_node.get("image")) or _absolute_url(node.get("image")),
         gtin=chosen_node.get("gtin") or chosen_node.get("gtin13") or node.get("gtin"),
         size=chosen_node.get("size"),
         price=standard,

@@ -61,6 +61,13 @@ def test_catalog() -> list[str]:
         check(bool(entry.sku and entry.name and entry.url), f"{entry.sku}: sku/name/url present")
         check(entry.price is not None, f"{entry.sku}: has a price")
         check((entry.text_review_count or 0) >= 40, f"{entry.sku}: has 40+ written reviews")
+        # Checked for every product, not just the two exercised below: one
+        # product in ten stored a site-relative URL, its live fetch failed with
+        # "No scheme supplied", and the snapshot fallback hid it completely.
+        check(
+            entry.url.startswith("https://www.petbarn.com.au/"),
+            f"{entry.sku}: URL is absolute, not site-relative ({entry.url})",
+        )
     # Two products from different categories, for the comparison path.
     picks = [catalog.entries[0].sku, catalog.entries[-1].sku]
     print(f"  using SKUs {picks} for tool tests")

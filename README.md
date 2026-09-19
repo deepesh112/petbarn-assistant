@@ -215,7 +215,7 @@ Petbarn's permission.
 ## Testing
 
 ```bash
-python scripts/smoke_test.py       # all 4 tools, live + offline — 94 checks, no model needed
+python scripts/smoke_test.py       # all 5 tools, live + offline — 104 checks, no model needed
 python scripts/loop_test.py        # the agent loop against a stubbed model — 54 checks, no model
 python scripts/agent_test.py                         # the brief's questions, through a real model
 python scripts/agent_test.py --model granite4.1:3b   # pick a local model
