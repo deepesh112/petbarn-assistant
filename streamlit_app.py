@@ -63,6 +63,37 @@ def discover_ollama_models(base_url: str) -> list[str]:
     return llm.list_local_models(base_url)
 
 
+def read_secret(name: str) -> str | None:
+    """Read a Streamlit secret, tolerating there being no secrets file at all."""
+    try:
+        value = str(st.secrets.get(name, "") or "").strip()
+    except Exception:  # noqa: BLE001 - no secrets configured is normal locally
+        return None
+    return value or None
+
+
+def choose_default_provider() -> str:
+    """Pick the backend to start on, based on what this machine can actually do.
+
+    An explicit ``PETBARN_PROVIDER`` always wins. Failing that the app works it
+    out: a hosted container can never reach a laptop's Ollama server, so a
+    deployment that has an API key but no local server should open on the hosted
+    backend rather than greeting its first visitor with Ollama install
+    instructions. Deriving this beats relying on a config line someone has to
+    remember to set.
+    """
+    explicit = read_secret("PETBARN_PROVIDER") or os.environ.get("PETBARN_PROVIDER", "").strip()
+    if explicit and explicit.lower() in llm.PROVIDERS:
+        return explicit.lower()
+
+    if llm.list_local_models():
+        return "ollama"
+    for name, spec in llm.PROVIDERS.items():
+        if spec.requires_api_key and (read_secret(f"{name.upper()}_API_KEY") or config.api_key_for(name)):
+            return name
+    return config.default_provider()
+
+
 def resolve_api_key(provider: llm.Provider) -> tuple[str | None, str]:
     """Find an API key for ``provider``. Returns the key and where it came from.
 
@@ -76,12 +107,7 @@ def resolve_api_key(provider: llm.Provider) -> tuple[str | None, str]:
     if typed:
         return typed, "sidebar"
 
-    name = f"{provider.name.upper()}_API_KEY"
-    try:
-        secret = str(st.secrets.get(name, "") or "").strip()
-    except Exception:  # noqa: BLE001 - no secrets file configured at all
-        secret = ""
-    if secret:
+    if secret := read_secret(f"{provider.name.upper()}_API_KEY"):
         return secret, "secrets"
 
     if env := config.api_key_for(provider.name):
@@ -127,7 +153,8 @@ def render_trace(trace: list[TraceEntry], *, reply: AgentReply | None = None) ->
 def render_backend_controls() -> tuple[llm.Provider, str | None, str, llm.Health]:
     """Draw the backend picker and probe it. Returns provider, key, model, health."""
     names = list(llm.PROVIDERS)
-    default_index = names.index(config.default_provider()) if config.default_provider() in names else 0
+    preferred = choose_default_provider()
+    default_index = names.index(preferred) if preferred in names else 0
     provider = llm.PROVIDERS[
         st.selectbox(
             "Model backend",

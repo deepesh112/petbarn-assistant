@@ -321,9 +321,12 @@ The backend is a config value, not a code change.
 3. In **Settings → Secrets**, add:
    ```toml
    GROQ_API_KEY = "gsk_..."
-   PETBARN_PROVIDER = "groq"
    ```
 4. Deploy, then put the public URL at the top of this file.
+
+The backend does not need to be named: with no Ollama server reachable and a key
+present, the app opens on the hosted backend by itself. Setting
+`PETBARN_PROVIDER = "groq"` alongside the key pins it explicitly and always wins.
 
 Visitors can still paste their own key in the sidebar, which spends their quota rather than yours —
 useful when a free tier runs dry.
