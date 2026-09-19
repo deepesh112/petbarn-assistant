@@ -215,7 +215,7 @@ class PetbarnAgent:
 
             tool_calls = list(getattr(message, "tool_calls", None) or [])
             if not tool_calls:
-                answer.text = (message.content or "").strip()
+                answer.text = _ensure_text(message.content, answer)
                 return answer
 
             messages.append(_assistant_message(message, tool_calls))
@@ -237,7 +237,7 @@ class PetbarnAgent:
         # real answer built from what was already gathered.
         try:
             final = self._call_model(messages, answer, with_tools=False)
-            answer.text = (final.content or "").strip()
+            answer.text = _ensure_text(final.content, answer)
         except Exception as exc:  # noqa: BLE001
             answer.error = _describe_api_error(exc)
             answer.text = answer.error
@@ -310,6 +310,25 @@ def _assistant_message(message: Any, tool_calls: list[Any]) -> dict[str, Any]:
             for call in tool_calls
         ],
     }
+
+
+def _ensure_text(content: str | None, answer: AgentReply) -> str:
+    """Guarantee the turn ends with something readable.
+
+    A model can return an empty completion -- on a truncated response, or when it
+    has spent the turn calling tools and has nothing left to say. Silence looks
+    like a crash, so it is replaced with an explanation that reflects whether any
+    data was actually gathered.
+    """
+    text = (content or "").strip()
+    if text:
+        return text
+    if any(entry.ok for entry in answer.trace):
+        return (
+            "I looked the details up but could not put an answer together. "
+            "Please ask again, perhaps about one product at a time."
+        )
+    return "I could not produce an answer to that. Please try rephrasing the question."
 
 
 def _parse_arguments(raw: str | None) -> tuple[dict[str, Any], str | None]:

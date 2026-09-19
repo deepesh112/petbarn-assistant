@@ -155,20 +155,31 @@ Petbarn's permission.
 ## Testing
 
 ```bash
-python scripts/smoke_test.py       # all 4 tools, live + offline, 94 assertions, no API key needed
+python scripts/smoke_test.py       # all 4 tools, live + offline — 94 checks, no API key needed
+python scripts/loop_test.py        # the agent loop against a stubbed model — 40 checks, no key
 python scripts/agent_test.py       # the brief's questions through the real model (needs a key)
 python scripts/agent_test.py --offline           # same, forced onto the snapshot
 python scripts/build_snapshot.py --verify        # check the committed dataset is intact
 ```
+
+Two of the three need no API key and cost nothing, which is deliberate: the parts most likely to
+break are the parts that do not involve the model.
 
 `smoke_test.py` is the one that matters most: the agent is only as good as the tools beneath it, and
 every failure worth guarding against lives there — a scraper that silently returns no price, a
 snapshot that cannot satisfy a filter the live API can, a payload missing the provenance the UI
 renders. It costs nothing to run.
 
-`agent_test.py` covers what the smoke test cannot: whether the *model* picks the right tools. It
-prints the full trace per question, including the cases a demo tends to trip on — an off-catalog
-product, a request for only the critical reviews, and a bare "what can you help me with".
+`loop_test.py` substitutes a scripted model for the real one, because you cannot make a real model
+reliably produce the cases worth testing on demand: two tool calls in a single round, malformed tool
+arguments, a hallucinated tool name, a request for tools that never stops, an empty completion, an
+expired key. The tools underneath stay real, so it also proves tool results are packaged into
+messages the API would accept with their call ids matched up. It found a live bug — an empty model
+completion rendered as silence, which reads as a crash.
+
+`agent_test.py` covers what neither can: whether the *model* picks the right tools. It prints the
+full trace per question, including the cases a demo tends to trip on — an off-catalog product, a
+request for only the critical reviews, and a bare "what can you help me with".
 
 ### Re-ingesting the data
 
@@ -223,8 +234,9 @@ data/
   raw/                      Gzipped raw HTML and API responses, for auditing
 scripts/
   build_snapshot.py         Ingestion and dataset verification
-  smoke_test.py             Tool-level tests, live and offline
-  agent_test.py             End-to-end tests through the model
+  smoke_test.py             Tool-level tests, live and offline (no API key)
+  loop_test.py              Agent-loop tests against a stubbed model (no API key)
+  agent_test.py             End-to-end tests through the real model
 ```
 
 ---
