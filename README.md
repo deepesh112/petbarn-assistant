@@ -45,14 +45,44 @@ To use the hosted backend instead, pick **Groq** in the sidebar and paste a free
 
 ## How it works
 
-```
-  Streamlit chat UI  ──►  PetbarnAgent  ──►  5 tools  ──►  cache ─► live fetch ─► snapshot
-  (shows tool trace)      (bounded tool       (SKU-keyed)        petbarn.com.au / Bazaarvoice
-                           loop, any backend)
-```
-
 The model is given five tools and decides which to call. Nothing about a product reaches an answer
 unless a tool returned it during that conversation.
+
+```mermaid
+flowchart TD
+    Q["Question<br/>'What are people saying about<br/>the price of the cat litter?'"]
+    Q --> AG["PetbarnAgent<br/>petbarn/agent.py"]
+
+    subgraph LOOP ["Tool loop — at most 5 rounds"]
+        AG -->|"system prompt + conversation<br/>+ 5 tool schemas"| M{"Model<br/>Ollama or Groq"}
+        M -->|"requests tools"| X["Execute concurrently<br/>in a thread pool"]
+        X -->|"results returned as role:tool"| AG
+    end
+
+    M -->|"replies in prose"| OUT["Answer + tool trace"]
+
+    X --> TOOLS
+
+    subgraph TOOLS ["The five tools — petbarn/tools.py"]
+        direction LR
+        SC["search_catalog<br/>words to SKU"]
+        GD["get_product_details"]
+        GR["get_product_reviews"]
+        AS["analyze_review_sentiment"]
+        CP["compare_products"]
+    end
+
+    SC --> CAT["catalog.py<br/>fuzzy match, ranked"]
+    GD --> RESOLVE
+    GR --> RESOLVE
+    AS --> RESOLVE
+    CP --> RESOLVE
+    RESOLVE["Data resolution<br/>cache, then live, then snapshot"]
+    AS --> SENT["sentiment.py<br/>VADER per sentence, by theme"]
+```
+
+Every tool is keyed by SKU, which is why `search_catalog` is called first: a model left to guess a
+SKU invents one. What "data resolution" does is set out under [Reliability](#reliability).
 
 ### Model backends
 
@@ -130,7 +160,7 @@ So `petbarn/sentiment.py` does the analysis itself:
 - **VADER** scores polarity sentence by sentence. It is rule-based, so the same review always
   produces the same number, and the reviewer's words drive the result rather than the model's
   impression of them.
-- Its lexicon is extended with 37 pet-retail terms VADER lacks (`overpriced`, `clumping`, `dusty`,
+- Its lexicon is extended with 43 pet-retail terms VADER lacks (`overpriced`, `clumping`, `dusty`,
   `fussy`, `resealable`, `diarrhoea`…). Terms VADER already scores are left untouched.
 - Sentences are bucketed into themes by keyword, so "great food but pricey" counts positively for
   quality and negatively for price.
@@ -162,6 +192,17 @@ a wall of text.
 ### Reliability
 
 Every tool resolves its data the same way:
+
+```mermaid
+flowchart LR
+    T["Tool call<br/>keyed by SKU"] --> C{"Fresh copy in cache?<br/>.cache/, 6h TTL"}
+    C -->|yes| R1["source: cache"]
+    C -->|no| L{"Live fetch<br/>3 retries, backoff, ~1 rps"}
+    L -->|"succeeds"| R2["source: live"]
+    L -->|"fails"| S{"Expired copy<br/>still on disk?"}
+    S -->|yes| R3["Serve it anyway<br/>source: cache"]
+    S -->|no| R4["data/snapshot/<br/>source: snapshot"]
+```
 
 1. **A recent local cache** (`.cache/`, 6-hour TTL, keyed by request hash).
 2. **A live fetch** through one shared session: 3 retries with exponential backoff, ~1 request per
@@ -250,12 +291,22 @@ python scripts/build_snapshot.py             # rebuild catalog + snapshot from t
 python scripts/build_snapshot.py --count 12  # a different catalog size
 ```
 
-Products are selected mechanically rather than by hand: drawn in descending order of review count,
-then filtered to those with a resolvable price and 40+ written reviews, capped at one product per
-brand and two per category, with multi-buy bundles excluded (they duplicate a single-unit item's
-reviews). That is what produces a catalog spanning 10 brands and 6 categories instead of ten
-variants of the same flea chew. Raw responses are archived gzipped under `data/raw/` so the parsers
-can be re-run and audited without touching the network.
+Products are selected mechanically rather than by hand, which is what produces a catalog spanning 10
+brands and 6 categories instead of ten variants of the same flea chew:
+
+```mermaid
+flowchart TD
+    BV["Bazaarvoice products.json<br/>sorted by review count"] --> POOL["120 candidates"]
+    POOL --> GATE{"Keep this one?"}
+    GATE -->|"no resolvable price<br/>multi-buy bundle<br/>brand or category cap reached<br/>relative URL<br/>under 40 written reviews"| DROP["Rejected, with the reason logged"]
+    GATE -->|"passes"| PAGE["Fetch the /p/ page<br/>parse its JSON-LD"]
+    PAGE --> REV["Fetch up to 150 written reviews<br/>from Bazaarvoice"]
+    REV --> OUT["data/catalog.json<br/>data/snapshot/product_SKU.json<br/>data/snapshot/reviews_SKU.json<br/>data/raw/*.gz"]
+    OUT --> V["--verify reloads it all<br/>and asserts it is usable"]
+```
+
+Raw responses are archived gzipped under `data/raw/` so the parsers can be re-run and audited
+without touching the network.
 
 ---
 
