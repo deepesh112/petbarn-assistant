@@ -1,0 +1,66 @@
+{
+  "sku": "134736",
+  "name": "NexGard Spectra for Dog Flea Tick & Worm 15.1 - 30kg 6Pack",
+  "url": "https://www.petbarn.com.au/p/nexgard-spectra-for-dogs-15-1-30kg/134736",
+  "brand": "NexGard Spectra",
+  "category": "Dog Flea Tick & Worm",
+  "description": "NexGard SPECTRA (Purple) is suitable for large dogs from 15.1 - 30 kg in bodyweight. With NexGard SPECTRA, your dog will receive the most complete protection against fleas, ticks, mites, lice, heartworm and intestinal worms, all in one tasty chew. Did you know that some parasites that affect pets can be transmitted to people? Using NexGard SPECTRA aligns with guidelines from infectious disease experts who recommend monthly deworming of all dogs to reduce the risk.* Protect from Fleas: NexGard SPECTRA kills fleas on dogs for 5 weeks (35 days). By killing fleas fast it breaks the flea lifecycle, helping keep your dog healthy and your home flea free. Protect from Ticks: NexGard SPECTRA kills ticks on dogs (paralysis ticks, bush ticks and brown dog ticks) for 35 days (5 weeks) ensuring protection for a full month. Protect from Mites NexGard SPECTRA treats and controls ear mites, demodectic mange and sarcoptic mange. Protect from Lice NexGard SPECTRA treats and controls biting lice on dogs. Protect from Heartworm NexGard SPECTRA, given monthly throughout the year, provides effective heartworm prevention for dogs. Protect from Worms NexGard SPECTRA treats and controls roundworm, hookworm and whipworm. Through its rapid effect on fleas, NexGard SPECTRA also prevents the transmission of flea tapeworm. *Australian Companion Animal Zoonoses Advisory Panel (2021) Companion Animal Zoonoses Guidelines. See product label for full claim details and directions for use. Ingredients Features and Benefits Returns Policy Member Price $103.00 Non-Member: $182.00 Member Price Check Repeat Delivery $92.70 Why repeat delivery? Add to cart 4 payments of $ 45.50 with Zip it from $10 a week with ZIP Reviews Additional information NexGard Spectra Flea, Tick & Worming Chews for Dogs 15.1 - 30kg",
+  "image": "https://www.petbarn.com.au/media/catalog/product/2/5/25217_134736_nexgard_spectra_6_pack_front_15_1.jpg?optimize=medium&fit=bounds&height=120&width=120",
+  "gtin": "9327073006960",
+  "size": "6PK",
+  "price": 182.0,
+  "member_price": 103.0,
+  "currency": "AUD",
+  "availability": "In stock",
+  "average_rating": 4.8118,
+  "review_count": 1036,
+  "is_bundle": false,
+  "variants": [
+    {
+      "sku": "134731",
+      "name": "NexGard Spectra for Dog Flea Tick & Worm Chew 15.1 - 30kg 3Pack",
+      "size": "3PK",
+      "price": 109.0,
+      "member_price": null,
+      "currency": "AUD",
+      "availability": "In stock",
+      "gtin": "9327073006915",
+      "url": "https://www.petbarn.com.au/p/nexgard-spectra-for-dogs-15-1-30kg/134731"
+    },
+    {
+      "sku": "134736",
+      "name": "NexGard Spectra for Dog Flea Tick & Worm 15.1 - 30kg 6Pack",
+      "size": "6PK",
+      "price": 182.0,
+      "member_price": 103.0,
+      "currency": "AUD",
+      "availability": "In stock",
+      "gtin": "9327073006960",
+      "url": "https://www.petbarn.com.au/p/nexgard-spectra-for-dogs-15-1-30kg/134736"
+    }
+  ],
+  "shipping": [
+    {
+      "name": "Standard Delivery",
+      "price": 0.0,
+      "currency": "AUD"
+    },
+    {
+      "name": "2hr Delivery",
+      "price": 0.0,
+      "currency": "AUD"
+    },
+    {
+      "name": "2hr Delivery",
+      "price": 7.5,
+      "currency": "AUD"
+    },
+    {
+      "name": "Next Day Delivery",
+      "price": 0.0,
+      "currency": "AUD"
+    }
+  ],
+  "source": "cache",
+  "fetched_at": "2026-09-19T06:01:17+00:00"
+}

@@ -1,0 +1,2456 @@
+{
+  "sku": "138869",
+  "stats": {
+    "average_rating": 4.71,
+    "total_reviews": 380,
+    "text_review_count": 167,
+    "rating_distribution": {
+      "5": 306,
+      "4": 52,
+      "3": 15,
+      "1": 7
+    },
+    "recommended_count": 127,
+    "not_recommended_count": 6,
+    "secondary_rating_averages": {
+      "Pet satisfaction": 4.8,
+      "Value for money": 4.82,
+      "Quality": 4.75
+    },
+    "first_review_at": "2024-04-13T08:47:12.000+00:00",
+    "last_review_at": "2026-09-16T21:17:58.000+00:00"
+  },
+  "reviews": [
+    {
+      "review_id": "1229968431",
+      "title": "My dogs love these biscuits",
+      "text": "Have used this product for many years \nMy dogs love it",
+      "rating": 5,
+      "author": "2 dogs",
+      "submitted_at": "2026-09-16T21:17:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1229408106",
+      "title": "My dog loves these",
+      "text": "I always buy these biscuits for my dog. they are obviously delicious as she enjoys doing tricks to get one. They also offer good value.",
+      "rating": 5,
+      "author": "Bobbie the beagle!!",
+      "submitted_at": "2026-09-10T03:15:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228886080",
+      "title": "LOVE these treats",
+      "text": "LOVE these treats....well the dogs do. Great value, great product, great treat training.",
+      "rating": 5,
+      "author": "Gab",
+      "submitted_at": "2026-09-03T04:32:13.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228783455",
+      "title": "Amazing snack for my dogs added treats",
+      "text": "Barkers Best Variety Pack",
+      "rating": 5,
+      "author": "Kmatellis",
+      "submitted_at": "2026-09-01T17:00:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1222494741",
+      "title": "Our pet loves them",
+      "text": "We have been buying these biskets for our dog has they have a good range of verity of flaviors",
+      "rating": 5,
+      "author": "Cody",
+      "submitted_at": "2026-06-20T23:48:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221958728",
+      "title": "Bakers Best Variety Pack",
+      "text": "These treats are loved by our puppy & are great value.",
+      "rating": 5,
+      "author": "JJ",
+      "submitted_at": "2026-06-14T01:40:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221958081",
+      "title": "My Dog loves these biscuits.",
+      "text": "My dog reminds me every day when it is time for his lunch time Barkers Best variety Bone Biscuit. He loves these biscuits.",
+      "rating": 5,
+      "author": "Best Mate.",
+      "submitted_at": "2026-06-14T01:11:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221955806",
+      "title": "Dogs love them.",
+      "text": "Quality treats which my dogs love. Decent size bag for a reasonable price.",
+      "rating": 5,
+      "author": "Packmum",
+      "submitted_at": "2026-06-13T23:24:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221487847",
+      "title": "as above",
+      "text": "dog loves it",
+      "rating": 4,
+      "author": "no",
+      "submitted_at": "2026-06-07T20:57:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1220827992",
+      "title": "Mack seems to love them",
+      "text": "Good product",
+      "rating": 5,
+      "author": "Gramma",
+      "submitted_at": "2026-05-30T06:31:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220734066",
+      "title": "Best Biscuit",
+      "text": "Our Jack Russell is waiting every morning for her Barkers best biscuit!",
+      "rating": 5,
+      "author": "Molly’s owner",
+      "submitted_at": "2026-05-28T21:11:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220388176",
+      "title": "Great product",
+      "text": "I bought this product a week ago and the dogs love them",
+      "rating": 4,
+      "author": "Blue healer",
+      "submitted_at": "2026-05-23T23:34:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220327894",
+      "title": "Breakfast!",
+      "text": "My dogs love these treats!!",
+      "rating": 5,
+      "author": "2dogs",
+      "submitted_at": "2026-05-22T23:26:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220068831",
+      "title": "A great little treat",
+      "text": "A large bag of treat biscuits which are thoroughly enjoyed by the dog and are extremely good value",
+      "rating": 5,
+      "author": "Anns1956",
+      "submitted_at": "2026-05-19T10:42:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219591376",
+      "title": "Good treat",
+      "text": "My puppy loves the treat. Will buy again.",
+      "rating": 5,
+      "author": "Vz",
+      "submitted_at": "2026-05-12T21:19:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219372465",
+      "title": "Barker's Best Variety Biscuits",
+      "text": "Barker's Biscuits are the best. No nasties in the ingredients. My dog Bella loves them",
+      "rating": 5,
+      "author": "Jan",
+      "submitted_at": "2026-05-10T09:05:13.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219350272",
+      "title": "Baxter’s Best variety pack biscuit bones",
+      "text": "I got this product for my sis in laws dog. She loves them. The dog that is. She also gives one each to her neighbours dogs. They love them too.such good quality. Really good value ✅",
+      "rating": 5,
+      "author": "Fur baby lover",
+      "submitted_at": "2026-05-09T20:20:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219076692",
+      "title": "My 5 dogs love this product",
+      "text": "My 5 dogs love this product",
+      "rating": 5,
+      "author": "Leeann",
+      "submitted_at": "2026-05-05T21:44:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219076085",
+      "title": "The best dog biscuit treats!",
+      "text": "My dog has been loving this product for years now. The best biscuits and variety around!",
+      "rating": 5,
+      "author": "Border Collie Mum",
+      "submitted_at": "2026-05-05T21:29:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218727894",
+      "title": "pup LOVES them",
+      "text": "doggo loves them!! great little treat",
+      "rating": 5,
+      "author": "goldie",
+      "submitted_at": "2026-04-30T23:56:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 1,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218364023",
+      "title": "Great value and taste ( so my dogs say).",
+      "text": "My dogs love these biscuits. Iv I say you want a treat they run and sit waiting for them. Speaks for itself in my books",
+      "rating": 5,
+      "author": "Lynn",
+      "submitted_at": "2026-04-25T23:43:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218193023",
+      "title": "My pet enjoyed her new treat.",
+      "text": "I bought this product to give her something different.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-04-23T13:29:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1217656374",
+      "title": "Great brekkie food and a choice of flavours.",
+      "text": "I have been buying these baked bone biscuits for many years, my husky Shadow loves two for breakfast each morning with a carrot. Love the new packaging.",
+      "rating": 5,
+      "author": "Huskylady",
+      "submitted_at": "2026-04-18T20:35:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217432605",
+      "title": "Happy Dobey",
+      "text": "Mali likes these as a treat when walking on the beach. Good quality and price",
+      "rating": 5,
+      "author": "Doberman owner",
+      "submitted_at": "2026-04-16T05:12:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1216515318",
+      "title": "Great value",
+      "text": "Love they have the assortment pack at a good price",
+      "rating": 5,
+      "author": "Paul",
+      "submitted_at": "2026-04-03T07:16:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216171073",
+      "title": "A morning ritual",
+      "text": "My dog's love their Barker's Best in the morning. I have to break them in half (it would be good to have a line in the middle so they break more evenly) as they are small dogs but the small ones are too small. I did try the charcoal ones once but they weren't appreciated.",
+      "rating": 5,
+      "author": "TP",
+      "submitted_at": "2026-03-30T20:51:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215651276",
+      "title": "best biscuits",
+      "text": "spoilt poodles love the variety",
+      "rating": 5,
+      "author": "poodleslave",
+      "submitted_at": "2026-03-23T04:51:44.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215595360",
+      "title": "My staffies loved them.",
+      "text": "Bought product for my staffies. First time trying them.",
+      "rating": 5,
+      "author": "Staffylover",
+      "submitted_at": "2026-03-22T07:22:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215063290",
+      "title": "Good everyday treat",
+      "text": "The Barkers Best Variety Bone Biscuit Dog Treats are a good simple treat to have on hand. My dog likes them and will happily eat them, although he’s not completely crazy about them. They’re a good size for regular treating and the variety is nice. Overall a decent everyday biscuit treat.",
+      "rating": 4,
+      "author": "Axelle",
+      "submitted_at": "2026-03-14T03:13:31.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1214606466",
+      "title": "My dog loves these!",
+      "text": "I bought these for my dogs the other day. They LOVE them! They are also a great price",
+      "rating": 5,
+      "author": "Tabby",
+      "submitted_at": "2026-03-07T13:04:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214161619",
+      "title": "My BC loves these bones.",
+      "text": "My BC loves the flavour and the shape.",
+      "rating": 5,
+      "author": "BC lover",
+      "submitted_at": "2026-03-01T05:02:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213338954",
+      "title": "Great value great treat",
+      "text": "Happy with my purchase",
+      "rating": 5,
+      "author": "Baileys mum",
+      "submitted_at": "2026-02-16T14:50:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1213142515",
+      "title": "My dogs love Barkers Best Variety",
+      "text": "I buy these regularly, they're a great treat for my dogs",
+      "rating": 5,
+      "author": "Sunshine8",
+      "submitted_at": "2026-02-13T15:32:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212473511",
+      "title": "Great treats",
+      "text": "these are super crunchy and must taste good because my dogs love them!",
+      "rating": 5,
+      "author": "Muttlover",
+      "submitted_at": "2026-02-04T07:30:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211779952",
+      "title": "Bone shaped biscuits",
+      "text": "My dog loved them.",
+      "rating": 5,
+      "author": "Doglover",
+      "submitted_at": "2026-01-25T22:46:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211174130",
+      "title": "I buy these as they are my boy's favourite",
+      "text": "These biscuits are very good value",
+      "rating": 5,
+      "author": "Janie",
+      "submitted_at": "2026-01-18T03:32:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211172784",
+      "title": "One of his favourites",
+      "text": "Our dog loves these biscuits. He enjoys them and finds them easy to eat.",
+      "rating": 5,
+      "author": "Ziggy",
+      "submitted_at": "2026-01-18T02:05:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211035542",
+      "title": "Sophie’s Heartstarter",
+      "text": "My pet Moodle Sophie refuses to start the day without one of these biscuits and it has become part of a routine which I am now committed to. She insists I sit on the floor with her and watch the morning news while she munches away until only crumbs remain snd only then am I allowed to stand up.",
+      "rating": 5,
+      "author": "JoJo",
+      "submitted_at": "2026-01-15T21:54:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210985261",
+      "title": "My dogs think that Barkers Best are the best!",
+      "text": "I always pick up a couple of bags especially when they are discounted for multibuy.",
+      "rating": 5,
+      "author": "Bombergirl",
+      "submitted_at": "2026-01-15T06:43:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210826751",
+      "title": "My puppy loved them.",
+      "text": "Bought these as a snack for my puppy",
+      "rating": 5,
+      "author": "Puppys mate.",
+      "submitted_at": "2026-01-13T00:28:30.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1210347465",
+      "title": "My pets love this product",
+      "text": "I bought these for my dogs and they love them",
+      "rating": 5,
+      "author": "Animal lover",
+      "submitted_at": "2026-01-06T10:50:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210251192",
+      "title": "Purfect!",
+      "text": "I was looking for a treat my 6 month old puppy would not choke on.",
+      "rating": 4,
+      "author": "Twodogs",
+      "submitted_at": "2026-01-04T22:38:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1210014547",
+      "title": "My dog loves",
+      "text": "Bought this product very happy great product for reasonable price",
+      "rating": 5,
+      "author": "Kat",
+      "submitted_at": "2026-01-01T21:34:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1206621425",
+      "title": "george loves ❤️",
+      "text": "very happy dog",
+      "rating": 5,
+      "author": "Labrador X",
+      "submitted_at": "2025-11-18T18:05:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1205819060",
+      "title": "WE love this product.",
+      "text": "Have been buying for a while now. Great product.",
+      "rating": 5,
+      "author": "Cavlover",
+      "submitted_at": "2025-11-08T20:35:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1203929325",
+      "title": "Not to bad, not to great either.",
+      "text": "My dog hasn't really enjoyed these as much as I thought she would.",
+      "rating": 3,
+      "author": "Millysmum",
+      "submitted_at": "2025-10-26T20:00:27.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 3.0,
+        "Pet satisfaction": 2.0
+      }
+    },
+    {
+      "review_id": "1202721708",
+      "title": "Dogs favourite treat",
+      "text": "My dog loves them. I’m sure she would rate them 10/10, would enjoy treats again.",
+      "rating": 5,
+      "author": "Klarco",
+      "submitted_at": "2025-10-09T02:21:31.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1202484712",
+      "title": "Molly gives them the tick of approval.",
+      "text": "One of my dogs can be quite fussy but has enjoyed these biscuits. The other likes them but I think they may be too hard for her as she hasn't got many teeth. They were good value and particularly, buying 2nd bag half price was a good deal.",
+      "rating": 4,
+      "author": null,
+      "submitted_at": "2025-10-05T09:08:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1202459275",
+      "title": "Dog Biscuits",
+      "text": "Theses are excellent well priced dog biscuits",
+      "rating": 5,
+      "author": "Chris",
+      "submitted_at": "2025-10-04T18:22:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201919190",
+      "title": "My pet loves these",
+      "text": "I buy these regularly and my dog loves them",
+      "rating": 5,
+      "author": "Groodle",
+      "submitted_at": "2025-09-26T03:24:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200966933",
+      "title": "One happy girl",
+      "text": "I have a pretty fussy Evie but she gets very excited about her new treat.",
+      "rating": 5,
+      "author": "Evies mum",
+      "submitted_at": "2025-09-10T21:59:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200668948",
+      "title": "My dog loves these biscuits and i buy him different flavours each time i buy them",
+      "text": "I buy these on average every three to four weeks",
+      "rating": 5,
+      "author": "Boxer lover",
+      "submitted_at": "2025-09-06T10:56:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200334558",
+      "title": "Dog biscuits",
+      "text": "My dog is a labrador. She loves these dog buscuits, but eats anything.",
+      "rating": 5,
+      "author": "Viola",
+      "submitted_at": "2025-08-31T21:15:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1200284767",
+      "title": "Cocos treat",
+      "text": "Happy with product",
+      "rating": 5,
+      "author": "Cocosmum",
+      "submitted_at": "2025-08-30T22:36:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1199500350",
+      "title": "My terrier loves these 🐶",
+      "text": "Best Chewies Ever 👌",
+      "rating": 5,
+      "author": "Janie",
+      "submitted_at": "2025-08-18T05:07:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198765947",
+      "title": "Yummy treats",
+      "text": "My dogs love these treats. They are well priced & have good ingredients. Good variety of flavours as well",
+      "rating": 5,
+      "author": "Bully mum",
+      "submitted_at": "2025-08-06T00:40:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198413777",
+      "title": "Love this shop",
+      "text": "We can give the best review, because we just keep coming back",
+      "rating": 5,
+      "author": "Cavalier lovers",
+      "submitted_at": "2025-07-31T01:24:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198177267",
+      "title": "My dog loves these",
+      "text": "My dog loves the assorted flavors these come in.",
+      "rating": 5,
+      "author": "Harrier",
+      "submitted_at": "2025-07-28T06:39:18.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198174051",
+      "title": "My big dog loves these!",
+      "text": "Great value for money",
+      "rating": 5,
+      "author": "Meags",
+      "submitted_at": "2025-07-28T05:14:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198042605",
+      "title": "My pet loves this.",
+      "text": "I bought this product recently",
+      "rating": 5,
+      "author": "Dog owner",
+      "submitted_at": "2025-07-25T22:06:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197388181",
+      "title": "Fabio's Favorites",
+      "text": "Good variety and Fabio love's his treat",
+      "rating": 5,
+      "author": "Toni",
+      "submitted_at": "2025-07-17T06:48:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197380221",
+      "title": "Happy Pup!",
+      "text": "Our little dog gets one every afternoon & she loves them!",
+      "rating": 5,
+      "author": "Mrs Flufferton!",
+      "submitted_at": "2025-07-17T00:19:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197315988",
+      "title": "My dog love Bakers Best Biscuits",
+      "text": "I brought these for my dog as his treat biscuits. They are new for him. he loves them",
+      "rating": 5,
+      "author": "Cedrick",
+      "submitted_at": "2025-07-16T00:05:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1196686278",
+      "title": "My pets love it",
+      "text": "Bought this for my dogs they love them",
+      "rating": 5,
+      "author": "Dog lover",
+      "submitted_at": "2025-07-07T22:34:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1196553436",
+      "title": "Love them",
+      "text": "I bought this last week and my dog loves them.",
+      "rating": 5,
+      "author": "Kelpie’s forever",
+      "submitted_at": "2025-07-05T20:34:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1196498250",
+      "title": "Too bad there's not a better option without sugar.",
+      "text": "I repurchased this product despite the fact that the third listed ingredient is 'sugar'.",
+      "rating": 3,
+      "author": "Davio",
+      "submitted_at": "2025-07-04T22:24:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 3.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1194771166",
+      "title": "My pet will do anything for this biscuit",
+      "text": "I bought this product cause my pets love them as a treat",
+      "rating": 5,
+      "author": "Chirp",
+      "submitted_at": "2025-06-26T01:48:30.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1194092374",
+      "title": "Dogs love them",
+      "text": "Just bought these a few days ago",
+      "rating": 5,
+      "author": "Cassie",
+      "submitted_at": "2025-06-21T04:15:18.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1193939801",
+      "title": "It’s a good buy.",
+      "text": "I buy this product as it is a good size as a treat, nutritious and handy in helping with dental chewing. Also reasonably priced.",
+      "rating": 5,
+      "author": "Animal lover",
+      "submitted_at": "2025-06-18T20:35:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1193918811",
+      "title": "Biscuits",
+      "text": "Great tasting biscuits for my puppy which she loves",
+      "rating": 4,
+      "author": "Zz",
+      "submitted_at": "2025-06-18T13:04:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1193475835",
+      "title": "Good snack option",
+      "text": "Anytime snack. My dog loves it. And good value for money.",
+      "rating": 4,
+      "author": "Ana",
+      "submitted_at": "2025-06-14T01:34:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1193331399",
+      "title": "Great traditional Bone Biscuit - my Doggos love them :)",
+      "text": "Great basic bone biscuit and very well priced compared to so many Dog treats these days. Definitely not to be used as mean source of food but a great little treat for your Dog - my Pups love them.",
+      "rating": 5,
+      "author": "CM7",
+      "submitted_at": "2025-06-12T22:28:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186957519",
+      "title": "My dog is not very interested in this product",
+      "text": "Bought for treats",
+      "rating": 3,
+      "author": "Rudimum",
+      "submitted_at": "2025-05-20T23:55:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 2.0,
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1186436723",
+      "title": "Good basic snack. Cheap too",
+      "text": "Both dogs enjoys these snacks",
+      "rating": 4,
+      "author": "Katy",
+      "submitted_at": "2025-05-13T21:40:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1186275669",
+      "title": ".",
+      "text": "Yep, our pup likes them",
+      "rating": 4,
+      "author": ".",
+      "submitted_at": "2025-05-10T22:31:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1186146034",
+      "title": "Tasty Dog Bone Treats",
+      "text": "A super quick treat offering a variety pack of 3 different flavours",
+      "rating": 5,
+      "author": "Rusty",
+      "submitted_at": "2025-05-08T10:40:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186135204",
+      "title": "My picky dogs like these",
+      "text": "My picky dogs like these",
+      "rating": 5,
+      "author": "Doggies",
+      "submitted_at": "2025-05-08T07:00:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185983942",
+      "title": "My boy loved this",
+      "text": "Enjoyed by Shilo & his friends",
+      "rating": 5,
+      "author": "Shilo",
+      "submitted_at": "2025-05-05T09:19:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185864740",
+      "title": "My dog's favourite biscuit",
+      "text": "My Cavalier loves these biscuits. I have tried others and although he eventually eats them, Barkers's are definitely his favourite and they are never left and ignored like others have been.",
+      "rating": 5,
+      "author": "Helen",
+      "submitted_at": "2025-05-02T23:23:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185504797",
+      "title": "Please Sir, can I have more.",
+      "text": "Brilliant price and quality. My dogs love them. Getting a second pag at a reduced price was an unexpected bonus. Will definitely be buying more before stock sells out.",
+      "rating": 4,
+      "author": "Stormy Girl",
+      "submitted_at": "2025-04-28T19:05:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0
+      }
+    },
+    {
+      "review_id": "1185250581",
+      "title": "Baker's best bone biscuits are tasty treats",
+      "text": "I bought this product for their value and quality.",
+      "rating": 4,
+      "author": null,
+      "submitted_at": "2025-04-23T22:12:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185194175",
+      "title": "I often buy these snacks for our dogos they enjoy as a treat and are a good price",
+      "text": "bickie bones",
+      "rating": 5,
+      "author": "Staffy mum",
+      "submitted_at": "2025-04-22T20:51:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185143289",
+      "title": "Dog treats",
+      "text": "Bought this for my pet lives it",
+      "rating": 5,
+      "author": "Doglover",
+      "submitted_at": "2025-04-22T01:51:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1184992668",
+      "title": "Puppy loves them!",
+      "text": "Australian Made",
+      "rating": 4,
+      "author": "Ollies Mum",
+      "submitted_at": "2025-04-18T21:18:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1184724431",
+      "title": "Good value",
+      "text": "Seem good!",
+      "rating": 5,
+      "author": "ACO",
+      "submitted_at": "2025-04-14T03:59:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1184677579",
+      "title": "My furbaby loves these",
+      "text": "Purchased these bikkies last week and my doggy loves them. Good price. Definitely buying again.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-04-13T09:34:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1184661908",
+      "title": "Healthy biscuit treats",
+      "text": "I regularly buy this product for all of my Seeing Eye Dogs in training. They are healthy treats and stay crunchy for a long time when stored properly. I always buy the variety packs so they taste all different flavours and don’t get bored. Highly recommended.",
+      "rating": 5,
+      "author": "SED Volunteer Carer",
+      "submitted_at": "2025-04-13T00:42:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1184513610",
+      "title": "Tasty treat",
+      "text": "Great value and my dog loves them",
+      "rating": 5,
+      "author": "Tomyum",
+      "submitted_at": "2025-04-10T10:03:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1184495525",
+      "title": "these are good treats for when I am leaving the dogs at home.",
+      "text": "my dogs actually chew these biscuits whereas, some advertised 'teeth cleaning' products seem to go down whole.",
+      "rating": 4,
+      "author": "Jenny",
+      "submitted_at": "2025-04-10T01:32:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1184431115",
+      "title": "My dog likes this product",
+      "text": "I bought this product 4 days ago. ago. My dog seems to like it. she gets 2 each day",
+      "rating": 4,
+      "author": "Peppa’s mum",
+      "submitted_at": "2025-04-08T22:29:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1184316068",
+      "title": "Roamey absolutely loves Barkers and is food motivated",
+      "text": "Always buy Barkers Best for my dog. Great for training and as a treat",
+      "rating": 5,
+      "author": "Love my rescue boy Roamey",
+      "submitted_at": "2025-04-07T00:39:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1184081157",
+      "title": "Sits instantly as soon as she knows what she is about to get",
+      "text": "My dog loves the different flavors",
+      "rating": 5,
+      "author": "Happy Dog",
+      "submitted_at": "2025-04-03T08:03:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1183637506",
+      "title": "Great value out of a big bag",
+      "text": "Our dog loves these treats.",
+      "rating": 5,
+      "author": "Mark",
+      "submitted_at": "2025-03-30T09:35:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1182680848",
+      "title": "Both my boys just love these biscuits.",
+      "text": "Both my boys just love these biscuits.",
+      "rating": 5,
+      "author": "Dg lover",
+      "submitted_at": "2025-03-14T12:15:28.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1182629936",
+      "title": "Dodi-approved!",
+      "text": "My little dog loves this treat.",
+      "rating": 5,
+      "author": "DodiMum",
+      "submitted_at": "2025-03-13T12:18:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181274294",
+      "title": "Theses bones are perfect size for puppies to chew and keeps them busy for a while!",
+      "text": "Barkers bones",
+      "rating": 5,
+      "author": "BorderCollieMumma",
+      "submitted_at": "2025-02-23T22:37:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 1,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1180875349",
+      "title": "My pet didn’t like the biscuits",
+      "text": "I bought the treats a few days ago",
+      "rating": 1,
+      "author": "Bella Girl",
+      "submitted_at": "2025-02-16T09:07:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1180576048",
+      "title": "Always a hit!",
+      "text": "Always a hit with my pooch.",
+      "rating": 5,
+      "author": "Eva",
+      "submitted_at": "2025-02-11T07:00:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1180048196",
+      "title": "Happy Jug",
+      "text": "Our little Jug just loves these biscuits. The size is great as she has to sit and chew so they are great for her teeth. The different flavours give a change to her routine, also great rewards for training purposes.",
+      "rating": 5,
+      "author": "jugmum",
+      "submitted_at": "2025-02-02T02:12:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1179992891",
+      "title": "my dogos love these treats",
+      "text": "all the dogs love these treats especially the peanut butter ones and great price",
+      "rating": 5,
+      "author": "ronnie",
+      "submitted_at": "2025-02-01T06:25:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179990133",
+      "title": "My Cavilier loved these",
+      "text": "Best biscuits",
+      "rating": 5,
+      "author": "MAIZIE",
+      "submitted_at": "2025-02-01T02:07:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179778259",
+      "title": "Barkers best: not according to my dog",
+      "text": "Unfortunately my dog won’t eat these",
+      "rating": 1,
+      "author": "Humphrey’s furmum",
+      "submitted_at": "2025-01-28T11:14:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1179608151",
+      "title": "Dog loves these",
+      "text": "My shepherd has a couple of these at night when I am eating my dinner. That way he has something to occupy him when I have my meal, helps his teeth and dog friendly too.",
+      "rating": 5,
+      "author": "Shepherd owner",
+      "submitted_at": "2025-01-25T20:26:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179371483",
+      "title": "Good value dog treats",
+      "text": "We have 4 dogs do keeping up with treats can be expensive. These are good value and the quality appears to be very good as well",
+      "rating": 5,
+      "author": "Phoebe’s mum",
+      "submitted_at": "2025-01-21T20:39:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179008145",
+      "title": "Yummy yum",
+      "text": "My Collie loves them",
+      "rating": 5,
+      "author": "Raven",
+      "submitted_at": "2025-01-15T22:36:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1178765114",
+      "title": "Barker’s Best Beloved Biscuit!",
+      "text": "Regularly buy this particular dog biscuit and our dog loves it. Also, good value.",
+      "rating": 5,
+      "author": "Border Fan",
+      "submitted_at": "2025-01-11T21:00:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1178746966",
+      "title": "A favourite",
+      "text": "A favourite with my dog and easy to halve if I want to give a smaller portion.",
+      "rating": 5,
+      "author": "Moodle and Maltese x Mama",
+      "submitted_at": "2025-01-11T16:48:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1178219490",
+      "title": "Yummy treat",
+      "text": "I bought these biscuits as an addition treat for my dog.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-01-03T20:29:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1177980896",
+      "title": "My dog just loves these biscuits",
+      "text": "Great product for dogs",
+      "rating": 5,
+      "author": "Woody08",
+      "submitted_at": "2024-12-30T21:39:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1177848552",
+      "title": "Tasty treats for dogs",
+      "text": "My dogs love them",
+      "rating": 5,
+      "author": "Sammy",
+      "submitted_at": "2024-12-28T23:14:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1177442110",
+      "title": "My dog loves these bone biscuits",
+      "text": "My dog's favourite snack",
+      "rating": 5,
+      "author": "Roxy",
+      "submitted_at": "2024-12-22T02:00:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1177052233",
+      "title": "Good little treat",
+      "text": "A yummy treat for my dog",
+      "rating": 5,
+      "author": "Del",
+      "submitted_at": "2024-12-16T00:22:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1176432891",
+      "title": "Fussy Dog Loves Them!",
+      "text": "Even my fussy dog loves them so winning!",
+      "rating": 5,
+      "author": "Chesters Mum",
+      "submitted_at": "2024-12-06T23:00:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1176314204",
+      "title": "D",
+      "text": "Greatest treat for our dog",
+      "rating": 5,
+      "author": "Sue",
+      "submitted_at": "2024-12-04T21:47:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0
+      }
+    },
+    {
+      "review_id": "1175984915",
+      "title": "My girls love these biscuit they look forward to there treat",
+      "text": "I bought this product for my dogs",
+      "rating": 5,
+      "author": "Frenchy mum ❤️",
+      "submitted_at": "2024-11-29T07:59:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1175809907",
+      "title": "Highly Recommend buy regular",
+      "text": "I have 3 dogs they love Barkers Best dog biscuits",
+      "rating": 5,
+      "author": "Lor",
+      "submitted_at": "2024-11-28T09:55:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1175679546",
+      "title": "Disliked by all 5 doggos",
+      "text": "I was given this by my friend who has 3 dogs that didn’t like them (big farm breeds), my beagle hated them - I gave them to my mum who’s Saint Bernard hated them as well. If your dog is fussy they definitely won’t like these :(",
+      "rating": 1,
+      "author": "Beaglemum",
+      "submitted_at": "2024-11-25T19:56:14.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 1,
+      "secondary_ratings": {
+        "Value for money": 2.0,
+        "Quality": 1.0,
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1175466867",
+      "title": "Tasty and Nutritious Treat for Dogs",
+      "text": "Offers a tasty and nutritious snack for dogs. With a mix of flavors, it keeps pups excited for treat time. The biscuits are crunchy, aiding dental health, and made with quality ingredients. Overall, a delightful treat!",
+      "rating": 5,
+      "author": "Goldielover",
+      "submitted_at": "2024-11-21T22:38:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1175147850",
+      "title": "We like Australian made",
+      "text": "I like to buy Australian made, and they are good value for money",
+      "rating": 5,
+      "author": "Australian Cattle Dog",
+      "submitted_at": "2024-11-17T01:54:59.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 4.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1175066272",
+      "title": "Great Biscuit Treat",
+      "text": "Our boys love them as brekkie treats😊",
+      "rating": 4,
+      "author": "Ria",
+      "submitted_at": "2024-11-15T12:21:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1175011636",
+      "title": "The animals cant get enough.",
+      "text": "Ive been buying chook feed and dog food for yrs,gret prices.",
+      "rating": 5,
+      "author": "Chook lady",
+      "submitted_at": "2024-11-14T09:47:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1174807563",
+      "title": "Variety Bakers Beast Biscuits",
+      "text": "Good variety, quality product and great value for money.",
+      "rating": 5,
+      "author": "Mumma hen",
+      "submitted_at": "2024-11-12T10:48:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1174222856",
+      "title": "My pets loved this product",
+      "text": "Thought this would make a nice treat for my pets",
+      "rating": 5,
+      "author": "Lee",
+      "submitted_at": "2024-11-07T19:47:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1173358358",
+      "title": "My dog loves them",
+      "text": "I bought these biscuits a week ago for my dog and she loves them",
+      "rating": 5,
+      "author": "Dog",
+      "submitted_at": "2024-10-27T03:08:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172983297",
+      "title": "Quality product at great price",
+      "text": "This is the afternoon tea treat on work from home days and for letting us brush her whiskers or clip her nails good quality at a good price",
+      "rating": 4,
+      "author": "Border Terriers Rock",
+      "submitted_at": "2024-10-19T22:13:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1172901430",
+      "title": "They love the variety",
+      "text": "The dogs are happy with these biscuits",
+      "rating": 5,
+      "author": "Chihuahua and pom girl",
+      "submitted_at": "2024-10-18T10:53:44.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172832104",
+      "title": "My dogs love them",
+      "text": "I have brought this product so many time they love them",
+      "rating": 5,
+      "author": "P",
+      "submitted_at": "2024-10-17T06:02:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172733850",
+      "title": "My dogs love the produuct.",
+      "text": "I bought this product for my dog few weeks ago.",
+      "rating": 5,
+      "author": "OZZY",
+      "submitted_at": "2024-10-15T02:03:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172550447",
+      "title": "Barker's Best",
+      "text": "My 5 German Shorthaired Pointers love the Barkers Best biscuits",
+      "rating": 5,
+      "author": "Acewild",
+      "submitted_at": "2024-10-11T10:21:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1172419570",
+      "title": "True to name - vanishing variety",
+      "text": "These are my dogs favourite biscuits! They literally are the vanishing variety. The dogs love the crunchiness and flavour. They are really affordable treats too and don’t smell or anything even though they leave some crumbs when they eat them, the crumbs disappear by the dogs though! Dip these is yoghurt or peanut butter takes them to the next level",
+      "rating": 5,
+      "author": "MM",
+      "submitted_at": "2024-10-08T13:16:30.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172412883",
+      "title": "My dogs bark for Barkers Best",
+      "text": "I have been buying this product for. years and my pets love these treats, especially just before bed",
+      "rating": 5,
+      "author": "Cavalierowner",
+      "submitted_at": "2024-10-08T10:38:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172396648",
+      "title": "My pet loves these treats. They will be a regular in the pantry",
+      "text": "This is the 2nd time I have purchased this product",
+      "rating": 5,
+      "author": "Doglover",
+      "submitted_at": "2024-10-07T23:39:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172392526",
+      "title": "Yum",
+      "text": "Dogs love them",
+      "rating": 5,
+      "author": "Kat",
+      "submitted_at": "2024-10-07T21:00:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172268127",
+      "title": "Our golden retriever loves her Barkers Best Biscuits. She always has one when we have our Morn Tea.",
+      "text": "Our golden retriever loves her Barkers Best Biscuits. She always has one when we have our Morn Tea.",
+      "rating": 5,
+      "author": "Goldie",
+      "submitted_at": "2024-10-05T00:18:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172263751",
+      "title": "Dogs livecthem",
+      "text": "Good value",
+      "rating": 5,
+      "author": "Bordercollienut",
+      "submitted_at": "2024-10-04T19:45:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1172124519",
+      "title": "barkers",
+      "text": "my dog loves them",
+      "rating": 5,
+      "author": "shell",
+      "submitted_at": "2024-10-02T05:17:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1172121108",
+      "title": "Obsessed puppies",
+      "text": "I brought this a few days ago and my pups are in love they can’t have enough",
+      "rating": 5,
+      "author": "2bordercollies",
+      "submitted_at": "2024-10-02T01:13:13.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172017290",
+      "title": "Dogs lives them",
+      "text": "Easy treats",
+      "rating": 4,
+      "author": "Sophie",
+      "submitted_at": "2024-09-30T06:24:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1172008466",
+      "title": "My pet really likes this product",
+      "text": "Saw something new and thought we'd try",
+      "rating": 4,
+      "author": "Cobalt's mum",
+      "submitted_at": "2024-09-29T22:30:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1172007530",
+      "title": "One of the best biscuits my dog has liked",
+      "text": "My dog is fussy but she loved these",
+      "rating": 5,
+      "author": "Ruby red",
+      "submitted_at": "2024-09-29T21:53:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1171961942",
+      "title": "Great value dog biscuits",
+      "text": "I only purchased these a few days ago and my pups are still deciding if they like them or not. My two cavoodles are particularly fussy and sometimes it can take a while for them to decide if they like something or not. Hopefully they will as they were good value and had a good choice of flavors to choose from.",
+      "rating": 4,
+      "author": "Jo",
+      "submitted_at": "2024-09-28T19:50:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1171923821",
+      "title": "My pets love this product!",
+      "text": "Im satisfied with this product coz my pets are so happy with them. Their favorite favours are the cheese and beef.",
+      "rating": 5,
+      "author": "BroChic",
+      "submitted_at": "2024-09-27T20:52:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1171890558",
+      "title": "The last minute throw this in ended up being the best purchase",
+      "text": "Well they were a last second throw them in too purchase and out of all the expensive snacks and chew treats I purchased, they preferred these for $6.50!! Thanks! I’ll purchase again",
+      "rating": 3,
+      "author": "Cavoodle Love",
+      "submitted_at": "2024-09-27T04:53:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 3.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1171842240",
+      "title": "My dogs love them",
+      "text": "Brought them for my dogs",
+      "rating": 5,
+      "author": "Rats",
+      "submitted_at": "2024-09-26T02:18:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1171700644",
+      "title": "My Pet loves this product",
+      "text": "Love to use this as a treat with my dog. The variety pack is a good way to mix up the flavours",
+      "rating": 4,
+      "author": "bellagirl",
+      "submitted_at": "2024-09-22T23:39:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1171654032",
+      "title": "Barkers Bone Biscuit Treats",
+      "text": "Yummy flavours and good for chewing on for teeth",
+      "rating": 5,
+      "author": "LovemyDog",
+      "submitted_at": "2024-09-21T22:09:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1171624857",
+      "title": "My dog's fave biscuit",
+      "text": "My dog likes them",
+      "rating": 5,
+      "author": "Russ",
+      "submitted_at": "2024-09-21T07:11:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1171417953",
+      "title": "We beg for Barkers",
+      "text": "Dogs LOVE the crunch and taste. I love the economical price point and quality. asily snapped into smaller pieces",
+      "rating": 4,
+      "author": "Wolfhound packmum",
+      "submitted_at": "2024-09-20T13:54:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1171517143",
+      "title": "My dogs enjoy this biscuit.",
+      "text": "My dogs love a treat. They are both large breed, so finding a good size dog biscuit which is big enough andhas flavours they enjoy is great.",
+      "rating": 5,
+      "author": "Big-girl",
+      "submitted_at": "2024-09-18T21:02:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1171417172",
+      "title": "Lovely",
+      "text": "My dog needs a snack",
+      "rating": 5,
+      "author": "Border Collie",
+      "submitted_at": "2024-09-17T00:39:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    }
+  ],
+  "product_name": "Barkers Best Variety Bone Biscuit Dog Treat 750g",
+  "product_url": null,
+  "source": "cache",
+  "fetched_at": "2026-09-19T06:01:35+00:00"
+}

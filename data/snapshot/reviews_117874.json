@@ -1,0 +1,2434 @@
+{
+  "sku": "117874",
+  "stats": {
+    "average_rating": 4.73,
+    "total_reviews": 1083,
+    "text_review_count": 426,
+    "rating_distribution": {
+      "5": 906,
+      "4": 110,
+      "3": 40,
+      "1": 20,
+      "2": 7
+    },
+    "recommended_count": 274,
+    "not_recommended_count": 11,
+    "secondary_rating_averages": {
+      "Pet satisfaction": 4.76,
+      "Value for money": 4.52,
+      "Quality": 4.77
+    },
+    "first_review_at": "2022-04-06T01:16:41.000+00:00",
+    "last_review_at": "2026-09-18T20:49:51.000+00:00"
+  },
+  "reviews": [
+    {
+      "review_id": "1230125350",
+      "title": "Tried a few but always come back to this. My cats just seem to prefer it.",
+      "text": "Cheap and gentle on paws",
+      "rating": 5,
+      "author": "Black Cat Lover",
+      "submitted_at": "2026-09-18T20:49:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1229848432",
+      "title": "Trusted brand",
+      "text": "My little miss prefers this litter to sand and crystal types. Bag size is good as the 30L can be a bit heavy. Hoping Petbarn can stock a 15L in the future.",
+      "rating": 5,
+      "author": "Tuxie cat mun",
+      "submitted_at": "2026-09-15T09:39:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1229819884",
+      "title": "Excellent product",
+      "text": "Soaks up everything and easy to clean up any mess. Very economical way to purchase this item",
+      "rating": 5,
+      "author": "Ramo",
+      "submitted_at": "2026-09-14T21:06:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1228888890",
+      "title": "Best all round Cat Litter",
+      "text": "Have bought for over twenty years and would not change. Have tried others but found them heavier, more expensive and smellier to replace when used. Only one gripe, they get everywhere!",
+      "rating": 5,
+      "author": "Arlene",
+      "submitted_at": "2026-09-03T05:58:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228483899",
+      "title": "Great Cat Litter",
+      "text": "I have been using this for our rescue cat, it is great, there is no dust & made from recycled cardboard",
+      "rating": 5,
+      "author": "Lyra’s Mum",
+      "submitted_at": "2026-08-28T21:39:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1228253802",
+      "title": null,
+      "text": "Easy and convenient to use",
+      "rating": 5,
+      "author": "Sassy",
+      "submitted_at": "2026-08-26T03:06:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1228243699",
+      "title": "Bugs live her food and treats",
+      "text": "All products purchased for my cat are of high quality. She is very healthy and looked after one of the family.",
+      "rating": 5,
+      "author": "Bugs",
+      "submitted_at": "2026-08-25T21:04:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228029838",
+      "title": "Been using breeders choice for years.",
+      "text": "Our fussy cats use this one sometimes in a flat tray. No smell. Love that it is recycled paper.",
+      "rating": 5,
+      "author": "Suzzey0",
+      "submitted_at": "2026-08-23T12:09:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1227916401",
+      "title": "LITTERally wonderful",
+      "text": "The best litter, easy to purchase and the usual great service at Petbarn.",
+      "rating": 5,
+      "author": "Simon",
+      "submitted_at": "2026-08-21T15:26:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1227808954",
+      "title": "Petbarn Breeders' Choice cat litter",
+      "text": "I have been using breeders' choice cat litter for a long time and find it excellent in very way.",
+      "rating": 5,
+      "author": "cat lover",
+      "submitted_at": "2026-08-20T03:22:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1222425732",
+      "title": "Cat Litter",
+      "text": "Good product - a bit pricey tho ...",
+      "rating": 5,
+      "author": "Duir",
+      "submitted_at": "2026-06-20T01:40:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1222313975",
+      "title": "My cat is not a fan",
+      "text": "I tried this new product but unfortunately my cat dislikes it immensely. She is an older cat so perhaps not used to the texture. Not for me",
+      "rating": 4,
+      "author": "Ressi",
+      "submitted_at": "2026-06-18T15:18:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1222293402",
+      "title": "Large bag",
+      "text": "Good value. Bulk size",
+      "rating": 5,
+      "author": "Bridget",
+      "submitted_at": "2026-06-18T11:28:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1222005490",
+      "title": "Cats love it",
+      "text": "Cats love it",
+      "rating": 5,
+      "author": "Steph",
+      "submitted_at": "2026-06-14T17:06:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221896380",
+      "title": "Reliable litter",
+      "text": "We've tried a few and to our cat, litter is litter - she isn't fussy, but her humans like the convenience of Breeders Choice (there are others too), we look for easy scoop, no smell!",
+      "rating": 5,
+      "author": "Jupiter",
+      "submitted_at": "2026-06-13T04:28:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221799645",
+      "title": "Breeders Choice Cat Litter",
+      "text": "Excellent Value for anyone who has, like me, a 1yo kitten or a Cat and is on a low income.",
+      "rating": 5,
+      "author": "BoobiesDad",
+      "submitted_at": "2026-06-11T17:35:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1221752396",
+      "title": "Cat Litter for our Mini Lop Rabbit",
+      "text": "The Product is very good, only a small amount is required for our Mini Lop Rabbit.\nStaff were wonderful.",
+      "rating": 5,
+      "author": "Rabbit Mini",
+      "submitted_at": "2026-06-11T07:38:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221504404",
+      "title": "My fussy cat uses this product! No more accidents out of the tray.",
+      "text": "I have used this a couple of times for my cat, and she will happily use it. She is very fussy but this product gets the thumbs up from me.",
+      "rating": 5,
+      "author": "Mo Mo’s mother",
+      "submitted_at": "2026-06-08T05:05:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1221496996",
+      "title": "Affordable but difficult to stack",
+      "text": "The litter is affordable for me- I foster kittens so I do at least 2 full litter redos daily and is about 1 L per tray. It is However difficult to stack on trolleys as customers have noted (i work at petbarn)",
+      "rating": 5,
+      "author": "Mycatsarethebest",
+      "submitted_at": "2026-06-08T02:21:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1221418276",
+      "title": "My cat’s preference",
+      "text": "I always buy Breeders Choice cat litter as it is environmentally friendly, easy to remove large clumps of waste and my cat prefers it to the crystal type litter which we tried just once",
+      "rating": 5,
+      "author": "Peppa",
+      "submitted_at": "2026-06-06T21:36:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220738055",
+      "title": "Quality product in bulk size",
+      "text": "Best cat litter hands down!",
+      "rating": 5,
+      "author": "Coombsy",
+      "submitted_at": "2026-05-28T21:19:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1220595698",
+      "title": "My cat loves this litter",
+      "text": "I always buy this litter for my cat",
+      "rating": 5,
+      "author": "G",
+      "submitted_at": "2026-05-27T03:46:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220591528",
+      "title": "Cat Lovers Product",
+      "text": "I have been using Breeders Choice Cat Littee for over 30 years . During that time I have had 4 different Siamese cats and currently have pets # 3 & 4. I have found this product to be of excellent quality and will continue to use it.",
+      "rating": 5,
+      "author": "Cataholic Jen",
+      "submitted_at": "2026-05-27T00:41:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1220418443",
+      "title": "Consistent quality",
+      "text": "Simple and effective",
+      "rating": 5,
+      "author": "FerretFamily",
+      "submitted_at": "2026-05-24T13:18:13.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220217538",
+      "title": "Recycled waste products FTW!",
+      "text": "I use this product regularly because it doesn't get tracked all over the house like other products do. It's also recycled so more environmentally friendly, and great value, often available at under $1/L",
+      "rating": 4,
+      "author": "crazycatlady",
+      "submitted_at": "2026-05-21T10:58:31.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1220118337",
+      "title": "Biodegradable",
+      "text": "Very easy to clean and biodegradable",
+      "rating": 4,
+      "author": "Suet",
+      "submitted_at": "2026-05-19T23:53:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220114769",
+      "title": "Breeder's Choice is My Choice",
+      "text": "It's not as dense as the clumping and clay litter types so the cats don't have to scratch around in the tray as much. This also makes the bags much lighter to carry - a plus for the elderly cat owner sick of hauling heavy bags of litter home from the supermarket. It lasts as long as any average litter does. I clean my trays every day so one bag lasts three cats approximately 1 week. Do a price check with 99 Pet Shops website before you buy though as Pet Barn honour their price match promise and it's always cheaper somewhere else.",
+      "rating": 5,
+      "author": "AB",
+      "submitted_at": "2026-05-19T21:56:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219949536",
+      "title": "Breeders Choice Litter",
+      "text": "We are very happy with Breeders choice litter. It lasts longer than other litter brands. It absorbs really well. Have been using this litter for over 20 years",
+      "rating": 5,
+      "author": "Ang",
+      "submitted_at": "2026-05-17T20:46:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219547005",
+      "title": "Great product",
+      "text": "Great product absorbs well and dulls the odour",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-05-12T11:42:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219413153",
+      "title": "Dont like the price hike",
+      "text": "I am extremely annoyed that petbarn have changed the 2 for $28.49 each to 3 or a single to $38.49 blatant rip off..",
+      "rating": 3,
+      "author": ".",
+      "submitted_at": "2026-05-10T21:10:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1219373833",
+      "title": "Great product",
+      "text": "Good litter and easy to clean",
+      "rating": 5,
+      "author": "Millsy",
+      "submitted_at": "2026-05-10T09:22:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218869822",
+      "title": "Litter mates.",
+      "text": "We buy this brand of cat litter regularly and find it to be completely satisfactory. I like the fact that it is made from paper and so biodegradable.",
+      "rating": 5,
+      "author": "Dotty about cats.",
+      "submitted_at": "2026-05-03T04:53:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1218790490",
+      "title": "My pet was just 6 weeks old when she started using it I don’t think i ever had any issues with it .",
+      "text": "I am using this product for my cat from 6 years now and its perfect for her",
+      "rating": 5,
+      "author": "Hamza",
+      "submitted_at": "2026-05-01T19:48:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218730446",
+      "title": "we always use",
+      "text": "We always use Breeders Choice and find it easy to clean, no smells to speak of and just good to use recycled paper",
+      "rating": 5,
+      "author": "Crazy Cat Lady",
+      "submitted_at": "2026-05-01T01:46:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218590254",
+      "title": "Cats prefer this item best",
+      "text": "Thus product is great",
+      "rating": 5,
+      "author": "Mish",
+      "submitted_at": "2026-04-29T06:15:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218505650",
+      "title": "Love Breeders Choice.",
+      "text": "We bought Breeders Choice for our cat last week, we are very happy with this product.",
+      "rating": 5,
+      "author": "Butti",
+      "submitted_at": "2026-04-28T00:39:31.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218435998",
+      "title": "My cat prefers this produce",
+      "text": "I have tried many others - this works and is my preference",
+      "rating": 5,
+      "author": "milly",
+      "submitted_at": "2026-04-27T03:50:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218402875",
+      "title": "So far so good",
+      "text": "Purchased as my male cat has ongoing urinary issues and I needed something that suits both him and my girl cats",
+      "rating": 4,
+      "author": "Cathy",
+      "submitted_at": "2026-04-26T15:49:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1218253098",
+      "title": "My cat litter",
+      "text": "I recently went up to Petbarn Cranbourne and brought this product I really wanted to thank the staff",
+      "rating": 5,
+      "author": "Leasha&shelley",
+      "submitted_at": "2026-04-24T10:29:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218203814",
+      "title": "Fave kitty litter!",
+      "text": "I always get this litter, my cats don’t like some others and other ones they will use smell/get everywhere. This one is the best",
+      "rating": 5,
+      "author": "ragdollgirl33",
+      "submitted_at": "2026-04-23T14:51:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218159170",
+      "title": "Very good product",
+      "text": "Smells clean and fresh",
+      "rating": 5,
+      "author": "JD",
+      "submitted_at": "2026-04-23T00:38:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217892682",
+      "title": "It’s litter- what can I say?",
+      "text": "It’s litter - what can I say?",
+      "rating": 4,
+      "author": "Kitty lover",
+      "submitted_at": "2026-04-21T23:26:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1217818026",
+      "title": "my cat loves this litter",
+      "text": "i got this for my cat",
+      "rating": 5,
+      "author": "molly",
+      "submitted_at": "2026-04-20T23:49:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217752801",
+      "title": "Cat love this product",
+      "text": "Love it for my cat",
+      "rating": 4,
+      "author": "Milly",
+      "submitted_at": "2026-04-20T07:23:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217597746",
+      "title": "He is happy with this product!",
+      "text": "Perfect, just what he is used to from the rescue home! 😂",
+      "rating": 5,
+      "author": "Kitten-mum!",
+      "submitted_at": "2026-04-18T02:24:28.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217499124",
+      "title": "My pet uses this product with no resistance.",
+      "text": "This product was recommended to me by my vet. I find it worth it.",
+      "rating": 5,
+      "author": "Catlover",
+      "submitted_at": "2026-04-17T00:17:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1217420726",
+      "title": "My cat loves playing with the pieces on the floor, jumps around enjoying himself",
+      "text": "My cats have always used this product I have never had a problem",
+      "rating": 5,
+      "author": "Easylife",
+      "submitted_at": "2026-04-15T20:55:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1217224927",
+      "title": "Pets thrive on product",
+      "text": "Good value",
+      "rating": 5,
+      "author": "Alex",
+      "submitted_at": "2026-04-13T08:41:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1217213813",
+      "title": "good",
+      "text": "always use this",
+      "rating": 5,
+      "author": "Burmese lover",
+      "submitted_at": "2026-04-13T05:40:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1217208922",
+      "title": "Breeders Choice Cat Litter",
+      "text": "I have always used this cat litter as I find it is excellent as it can be flushed down the toilet & is very good value money wise compared to other brands.",
+      "rating": 5,
+      "author": "Sherlock",
+      "submitted_at": "2026-04-13T01:20:31.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217061468",
+      "title": "Soft on paws",
+      "text": "Soft on paws and this is important. Clumping is minimal, odour is present even after cleaning each day but minimal, the litter pieces still cling to the cats' paws and track all over the house (with or without a mat). It is pretty good environmentally so that's a bonus.",
+      "rating": 4,
+      "author": "jub",
+      "submitted_at": "2026-04-10T20:29:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1216952737",
+      "title": "Happy cat owner :)",
+      "text": "Have tried other brands but keep coming back to Breeders Choice.",
+      "rating": 5,
+      "author": "Debz",
+      "submitted_at": "2026-04-09T11:28:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216751265",
+      "title": "Great for Buns",
+      "text": "We actually use for our Bunny, she loves it to chew and poo in",
+      "rating": 5,
+      "author": "CloverBunny",
+      "submitted_at": "2026-04-06T21:09:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216747935",
+      "title": "Happy with this",
+      "text": "Really good quality and does the job.",
+      "rating": 5,
+      "author": "Sunnyliza",
+      "submitted_at": "2026-04-06T21:01:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216699095",
+      "title": "My cats love this product!",
+      "text": "I buy Breeders Choice litter for my three cats as it’s the only type they all like and use.",
+      "rating": 5,
+      "author": "SLP89",
+      "submitted_at": "2026-04-06T08:58:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216685727",
+      "title": "The best cat litter",
+      "text": "After my cat trying another product from a supermarket and having an allergic reaction to it. I found this product the best for both my cats no issues.",
+      "rating": 5,
+      "author": "charolotte who loves life",
+      "submitted_at": "2026-04-06T02:15:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1216640763",
+      "title": "Breeders Choice cat litter",
+      "text": "Like this cat litter as it can go in the green waste bin as it's made from recycled paper plus the cats are happy to use it.",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2026-04-05T07:00:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1215847696",
+      "title": "Cats love it",
+      "text": "Cats love this stuff",
+      "rating": 5,
+      "author": "Henry",
+      "submitted_at": "2026-03-26T00:16:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215784589",
+      "title": "Breeders Choice Cat Litter",
+      "text": "Breeders Choice Cat Litter has been our go to litter for over 15 years and my cat has no issues with it and as we change it after each use no problems with odour etc",
+      "rating": 5,
+      "author": "Binkas",
+      "submitted_at": "2026-03-25T04:38:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215734791",
+      "title": "Great kitty litter",
+      "text": "Great product fr my cats",
+      "rating": 5,
+      "author": "Suzejoy",
+      "submitted_at": "2026-03-24T09:24:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215318150",
+      "title": "Happy cats",
+      "text": "Good value & happy cats.\nLow odour",
+      "rating": 5,
+      "author": "Katy 29",
+      "submitted_at": "2026-03-17T15:53:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1215210374",
+      "title": "Worth the cost",
+      "text": "I like the size of this litter but it does tend to sneak into every nook and cranny when it's flicked out the tray as it is quite small! Traps odours much better than other brands. Good value for money",
+      "rating": 4,
+      "author": "MumOfPushka",
+      "submitted_at": "2026-03-16T12:22:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215180979",
+      "title": "Fluffy Knickers preferers the recycled paper over many other litters",
+      "text": "First time buying the Recycled Paper at Pet Barn have used as preferred for sometime",
+      "rating": 5,
+      "author": "Fluffy -Nickers",
+      "submitted_at": "2026-03-15T23:17:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215123947",
+      "title": "Great Litter",
+      "text": "I have always used this litter for my cats and it works really well",
+      "rating": 5,
+      "author": "Catlady",
+      "submitted_at": "2026-03-15T01:31:26.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215062086",
+      "title": "My cat's favourite litter!",
+      "text": "I always buy Breeder's Choice cat litter, as my cat is very happy with this product. And I always buy it from Pet Barn, as they have great prices and it is easy to shop online or in store.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-03-14T01:43:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214518500",
+      "title": "Smells dreadful!",
+      "text": "I switched from clay-based litters to this product and have tried both the standard and pro-biotic litters. My two de-sexed cats make far less mess with it, but the smell of cat pee goes right through the house. Am switching to tofu litter on recommendations from friends.",
+      "rating": 1,
+      "author": "Miranda",
+      "submitted_at": "2026-03-06T01:03:05.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 1.0,
+        "Value for money": 1.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1214515350",
+      "title": "My little cat loves this litter",
+      "text": "Excellent choice",
+      "rating": 5,
+      "author": "Jo",
+      "submitted_at": "2026-03-06T00:02:28.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214333256",
+      "title": "Not my fav, but gave it a go",
+      "text": "Not great with absorbing the wee, I prefer the clumping type that makes it easier to clean out",
+      "rating": 3,
+      "author": "Kitten mum",
+      "submitted_at": "2026-03-03T20:09:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1214087734",
+      "title": "Breeders Choice Cat Litter 30",
+      "text": "Good product being used for years",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-02-27T19:42:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213907163",
+      "title": "Works well",
+      "text": "Quality product at an affordable price",
+      "rating": 5,
+      "author": "Muppets",
+      "submitted_at": "2026-02-24T22:33:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213906516",
+      "title": "My cat only uses the best",
+      "text": "I've been using this product for years. I've tried other brands but either my cat didn't like them or they went moldy on hot/humid days.",
+      "rating": 5,
+      "author": "Birdie",
+      "submitted_at": "2026-02-24T22:14:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213841844",
+      "title": "Made from recycle paper ..",
+      "text": "Made from recycle paper, my picky babies love it over other litter. Great price esp with 2 cats .",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-02-23T23:21:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1213799844",
+      "title": "Biodegradable and natural.",
+      "text": "Use this product all the time for my cats.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-02-23T11:52:13.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1213771960",
+      "title": "we like",
+      "text": "Verry happy Cat with Product",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2026-02-22T23:24:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213445706",
+      "title": "Works well",
+      "text": "Bought for kitten",
+      "rating": 5,
+      "author": "Woody",
+      "submitted_at": "2026-02-18T02:53:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213295032",
+      "title": "Great product",
+      "text": "Love this product. Have used it for over 20 years",
+      "rating": 5,
+      "author": "British cats lover",
+      "submitted_at": "2026-02-16T01:30:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212965952",
+      "title": "Great for kittens!",
+      "text": "Good for use with kittens.",
+      "rating": 5,
+      "author": "Rosa",
+      "submitted_at": "2026-02-11T09:28:26.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212934089",
+      "title": "Cat litter softer for the feet",
+      "text": "Have used this for the last 5 years. Great product better then the crystals",
+      "rating": 4,
+      "author": "Sue",
+      "submitted_at": "2026-02-10T18:59:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1212904265",
+      "title": "I think they prefer Breeder’s Choice to clay varieties, less mess, easier to use",
+      "text": "Purchased for my two Burmese. They use it with little mess of litter created. Easy clean",
+      "rating": 5,
+      "author": "Skye",
+      "submitted_at": "2026-02-10T11:18:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212811689",
+      "title": "My cats loves the litter",
+      "text": "I brought this litter for my cats to use.",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2026-02-09T03:03:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212396180",
+      "title": "Trusted Responsible Recycled brand",
+      "text": "Mum has spent $$$ on other litter products and 'systems'. We only like Breeders Choice Litter",
+      "rating": 5,
+      "author": "'Burmese Blonds'",
+      "submitted_at": "2026-02-03T01:45:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211706237",
+      "title": "High quality litter at a good price.",
+      "text": "I find Breeders Choice to be a high quality litter that my cat is happy to use. There is no lingering smell and it is easy to clean up. Highly recommended!",
+      "rating": 5,
+      "author": "RossH67",
+      "submitted_at": "2026-01-24T21:15:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211390178",
+      "title": "Reading the News on the litter box",
+      "text": "This is a great way of upcycling newspapers, cardboard and paper products.\n\nTip: Use a two tray litter box. Place a layer of litter on the bottom of the bottom tray about 4cm deep.\nSprinkle baking soda over the top to absorb odours.\nPlace the second mesh tray on top and add another layer of cat litter about 4-5cm deep.\nSprinkle baking soda over the top to absorb odours.\n\nPro Tip: Check every three days. Scoop up wet clumped litter in both upper and lower trays. Use the non wet relative clean litter from the top tray to fill the bottom tray.\nNow just top up the top mesh tray.\n\nThis will save you money.",
+      "rating": 5,
+      "author": "Roberthx",
+      "submitted_at": "2026-01-21T00:12:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211321437",
+      "title": "Breeder's Choice Cat Litter",
+      "text": "I regularly buy this Breeder's Choice Cat Litter as I think it's the best litter product on the market! It absorbs smells and liquid quite well, doesn’t stick to the cat's paws and doesn’t get spread throughout the house after the cat leaves the tray!",
+      "rating": 5,
+      "author": "Lady Penelope",
+      "submitted_at": "2026-01-20T05:30:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211179241",
+      "title": "Great litter for Kittens",
+      "text": "I have 6 week old kittens that I have fostered since 3 days old. This is a great littler for kittens.",
+      "rating": 4,
+      "author": "Cat lady",
+      "submitted_at": "2026-01-18T07:48:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1211106294",
+      "title": "Great Product - Too Expensive",
+      "text": "We have always used this litter for two cats who share the litter box. It's absorbent, doesn't leave dust everywhere and seems to remain pretty smell free (if changed and raked regularly of course).\nThe thing I DON'T like is the cost!! It's recycled paper for goodness sake!",
+      "rating": 5,
+      "author": "Hornswoggle",
+      "submitted_at": "2026-01-17T00:43:13.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 2.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210969379",
+      "title": "Preferred litter.",
+      "text": "This seems to be our cat’s preferred litter and I have tried several over the years. It is good value too.",
+      "rating": 5,
+      "author": "Border Fan",
+      "submitted_at": "2026-01-14T20:45:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1210476389",
+      "title": "Great Kitty Litter",
+      "text": "Easy to use & the cats love it. It is a good recycled product made in Aus",
+      "rating": 5,
+      "author": "TimB",
+      "submitted_at": "2026-01-07T21:40:28.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210117270",
+      "title": "Easy clean up",
+      "text": "This litter is great. Tried my cat with other types but find this is best.",
+      "rating": 5,
+      "author": "Animal lover",
+      "submitted_at": "2026-01-03T06:00:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1208985651",
+      "title": "Reggie has loved royal canin food from kitten to now adult. All our cats use the breeders choice lit",
+      "text": "Our has loved this litter since a kitten. Odourless and easy to clean",
+      "rating": 5,
+      "author": "Cat parent",
+      "submitted_at": "2025-12-31T06:46:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1209593423",
+      "title": "Breeders choice is great for kittens as they eat everything. So less toxic for our kittens.",
+      "text": "We got the 2 for 1 massive bags of breeders choice cat litter… what a bargain! Cheaper than the supermarkets",
+      "rating": 5,
+      "author": "Lisa",
+      "submitted_at": "2025-12-27T03:33:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1209591633",
+      "title": "Kitty Litter",
+      "text": "I am on a disability pension and ph around every fortnight to find cheapest litter. Petbarn wins 3 out of 5 times.",
+      "rating": 5,
+      "author": "Kelleycat",
+      "submitted_at": "2025-12-27T03:31:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0
+      }
+    },
+    {
+      "review_id": "1208510183",
+      "title": "easy and effective product",
+      "text": "regular purchase as I have 5 rescue cats",
+      "rating": 5,
+      "author": "lesli",
+      "submitted_at": "2025-12-12T01:45:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1208497733",
+      "title": "Breeders choice is my cats choice",
+      "text": "I have been using breeders choice for years, and never thought about changing to anything else",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-12-11T21:13:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1208241247",
+      "title": "My cat loves this product",
+      "text": "Excellent 👌 great product easy to use",
+      "rating": 4,
+      "author": "Cat lover",
+      "submitted_at": "2025-12-09T04:13:18.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1207778510",
+      "title": "Cat litter",
+      "text": "Excellent for cat litter trays and environmentally friendly",
+      "rating": 5,
+      "author": "B",
+      "submitted_at": "2025-12-03T04:27:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1207705701",
+      "title": "Good product",
+      "text": "2nd time buying this, it’s great.",
+      "rating": 5,
+      "author": "Suzie",
+      "submitted_at": "2025-12-02T02:44:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207479590",
+      "title": "Great",
+      "text": "Zero smell and absorbent.",
+      "rating": 5,
+      "author": "Sadie",
+      "submitted_at": "2025-11-28T19:12:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207418092",
+      "title": "Good products",
+      "text": "Taylor from Tweed Heads store was is great at customer service. 😃My beautiful cat loves his weight loss and maintenance biscuits and cat litter.",
+      "rating": 5,
+      "author": "Catlover",
+      "submitted_at": "2025-11-27T19:43:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207319324",
+      "title": "It is perfect",
+      "text": "Bought this to line the bottom of my bird cage",
+      "rating": 5,
+      "author": "Birdie",
+      "submitted_at": "2025-11-26T12:24:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207180245",
+      "title": "Cat litter",
+      "text": "I have been buying this for years. The only issue I have with it is that it tends to spread everywhere from the cat’s paw. I’ve tried other products but keep coming back to this one and just put up with the constant cleaning.",
+      "rating": 4,
+      "author": "Cat lover",
+      "submitted_at": "2025-11-24T22:23:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1207042114",
+      "title": "My cats only use paper litter",
+      "text": "Cheapest at moment",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2025-11-23T02:31:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1206800325",
+      "title": "Cat Litter",
+      "text": "Good cat litter, absorbs very well, also doesn't stick to cat feet excessively. Don't need to use a great amount to be effective",
+      "rating": 5,
+      "author": "Robo",
+      "submitted_at": "2025-11-20T20:11:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1206431253",
+      "title": "My Pet friend likes this product",
+      "text": "My Feline friend likes this because it’s gentle on her paws.",
+      "rating": 4,
+      "author": "Animallover",
+      "submitted_at": "2025-11-16T10:27:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1205333717",
+      "title": "great kitty litter",
+      "text": "i got it for my kitten i thought it would not be good but it was amazing, if you a first time kitten owner i would recomend it for a start",
+      "rating": 4,
+      "author": "Dog lover",
+      "submitted_at": "2025-11-06T03:30:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1204901854",
+      "title": "This is great cat litter - can recommend",
+      "text": "Breeders choice",
+      "rating": 5,
+      "author": "LilyLover",
+      "submitted_at": "2025-10-31T23:57:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1203932319",
+      "title": "It works",
+      "text": "Best product",
+      "rating": 5,
+      "author": "Cat mum",
+      "submitted_at": "2025-10-26T19:48:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1203175589",
+      "title": "Gift for Henry’s Cat Cousins",
+      "text": "My Sister saved 5 stray cats so Henry and I donate some supplies when cash permits. She only buys this brand says it’s best.",
+      "rating": 5,
+      "author": "Henry’s Mum",
+      "submitted_at": "2025-10-15T23:09:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1203172182",
+      "title": "My cats removable toilet",
+      "text": "My cats love doing their business on this product",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-10-15T21:25:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1203126679",
+      "title": "Breeders choice",
+      "text": "Have used this product plenty of times. It's fairly good as far as longevity and smell retention. \nI wish they still sold Max's kitty litter because that was best.",
+      "rating": 3,
+      "author": "TigerBee",
+      "submitted_at": "2025-10-15T08:05:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1202989071",
+      "title": "Happy kitties",
+      "text": "All the cats like the paper litter. We like it because its noy dusty, doesnt make a mess on the floor, does a good job with odour, and the 30kg bag does our 6 trays in one go. Been using it for years!",
+      "rating": 5,
+      "author": "Lily's mum",
+      "submitted_at": "2025-10-13T09:46:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1202362225",
+      "title": "my pets seem to be happy with this product",
+      "text": "I find this product prevents odour",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-10-03T07:30:26.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1202095216",
+      "title": "best in store.",
+      "text": "I buy it because my pets pefurre it.",
+      "rating": 5,
+      "author": "babydoll",
+      "submitted_at": "2025-09-29T06:13:18.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1202034198",
+      "title": "Great product",
+      "text": "I have been using this product for so many years now. Definitely one of the best on the market.",
+      "rating": 5,
+      "author": "Goldie",
+      "submitted_at": "2025-09-28T00:12:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201782869",
+      "title": "Twenty Years of Approval",
+      "text": "My beautiful cat has been using this litter for nearly twenty years. In fact, I can hear him using it right now.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-09-24T13:46:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201619621",
+      "title": "My cat is happy with this",
+      "text": "Have always used Breeders Choice litter for my cat. No problems at all. Help keeps the odour down.",
+      "rating": 5,
+      "author": "JLE",
+      "submitted_at": "2025-09-21T23:36:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201512483",
+      "title": "Breeders Choice litter",
+      "text": "Kato has always used Breeders Choice litter. It absorbs any smells and is easy to clean up and can go in the green bin as it's recycled paper.",
+      "rating": 5,
+      "author": "Kato's Mum",
+      "submitted_at": "2025-09-20T00:24:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201321754",
+      "title": "Breeders and Cats' Choice",
+      "text": "My cats seem to like Breeders Choice Cat Litter and the 30L bag lasts well.\nGreat to be able to get it delivered.",
+      "rating": 5,
+      "author": "PC",
+      "submitted_at": "2025-09-17T09:04:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201191514",
+      "title": "Puss loves his Petbarn food.",
+      "text": "Always a pleasure to shop at Pet barn. Great products and friendly and helpful staff.",
+      "rating": 5,
+      "author": "Catma",
+      "submitted_at": "2025-09-14T23:51:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1201079298",
+      "title": "Poop pebbles for cats",
+      "text": "Cats seem to like pooping in it",
+      "rating": 5,
+      "author": "Andrew",
+      "submitted_at": "2025-09-12T21:00:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200912325",
+      "title": "My girl is comfy using this",
+      "text": "My cat has been using this product since we adopted her more than 3 years ago, and seems to be very comfortable with it.",
+      "rating": 5,
+      "author": "Mia's mum",
+      "submitted_at": "2025-09-10T02:44:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200719857",
+      "title": "Good product",
+      "text": "I always use Breeder choice for my cat",
+      "rating": 5,
+      "author": "Birdbrain",
+      "submitted_at": "2025-09-07T08:20:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1200706239",
+      "title": "paper cat litter.",
+      "text": "use this for the rat cage",
+      "rating": 4,
+      "author": "Multipets",
+      "submitted_at": "2025-09-07T01:23:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200653160",
+      "title": "People of the house appreciate it",
+      "text": "Works a treat at keeping odours down.",
+      "rating": 5,
+      "author": "Kilsythcats",
+      "submitted_at": "2025-09-06T04:42:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 4.0
+      }
+    },
+    {
+      "review_id": "1200517859",
+      "title": "Been buying this for my cats for years",
+      "text": "Great product that’s Australian made",
+      "rating": 5,
+      "author": "Cat Mum",
+      "submitted_at": "2025-09-03T23:04:18.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200512332",
+      "title": "Good environmental KL",
+      "text": "Mix this with clumping kitty litter as bulking agent to extend use, increase economy & reduce environmental impact.",
+      "rating": 5,
+      "author": "Kitty carer",
+      "submitted_at": "2025-09-03T20:16:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200400086",
+      "title": "My cat loves this product!",
+      "text": "I buy this product for my cat. It does not leave any urine smell lingering and absorbs very quickly the urine.",
+      "rating": 5,
+      "author": "Cat Girl",
+      "submitted_at": "2025-09-02T02:04:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1199999937",
+      "title": "Great for cats",
+      "text": "Great for cats",
+      "rating": 4,
+      "author": "Sean",
+      "submitted_at": "2025-08-26T10:18:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1199559457",
+      "title": "Very good product",
+      "text": "I regularly buy this litter for my cat. It doesn't smell (as long as you clean the litter box regularly). My cat treats it like a sand box and flings it everywhere but that's another Jerry Springer show lol",
+      "rating": 5,
+      "author": "Pia the silent assassin",
+      "submitted_at": "2025-08-18T23:47:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1199440474",
+      "title": "Kitty litter",
+      "text": "Product works well",
+      "rating": 5,
+      "author": "Lee",
+      "submitted_at": "2025-08-17T00:08:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1199279692",
+      "title": "Breeders choice kitty litter",
+      "text": "It’s practical and economical",
+      "rating": 5,
+      "author": "Katy",
+      "submitted_at": "2025-08-14T06:29:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1199213538",
+      "title": "My cats are very comfortable to use this product",
+      "text": "I’m a regular customer at your stores for this this product a must of good quality litter for my cats!",
+      "rating": 5,
+      "author": "Cat",
+      "submitted_at": "2025-08-12T22:44:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1199037401",
+      "title": "Super absorbent cats love",
+      "text": "Great prices on a super product and so easy getting big bags delivered to home .",
+      "rating": 5,
+      "author": "Catlover",
+      "submitted_at": "2025-08-09T21:37:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198985581",
+      "title": "My cat uses this with no issues.",
+      "text": "I’ve always used this brand and never had problems. Getting expensive recently so the offer from Pet Barn was most welcome. I think it controls odour well. Unfortunately kitty can be a bit untidy when using his litter box and always sends some flying onto the floor.",
+      "rating": 4,
+      "author": "SiriusBlack",
+      "submitted_at": "2025-08-09T03:33:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1198352204",
+      "title": "Cat litter",
+      "text": "Doesn't last long 2 Kittens getting through so much .Odour strong.",
+      "rating": 3,
+      "author": "Kitty kats",
+      "submitted_at": "2025-07-30T04:27:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 3.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1198105379",
+      "title": "Best cat litter you can buy",
+      "text": "I always buy this product for my cat because it is his favourite and the price was fantastic",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2025-07-27T00:02:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198048545",
+      "title": "It does the job that it is used for,",
+      "text": "We have been using this product since my cats operation and is perfect for him now.",
+      "rating": 5,
+      "author": "Owner",
+      "submitted_at": "2025-07-26T03:28:27.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198048008",
+      "title": "Breeders Choice Cat Litter.",
+      "text": "Value for money.",
+      "rating": 5,
+      "author": "Catsaregood",
+      "submitted_at": "2025-07-26T02:36:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197885936",
+      "title": "Great Product",
+      "text": "I have bought this product for many years as it's an easy product to clean up after my cat spreads it after using the kitty litter.",
+      "rating": 5,
+      "author": "Wild One",
+      "submitted_at": "2025-07-24T05:39:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197541319",
+      "title": "All of my cats past and present took to this awesome litter like ducks to eater",
+      "text": "I always get my monster litter at my local Petbarn",
+      "rating": 5,
+      "author": "Cat whisperer",
+      "submitted_at": "2025-07-23T06:20:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197610989",
+      "title": "Great for kittens",
+      "text": "Great for kittens",
+      "rating": 5,
+      "author": "Kitten mum",
+      "submitted_at": "2025-07-19T20:50:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197281884",
+      "title": "Good value and ease of use",
+      "text": "Have been buying this litter for several years as I feel it delivers value for money. The litter doesn't crumble, it holds the shape, which makes it easy to clean litter tray.",
+      "rating": 5,
+      "author": "LCD",
+      "submitted_at": "2025-07-15T12:37:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1196579100",
+      "title": "Cats like it and it doesn’t smell",
+      "text": "Actually surprised not smelly",
+      "rating": 5,
+      "author": "Bec",
+      "submitted_at": "2025-07-06T08:56:28.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1196034174",
+      "title": "Ok",
+      "text": "Disappointed that we could get on 2 bags of breeders choice as we wanted to stock up for a cat sitting friend.\nParticularly as we had a voucher for 30% discount and that was worked out on the non member price when we are members!!",
+      "rating": 2,
+      "author": "Rfedo",
+      "submitted_at": "2025-07-02T00:22:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1195657566",
+      "title": "Always on the pet supplies list.",
+      "text": "Have been using this product for almost ten years. The cat doesn't have any problems using Breeders Choice.",
+      "rating": 5,
+      "author": "Meece",
+      "submitted_at": "2025-07-01T01:10:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1195407163",
+      "title": "Easier to clean and less tracking",
+      "text": "The quality isn't what it used to be a few years ago, because there seems to be more plastic fragments in the mix. However, it is still a lot less messy and dusty than clumping clay. There is also considerably less tracking around the house and it's easy to spot the wet spots because the texture and colour will change. I find that using a plastic cup makes it easier to scoop out.",
+      "rating": 4,
+      "author": "Karver",
+      "submitted_at": "2025-06-29T09:50:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1195402479",
+      "title": "My Cat willingly uses this product without hesitation",
+      "text": "This product serves my Cats needs far better than any other I have used in 15yrs",
+      "rating": 5,
+      "author": "BREEZE",
+      "submitted_at": "2025-06-29T06:52:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1194999639",
+      "title": "My kitten’s favourite litter",
+      "text": "This was the first litter I ever got my kitten. I tested many different litters and ended up coming back to this one. My cat loves this litter and I highly recommend it. It’s kitten approved!",
+      "rating": 5,
+      "author": "dstar",
+      "submitted_at": "2025-06-27T11:55:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1194771216",
+      "title": "litter review",
+      "text": "good litter",
+      "rating": 5,
+      "author": "goldie lover",
+      "submitted_at": "2025-06-26T01:52:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1194771167",
+      "title": "My cats only use this brand.",
+      "text": "Always bought this brand",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-06-26T01:50:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    }
+  ],
+  "product_name": "Breeders Choice Cat Litter 30L",
+  "product_url": null,
+  "source": "cache",
+  "fetched_at": "2026-09-19T06:01:16+00:00"
+}

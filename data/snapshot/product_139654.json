@@ -1,0 +1,61 @@
+{
+  "sku": "139654",
+  "name": "Love Em Air Dried Beef Liver Dog Treat 200g",
+  "url": "https://www.petbarn.com.au/p/love-em-air-dried-beef-liver-dog-treat/139654",
+  "brand": "Love Em",
+  "category": "Dog Treat",
+  "description": "Training your furry friend is a lot more fun and effective when you toss them a few tasty bites with every trick. Love'em Air Dried Beef Liver Dog Treats are the perfect reward for your pet, combining quality ingredients with great taste. Made with real Australian beef liver, these munchies are not only delicious, but are free from artificial colours, flavours and preservatives too. These treats are all natural and packed with Vitamin A, Zinc and Iron, making them a healthy choice for your pet. Your dog's tail will wag at the sight of these tasty liver treats. Easily break them into little pieces, and feed to your pet as a special treat from time to time. Ingredients Features and Benefits Returns Policy AUSTRALIAN MADE Regular Price $13.00 Repeat Delivery $12.34 Why repeat delivery? Add to cart 4 payments of $ 3.25 with Zip it from $10 a week with ZIP Reviews Additional information Love Em Air Dried Beef Liver Dog Treat 4.9 ( 490 reviews) Regular Price : $13.00 Add to cart Related articles October 16, 2024 When can puppies go out? Don’t take your puppy out for walks in public until they’re fully vaccinated. Learn why. Read more September 11, 2024 How do I toilet train a puppy? House training your puppy is something you need to focus on from day one. Read more October 16, 2024 What should I feed my senior dog? Senior and adult dogs have different nutritional needs, so it’s important to feed them the right food. Read more",
+  "image": "https://www.petbarn.com.au/media/catalog/product/3/2/32804_139654_love-em_beef-liver-200g_1_1.jpg?optimize=medium&fit=bounds&height=120&width=120",
+  "gtin": "9325242000535",
+  "size": "200g",
+  "price": 13.0,
+  "member_price": null,
+  "currency": "AUD",
+  "availability": "In stock",
+  "average_rating": 4.8551,
+  "review_count": 490,
+  "is_bundle": false,
+  "variants": [
+    {
+      "sku": "139654",
+      "name": "Love Em Air Dried Beef Liver Dog Treat 200g",
+      "size": "200g",
+      "price": 13.0,
+      "member_price": null,
+      "currency": "AUD",
+      "availability": "In stock",
+      "gtin": "9325242000535",
+      "url": "https://www.petbarn.com.au/p/love-em-air-dried-beef-liver-dog-treat/139654"
+    },
+    {
+      "sku": "141648",
+      "name": "Love Em Air Dried Beef Liver Dog Treat 500g",
+      "size": "500g",
+      "price": 28.0,
+      "member_price": null,
+      "currency": "AUD",
+      "availability": "In stock",
+      "gtin": "9325242000290",
+      "url": "https://www.petbarn.com.au/p/love-em-air-dried-beef-liver-dog-treat/141648"
+    }
+  ],
+  "shipping": [
+    {
+      "name": "Standard Delivery",
+      "price": 4.95,
+      "currency": "AUD"
+    },
+    {
+      "name": "2hr Delivery",
+      "price": 7.5,
+      "currency": "AUD"
+    },
+    {
+      "name": "Next Day Delivery",
+      "price": 7.5,
+      "currency": "AUD"
+    }
+  ],
+  "source": "cache",
+  "fetched_at": "2026-09-19T06:01:43+00:00"
+}

@@ -1,0 +1,2041 @@
+{
+  "sku": "144266",
+  "stats": {
+    "average_rating": 4.61,
+    "total_reviews": 316,
+    "text_review_count": 127,
+    "rating_distribution": {
+      "5": 248,
+      "4": 45,
+      "1": 14,
+      "3": 6,
+      "2": 3
+    },
+    "recommended_count": 89,
+    "not_recommended_count": 11,
+    "secondary_rating_averages": {
+      "Quality": 4.55,
+      "Pet satisfaction": 4.41,
+      "Value for money": 4.45
+    },
+    "first_review_at": "2023-04-03T08:12:51.000+00:00",
+    "last_review_at": "2026-09-12T04:09:17.000+00:00"
+  },
+  "reviews": [
+    {
+      "review_id": "1229510223",
+      "title": "Essential treatment",
+      "text": "I bought 2 boxes of 2 for our 4 cats. The range of weight one dose covers is huge so I was paying for a lot of product that was excessive. However the instructions were clear and it was a easy to apply.",
+      "rating": 4,
+      "author": null,
+      "submitted_at": "2026-09-11T11:03:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1229173329",
+      "title": "It works",
+      "text": "Only brought it last week and its ok.",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2026-09-07T01:38:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228812926",
+      "title": "Not recommended for ticks",
+      "text": "I had my beloved 16 year old cat on this. She was a week away from being due for her next dose (I gave it to her 10 weekly for paralysis ticks). She passed away on Monday from a paralysis tick. This has been heartbreaking. I have changed my other cat to a different product.",
+      "rating": 1,
+      "author": "ACV",
+      "submitted_at": "2026-09-02T04:05:57.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 1.0,
+        "Value for money": 1.0,
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1228629898",
+      "title": "Unnecessary difference in packaging and administration",
+      "text": "I administered this for the first time late at night and didn't read the instructions (who does?). The lids don't come off but look like lids. I got the product all over my hand and was really difficult to get off.\nWhy not change the administration method to that of every other lid opening?",
+      "rating": 3,
+      "author": "Accidental cat dad",
+      "submitted_at": "2026-08-31T01:11:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1228073820",
+      "title": "Bravecto Cat",
+      "text": "Excellent For Looking after our Needs for Our Bengal Cat Thanks PetBarn Highly Recommend xxx🥰",
+      "rating": 5,
+      "author": "Lexierox",
+      "submitted_at": "2026-08-24T06:03:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221890149",
+      "title": "great product",
+      "text": "Great product. Easy to apply. I like that I only have to apply every 10 weeks or 3 months instead of monthly.",
+      "rating": 5,
+      "author": "Sharon",
+      "submitted_at": "2026-06-12T23:01:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221518023",
+      "title": "Bravecto Plus",
+      "text": "I love this becaause you only need to treat eevery 3 months.",
+      "rating": 5,
+      "author": "2 Black cats",
+      "submitted_at": "2026-06-08T09:32:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1221497599",
+      "title": "Convenient",
+      "text": "Bought this for my cat as they had run out of Advocate. It also appealed to me as you only apply ever 3 months. The lid was difficult to work out and we ended up wearing a lot of the liquid.",
+      "rating": 4,
+      "author": "Ginger nut",
+      "submitted_at": "2026-06-08T02:57:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220628028",
+      "title": "Decent flea repellent",
+      "text": "I bought this product for my cats and within a couple of days the fleas have disappeared",
+      "rating": 4,
+      "author": "Lé meow meow",
+      "submitted_at": "2026-05-27T13:44:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1220102136",
+      "title": "Excellent product. Vet recommended.",
+      "text": "Excellent product. Vet recommended.",
+      "rating": 5,
+      "author": "Animal lover",
+      "submitted_at": "2026-05-19T18:24:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1220038050",
+      "title": "Pet lovers",
+      "text": "This product is so good for my cats and easy to apply",
+      "rating": 5,
+      "author": "Animal lovers",
+      "submitted_at": "2026-05-18T21:17:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219507640",
+      "title": "Works well",
+      "text": "Buy it regularly",
+      "rating": 4,
+      "author": "BB",
+      "submitted_at": "2026-05-11T23:46:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1218292720",
+      "title": "Flea free cat, yay!",
+      "text": "Brave to plus has simultaneously knocked my cat’s ear mites and fleas. Very happy.",
+      "rating": 5,
+      "author": "Catsrule",
+      "submitted_at": "2026-04-24T21:19:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218179459",
+      "title": "Bravecto flea and worm pipette",
+      "text": "Easy to use. First time I've used it, but seems excellent value.",
+      "rating": 4,
+      "author": "Ducie's owner",
+      "submitted_at": "2026-04-23T08:24:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1216945962",
+      "title": "DO NOT BUY",
+      "text": "Made my female cat very unwell - lethargic, sneezing, off food for several days. After extensive research, I learnt that this product doesn’t even cover tapeworm! Would never buy again.",
+      "rating": 1,
+      "author": "Charmy",
+      "submitted_at": "2026-04-09T10:57:11.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": false,
+      "helpful_votes": 2,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 1.0,
+        "Value for money": 1.0,
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1216568413",
+      "title": "Unsure",
+      "text": "More difficult to apply than I imagined",
+      "rating": 4,
+      "author": "Diesels mum",
+      "submitted_at": "2026-04-03T22:56:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 3.0,
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1216175690",
+      "title": "I only have to use it once every 3 months so it’s convenient.",
+      "text": "My cat needs protection from fleas and worms and Bravecto is easy to use.",
+      "rating": 5,
+      "author": "Crazy cat lady.",
+      "submitted_at": "2026-03-30T21:34:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214454944",
+      "title": "Bravecto Plus",
+      "text": "As we own three cats this product is easy to administer while they are all asleep. it dries quite quickly & it it a really a good all in one three monthly application",
+      "rating": 5,
+      "author": "Cat Lady",
+      "submitted_at": "2026-03-05T02:32:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213913661",
+      "title": "Pets love it",
+      "text": "Haven’t had a issue with this product easy application",
+      "rating": 5,
+      "author": "Archie & Checkers",
+      "submitted_at": "2026-02-25T03:42:26.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213749780",
+      "title": "I love the product and my pets have not side effects",
+      "text": "Excellent product lasts 3 months and works out cheaper than the monthly brands",
+      "rating": 5,
+      "author": "Ricky",
+      "submitted_at": "2026-02-22T16:35:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1213509588",
+      "title": "Good",
+      "text": "Easy to use and reasonable price",
+      "rating": 5,
+      "author": "Taytay",
+      "submitted_at": "2026-02-18T21:24:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1213445297",
+      "title": "Luna loves this",
+      "text": "My cat is very fussy, but she loved this product",
+      "rating": 5,
+      "author": "Squirt",
+      "submitted_at": "2026-02-18T02:26:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1213230409",
+      "title": "Perfect for our cat",
+      "text": "I regularly purchase this product as we find it convenient, reliable and easy to apply, to manage our cat’s protection.",
+      "rating": 5,
+      "author": "None",
+      "submitted_at": "2026-02-14T23:44:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1213168935",
+      "title": "My pet loves the product",
+      "text": "I bought this product for my cat worked instantly",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2026-02-14T02:13:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213025851",
+      "title": "Love it",
+      "text": "Easy to apply",
+      "rating": 5,
+      "author": "Catlover",
+      "submitted_at": "2026-02-12T00:43:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211900129",
+      "title": "My cat seems to like it",
+      "text": "Iam happy with the product",
+      "rating": 3,
+      "author": "Cat lover",
+      "submitted_at": "2026-01-27T14:35:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211589923",
+      "title": "Top shelf",
+      "text": "Recommended by the Vet and been using it for years",
+      "rating": 5,
+      "author": "Furry Fluff Ball",
+      "submitted_at": "2026-01-23T07:56:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210327544",
+      "title": "Cost-effective and reliable",
+      "text": "I bought this product for my cats last week. I love that it lasts for 3 months - less wrangling of cats who never like the process of application. Goes on easily and effectively keeps them all safe.",
+      "rating": 5,
+      "author": "3 Cats is too many",
+      "submitted_at": "2026-01-06T01:55:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1209580892",
+      "title": "Tick prevention top up",
+      "text": "As we live in a high tick area (thanks to bandicoot friends) we need extra doses to our online subscription for Bravecto plus for our beloved cats. Pet barn is our best go to!",
+      "rating": 5,
+      "author": "Purr",
+      "submitted_at": "2025-12-26T22:04:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1209192995",
+      "title": "Reaction",
+      "text": "My ragdoll had reaction..he became nervous ,no appetite, fur became ragged,dry skin patch..very unhappy running tum. Took him to vet confirming reaction..took 10wks for him to come good..so not good for my cat ,im sure goid for others",
+      "rating": 1,
+      "author": "Nete",
+      "submitted_at": "2025-12-20T21:13:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 2,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1208778732",
+      "title": "It is very easy to use",
+      "text": "I bought this product for my cat and I'm very happy with it.",
+      "rating": 5,
+      "author": "Lucysmum",
+      "submitted_at": "2025-12-15T10:59:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1208434988",
+      "title": "I am happy with the efficacy of this product",
+      "text": "This is the product I use for the ticks",
+      "rating": 5,
+      "author": "Rosie",
+      "submitted_at": "2025-12-11T06:30:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207794077",
+      "title": "Perfect for my pet.",
+      "text": "Bravecto Plus",
+      "rating": 5,
+      "author": "Petlover",
+      "submitted_at": "2025-12-03T10:31:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207774107",
+      "title": "Happy cat life",
+      "text": "It lasts for 3 months, I’m happy and my cats are happy",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-12-03T00:24:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207559409",
+      "title": "It works",
+      "text": "I have always used this product - works",
+      "rating": 5,
+      "author": "Would recommend",
+      "submitted_at": "2025-11-29T22:44:28.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1207142518",
+      "title": "Love it",
+      "text": "It’s great to have a flea and tick prevention product that lasts for 3 months",
+      "rating": 5,
+      "author": "Lisa",
+      "submitted_at": "2025-11-24T13:33:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1206271843",
+      "title": "Keep kitty safe",
+      "text": "Works well",
+      "rating": 5,
+      "author": "Border Collie Lovers",
+      "submitted_at": "2025-11-14T00:25:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1206201342",
+      "title": "Happy customer",
+      "text": "Super happy with the service and price.",
+      "rating": 5,
+      "author": "CCL",
+      "submitted_at": "2025-11-13T08:33:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1204541490",
+      "title": "The best price",
+      "text": "The best price",
+      "rating": 5,
+      "author": "Kippie",
+      "submitted_at": "2025-10-30T19:21:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1203739677",
+      "title": "Did not irritate the cat's skin. Quick working.",
+      "text": "Appears to be working.",
+      "rating": 5,
+      "author": "Cat Whisperer",
+      "submitted_at": "2025-10-23T23:04:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1203035984",
+      "title": "Really good product",
+      "text": "I buy this for my cats",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2025-10-14T01:06:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1202420143",
+      "title": "Works well. Less sticky than like products.",
+      "text": "We have tried ALL the flea treatments for our sensitive cat. This is the best one, although he still takes days to forgive us afterwards.",
+      "rating": 5,
+      "author": "Amelia",
+      "submitted_at": "2025-10-04T05:30:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1201585077",
+      "title": "The best",
+      "text": "Excellent product",
+      "rating": 5,
+      "author": "Shell",
+      "submitted_at": "2025-09-21T11:48:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201463670",
+      "title": "Ok",
+      "text": "Bought for our deaf cat S flea.",
+      "rating": 5,
+      "author": "Jj.",
+      "submitted_at": "2025-09-19T05:52:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1200585859",
+      "title": "Great productw",
+      "text": "We have always used this on our pets! It’s easy to use Pets have no reaction and it lasts the 6 months",
+      "rating": 5,
+      "author": "Cat",
+      "submitted_at": "2025-09-04T18:56:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1199236598",
+      "title": "Great special",
+      "text": "good protection for both our cats",
+      "rating": 5,
+      "author": "Falcon",
+      "submitted_at": "2025-08-13T10:08:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1199068333",
+      "title": "My pets love this",
+      "text": "Bought it for my cats excellent",
+      "rating": 5,
+      "author": "Charlie",
+      "submitted_at": "2025-08-10T14:28:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1199034765",
+      "title": "Kitty loves this",
+      "text": "Happy with this product",
+      "rating": 5,
+      "author": "Wiz",
+      "submitted_at": "2025-08-09T21:17:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198876114",
+      "title": "This product does the trick well.",
+      "text": "I purchased for my cat",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2025-08-07T16:42:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198410826",
+      "title": "My cats have very obviously benefited since their dose of Bravecto",
+      "text": "I bought this product for my cats and their health has definitely improved since the worming and flea and defence-and has put my worries, (because they were overdue for the protection Bravecto provides) : finance (lack of) the primary reason but I was pleasantly surprised with Petbarn’s price.",
+      "rating": 5,
+      "author": "Animal Lover",
+      "submitted_at": "2025-07-30T22:56:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198341100",
+      "title": "Good all rounder",
+      "text": "Easy to apply and doesn't have a strong chemical odour.",
+      "rating": 5,
+      "author": "Rebeler",
+      "submitted_at": "2025-07-29T20:20:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197795887",
+      "title": "keeps my 21 year old cat in good health",
+      "text": "i went to petbarn to get bravecto plus ,staff pointed out that a double pack was on sale for less than a single pack , thanks you",
+      "rating": 5,
+      "author": "jon",
+      "submitted_at": "2025-07-22T16:59:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197375836",
+      "title": "None",
+      "text": "Brought this product for my sister's cat",
+      "rating": 4,
+      "author": null,
+      "submitted_at": "2025-07-16T21:41:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 3.0
+      }
+    },
+    {
+      "review_id": "1197191362",
+      "title": "I love this!",
+      "text": "I always use this product on my cats",
+      "rating": 5,
+      "author": "Macramegrammy",
+      "submitted_at": "2025-07-14T05:14:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1197181943",
+      "title": "Great price",
+      "text": "Returning purchaser",
+      "rating": 5,
+      "author": "Happy customer",
+      "submitted_at": "2025-07-13T21:34:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1195607477",
+      "title": "Great product",
+      "text": "I have been using this product for over 12 months. I used a different product and it was not killing all the fleas. Since using Bravecto, the fleas are gone.",
+      "rating": 5,
+      "author": "Simone",
+      "submitted_at": "2025-06-30T22:19:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1195017529",
+      "title": "The cats loves this product.",
+      "text": "We like this product for our cats.",
+      "rating": 5,
+      "author": "Edgar",
+      "submitted_at": "2025-06-27T19:25:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1194153533",
+      "title": "No problem with it",
+      "text": "I brought bravecto plus for my cats 2 lots as I got it last time I’m very happy it works good price also",
+      "rating": 5,
+      "author": "DAM",
+      "submitted_at": "2025-06-22T08:55:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1193161835",
+      "title": "My pets do so well on this product",
+      "text": "Been using for a while excellent",
+      "rating": 5,
+      "author": "Kitty mum",
+      "submitted_at": "2025-06-10T03:09:31.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1193155353",
+      "title": "My pet was happy! And didn’t fuss when I put it on :) they were not fussed",
+      "text": "I bought this product to have an easy application!",
+      "rating": 5,
+      "author": "Beckitty",
+      "submitted_at": "2025-06-09T22:02:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1193110607",
+      "title": "Covered for ticks",
+      "text": "It’s really easy to apply to my cats neck. She’s never had a tick make her sick and she’s had plenty on her fur.",
+      "rating": 5,
+      "author": "Susie",
+      "submitted_at": "2025-06-09T06:09:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1192908206",
+      "title": "So easy to use and my pets loved it.",
+      "text": "I bought this for my cats and they both remained calm when I applied it, unlike other flea & worm treatments I’ve used in the past. I really like how it prevents fleas, worms & ticks in 1 go.",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2025-06-05T15:49:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1192710618",
+      "title": "I found my cats handle the treatment alot better as i dont have to treat them alot like before",
+      "text": "As now i only have 4 kitty cats as i did have 5 its so much better than buying my 6 pack of tick and worm treatment and also the treatment last longer than other treatment",
+      "rating": 5,
+      "author": "Crazycatlady",
+      "submitted_at": "2025-06-03T11:09:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1192335825",
+      "title": "Bravecto",
+      "text": "I use this for my cats. It covers so much for a 3 mthly application. Heart worm, ticks, fleas, ear mites. Excellent application for so many issues",
+      "rating": 5,
+      "author": "Puddles",
+      "submitted_at": "2025-05-30T22:51:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1186443260",
+      "title": "Messy",
+      "text": "Appears to be a cap/lid but when you go to take it off you can’t. I got half the liquid over my hands and not on the cat. After reading the leaflet, I noted that’s how it’s meant to be but it’s not stated on the box or obvious at all.",
+      "rating": 2,
+      "author": "Ginganinjamum",
+      "submitted_at": "2025-05-14T03:21:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 2.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1186353334",
+      "title": "Worth the price",
+      "text": "I feel safe giving this product to my cats, and it is a very effective treatment! I wouldn't trust anything else.",
+      "rating": 5,
+      "author": "Mann",
+      "submitted_at": "2025-05-12T11:57:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186331418",
+      "title": "Love this",
+      "text": "Absolutely purrfect for my little girl, she hates me doing it but keeps her healthy",
+      "rating": 5,
+      "author": "Kris",
+      "submitted_at": "2025-05-12T03:45:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186133076",
+      "title": "Does the job",
+      "text": "Very satisfied",
+      "rating": 5,
+      "author": "Josie",
+      "submitted_at": "2025-05-08T05:52:26.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 2,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185770082",
+      "title": "I buy this product for my cat to ensure she is safe from illness",
+      "text": "I buy this product lasts 6mths , cheaper than buying one at a time",
+      "rating": 4,
+      "author": "None",
+      "submitted_at": "2025-05-01T20:53:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1185574463",
+      "title": "Bravecto Plus",
+      "text": "I bought this product for my 2 cats. Very sticky when applying and stays on fur for a good week. I could not wipe the product off their fur which was very frustrating. Would not use this again.",
+      "rating": 2,
+      "author": "Sally",
+      "submitted_at": "2025-04-29T23:30:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 2.0,
+        "Quality": 2.0,
+        "Pet satisfaction": 2.0
+      }
+    },
+    {
+      "review_id": "1185307598",
+      "title": "My cat enjoys the easy application process.",
+      "text": "I have been using bravecto plus for many years.its just great.your pricing & great deal i got with it,was to good not to get.pet barn is still cheaper than any where else i've purchased it.thankyou.",
+      "rating": 5,
+      "author": "Moosie",
+      "submitted_at": "2025-04-28T22:44:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 3,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185201429",
+      "title": "Looking good so far… no fleas.",
+      "text": "I’ve been using this treatment in my cat for over a year now.. so far so good!",
+      "rating": 5,
+      "author": "DeeM",
+      "submitted_at": "2025-04-23T02:51:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185139603",
+      "title": "We all love this product",
+      "text": "Love this as its easy to apply and my cats only hate me for a couple of hours, works really well, I have never found a flea or tick on my two Fur Kids ever",
+      "rating": 5,
+      "author": "Cazz",
+      "submitted_at": "2025-04-21T21:13:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1185054705",
+      "title": "My Burmese hardly knew i had applied Bravecto to his fur, happy mum & happy cat, it’s 10 out of ten.",
+      "text": "I have now used Bravecto a couple of times and very happy with it & it’s wonderful that it lasts for 3 months….Bravecto!!!",
+      "rating": 5,
+      "author": "PEPPE",
+      "submitted_at": "2025-04-20T10:11:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1185049050",
+      "title": "Great prices at Petbarn",
+      "text": "Great price for 2 pack of Bravecto.",
+      "rating": 5,
+      "author": "Cat girl",
+      "submitted_at": "2025-04-20T07:33:30.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1184991067",
+      "title": "Simple!",
+      "text": "Easy to use. Cats didn't even care",
+      "rating": 5,
+      "author": "Foxy",
+      "submitted_at": "2025-04-18T20:30:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1184559689",
+      "title": "So easy to use.",
+      "text": "my kitty doesn't like having her treatment, but it is so easy to use. I can talk her into it.",
+      "rating": 5,
+      "author": "Gypsy's Mama",
+      "submitted_at": "2025-04-11T04:52:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1183859426",
+      "title": "i have used this product for a number of years now",
+      "text": "alreaddy use this product\nt",
+      "rating": 5,
+      "author": "cat lover",
+      "submitted_at": "2025-04-02T04:19:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0
+      }
+    },
+    {
+      "review_id": "1182344302",
+      "title": "Great product.",
+      "text": "Excellent product. Easy to administer. I like that it covers our cats for 3 months.",
+      "rating": 5,
+      "author": "KR81",
+      "submitted_at": "2025-03-08T05:06:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181941205",
+      "title": "All in one solution",
+      "text": "Great product. No side effects for my cat and gives awesome protection as all in one solution.",
+      "rating": 5,
+      "author": "IH",
+      "submitted_at": "2025-03-01T00:23:11.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181242507",
+      "title": "For Kitten worm treatment",
+      "text": "I bought this product for our kitten 3 days ago. It was recommended by the vet. And it's very good product.",
+      "rating": 5,
+      "author": "golden retriever friend",
+      "submitted_at": "2025-02-23T10:58:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1181134549",
+      "title": "Ginny",
+      "text": "Still to use",
+      "rating": 4,
+      "author": "Ginny",
+      "submitted_at": "2025-02-21T04:35:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 3.0
+      }
+    },
+    {
+      "review_id": "1180973496",
+      "title": "cat loves",
+      "text": "cat loves them",
+      "rating": 5,
+      "author": "mel",
+      "submitted_at": "2025-02-17T23:59:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1180865868",
+      "title": "Coco is happy now",
+      "text": "Bravecto, my vet got me onto this product and Coco and I love it because you only have to use it 4 times a year",
+      "rating": 5,
+      "author": "Cocos mum",
+      "submitted_at": "2025-02-16T04:28:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1180049261",
+      "title": "Very good product",
+      "text": "Worked really no side effects",
+      "rating": 5,
+      "author": "Puss puss",
+      "submitted_at": "2025-02-02T02:23:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179874998",
+      "title": "Cat vs treatments",
+      "text": "Cat bolted as soon as it was opened lol... but i would never go past this product.. great results",
+      "rating": 5,
+      "author": "Freddo the PoodleBear",
+      "submitted_at": "2025-01-29T23:59:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179572303",
+      "title": "Easy to use",
+      "text": "Purchased Bravecto for my cat and it’s a great product",
+      "rating": 5,
+      "author": "Athena",
+      "submitted_at": "2025-01-25T09:04:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1179204881",
+      "title": "Good against the ticks",
+      "text": "Very effective",
+      "rating": 5,
+      "author": "Kosta",
+      "submitted_at": "2025-01-19T05:55:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 2.0,
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1179067900",
+      "title": "Convenient for me and my cat",
+      "text": "I'm trying this for the first time, it's good to not have to wrestle my cat with a seperate worming tablet. Less stress for both of us.",
+      "rating": 5,
+      "author": "Diesel is my dog.",
+      "submitted_at": "2025-01-17T00:05:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1178757218",
+      "title": "Very messy to use",
+      "text": "I found it difficult to use, given that the lid doesn't come off. I struggled to hold my cat and try to squeeze the product onto the cat's head, without getting it everywhere. They need to rethink the cap. I like that it lasts 10 weeks.",
+      "rating": 2,
+      "author": "Cockapoo",
+      "submitted_at": "2025-01-11T18:50:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 2.0
+      }
+    },
+    {
+      "review_id": "1177318553",
+      "title": "Protecting my Pet",
+      "text": "So important",
+      "rating": 5,
+      "author": "SuzyKat",
+      "submitted_at": "2024-12-20T00:26:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1177123982",
+      "title": "He needs this Bravecto.",
+      "text": "This seems the appropriate product.",
+      "rating": 5,
+      "author": "Animal lover",
+      "submitted_at": "2024-12-17T00:30:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1177108523",
+      "title": "Will buy again and again",
+      "text": "A good product that works well",
+      "rating": 5,
+      "author": "Tania b",
+      "submitted_at": "2024-12-16T19:44:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1177059155",
+      "title": "Three month flea protection …perfect",
+      "text": "My two girls use this , it works everytime and it lasts for three months in this heat and humidity it’s an essential",
+      "rating": 5,
+      "author": "Shazza",
+      "submitted_at": "2024-12-16T05:40:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1176985114",
+      "title": "Tablet would be better",
+      "text": "Difficult to apply cat hates it lol.\nWish there was a tablet available.",
+      "rating": 3,
+      "author": "Robyn",
+      "submitted_at": "2024-12-15T01:00:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1176707759",
+      "title": "Affordable",
+      "text": "Always affordable and seems to work for my 4 cats",
+      "rating": 4,
+      "author": "Catlady",
+      "submitted_at": "2024-12-11T03:09:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1176201837",
+      "title": "Great price",
+      "text": "Easy to use",
+      "rating": 5,
+      "author": "Daisy the destroyer",
+      "submitted_at": "2024-12-03T08:16:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1176185863",
+      "title": "Fleas AND ticks!",
+      "text": "Very quick and simple. Offers protection against fleas and ticks.",
+      "rating": 5,
+      "author": "Just Dave",
+      "submitted_at": "2024-12-02T23:35:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1175253260",
+      "title": "My cat hates the application but it’s quick and effective.",
+      "text": "Same medication as used by my vet",
+      "rating": 4,
+      "author": "Law",
+      "submitted_at": "2024-11-18T23:24:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1175180878",
+      "title": "Bravecto works well",
+      "text": "Goood service from employee",
+      "rating": 5,
+      "author": "Oscarboscar",
+      "submitted_at": "2024-11-17T17:09:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1174661191",
+      "title": "My dog loves this product",
+      "text": "Recommended by ataff. Obby loves it.",
+      "rating": 5,
+      "author": "Kittylover",
+      "submitted_at": "2024-11-09T17:38:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1173318134",
+      "title": "Bravecto",
+      "text": "I been using this product on my cat for a while and it’s been great working amazing",
+      "rating": 5,
+      "author": "Leo",
+      "submitted_at": "2024-10-26T05:50:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1173034240",
+      "title": "Two-in-one treatment is a minor inconvenience for cats",
+      "text": "This product is great because it treats worms and fleas in one application. My cat is only mildly inconvenienced by having a small amount of liquid applied to the back of his neck and I am happy he is protected from parasites.",
+      "rating": 5,
+      "author": "JDL",
+      "submitted_at": "2024-10-21T02:03:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1172533762",
+      "title": "My pets like this product.",
+      "text": "I bought this product for my 2 cats and I know the product works extremely well.",
+      "rating": 4,
+      "author": "Zeus",
+      "submitted_at": "2024-10-10T22:46:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172503931",
+      "title": "Easy to apply",
+      "text": "Product provides proper protection",
+      "rating": 5,
+      "author": "Bonnie",
+      "submitted_at": "2024-10-10T09:36:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 1,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172496279",
+      "title": "Dog and cat lover",
+      "text": "I purchased this product for my cat",
+      "rating": 5,
+      "author": "Dog and cat lover",
+      "submitted_at": "2024-10-10T06:04:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172444142",
+      "title": "Tick and flea prevention",
+      "text": "Keeps my cat safe from ticks",
+      "rating": 5,
+      "author": "Jojo",
+      "submitted_at": "2024-10-09T01:45:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1172010439",
+      "title": "I always purchased Bravecto for my cat. The product is good, works well.",
+      "text": "Cat protection",
+      "rating": 5,
+      "author": "Allan",
+      "submitted_at": "2024-09-30T00:05:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1171947771",
+      "title": "Good product",
+      "text": "Excellent service 👍",
+      "rating": 5,
+      "author": "Thommy",
+      "submitted_at": "2024-09-28T12:44:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 2.0
+      }
+    },
+    {
+      "review_id": "1171928288",
+      "title": "Easy to use",
+      "text": "Easy to apply, quick acting and long lasting treatment for my fur kids.",
+      "rating": 5,
+      "author": "M",
+      "submitted_at": "2024-09-27T22:48:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 1,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1171581518",
+      "title": "NOT RECOMMENDED",
+      "text": "THIS PRODUCT LEAVES A STICKY FILM ON THE CATS HAIR...",
+      "rating": 1,
+      "author": "HARCLEO",
+      "submitted_at": "2024-09-20T01:43:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 1,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1171324059",
+      "title": "A great product",
+      "text": "Always buy this for my cat. A great relief in knowing it helps with ticks.",
+      "rating": 5,
+      "author": "Alfie",
+      "submitted_at": "2024-09-15T05:46:27.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 1,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1171187843",
+      "title": "Always use Bravecto",
+      "text": "Easy to use and effective! Was happy with the decent price",
+      "rating": 5,
+      "author": "EmsCats",
+      "submitted_at": "2024-09-12T12:14:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1171111885",
+      "title": "Bravecto",
+      "text": "Great product for cats",
+      "rating": 5,
+      "author": "Great treats for cats",
+      "submitted_at": "2024-09-11T11:10:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1171021771",
+      "title": "Best product",
+      "text": "I bought this product for my cats i like it because I've tryed others and they don't do what it says it does and i wasn't happy about that so I charged and it's good that you guys have a pet barn in corrimal so please stay put.",
+      "rating": 5,
+      "author": "Astro boy/ kookie monster",
+      "submitted_at": "2024-09-10T00:23:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1170064321",
+      "title": "My pet likes this product",
+      "text": "I recently brought bravetco but my cat was on a different product but this product is hreat",
+      "rating": 4,
+      "author": "Jojo",
+      "submitted_at": "2024-08-28T23:13:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1169212627",
+      "title": "Very good flea treatment",
+      "text": "This product is great for my cat as I only have to apply it every three months.",
+      "rating": 5,
+      "author": "Cat Girl",
+      "submitted_at": "2024-08-11T06:47:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 1,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1168454754",
+      "title": "Bravecto plus for cats",
+      "text": "I brought this for my kitty for the piece of mind she’s covered also for the summer months ahead and with the worming included helps me control that side of her needs as well.",
+      "rating": 5,
+      "author": "Trish50",
+      "submitted_at": "2024-07-28T01:36:16.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 1,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1167361531",
+      "title": "Bravecto really works.",
+      "text": "Bravecto really works.",
+      "rating": 5,
+      "author": "Lorraine S",
+      "submitted_at": "2024-07-07T21:33:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1161427187",
+      "title": "Do not recommend",
+      "text": "Was okay on one of my cats but made my other cat very unwell. Within an hour of applying the treatment she was lethargic, not eating, hiding away from us and not being herself. The treatment is very difficult to remove from fur after it has dried up and has ruined their fur too (both long haired cats). I would not recommend this product at all",
+      "rating": 1,
+      "author": "MaineCoon Mum",
+      "submitted_at": "2024-05-05T13:31:41.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": false,
+      "helpful_votes": 8,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 1.0,
+        "Value for money": 1.0,
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1160447452",
+      "title": "Our cats love this product",
+      "text": "I purchased this product every month and it is easy to use.",
+      "rating": 5,
+      "author": "Tracey",
+      "submitted_at": "2024-04-25T05:34:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1159852558",
+      "title": "My cat tolerates this treatment",
+      "text": "I use this product as it was recommended by the veterinarian my cat visits. She was being treated orally before her adoption, but I had difficulty continuing with this so opted for \"spot on\" treatment instead.",
+      "rating": 5,
+      "author": "Mia's mum",
+      "submitted_at": "2024-04-13T03:25:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1159838079",
+      "title": "A healthy pet is an up to date on prevention pet",
+      "text": "Easy application and easy to read instructions and clear list that explains what exactly it’s preventing your pet from.",
+      "rating": 5,
+      "author": "MadzBi",
+      "submitted_at": "2024-04-12T18:10:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1156876837",
+      "title": "Beware of Bravecto read the side effects .",
+      "text": "I used this product on my darling big boy cat one month ago and he became ill, he is a healthy cat and normally very active but he became extremely lethargic and would not move from the one spot even to eat for 2 days. He looked droopy eyed and unwell I was afraid I had poisoned him. He was not able to lick it this was only from the correct application. I never had this happen with Advocate , I will never use this product again.",
+      "rating": 1,
+      "author": "Remmismum",
+      "submitted_at": "2024-02-23T12:43:24.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": false,
+      "helpful_votes": 10,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 1.0,
+        "Quality": 1.0,
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1153944254",
+      "title": "This product poisoned my cat - luckily he survived",
+      "text": "I had been using Bravecto on my tabby cat for the last 4 years with no issues, apart from the awful toxic smell and my cat hating it, licking at the site profusely. This had me worried because I didn't want her to injest the treatment. A month ago, a week before Christmas, I applied a pipette of Bravecto to my other new tabby cat, Charles, who is over 3 kilos. This was the second time I was applying the treatment to him. A few days later he was extremely lethargic (very unusual for a male ginger cat) and then his left eye became cloudy. We brought him to the vet immediately for eye and blood tests. $450 later, we had no conclusive diagnosis but he had a very high fever and elevated liver values. The vet said to monitor my cat over the next phew days and administer an anti-inflammatory every day. His eye then developed a dark patch in his iris and we were getting so worried and upset. Thankfully the fever eased off, he got his energy back and the dark patch disappeared. I researched Bravecto and realised all of these symptoms came from this highly toxic pesticide: lethargy, fever, eye problems, elevated liver values. There are lots of articles on the web urging pet owners to avoid using Bravecto and petitions fighting for it to be taken off market. Never again will I be applying this poison to my babies. Please do not buy this product - do not risk your pet's health or life.",
+      "rating": 1,
+      "author": "LS",
+      "submitted_at": "2024-01-18T05:18:31.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": false,
+      "helpful_votes": 24,
+      "unhelpful_votes": 1,
+      "secondary_ratings": {
+        "Value for money": 1.0,
+        "Quality": 1.0,
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1146679933",
+      "title": "Easy",
+      "text": "Great all in one product and easy to apply. Great price too.",
+      "rating": 5,
+      "author": "JimmyP",
+      "submitted_at": "2023-09-22T00:08:56.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 2,
+      "unhelpful_votes": 1,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1141816141",
+      "title": "Bravecto Plus 2.8-6.25kg Cat Flea Tick & Worm Pipette 2PK",
+      "text": "'Great product'",
+      "rating": 5,
+      "author": "Linh",
+      "submitted_at": "2023-04-03T08:12:51.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 2,
+      "unhelpful_votes": 1,
+      "secondary_ratings": {}
+    }
+  ],
+  "product_name": "Bravecto Plus 2.8-6.25kg Cat Flea Tick & Worm Pipette 2PK",
+  "product_url": null,
+  "source": "cache",
+  "fetched_at": "2026-09-19T06:03:39+00:00"
+}

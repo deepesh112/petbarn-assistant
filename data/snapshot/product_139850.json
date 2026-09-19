@@ -1,0 +1,71 @@
+{
+  "sku": "139850",
+  "name": "Simparica Trio 20.1-40kg Dog Flea Tick & Worm Chew 6 Pack",
+  "url": "https://www.petbarn.com.au/p/simparica-trio-20-1-40kg-dog-flea-tick-worm-chew/139850",
+  "brand": "Simparica Trio",
+  "category": "Dog Flea Tick & Worm",
+  "description": "Between the warm climate, our love for the outdoors and your dog's innate ability to find the muddiest, smelliest spot to roll around in - effective, year-round parasite protection is a non-negotiable in Australia. Simparica TRIO is a monthly chew that provides vet grade protection against the opportunistic, blood-thirsty freeloaders that prey upon our furry friends. TRIO delivers APVMA-approved, all-in-one protection against a whole gamut of these nasty, hitchhiking parasites like (deep breath) fleas, paralysis ticks, deadly heartworm, roundworm, hookworm, mites, mange and even mosquitoes. It's developed by the world's leading animal health company, lasts up to 35 days and has a tasty liver flavour so you get peace of mind, a little leeway and they get their treatment disguised as a treat. Simparica TRIO. Vet grade protection for dogs, trusted by dog people across Australia and the world. Ingredients Features and Benefits Returns Policy MEMBERS $84.6EA WHEN YOU BUY 2 Member Sale $96.00 Non-Member: $184.00 Member Price Check Repeat Delivery $86.40 Why repeat delivery? Add to cart 4 payments of $ 46.00 with Zip it from $10 a week with ZIP Reviews Additional information Simparica Trio 20.1-40kg Dog Flea Tick & Worm Chew",
+  "image": "https://www.petbarn.com.au/media/catalog/product/1/3/139850_ST_LD_Green_6pk_1.jpg?optimize=medium&fit=bounds&height=120&width=120",
+  "gtin": "5414736046921",
+  "size": "6PK",
+  "price": 184.0,
+  "member_price": 96.0,
+  "currency": "AUD",
+  "availability": "In stock",
+  "average_rating": 4.7762,
+  "review_count": 621,
+  "is_bundle": false,
+  "variants": [
+    {
+      "sku": "139846",
+      "name": "Simparica Trio 20.1-40kg Dog Flea Tick & Worm Chew 3 Pack",
+      "size": "3PK",
+      "price": 109.0,
+      "member_price": null,
+      "currency": "AUD",
+      "availability": "In stock",
+      "gtin": "5414736046914",
+      "url": "https://www.petbarn.com.au/p/simparica-trio-20-1-40kg-dog-flea-tick-worm-chew/139846"
+    },
+    {
+      "sku": "139850",
+      "name": "Simparica Trio 20.1-40kg Dog Flea Tick & Worm Chew 6 Pack",
+      "size": "6PK",
+      "price": 184.0,
+      "member_price": 96.0,
+      "currency": "AUD",
+      "availability": "In stock",
+      "gtin": "5414736046921",
+      "url": "https://www.petbarn.com.au/p/simparica-trio-20-1-40kg-dog-flea-tick-worm-chew/139850"
+    }
+  ],
+  "shipping": [
+    {
+      "name": "Standard Delivery",
+      "price": 0.0,
+      "currency": "AUD"
+    },
+    {
+      "name": "2hr Delivery",
+      "price": 0.0,
+      "currency": "AUD"
+    },
+    {
+      "name": "2hr Delivery",
+      "price": 7.5,
+      "currency": "AUD"
+    },
+    {
+      "name": "Next Day Delivery",
+      "price": 0.0,
+      "currency": "AUD"
+    },
+    {
+      "name": "Next Day Delivery",
+      "price": 7.5,
+      "currency": "AUD"
+    }
+  ],
+  "source": "cache",
+  "fetched_at": "2026-09-19T06:01:26+00:00"
+}

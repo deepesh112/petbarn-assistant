@@ -1,0 +1,6 @@
+# Normalise line endings so the repo is identical on Windows, macOS and the
+# Linux container Streamlit Community Cloud builds in.
+* text=auto eol=lf
+
+# Archived raw responses are binary and must never be line-ending converted.
+*.gz binary

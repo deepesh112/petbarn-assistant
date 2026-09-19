@@ -1,0 +1,61 @@
+{
+  "sku": "117874",
+  "name": "Breeders Choice Cat Litter 30L",
+  "url": "https://www.petbarn.com.au/p/breeders-choice-cat-litter/117874",
+  "brand": "BREEDERS CHOICE",
+  "category": "Cat Litter",
+  "description": "Breeders Choice Cat Litter Pellets are superior cat litter made from 99% recycled paper with no additives or chemicals. Acts as a natural odour control, these cat litter pellets are highly absorbent, biodegradable and last long, proven to be environmentally friendly. They are also lightweight and easy to handle which also contribute in reducing transport emission. Comes with easy pour sprout, which make them easier to lift, carry and use. Loyal pet owners, breeders and veterinarians agree that other litters are simply \"left in the dust!\" Breeders Choice Cat Litter is suitable for all cat breeds. The easiest choice for all cat owners. If your pet does not readily accept the new pellets, sprinkle some over existing litter, & increase new pellets daily. For best results, remove waste (solid and urine) regularly & stir pellets to aerate. Top up with fresh pellets as needed, & completely replace at least once a week. Waste can be used as a surface mulch. Breeders Choice is a registered trademarks of FibreCycle Pty Ltd/ the company originally collected and processed paper and cardboard for paper mills. This company's original technology and process was refined to create a uniquely formulated pelleted litter which is made from 99% recycled paper, with no additives or chemicals, and which exceeds the properties of traditional products. Product launches have demonstrated an overwhelming acceptance of this recycled paper product. This support from pet owners, breeders, veterinarians, pet shops and supermarket chains, has seen FibreCycle evolve from a local Australian business to a worldwide success. • Natural Odour Control • Recycled Paper Pellets - Natural Cellulose Fiber With No Additives or Chemicals • Highly Absorbent - Superior Performance • Virtually Dust-Free - Reduces Tracking and Will Not Mark Floors • Lightweight - Easy to Handle Features and Benefits Returns Policy Online only offer Online Member Price $32.50 Non-Member: $38.49 Member Price Check Repeat Delivery $2",
+  "image": "https://www.petbarn.com.au/media/catalog/product/1/1/117874_BC_CAT_LITT_30L_1_updated_resized.jpg?optimize=medium&fit=bounds&height=120&width=120",
+  "gtin": "09315087170104",
+  "size": "30L",
+  "price": 38.49,
+  "member_price": 32.5,
+  "currency": "AUD",
+  "availability": "In stock",
+  "average_rating": 4.7311,
+  "review_count": 1082,
+  "is_bundle": false,
+  "variants": [
+    {
+      "sku": "117874",
+      "name": "Breeders Choice Cat Litter 30L",
+      "size": "30L",
+      "price": 38.49,
+      "member_price": 32.5,
+      "currency": "AUD",
+      "availability": "In stock",
+      "gtin": "09315087170104",
+      "url": "https://www.petbarn.com.au/p/breeders-choice-cat-litter/117874"
+    },
+    {
+      "sku": "146851",
+      "name": "Breeders Choice Cat Litter 10L",
+      "size": "10L",
+      "price": 15.49,
+      "member_price": null,
+      "currency": "AUD",
+      "availability": "In stock",
+      "gtin": "09315087999804",
+      "url": "https://www.petbarn.com.au/p/breeders-choice-cat-litter/146851"
+    }
+  ],
+  "shipping": [
+    {
+      "name": "Standard Delivery",
+      "price": 4.95,
+      "currency": "AUD"
+    },
+    {
+      "name": "2hr Delivery",
+      "price": 7.5,
+      "currency": "AUD"
+    },
+    {
+      "name": "Next Day Delivery",
+      "price": 7.5,
+      "currency": "AUD"
+    }
+  ],
+  "source": "cache",
+  "fetched_at": "2026-09-19T05:55:44+00:00"
+}

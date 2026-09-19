@@ -1,0 +1,2421 @@
+{
+  "sku": "139850",
+  "stats": {
+    "average_rating": 4.77,
+    "total_reviews": 622,
+    "text_review_count": 219,
+    "rating_distribution": {
+      "5": 535,
+      "4": 61,
+      "1": 12,
+      "3": 11,
+      "2": 3
+    },
+    "recommended_count": 164,
+    "not_recommended_count": 6,
+    "secondary_rating_averages": {
+      "Quality": 4.89,
+      "Pet satisfaction": 4.82,
+      "Value for money": 4.68
+    },
+    "first_review_at": "2022-04-06T01:16:41.000+00:00",
+    "last_review_at": "2026-09-19T00:41:39.000+00:00"
+  },
+  "reviews": [
+    {
+      "review_id": "1229005218",
+      "title": "My pet dog loves this product",
+      "text": "I bought the simplicara chews about 2 weeks ago",
+      "rating": 5,
+      "author": "Pet lover",
+      "submitted_at": "2026-09-04T15:04:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228971957",
+      "title": "to 5: Simparica Trio 20.",
+      "text": "Product Value for money.",
+      "rating": 5,
+      "author": "Andy",
+      "submitted_at": "2026-09-04T07:46:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1228883836",
+      "title": "My dog likes this product",
+      "text": "My dog likes this product",
+      "rating": 5,
+      "author": "Sally",
+      "submitted_at": "2026-09-03T01:03:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1228806370",
+      "title": "Never have a problem getting the puppy to take these, Happily crunches the tablet and woofs it down.",
+      "text": "Never a problem",
+      "rating": 5,
+      "author": "Shaun",
+      "submitted_at": "2026-09-01T23:36:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228631880",
+      "title": "Dog loves it",
+      "text": "Great product,great price ,my dog loves them",
+      "rating": 5,
+      "author": "Babygirl",
+      "submitted_at": "2026-08-31T03:01:30.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1228062611",
+      "title": null,
+      "text": "Trusted brand and vet recommended",
+      "rating": 5,
+      "author": "Di",
+      "submitted_at": "2026-08-23T22:01:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228026695",
+      "title": "Easy to give to the fur boys",
+      "text": "I recently tried this produce after my granddaughter recommended it, and I’m so glad I did. Everything was fresh, flavorful, and clearly high quality. It’s wonderful when a family suggestion turns out to be such a great find. I’ll definitely be buying it again.",
+      "rating": 5,
+      "author": "brownduck",
+      "submitted_at": "2026-08-23T10:07:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228004165",
+      "title": "Simp",
+      "text": "My fur babies love them",
+      "rating": 5,
+      "author": "Furbaby lover",
+      "submitted_at": "2026-08-23T01:36:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1227965590",
+      "title": "My pet loves this product",
+      "text": "Brought this a few days ago. And seems to help my fur baby if she happy I’m happy",
+      "rating": 5,
+      "author": "Aust cat",
+      "submitted_at": "2026-08-22T10:21:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1227942670",
+      "title": "Have to encourage to eat it but after the first crunch, he finishes it without a problem",
+      "text": "Protects against various worms which is great. Good price too",
+      "rating": 5,
+      "author": "German chewy shepherd",
+      "submitted_at": "2026-08-22T02:49:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1222348092",
+      "title": "Very easy to administer she just chews it whole",
+      "text": "Have used this product for over 4 yrs",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-06-19T01:59:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1222119437",
+      "title": "Easier than some products",
+      "text": "Products works good",
+      "rating": 4,
+      "author": "Cassy",
+      "submitted_at": "2026-06-16T07:42:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1222099091",
+      "title": "Great product",
+      "text": "Very happy with this product, have been using it for a few years now with no issues.",
+      "rating": 5,
+      "author": "BullyT Mum",
+      "submitted_at": "2026-06-15T20:53:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1222034186",
+      "title": "good for my pet",
+      "text": "happy with the product",
+      "rating": 5,
+      "author": "retriever lover",
+      "submitted_at": "2026-06-15T05:38:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1221891068",
+      "title": "She loves them",
+      "text": "Raven has one daily. She loves them",
+      "rating": 5,
+      "author": "Staffie lover",
+      "submitted_at": "2026-06-12T23:36:31.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1221762945",
+      "title": "Made it so easy!",
+      "text": "My dog literally ate it like a treat!!! It was our first time worming her and I'll definitely keep using simparica",
+      "rating": 5,
+      "author": "Squooshbeans",
+      "submitted_at": "2026-06-11T11:32:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221727942",
+      "title": "My Dog likes it",
+      "text": "I have been buying this product for a while now for my Dog, it’s great",
+      "rating": 5,
+      "author": "Adam",
+      "submitted_at": "2026-06-10T20:06:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221496912",
+      "title": "Not easily taken.",
+      "text": "Our dog does not want to eat tablet so we have to give it to him before his dinner so he will be hungry.",
+      "rating": 3,
+      "author": "N/A",
+      "submitted_at": "2026-06-08T02:16:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 4.0
+      }
+    },
+    {
+      "review_id": "1221489598",
+      "title": "My Boxer and Me!",
+      "text": "I always buy this Simparica Trio for my Boxer, it isn't a pleasant taste he says but nothing a bit of wet can food mixed in can't fix. lol",
+      "rating": 5,
+      "author": "My boxer and Me",
+      "submitted_at": "2026-06-07T21:33:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 2.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221431156",
+      "title": "My pets quite like their tablet.",
+      "text": "My dogs like this product",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-06-07T07:12:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221422107",
+      "title": "Always recommended by vets",
+      "text": "Necessary product to keep my dog safe. recommended by my vet and by others with the same breed",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-06-07T01:25:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1221196759",
+      "title": "Simparica",
+      "text": "Great product",
+      "rating": 5,
+      "author": "Worming Tabs",
+      "submitted_at": "2026-06-04T08:22:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220959761",
+      "title": "My dog won’t chew this product. He eventually bit it it and I could get him to have in polony.",
+      "text": "I bought this product hoping my dog would chew it without me having to cut up Nexguard and hide it in polony.",
+      "rating": 1,
+      "author": "Jet’s slave",
+      "submitted_at": "2026-06-01T01:43:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 1.0
+      }
+    },
+    {
+      "review_id": "1220821430",
+      "title": "Easy to administer",
+      "text": "Nil adverse effects with product",
+      "rating": 5,
+      "author": "Cleo_nibbles",
+      "submitted_at": "2026-05-30T02:23:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0
+      }
+    },
+    {
+      "review_id": "1220625916",
+      "title": "Great",
+      "text": "My dogs love this and take ot no problem, they thunk it's a treat 😀",
+      "rating": 5,
+      "author": "Claire",
+      "submitted_at": "2026-05-27T13:12:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220178835",
+      "title": "My dog thinks it is a treat",
+      "text": "Been using this product for 8 years",
+      "rating": 5,
+      "author": "Doglover",
+      "submitted_at": "2026-05-20T17:39:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220041182",
+      "title": "good product",
+      "text": "we have used this product for years and found it ease to use",
+      "rating": 5,
+      "author": "petowner",
+      "submitted_at": "2026-05-18T22:12:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1219377877",
+      "title": "Simparica",
+      "text": "We used to get this product from our vet. Until they told us it was cheaper to buy it from petbarn. I have bought this product on line also, love this product for my dog.",
+      "rating": 5,
+      "author": "Dog lover",
+      "submitted_at": "2026-05-10T10:32:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219079712",
+      "title": "Excellent product",
+      "text": "Excellent product & my go to one for my pets needs.\nFair price for the 6pk I buy.",
+      "rating": 5,
+      "author": "Big dog",
+      "submitted_at": "2026-05-05T22:05:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218294494",
+      "title": "Simparica flea tick and worm tablets",
+      "text": "Thankyou Petbarn. I am extremely pleased with the very helpful customer service I received. I would highly recommend this store. And I am very pleased with this product for our animals. Thankyou Cynthia",
+      "rating": 5,
+      "author": "Pupp",
+      "submitted_at": "2026-04-24T22:04:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217378355",
+      "title": "My dog is a heart worm survivor. This product has kept him healthy for 9 years since.",
+      "text": "The Petbarn price was incredibly low.",
+      "rating": 5,
+      "author": "Benny",
+      "submitted_at": "2026-04-15T10:01:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217208877",
+      "title": "We live on a bush block & find this excellent.",
+      "text": "Love the dual sizing of this pack. Can treat both dogs without having to buy separate packs. Being on a bush block means I can have the dogs inside without worrying about nasties hitching a ride.",
+      "rating": 5,
+      "author": "Scarlett’s Mum",
+      "submitted_at": "2026-04-13T01:17:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217027412",
+      "title": "The puppy one was great never had a problem. hoping the same for the adult.",
+      "text": "Have just bought this product after puppy is now over 20kg.",
+      "rating": 5,
+      "author": "Carp",
+      "submitted_at": "2026-04-10T12:51:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216798206",
+      "title": "Best care for your dog",
+      "text": "Best product on the market",
+      "rating": 5,
+      "author": "Bindi’s Dad",
+      "submitted_at": "2026-04-07T15:09:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216498163",
+      "title": "The staffy eats his as a treat. The kelpie I have to crush and mix with her food",
+      "text": "I regularly buy pest control for our 2 dogs",
+      "rating": 5,
+      "author": "Pet protective",
+      "submitted_at": "2026-04-02T19:30:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1215554968",
+      "title": "Will be trying a different one next time",
+      "text": "My fur baby will,only eat these if smothered in cream cheese",
+      "rating": 2,
+      "author": "Maxi",
+      "submitted_at": "2026-03-21T13:09:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1215463434",
+      "title": "Always great",
+      "text": "Great product and the current price makes it affordable.",
+      "rating": 5,
+      "author": "Sally",
+      "submitted_at": "2026-03-19T20:58:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215363402",
+      "title": "Takes it without any hesitation",
+      "text": "This product is good does everything you need in 1 tablet",
+      "rating": 5,
+      "author": "Shaz",
+      "submitted_at": "2026-03-18T11:03:27.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215279242",
+      "title": "Easy to administer.",
+      "text": "Does what it says on the “tin” !",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-03-17T03:34:18.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215249294",
+      "title": "Great product",
+      "text": "I bought this for my labrador as he is fussy with medication he spits most other brands out but not this one he is happy to eat the whole tablet.",
+      "rating": 5,
+      "author": "Nath",
+      "submitted_at": "2026-03-16T23:07:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1214958830",
+      "title": "TJ likes it.",
+      "text": "Quality product",
+      "rating": 5,
+      "author": "TJ",
+      "submitted_at": "2026-03-12T22:24:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214824157",
+      "title": "very happy no issues",
+      "text": "My dogs have been having this since they were pups",
+      "rating": 5,
+      "author": "Diesel",
+      "submitted_at": "2026-03-11T00:00:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214763959",
+      "title": "Trioed dog",
+      "text": "Sadie is happy and itch free.\nWhat more could you want.\nAlso eats her tablet no problem.\nShe never really liked getting the liquid dose.",
+      "rating": 5,
+      "author": "Not pertinent",
+      "submitted_at": "2026-03-10T02:06:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1214641550",
+      "title": "Flea control",
+      "text": "I recently bought to get a flea infestation under control, noticed decrease in fleas next day",
+      "rating": 4,
+      "author": "Border collie lover",
+      "submitted_at": "2026-03-08T02:23:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1214551101",
+      "title": "Awesome dog Oz",
+      "text": "Awesome product",
+      "rating": 5,
+      "author": "Sabby",
+      "submitted_at": "2026-03-06T13:26:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1214349097",
+      "title": "My dog loves this",
+      "text": "So much easier than what I was previously using",
+      "rating": 5,
+      "author": "food critics",
+      "submitted_at": "2026-03-04T01:54:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214195373",
+      "title": "My pet loves it no problem crush with food",
+      "text": "I buy this product every time",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-03-01T17:35:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214035125",
+      "title": "My dog loves it",
+      "text": "Happy with this product",
+      "rating": 5,
+      "author": "Staffy",
+      "submitted_at": "2026-02-26T23:29:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213431953",
+      "title": "My pet loves his tablet",
+      "text": "I have been given my dog Simparica for 7 years it's the best",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-02-17T20:47:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211704508",
+      "title": "Easy",
+      "text": "Excellent as always",
+      "rating": 5,
+      "author": "Danny2204",
+      "submitted_at": "2026-01-24T20:39:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211384498",
+      "title": "I am more confident with this product.",
+      "text": "I bought this product as my Mahbo has been using this since I got him as a little puppy,only reason I changed for last 3 months was my vet closed & new vet did not stock them. now having found this outlet we can get back on track. also bought some little fish for my pond they are doing great as well. Many Thanks Roz.",
+      "rating": 5,
+      "author": "blue heeler mum.",
+      "submitted_at": "2026-01-20T20:41:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211243917",
+      "title": "My dogs LOVE Simparica!",
+      "text": "Love this product. After using VET recommended brand Nexguard Spectra for years, which my dogs, who practically eat anything, spit out. Life has become easier as my dogs actually love the taste. My Labrador eats pretty much anything except the old Nexgard.",
+      "rating": 5,
+      "author": "Jules",
+      "submitted_at": "2026-01-19T06:01:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210485731",
+      "title": "Tastes great.",
+      "text": "This product is great. The best feature is that both dogs gobble the tables up without any fuss.",
+      "rating": 5,
+      "author": "Doug",
+      "submitted_at": "2026-01-08T01:32:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1209809537",
+      "title": "Easy to give",
+      "text": "Excellent Product",
+      "rating": 5,
+      "author": "Benji",
+      "submitted_at": "2025-12-29T20:26:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1208238500",
+      "title": "as above",
+      "text": "to early say only just gave first dose 5/12/2025",
+      "rating": 5,
+      "author": "rescue dog saver",
+      "submitted_at": "2025-12-09T01:36:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1207636100",
+      "title": "My pet eats this product spread over the evening meal",
+      "text": "I have purchased this product for some time and am extremely happy with the results.",
+      "rating": 5,
+      "author": "Wildtiger",
+      "submitted_at": "2025-12-01T06:24:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207042055",
+      "title": "I could say that my dog looks at it as a treat .",
+      "text": "I`ve been using this product for about 5-6 years on my pet , would not change for another .",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-11-23T02:28:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1206537024",
+      "title": "Good value flea, tick and worm treatment!",
+      "text": "We always use this on our dog",
+      "rating": 5,
+      "author": "Rupert's Human",
+      "submitted_at": "2025-11-17T16:15:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1206412477",
+      "title": "Great Value",
+      "text": "Bought for my dogs - love that it came with a bonus 1 tablet - great value for money at PetBarn",
+      "rating": 5,
+      "author": "TS",
+      "submitted_at": "2025-11-15T23:42:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1206129891",
+      "title": "Easy to use.",
+      "text": "Good product and easy to use, apart from the removing the foil, the dog does it all!",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-11-12T18:14:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1204972076",
+      "title": "My go to protection",
+      "text": "Totally happy with the product. My fur baby has used rage under 20k to now over 20k.No reactions. Vet happy.",
+      "rating": 5,
+      "author": "Affen",
+      "submitted_at": "2025-11-02T05:55:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1203586906",
+      "title": "Thanks",
+      "text": "Both my girls are on Simparica and I have no trouble with them taking the chews.",
+      "rating": 5,
+      "author": "catgill",
+      "submitted_at": "2025-10-22T01:36:13.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1203253462",
+      "title": "Good protection",
+      "text": "My dog has been on this product for quite some time and he has never had any digestive problems with it. It would be better if the manufacturer would enable the tab to be cut as it is quite large or provide two seperate tablets.",
+      "rating": 4,
+      "author": null,
+      "submitted_at": "2025-10-17T04:26:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1202721684",
+      "title": "A must have !",
+      "text": "I know my fur babies are safe with this product.",
+      "rating": 5,
+      "author": "Staffy Mum !",
+      "submitted_at": "2025-10-09T02:11:39.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1202425303",
+      "title": "Petbarn Cookshill",
+      "text": "Advice by Kevin is always the best. Great service",
+      "rating": 5,
+      "author": "Trevor",
+      "submitted_at": "2025-10-04T08:23:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1202214967",
+      "title": "My dog is very happy.",
+      "text": "I am a repeat customer for this product and my dog is very happy with it.",
+      "rating": 5,
+      "author": "Ridgie mum",
+      "submitted_at": "2025-09-30T22:50:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1202035064",
+      "title": "Reliable so essential when living in the bush, reassured no paralysis ticks will attach to pets.",
+      "text": "Great product, buy on sale, good value for money.",
+      "rating": 5,
+      "author": "Kimmy Chigi Chilli-Baron",
+      "submitted_at": "2025-09-28T01:08:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201516853",
+      "title": "He ate it!",
+      "text": "My dog is a fussy eater, but chose to eat the chew without problem.",
+      "rating": 5,
+      "author": "Kelpie Lover",
+      "submitted_at": "2025-09-20T05:19:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201513756",
+      "title": "Tick flea n worm",
+      "text": "Helps keep My Collie flea tick and wormed each month",
+      "rating": 5,
+      "author": "Birdercolliegrl89",
+      "submitted_at": "2025-09-20T03:40:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201360417",
+      "title": "Great product, great priice",
+      "text": "We have used these for more than 2 years. The dog is still alive and well, so they appear to be working just fine.\nPrice on repeat order with Petbarn is the best we have seen.",
+      "rating": 5,
+      "author": "Sputz",
+      "submitted_at": "2025-09-18T01:19:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201270259",
+      "title": "Does the job",
+      "text": "My dog eats them easily, which is surprising as she is very fussy",
+      "rating": 5,
+      "author": "Penny's Mum",
+      "submitted_at": "2025-09-16T11:41:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1201083204",
+      "title": "Toys and simparica",
+      "text": "I went in store to collect my click and collect and I also bought some toys for my four dogs and the lovely lady in that section was so helpful and so friendly very engaging",
+      "rating": 5,
+      "author": "Sj",
+      "submitted_at": "2025-09-12T23:38:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200784030",
+      "title": "A real treat",
+      "text": "Excellent, dog loves this, thinjs its a treat",
+      "rating": 5,
+      "author": "Dog owner",
+      "submitted_at": "2025-09-08T10:20:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200775626",
+      "title": "Recommended by staff",
+      "text": "First time using this product gave to them today.",
+      "rating": 5,
+      "author": "xxxx",
+      "submitted_at": "2025-09-08T08:03:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1200763915",
+      "title": "Easy to use",
+      "text": "Happy with the product, dog loves it and is easy to use",
+      "rating": 5,
+      "author": "Bundy",
+      "submitted_at": "2025-09-08T00:34:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200672585",
+      "title": "Must be tasty",
+      "text": "The only one my dog won’t spit out!",
+      "rating": 4,
+      "author": "Dog mama",
+      "submitted_at": "2025-09-06T12:04:30.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1200643113",
+      "title": "Reaction to Simparica",
+      "text": "This product is not suitable for my pet, American staffy \"Bruce\" it gave him severe diarrhoea and vomiting. It was the only thing different to his diet. The labeling is confusing, it is not a \"chew\" it is a hard tablet. Gave with food. Reported to the helpline and Petbarn at Rothwell 4022",
+      "rating": 1,
+      "author": "Disappointed",
+      "submitted_at": "2025-09-05T19:53:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1200281545",
+      "title": "It’s important to my pets wellbeing.",
+      "text": "I normally use this product , its only one tablet per month .",
+      "rating": 5,
+      "author": "Border lover",
+      "submitted_at": "2025-08-30T20:57:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1199521518",
+      "title": "Easy to use and complete protection",
+      "text": "This product covers all of the every day health issues like Heart worm, intestinal worms , fleas , ticks and mites . It must taste great as my dog takes it easily like a treat.",
+      "rating": 5,
+      "author": "Kitzy",
+      "submitted_at": "2025-08-18T11:20:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1199294371",
+      "title": "Simple to use.",
+      "text": "I have always used this for my Labrador. Very simple to use and effective. No issues or side effects. Highly recommend.",
+      "rating": 5,
+      "author": "Bakes",
+      "submitted_at": "2025-08-14T11:25:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198168748",
+      "title": "What a bargain!",
+      "text": "I bought this product for my dog while it was on special & I had a $20 off offer, saving $102 & donated $5 to Petbarn foundation, to which Petbarn added another $5. The attendant (Susan) was very helpful with my purchase & was also delighted with the $5 donation. Great service, great shop, great staff, great product range at great prices. Made my day. It was GREAT!",
+      "rating": 5,
+      "author": "Wolfdog",
+      "submitted_at": "2025-07-27T23:58:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198105313",
+      "title": "Quality Product",
+      "text": "Good product easy to use dog loves thrm",
+      "rating": 5,
+      "author": "CJ",
+      "submitted_at": "2025-07-26T23:55:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197993521",
+      "title": "Purchased for dog",
+      "text": "Good value with membership saving",
+      "rating": 4,
+      "author": "Karma",
+      "submitted_at": "2025-07-25T10:44:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197905393",
+      "title": "Simparica trio worming tablet",
+      "text": "Poor doggo absolutely loves the flavour of this worming tablet and goes down like a treat with no fuss. Super easy and a great product.",
+      "rating": 5,
+      "author": "Peppagirl doggo bowl",
+      "submitted_at": "2025-07-24T12:02:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197878597",
+      "title": "Simparica trio",
+      "text": "Good product",
+      "rating": 5,
+      "author": "Woody",
+      "submitted_at": "2025-07-24T00:19:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1194199056",
+      "title": "Happy dogs",
+      "text": "Good worm and tick treatment.",
+      "rating": 5,
+      "author": "MsB",
+      "submitted_at": "2025-06-23T05:48:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1193547582",
+      "title": "Heartworm",
+      "text": "It’s very good",
+      "rating": 5,
+      "author": "Millie",
+      "submitted_at": "2025-06-15T11:32:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1193530681",
+      "title": "Bonus month supply\nProvided",
+      "text": "Extra month provided free - winner winner",
+      "rating": 5,
+      "author": "Miss Leki",
+      "submitted_at": "2025-06-15T03:45:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1193382243",
+      "title": "My dog loves this product",
+      "text": "I have been using this product for a couple of years now.",
+      "rating": 5,
+      "author": "Chubbs",
+      "submitted_at": "2025-06-13T20:25:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1193060111",
+      "title": "Simple to use with the added piece of mind",
+      "text": "I have been using Simparica trio for my dog since he was a puppy, so easy to use and I have no problem getting him to eat it.",
+      "rating": 5,
+      "author": "Ted pushing the limits",
+      "submitted_at": "2025-06-08T09:28:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1192748670",
+      "title": "Happy dog, happy life.",
+      "text": "I've been using this product for about three years now and I'm being happy with the results. My dog is healthy, happy and free of heartworm and fleas. I was told that if your dog does have a heartworm and you use this product, it is safer because it doesn't kill the heartworm, it paralyzes it.",
+      "rating": 5,
+      "author": "No nickname.",
+      "submitted_at": "2025-06-04T01:23:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 1,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1192579623",
+      "title": "Simparica",
+      "text": "Lovely staff at petbarn, was nice to get a free tablet for my boy",
+      "rating": 5,
+      "author": "Staffylover",
+      "submitted_at": "2025-06-01T00:50:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1192576185",
+      "title": "Simparica trio green box",
+      "text": "I really like the convenience of a all in one chew no messing about my dog loves it and its monthly easy as and you just stick the sticker on your calendar. I do it at the beginning of each month to keep on track",
+      "rating": 5,
+      "author": "Kazza",
+      "submitted_at": "2025-05-31T22:00:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1189189787",
+      "title": "Works great",
+      "text": "Very good product, my picky eater dog love the flavour",
+      "rating": 5,
+      "author": "Bella",
+      "submitted_at": "2025-05-25T12:02:27.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186703412",
+      "title": "Easy Monthly Chew",
+      "text": "Seems more palatable to our dog than the previous product we tried and covers the same bases for a better price.",
+      "rating": 5,
+      "author": "Meg",
+      "submitted_at": "2025-05-19T00:09:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186499665",
+      "title": "Good product",
+      "text": "Bought this product when there was a special promotion but special was not available. \nMember's price was okay so will just have to wear the lost bonus.",
+      "rating": 3,
+      "author": "Loser",
+      "submitted_at": "2025-05-15T01:20:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1186181073",
+      "title": "They are good",
+      "text": "Never seen a flea on him or anything elsewhere",
+      "rating": 5,
+      "author": "Steve and Ronald",
+      "submitted_at": "2025-05-08T23:41:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1186127104",
+      "title": "Top product",
+      "text": "Both my retrievers are on this product and have not had any issues at all. It was also recommended by the vet.",
+      "rating": 5,
+      "author": "Retriever lover",
+      "submitted_at": "2025-05-07T23:22:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186047813",
+      "title": ".",
+      "text": "It is probably an excellent product but my doggie will not chew it ! Does not like any chewable products 🙄😳\nThanks",
+      "rating": 1,
+      "author": ".",
+      "submitted_at": "2025-05-06T11:26:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 1,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1185911444",
+      "title": "Our dog’s shadow & beans ❤️ this tablet",
+      "text": "One of the best flea ,tick, & heartworm treatment products ever highly recommended",
+      "rating": 5,
+      "author": "ShadowBeans1979",
+      "submitted_at": "2025-05-03T21:53:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185908980",
+      "title": "Simparica Trio",
+      "text": "My dogs think these are a treat, so easy to dispense",
+      "rating": 5,
+      "author": "Fur family",
+      "submitted_at": "2025-05-03T19:26:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185745512",
+      "title": "Easy to give",
+      "text": "Great product for my Staffy. I like that I can have some control over what she has.",
+      "rating": 5,
+      "author": "Staffy Mum",
+      "submitted_at": "2025-05-01T11:02:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185486213",
+      "title": "My two dogs chew these tablets no worries",
+      "text": "I buy this all the time and now it was on special",
+      "rating": 4,
+      "author": null,
+      "submitted_at": "2025-04-28T13:34:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1185477895",
+      "title": "My Puppy loves eating it which makes it even better",
+      "text": "I bought the product for my puppy and I am happy with the product.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-04-28T10:25:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185410097",
+      "title": "Paralysis ticks don't stand a chance",
+      "text": "My pick of all treatments. Our paralysis tick are so small the size of the tip of a Pin. Our dog had 4 on his belly and all dead thankfully.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-04-27T04:41:48.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185401795",
+      "title": "My dog loves this.",
+      "text": "I had no issues with my Swedish Vallhund eating this straight away. His first time with this, so will have to wait and see if product works, but I have read several great reviews.",
+      "rating": 5,
+      "author": "Swedish Vallhund owner",
+      "submitted_at": "2025-04-26T21:19:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185312454",
+      "title": "Dog All wormer",
+      "text": "As described",
+      "rating": 5,
+      "author": "Ned",
+      "submitted_at": "2025-04-25T03:56:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1185198783",
+      "title": "Does the job",
+      "text": "Thank you Pet Barn for the amazing sale. Was able to get 6 mths of treatment for my dog at a heavily discounted price. Very grateful! Great product, does the job and keeps my dog healthy and safe from parasites.",
+      "rating": 5,
+      "author": "Harley’s Mum",
+      "submitted_at": "2025-04-22T22:24:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185146941",
+      "title": "Believes its a treat, not medication",
+      "text": "Pet barn happily price matched this product making it even more of a bargain. Thanks Petbarn our boy loves his monthly treat and all your other doggy delights",
+      "rating": 5,
+      "author": "Happy Dog",
+      "submitted_at": "2025-04-22T04:40:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185140954",
+      "title": "He loves his worms 🪱 tablets",
+      "text": "Kingston loves his food from petbarn",
+      "rating": 5,
+      "author": "Kingston",
+      "submitted_at": "2025-04-21T23:38:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1184438389",
+      "title": "My pets love this product",
+      "text": "Great product and great price",
+      "rating": 5,
+      "author": "Amstaffnala",
+      "submitted_at": "2025-04-09T03:37:44.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1184377098",
+      "title": "My Labrador thinks it's a treat",
+      "text": "Very happy with this product",
+      "rating": 5,
+      "author": "Nora",
+      "submitted_at": "2025-04-07T23:39:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1184310028",
+      "title": "Keeps my dog protected",
+      "text": "Keeps my dog protected",
+      "rating": 5,
+      "author": "Dog lover",
+      "submitted_at": "2025-04-06T20:54:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1183935177",
+      "title": "it is a very good product",
+      "text": "it is a very good product",
+      "rating": 5,
+      "author": "blue heeler lover",
+      "submitted_at": "2025-04-02T19:45:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1183868201",
+      "title": "All 3 in one tablet",
+      "text": "The only ones my dog likes and that we dont have to cover with cheese and hide in her food",
+      "rating": 5,
+      "author": "Rvdk",
+      "submitted_at": "2025-04-02T09:17:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1182769399",
+      "title": "Good product",
+      "text": "Good if your dog doesn't visit farms etc",
+      "rating": 4,
+      "author": "Airedale Lover",
+      "submitted_at": "2025-03-16T06:09:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1182718022",
+      "title": "Simparica",
+      "text": "Bought for my dog",
+      "rating": 4,
+      "author": "No",
+      "submitted_at": "2025-03-15T02:34:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1182555732",
+      "title": "My pet doesn’t like it",
+      "text": "I brought this product because it was cheaper then my other product I have to break it up small cause my dog won’t take it otherwise I put it with his biscuits or in his food",
+      "rating": 5,
+      "author": "Healer lover",
+      "submitted_at": "2025-03-12T09:32:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1182140737",
+      "title": "My dog takes this with ease, no dramas",
+      "text": "Love this product for our wolfhound puppy.",
+      "rating": 5,
+      "author": "Winkitinki",
+      "submitted_at": "2025-03-03T21:31:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1182014563",
+      "title": "Love this product",
+      "text": "I bought this product a week ago, it was easy for me to get them to chew the tablet,and its fantastic within 24 hours my dogs were not scratching and looking through fur they were practically flea free.",
+      "rating": 5,
+      "author": "countrygirl66",
+      "submitted_at": "2025-03-01T10:59:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181538736",
+      "title": "Works well",
+      "text": "I have bought this product a few times now and seem to do the trick",
+      "rating": 5,
+      "author": "Koda's the best",
+      "submitted_at": "2025-02-28T04:05:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181537421",
+      "title": "Easy dosage",
+      "text": "Good Product keeps my girl safe",
+      "rating": 5,
+      "author": "Binksy",
+      "submitted_at": "2025-02-28T03:29:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181483800",
+      "title": "Looks great",
+      "text": "Have not used it yet",
+      "rating": 5,
+      "author": "Missy's Mum",
+      "submitted_at": "2025-02-27T04:53:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1181477966",
+      "title": "Dog Flea Tick & Worm Chew 6 Pack",
+      "text": "product works well and came with a free pack",
+      "rating": 5,
+      "author": "noddy",
+      "submitted_at": "2025-02-26T22:53:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181336979",
+      "title": "Works well and has all 4, flea, worm, heartworm AND tick",
+      "text": "Works well although I prefer Advocate which goes on the back of the neck, but they don’t include tick treatment in it. You get flea, worms, heartworm and tick in the Simparica and it’s convenient to either crush the tablet up and put it in your dog’s food, or hide it whole in a piece of ham or similar and they just woof it 😂",
+      "rating": 4,
+      "author": "MTKAM",
+      "submitted_at": "2025-02-25T08:10:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1181178444",
+      "title": "A treat",
+      "text": "I used to have to put peanut butter on her previous monthly pill but not with this one. She eats it without any complaint.",
+      "rating": 5,
+      "author": "Dogmum",
+      "submitted_at": "2025-02-21T23:31:18.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181080595",
+      "title": "Great product",
+      "text": "We have been buying this product for a while now at petbarn as it is easy to use and no problems with the dog liking it",
+      "rating": 5,
+      "author": "Loz1",
+      "submitted_at": "2025-02-20T00:59:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181036252",
+      "title": "Perfect!",
+      "text": "Perfect! For 2 dogs that fit the weight range for L 20-40kg.",
+      "rating": 5,
+      "author": "Eat",
+      "submitted_at": "2025-02-19T08:38:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1180916485",
+      "title": "I HAVE NOT USED THE NEW ONES YET NOT DUE TILL 15 TH MARCH",
+      "text": "MY WORMING TABLETS FOR MY DOG ARE NO LONGER ABLE TO BE BOUGHT SO I HAD TO CHANGE MY NEW TABLETS TO SIMPARICA TRIO AND DRONTAL TABLETS",
+      "rating": 5,
+      "author": "DO NOT HAVE ONE SORRY",
+      "submitted_at": "2025-02-17T00:54:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1180278323",
+      "title": "Prevention is better than cure",
+      "text": "The Trio was recommened by the store, The price was comparable to the internet taking postage into account. My dog ate the tablet no trouble. I was happy to have the assistance",
+      "rating": 4,
+      "author": "Champion Collie",
+      "submitted_at": "2025-02-06T01:33:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1180112503",
+      "title": "Easy, peasy",
+      "text": "Great product, reasonable price and easy for the dog to consume",
+      "rating": 5,
+      "author": "StaffyX owner",
+      "submitted_at": "2025-02-03T06:06:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1180061698",
+      "title": "my pet loves your product",
+      "text": "always happy with product",
+      "rating": 5,
+      "author": "poodleover",
+      "submitted_at": "2025-02-02T08:41:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179862582",
+      "title": "Easy to administer and works.",
+      "text": "I give this to my dog every month as recommended by the vet and he has had no issues as yet. We pair this with an all wormer.",
+      "rating": 5,
+      "author": "Shem",
+      "submitted_at": "2025-01-29T19:38:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179624269",
+      "title": "My dog loves this product and it was gobbled up at first attempt",
+      "text": "I purchased this product 2 weeks ago for the first time I previously bought another brand but after comparing the two and having my questions answered by one of your extremely knowledgeable and helpful staff members I decided to switch and give it a go and it was the right decision as my dog ate the chew without hesitation unlike the previous purchased brand I continue to buy this brand in the future, very satisfied customer with the whole experience",
+      "rating": 5,
+      "author": "Keepa",
+      "submitted_at": "2025-01-26T04:57:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179512699",
+      "title": "my dogs don't even know it is medicinal, I tell them they are getting a treat",
+      "text": "I have 2 dogs so the 6 pack is great as it offers my pups 3 months protection",
+      "rating": 5,
+      "author": "Kelpie owner",
+      "submitted_at": "2025-01-24T09:09:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179385944",
+      "title": "Quality product",
+      "text": "I spent a fair bit of time looking into various products looking for something that covers paralysis ticks to heartworm and has a high efficacy. Many products only provide 50% or less mortality for these pests, however after reviewing various research Simparica Trio appears to provide in the region of 99%.\nThe point is don't just listen to whoever is paying the most to be heard by various professionals.\nAlso to add I have 2 dogs so this is 3 months worth and my normally fussy dog ate it on her own.",
+      "rating": 5,
+      "author": "Dja",
+      "submitted_at": "2025-01-22T04:31:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179384179",
+      "title": "Great product",
+      "text": "Works as stated. I find Simparica Trio 20-40kg to be very effective and the service from Petbarn was fantastic.",
+      "rating": 5,
+      "author": "Border Collie",
+      "submitted_at": "2025-01-22T03:33:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179377933",
+      "title": "Doggy scoffed it!",
+      "text": "Our dog ate ate with no hesitation",
+      "rating": 5,
+      "author": "The Shugster",
+      "submitted_at": "2025-01-21T22:45:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179335420",
+      "title": "This product works well for my dog.",
+      "text": "I give this to my dog monthly and takes them without a problem. Got them for a great price too!",
+      "rating": 5,
+      "author": "Polly",
+      "submitted_at": "2025-01-21T07:53:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179258248",
+      "title": "Comprehensive covered",
+      "text": "With our previously pet we tried several other preventative treatments but none of them work, so when we were told about Simparica Trio we were were cautious. \nI was so wrong it work perfectly and our baby girl was now comprehensive covered and no longer getting het repeated hot spots no more.\n\nSo sadly when she passed and we got another bubba we went straight to Simparica for treatment and for the last 5 yrars she has been comprehensive covered and we would never used another preventative. We highly recommend Simparica Trio.",
+      "rating": 5,
+      "author": "Rottiserevant",
+      "submitted_at": "2025-01-19T22:17:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1178892014",
+      "title": "he did eat it after a coupe of goes",
+      "text": "Easy for him to take",
+      "rating": 5,
+      "author": "Doglover",
+      "submitted_at": "2025-01-13T23:21:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1178705976",
+      "title": "Great protection for our border collie",
+      "text": "Always available when we need it at Pet Barn. Have used it for years, always seems to have everything under control.",
+      "rating": 5,
+      "author": "Bella",
+      "submitted_at": "2025-01-10T23:05:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1178550051",
+      "title": "Works as promised",
+      "text": "Did what it should, happy dogs happy dog mum",
+      "rating": 5,
+      "author": "Doggy mum",
+      "submitted_at": "2025-01-08T17:33:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1178316745",
+      "title": "Easy for dog to take",
+      "text": "Only flea, worm and tick treatment I use. It does the job and my dog is happy to eat it - especially with some cheese! Very easy and effective. I have never seen a flea on my dog!",
+      "rating": 5,
+      "author": "Bjsesq",
+      "submitted_at": "2025-01-05T11:19:44.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1178085605",
+      "title": "My Dog hates taking meds.",
+      "text": "My Dog doesn't trust me to give him yummy treats because he knows that sometimes it's a medication.",
+      "rating": 1,
+      "author": "N/A",
+      "submitted_at": "2025-01-01T20:15:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 1,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1178003749",
+      "title": "Highly recommended",
+      "text": "Highly recommended!! purchased for my EB and could see it working within hours. Where fleas had caused him to rub his hair away within 3 weeks his 'bald' patches are now furry again. Hes calmer and less agitated. Have noted on calendar next due dates already. May seem expensive though it really works and the comfort this has brought to our furbaby is priceless.",
+      "rating": 5,
+      "author": "EB mumma",
+      "submitted_at": "2024-12-31T08:14:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1177928620",
+      "title": "Easy to get my pet to chew",
+      "text": "Great product",
+      "rating": 5,
+      "author": "Groodlefan",
+      "submitted_at": "2024-12-30T06:39:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1177680811",
+      "title": "My dog has no problem with taking this at all",
+      "text": "I beought this a week ago and can already see a difference in my dogs happiness and her coat has improved",
+      "rating": 4,
+      "author": "Dog lover",
+      "submitted_at": "2024-12-26T12:32:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1177437977",
+      "title": "Thought I was going to have a hard time giving to my boy but he loved it like a treat.",
+      "text": "My little man bought home a couple of stow aways...yeek!",
+      "rating": 5,
+      "author": "Special mum",
+      "submitted_at": "2024-12-21T23:36:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1177256833",
+      "title": "My dog doesn't like the tablets",
+      "text": "It seems to do the trick however the only way we can get our dog to eat the tablet is to cut it up and serve with sardines with her kibble and we have to make sure the pieces of tablet are covered in the sardine oil.",
+      "rating": 5,
+      "author": "Dog lover",
+      "submitted_at": "2024-12-18T22:35:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    }
+  ],
+  "product_name": "Simparica Trio 20.1-40kg Dog Flea Tick & Worm Chew 6 Pack",
+  "product_url": null,
+  "source": "cache",
+  "fetched_at": "2026-09-19T06:03:21+00:00"
+}

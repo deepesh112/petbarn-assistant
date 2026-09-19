@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-09-19T06:05:17+00:00",
+  "source": "https://www.petbarn.com.au",
+  "review_platform": "Bazaarvoice (petbarn-au/main_site)",
+  "products": [
+    {
+      "sku": "117874",
+      "name": "Breeders Choice Cat Litter 30L",
+      "url": "https://www.petbarn.com.au/p/breeders-choice-cat-litter/117874",
+      "brand": "BREEDERS CHOICE",
+      "category": "Cat Litter",
+      "pet": "Cat",
+      "price": 38.49,
+      "average_rating": 4.73,
+      "review_count": 1083,
+      "text_review_count": 150,
+      "aliases": [
+        "Breeders Choice Cat Litter",
+        "Cat Litter 30L"
+      ]
+    },
+    {
+      "sku": "134736",
+      "name": "NexGard Spectra for Dog Flea Tick & Worm 15.1 - 30kg 6Pack",
+      "url": "https://www.petbarn.com.au/p/nexgard-spectra-for-dogs-15-1-30kg/134736",
+      "brand": "NexGard Spectra",
+      "category": "Dog Flea Tick & Worm",
+      "pet": "Dog",
+      "price": 182.0,
+      "average_rating": 4.81,
+      "review_count": 1037,
+      "text_review_count": 150,
+      "aliases": [
+        "Dog Flea Tick & Worm 15.1 - 30kg 6Pack"
+      ]
+    },
+    {
+      "sku": "133076",
+      "name": "Prime100 SPD Kangaroo & Pumpkin Roll Dog Food 2kg",
+      "url": "https://www.petbarn.com.au/p/prime100-kangaroo-pumpkin-cooked-dog-roll-2kg",
+      "brand": "Prime100",
+      "category": "Dog Food",
+      "pet": "Dog",
+      "price": 26.99,
+      "average_rating": 4.79,
+      "review_count": 1232,
+      "text_review_count": 149,
+      "aliases": [
+        "Prime100 SPD Kangaroo & Pumpkin Roll Dog Food",
+        "SPD Kangaroo & Pumpkin Roll Dog Food",
+        "SPD Kangaroo & Pumpkin Roll Dog Food 2kg"
+      ]
+    },
+    {
+      "sku": "127959",
+      "name": "Black Hawk Lamb And Rice Adult Dog Food - 20kg",
+      "url": "/p/black-hawk-lamb-rice-adult-dog-food/127959",
+      "brand": "Black Hawk",
+      "category": "Dog Food",
+      "pet": "Dog",
+      "price": 200.99,
+      "average_rating": 4.79,
+      "review_count": 1257,
+      "text_review_count": 149,
+      "aliases": [
+        "Black Hawk Lamb And Rice Adult Dog Food",
+        "Lamb And Rice Adult Dog Food",
+        "Lamb And Rice Adult Dog Food - 20kg"
+      ]
+    },
+    {
+      "sku": "139850",
+      "name": "Simparica Trio 20.1-40kg Dog Flea Tick & Worm Chew 6 Pack",
+      "url": "https://www.petbarn.com.au/p/simparica-trio-20-1-40kg-dog-flea-tick-worm-chew/139850",
+      "brand": "Simparica Trio",
+      "category": "Dog Flea Tick & Worm",
+      "pet": "Dog",
+      "price": 184.0,
+      "average_rating": 4.77,
+      "review_count": 622,
+      "text_review_count": 150,
+      "aliases": [
+        "20.1-40kg Dog Flea Tick & Worm Chew 6 Pack"
+      ]
+    },
+    {
+      "sku": "138869",
+      "name": "Barkers Best Variety Bone Biscuit Dog Treat 750g",
+      "url": "https://www.petbarn.com.au/p/barkers-best-variety-bone-biscuit-dog-treat-750g",
+      "brand": "Barkers Best",
+      "category": "Dog Treat",
+      "pet": "Dog",
+      "price": 9.0,
+      "average_rating": 4.71,
+      "review_count": 380,
+      "text_review_count": 150,
+      "aliases": [
+        "Barkers Best Variety Bone Biscuit Dog Treat",
+        "Variety Bone Biscuit Dog Treat",
+        "Variety Bone Biscuit Dog Treat 750g"
+      ]
+    },
+    {
+      "sku": "30295",
+      "name": "Royal Canin Indoor Adult Cat Food 4kg",
+      "url": "https://www.petbarn.com.au/p/royal-canin-feline-indoor-cat-food/30295",
+      "brand": "ROYAL CANIN",
+      "category": "Cat Food",
+      "pet": "Cat",
+      "price": 99.99,
+      "average_rating": 4.85,
+      "review_count": 847,
+      "text_review_count": 150,
+      "aliases": [
+        "Indoor Adult Cat Food",
+        "Indoor Adult Cat Food 4kg",
+        "Royal Canin Indoor Adult Cat Food"
+      ]
+    },
+    {
+      "sku": "138484",
+      "name": "Pro Plan Chicken Adult Cat Pouch 85gx12",
+      "url": "https://www.petbarn.com.au/p/pro-plan-chicken-adult-cat-pouch-85gx12",
+      "brand": "Pro Plan",
+      "category": "Cat Food",
+      "pet": "Cat",
+      "price": 40.99,
+      "average_rating": 4.79,
+      "review_count": 352,
+      "text_review_count": 150,
+      "aliases": [
+        "Chicken Adult Cat Pouch 85gx12"
+      ]
+    },
+    {
+      "sku": "139654",
+      "name": "Love Em Air Dried Beef Liver Dog Treat 200g",
+      "url": "https://www.petbarn.com.au/p/love-em-air-dried-beef-liver-dog-treat/139654",
+      "brand": "Love Em",
+      "category": "Dog Treat",
+      "pet": "Dog",
+      "price": 13.0,
+      "average_rating": 4.86,
+      "review_count": 490,
+      "text_review_count": 149,
+      "aliases": [
+        "Air Dried Beef Liver Dog Treat",
+        "Air Dried Beef Liver Dog Treat 200g",
+        "Love Em Air Dried Beef Liver Dog Treat"
+      ]
+    },
+    {
+      "sku": "144266",
+      "name": "Bravecto Plus 2.8-6.25kg Cat Flea Tick & Worm Pipette 2PK",
+      "url": "https://www.petbarn.com.au/p/bravecto-plus-2-8-6-25kg-cat-flea-tick-worm-pipette-2pk",
+      "brand": "Bravecto Plus",
+      "category": "Cat Flea Tick & Worm",
+      "pet": "Cat",
+      "price": 97.0,
+      "average_rating": 4.61,
+      "review_count": 316,
+      "text_review_count": 127,
+      "aliases": [
+        "2.8-6.25kg Cat Flea Tick & Worm Pipette 2PK"
+      ]
+    }
+  ]
+}

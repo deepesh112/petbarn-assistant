@@ -1,0 +1,2450 @@
+{
+  "sku": "139654",
+  "stats": {
+    "average_rating": 4.86,
+    "total_reviews": 490,
+    "text_review_count": 200,
+    "rating_distribution": {
+      "5": 437,
+      "4": 40,
+      "3": 10,
+      "1": 2,
+      "2": 1
+    },
+    "recommended_count": 159,
+    "not_recommended_count": 2,
+    "secondary_rating_averages": {
+      "Value for money": 4.66,
+      "Pet satisfaction": 4.97,
+      "Quality": 4.9
+    },
+    "first_review_at": "2024-04-13T07:38:46.000+00:00",
+    "last_review_at": "2026-09-12T01:00:37.000+00:00"
+  },
+  "reviews": [
+    {
+      "review_id": "1229324497",
+      "title": "She absolutely loves this product",
+      "text": "Brought this for my puppy as she loved them at the vet",
+      "rating": 5,
+      "author": "marsbar",
+      "submitted_at": "2026-09-09T00:45:28.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1229168526",
+      "title": "Love crunch",
+      "text": "My dogs love ‘em!",
+      "rating": 5,
+      "author": "Walter’s mama",
+      "submitted_at": "2026-09-06T21:54:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1229031405",
+      "title": "Favourite",
+      "text": "Dog loves these treats. Large pieces are hard to break apart but still a good purchase",
+      "rating": 3,
+      "author": "Lablover",
+      "submitted_at": "2026-09-04T22:45:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228882209",
+      "title": "My doc is addicted to this.",
+      "text": "I got these to try out on my dog. She loves em",
+      "rating": 5,
+      "author": "Yotis",
+      "submitted_at": "2026-09-03T00:46:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228800656",
+      "title": "Misty loves them",
+      "text": "",
+      "rating": 5,
+      "author": "Misty",
+      "submitted_at": "2026-09-01T21:02:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228155747",
+      "title": "Yummy yummy give pus more",
+      "text": "Loving this beef liver",
+      "rating": 5,
+      "author": "Five P",
+      "submitted_at": "2026-08-24T20:00:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1227939443",
+      "title": null,
+      "text": "I use the liver pieces as a reward when walking, and she loves them.",
+      "rating": 5,
+      "author": "Carlene",
+      "submitted_at": "2026-08-21T23:44:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1227830611",
+      "title": "Great",
+      "text": "My dogs favourite",
+      "rating": 5,
+      "author": "Wendy",
+      "submitted_at": "2026-08-20T10:48:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1227826279",
+      "title": null,
+      "text": "Loves his treats",
+      "rating": 5,
+      "author": "Buddy",
+      "submitted_at": "2026-08-20T09:36:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1227810250",
+      "title": null,
+      "text": "Love that the liver pieces are thin",
+      "rating": 5,
+      "author": "Adorable labradoodle",
+      "submitted_at": "2026-08-20T04:30:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1221945619",
+      "title": "Dog likes them",
+      "text": "I hear the bag. I know the sound.\nI chase my tail round and round.\nMy human brings the tasty snack,\nThe bestest treat inside the pack.\nIt’s beefy, dry, and smells just right,\nI sit and shake with all my might.\nA happy crunch! A tasty liver!\n(oh crap it get just a slither).",
+      "rating": 4,
+      "author": "nigel_the_spaniel",
+      "submitted_at": "2026-06-13T19:22:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 2.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1221890165",
+      "title": "My fussy Bordoodle loves these",
+      "text": "My larger dog loves these, and he is a fussy eater!",
+      "rating": 4,
+      "author": "Bordoodle mum",
+      "submitted_at": "2026-06-12T22:58:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221888937",
+      "title": "A Favourite Treat",
+      "text": "These liver treats are always a hit with our dog. I noticed our vet used them so I figured they must be a safe treat for dogs. This large pack size is economical and the pricing compares with the supermarket 'on special' price.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-06-12T22:20:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221649679",
+      "title": "Beef liver trets",
+      "text": "My dog loves them",
+      "rating": 5,
+      "author": "Fur Baby",
+      "submitted_at": "2026-06-09T22:18:44.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221430084",
+      "title": "Milly and most days at dog park love these treats",
+      "text": "My dog has high allergy’s these treats are excellent for my covoodle, she loves them and no reaction at all",
+      "rating": 5,
+      "author": "Very protective doggie Mu",
+      "submitted_at": "2026-06-07T05:47:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220743326",
+      "title": "Billy loves this.",
+      "text": "Great as a treat or to get my dog to eat his meal if sprinkled on top.",
+      "rating": 5,
+      "author": "Paddy",
+      "submitted_at": "2026-05-29T02:27:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220559196",
+      "title": "Misty loves them",
+      "text": "I bought the product about 10days ago",
+      "rating": 5,
+      "author": "Misty",
+      "submitted_at": "2026-05-26T14:19:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220456691",
+      "title": "My dog really loves this product",
+      "text": "I have a very fussy puppy, turning 5 months in 2 weeks. She doesn't like many treats that I buy, and it's a \"hit and miss\" all the time. BUT at last, she is loving the Airdried Beef Liver!!!",
+      "rating": 5,
+      "author": "Pomerpoo",
+      "submitted_at": "2026-05-25T06:03:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220048259",
+      "title": "These are one of his favourites",
+      "text": "My dog loves his treats",
+      "rating": 5,
+      "author": "Dog Lover",
+      "submitted_at": "2026-05-19T03:46:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219546993",
+      "title": "Liver treats",
+      "text": "These are nice and thin and are easy to break into small pieces as training rewards. My dog loves them .",
+      "rating": 5,
+      "author": "Kirri",
+      "submitted_at": "2026-05-12T11:43:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218687708",
+      "title": "He's one happy bub",
+      "text": "I just gave Jupiter a treat and he's impressed 😁",
+      "rating": 5,
+      "author": "Jupiter bubba boyz",
+      "submitted_at": "2026-04-30T11:41:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218551586",
+      "title": "Dog loves it",
+      "text": "I am satisfied with product.my dog loves it.",
+      "rating": 4,
+      "author": "Bananahead",
+      "submitted_at": "2026-04-28T15:39:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1218110345",
+      "title": "She does very well with her liver treats. The salmon is for special occasions j",
+      "text": "I use a treats in training her in obedience and on special occasions.",
+      "rating": 5,
+      "author": "No nicknames",
+      "submitted_at": "2026-04-22T11:01:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1217819133",
+      "title": "Great training treat",
+      "text": "My pup has always had these for training and he loves them",
+      "rating": 5,
+      "author": "Cobber dog club",
+      "submitted_at": "2026-04-21T00:36:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217733868",
+      "title": "A great little treat",
+      "text": "Crunchier than expected, but every shard was found on the floor",
+      "rating": 5,
+      "author": "Art",
+      "submitted_at": "2026-04-19T23:01:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217593893",
+      "title": "Liver treats are a great reward...",
+      "text": "I have purchased these beef liver dog treats over many months now. My dogs absolutely love them. Using them as a reward treat is very effective!",
+      "rating": 5,
+      "author": "Dog lover",
+      "submitted_at": "2026-04-17T23:18:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216550829",
+      "title": "Yum!",
+      "text": "My pet loves these liver treats.",
+      "rating": 5,
+      "author": "Binna",
+      "submitted_at": "2026-04-03T16:50:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216505572",
+      "title": "My two boxers Clancy and Lunar love them.",
+      "text": "My dogs expect these every morning tea. They love them. On our third pack in a month!",
+      "rating": 5,
+      "author": "Bobxrrbetty",
+      "submitted_at": "2026-04-02T22:31:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216309713",
+      "title": "My girl’s favourite",
+      "text": "My doggo loves these treats",
+      "rating": 5,
+      "author": "Abby’s mum",
+      "submitted_at": "2026-04-01T21:45:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216270115",
+      "title": "A winner in our house!",
+      "text": "This is a tie for favourite with the Lamb Treats.",
+      "rating": 5,
+      "author": "Spoodle Mum",
+      "submitted_at": "2026-04-01T10:53:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216253111",
+      "title": "My pet\nLoves this prodict",
+      "text": "The best liver treat",
+      "rating": 5,
+      "author": "Happy Louis",
+      "submitted_at": "2026-04-01T04:15:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216101284",
+      "title": "My dog loves these treats",
+      "text": "I bought these specifically as my dog loved them at puppy school. They are a hit!",
+      "rating": 5,
+      "author": "Bubba’s mama",
+      "submitted_at": "2026-03-29T20:39:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215793759",
+      "title": "My dogs love these!",
+      "text": "I have bought these for the last couple years for my puppies. They are fantastic",
+      "rating": 5,
+      "author": "Doglover",
+      "submitted_at": "2026-03-25T08:52:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215710383",
+      "title": "Great training treat",
+      "text": "This is our dog’s favourite treat and great for the treat pouch when doing training.",
+      "rating": 5,
+      "author": "Underwaterbear",
+      "submitted_at": "2026-03-23T20:54:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215672194",
+      "title": "My pet loves these treats and he gets no upset tummy from them. He loves them too!",
+      "text": "I have bought this product for my pet since he was a puppy. As he’s a cavoodle he has a sensitive stomach, but he is fine with liver treats.",
+      "rating": 5,
+      "author": "Cavoodle lover",
+      "submitted_at": "2026-03-23T11:54:28.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215186312",
+      "title": "3 Cavaliers love liver treats",
+      "text": "I have 3 Cavaliers and they all adore the beef liver treats, they tell me when they want to go upstairs to get some in the morning",
+      "rating": 5,
+      "author": "Cavlover",
+      "submitted_at": "2026-03-16T04:26:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215144194",
+      "title": "My pups love the product",
+      "text": "My pups loves this treats so much they do everything for it!!",
+      "rating": 5,
+      "author": "Sausage dogs",
+      "submitted_at": "2026-03-15T11:51:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1214848396",
+      "title": "Great reward and training treat",
+      "text": "We love these for our stubborn little sausages",
+      "rating": 5,
+      "author": "Cm",
+      "submitted_at": "2026-03-11T11:34:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214714912",
+      "title": "My fussy Schoodles fave",
+      "text": "My Schoodle loves these, they have been her fave for years.",
+      "rating": 5,
+      "author": "Margs",
+      "submitted_at": "2026-03-09T10:17:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214640904",
+      "title": "My pets LOVE this!",
+      "text": "Like crack for dogs! If you want a healthy training snack for dogs or just a treat then look no further. My two absolutely adore liver treats.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-03-08T02:43:28.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214531361",
+      "title": "Air Dried Beef Liver",
+      "text": "My dogs love this as a treat while we are walking. Great for training our puppy.",
+      "rating": 5,
+      "author": "CassieTheFoxy",
+      "submitted_at": "2026-03-06T09:07:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214221657",
+      "title": "Dogs Favourite",
+      "text": "My dogs favourite",
+      "rating": 5,
+      "author": "Marge",
+      "submitted_at": "2026-03-02T04:55:27.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213972889",
+      "title": "great for training",
+      "text": "- you can break up into small pieces so you can give your dogs bits by bits.",
+      "rating": 5,
+      "author": "Sky",
+      "submitted_at": "2026-02-26T00:12:44.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213972758",
+      "title": "Our dogs will do anything for a liver treat.",
+      "text": "Dog Addictive",
+      "rating": 5,
+      "author": "Value Shopper",
+      "submitted_at": "2026-02-26T00:01:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213442988",
+      "title": "Tasty treat",
+      "text": "My dogs love them and I love that they are big and small and easy to break up.",
+      "rating": 5,
+      "author": "Barbs",
+      "submitted_at": "2026-02-18T00:23:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213024252",
+      "title": "Best product ever",
+      "text": "I manage a council pound and find all the dogs love the liver treats",
+      "rating": 5,
+      "author": "Nillumbik pound facility",
+      "submitted_at": "2026-02-11T22:38:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1212829856",
+      "title": "Great treats",
+      "text": "Perfect little treats for all occssions",
+      "rating": 5,
+      "author": "Juliemal",
+      "submitted_at": "2026-02-09T10:24:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212308360",
+      "title": "Beef liver treats",
+      "text": "I’ve used these for training and treats . My dog loves them.",
+      "rating": 5,
+      "author": "Bet",
+      "submitted_at": "2026-02-01T19:44:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210829018",
+      "title": "My pet loves this product",
+      "text": "Harley loves these liver treats. He’s not generally food motivated, but he does enjoy these.",
+      "rating": 5,
+      "author": "Bozzy",
+      "submitted_at": "2026-01-13T01:42:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210562014",
+      "title": "she loves these",
+      "text": "she loves these.",
+      "rating": 5,
+      "author": "Princess",
+      "submitted_at": "2026-01-09T06:45:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210470212",
+      "title": "Good training treat",
+      "text": "Very effective as a \"higher value\" treat for training and to get dogs attention.",
+      "rating": 4,
+      "author": "Peppa's person",
+      "submitted_at": "2026-01-07T20:49:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1210349641",
+      "title": "My dog will do anything for this treat!",
+      "text": "This is my go to treat for my little cavoodle! His training was quickened by awarding him with this!",
+      "rating": 4,
+      "author": null,
+      "submitted_at": "2026-01-06T11:24:31.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1209580951",
+      "title": "Crunchy bliss",
+      "text": "I've been using this product for years. It's the only treat Eini doesn't snub his nose at. He just loves the crunch.",
+      "rating": 5,
+      "author": "Max",
+      "submitted_at": "2025-12-26T22:14:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1208746874",
+      "title": "Liver treats",
+      "text": "The only treats that I can give my dogs without upsetting their tummies, excellent quality.",
+      "rating": 5,
+      "author": "Me71",
+      "submitted_at": "2025-12-15T00:49:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207727313",
+      "title": "My dog loves this as a treat.",
+      "text": "Very happy with this product.",
+      "rating": 4,
+      "author": "Dog lover.",
+      "submitted_at": "2025-12-02T11:24:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207638342",
+      "title": "Love em treats",
+      "text": "I repeatedly purchase these treats as my dogs love them. Great variety and price.",
+      "rating": 5,
+      "author": "Dog lover",
+      "submitted_at": "2025-12-01T07:22:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207360170",
+      "title": "Dried liver...delicious!!",
+      "text": "One of my dogs favourite treats if not No 1!!",
+      "rating": 5,
+      "author": "Dogumms",
+      "submitted_at": "2025-11-26T23:20:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207172835",
+      "title": "My pup loves them",
+      "text": "Loves them. Great for training",
+      "rating": 5,
+      "author": "Zoe",
+      "submitted_at": "2025-11-24T20:06:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207040040",
+      "title": "My dogs just want more every time I give them one",
+      "text": "My dogs love these",
+      "rating": 5,
+      "author": "Dee",
+      "submitted_at": "2025-11-23T00:35:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1205828088",
+      "title": "love it",
+      "text": "my dogs love it",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-11-09T00:03:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1203938837",
+      "title": "Toy Poodle mum",
+      "text": "My fussy poodle ignores most soft chew treats but found out she loves these. I feel I can make her do backflips with these crunchy versions I discovered her love for them at the petbarn vets vaccination appointment last week and she went insane over these. Fussy poodle, try these.",
+      "rating": 5,
+      "author": "Toy poodle mum",
+      "submitted_at": "2025-10-26T23:55:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1203733329",
+      "title": "Training your dog",
+      "text": "It’s good to training my dog",
+      "rating": 5,
+      "author": "Lulu",
+      "submitted_at": "2025-10-23T20:20:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1203439906",
+      "title": "Treats for dog",
+      "text": "Great snack",
+      "rating": 3,
+      "author": "Hudson smells",
+      "submitted_at": "2025-10-19T21:10:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1203238107",
+      "title": "Healthy snack for old Jack",
+      "text": "Old Jack loves eating these at the vet, so I purchased some,",
+      "rating": 5,
+      "author": "Trying",
+      "submitted_at": "2025-10-16T19:57:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1202979866",
+      "title": "amazing treat",
+      "text": "brilliant all-natural daily treat for my dog",
+      "rating": 5,
+      "author": "dave",
+      "submitted_at": "2025-10-13T06:06:28.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1202668762",
+      "title": "My pet boxer loves the treats",
+      "text": "Bought this item on a whim a few days ago",
+      "rating": 5,
+      "author": "Boxer boy",
+      "submitted_at": "2025-10-08T07:41:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1202353377",
+      "title": "My Cav Daisy loves it",
+      "text": "I purchased this product a month ago",
+      "rating": 5,
+      "author": "Cav Mum",
+      "submitted_at": "2025-10-03T01:19:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1202279032",
+      "title": "Yum Yum Yum",
+      "text": "Always a winning treat. Dexter loves these, they're good to break into smaller pieces for training or leaving whole to give as a reward for something major.",
+      "rating": 5,
+      "author": "Shaun",
+      "submitted_at": "2025-10-02T00:28:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1202154100",
+      "title": "LOVE / EM",
+      "text": "I BROUGHT THIS PRODUCT WHEN LAST THERE AND FOUND MY PUP LOVES IT",
+      "rating": 5,
+      "author": "MUZZA",
+      "submitted_at": "2025-09-30T02:12:30.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201841829",
+      "title": "Great treat.",
+      "text": "The only treat my poodle actually eats instead of burying!",
+      "rating": 5,
+      "author": "Poodlelover",
+      "submitted_at": "2025-09-25T06:41:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201449773",
+      "title": "My Dogs Love These Treats",
+      "text": "My dogs love these treats. They are great to use as training rewards.",
+      "rating": 5,
+      "author": "anonymous",
+      "submitted_at": "2025-09-18T20:00:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1201154585",
+      "title": "Bedtime bribery!",
+      "text": "Great incentive at 1am in winter to get pup inside after tinkle time. Rattle the packet and she comes running!!!",
+      "rating": 5,
+      "author": "ED01",
+      "submitted_at": "2025-09-14T10:43:13.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200371383",
+      "title": "My 2 chihuahuas loves it",
+      "text": "I bought it a week ago",
+      "rating": 5,
+      "author": "Blingbling",
+      "submitted_at": "2025-09-01T14:01:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1200338925",
+      "title": "Yummo",
+      "text": "These were a hit with all four of our border collies!",
+      "rating": 5,
+      "author": "BorderCollieMum",
+      "submitted_at": "2025-09-01T00:18:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1199983619",
+      "title": "beef liver treats",
+      "text": "nice and crunchy - and just pure liver - no extra calories!!",
+      "rating": 5,
+      "author": "me",
+      "submitted_at": "2025-08-26T04:28:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0
+      }
+    },
+    {
+      "review_id": "1199882956",
+      "title": "Tasty treat",
+      "text": "Nice treat for our girl",
+      "rating": 5,
+      "author": "Sapphire",
+      "submitted_at": "2025-08-24T10:18:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1199753623",
+      "title": "he loves them",
+      "text": "brought this product for my dog",
+      "rating": 5,
+      "author": "Tibetan",
+      "submitted_at": "2025-08-22T01:40:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1199445700",
+      "title": "Thumbs up 👍",
+      "text": "Expensive but my dog prefers it",
+      "rating": 5,
+      "author": "Stella's Mum",
+      "submitted_at": "2025-08-17T06:03:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1198711863",
+      "title": "Good stuff.",
+      "text": "Good for our dog.",
+      "rating": 5,
+      "author": "Trumpy",
+      "submitted_at": "2025-08-05T05:16:26.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1198687250",
+      "title": "Dog food",
+      "text": "Dog loves them",
+      "rating": 5,
+      "author": "Annie",
+      "submitted_at": "2025-08-04T14:16:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0
+      }
+    },
+    {
+      "review_id": "1198671497",
+      "title": "Special treats",
+      "text": "I have 2 toy poodles and they both love love ‘em air dried beef liver. They have tried other products but it seems that they don’t compare because they don’t eat anything but love ‘em air dried beef liver.",
+      "rating": 5,
+      "author": "Vera",
+      "submitted_at": "2025-08-04T11:21:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198285860",
+      "title": "my pet loves these",
+      "text": "great product wright price",
+      "rating": 5,
+      "author": "jack russel",
+      "submitted_at": "2025-07-29T00:36:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198283518",
+      "title": "My dog loves it",
+      "text": "I bought this snack for my dog and it’s loves them",
+      "rating": 4,
+      "author": "Moodlover",
+      "submitted_at": "2025-07-28T22:37:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1198284751",
+      "title": "My dogs absolutely love these",
+      "text": "I buy these all the time as treats for my dogs",
+      "rating": 5,
+      "author": "Knicy",
+      "submitted_at": "2025-07-28T22:14:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198202145",
+      "title": "Maisie loves the liver thins",
+      "text": "Bought last week happy with product",
+      "rating": 5,
+      "author": "Pet owner",
+      "submitted_at": "2025-07-28T12:38:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198065885",
+      "title": "Very loved",
+      "text": "Great product",
+      "rating": 5,
+      "author": "Missy",
+      "submitted_at": "2025-07-26T10:47:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1197873458",
+      "title": "Lovin liver",
+      "text": "The only dog treat my dachshund likes",
+      "rating": 5,
+      "author": "Lukey",
+      "submitted_at": "2025-07-23T21:11:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1197537620",
+      "title": "Good product but expensive",
+      "text": "Both my dogs love this product, but it is too expensive, like most products for animals. I would buy more if prices were lower.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-07-18T22:16:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1197464153",
+      "title": "Labrador suitable",
+      "text": "This product is very suitable for my Labradors especially for my Chocolate lab who has allergies.",
+      "rating": 4,
+      "author": "Sally",
+      "submitted_at": "2025-07-17T22:31:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 3.0
+      }
+    },
+    {
+      "review_id": "1197129748",
+      "title": "He loves these for training",
+      "text": "Bought these for my dog",
+      "rating": 5,
+      "author": "Dog lover",
+      "submitted_at": "2025-07-13T05:16:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1196751146",
+      "title": "All good.",
+      "text": "Repeat Order because they love it. All good.",
+      "rating": 5,
+      "author": "BB",
+      "submitted_at": "2025-07-08T20:48:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1196556087",
+      "title": "My dog loves this treat.",
+      "text": "This treat is a great price and a good quality product for my dog. I often break one of these up into his dinner and he enjoys it so much more.",
+      "rating": 5,
+      "author": "KLM",
+      "submitted_at": "2025-07-05T21:40:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1194724817",
+      "title": "My Dog Loves theseTreats.",
+      "text": "My dog loves these. Very glad I bought them.",
+      "rating": 5,
+      "author": "CPD",
+      "submitted_at": "2025-06-25T17:16:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1194096090",
+      "title": "Liver treats little Lakie loves",
+      "text": "Bought for my new puppy and just loves although her wind is very smelly probably due to the liver",
+      "rating": 5,
+      "author": "Little Lakie",
+      "submitted_at": "2025-06-21T06:52:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1193951695",
+      "title": "My dog absolutely loves it and will do anything for some",
+      "text": "Exceptional Dog treat good for training or just a treat but don’t give them too much as it comes out at the other end haha",
+      "rating": 5,
+      "author": "Moorza",
+      "submitted_at": "2025-06-19T05:46:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1193945102",
+      "title": "Beef liver treats",
+      "text": "Great puppy training tool. Easy on puppy's tummy too.",
+      "rating": 4,
+      "author": "R",
+      "submitted_at": "2025-06-18T22:59:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1193578874",
+      "title": "Love ‘em!",
+      "text": "Have been buying this product for 3 years",
+      "rating": 5,
+      "author": "Cavoo",
+      "submitted_at": "2025-06-16T01:06:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1193237665",
+      "title": "Love em beef liver",
+      "text": "My furbaby loves her treats",
+      "rating": 5,
+      "author": "Furbaby",
+      "submitted_at": "2025-06-11T09:52:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1193126568",
+      "title": "Teddy love this treats is the best",
+      "text": "So glad pet barn has this it’s been awhile I see this product at the supermarket",
+      "rating": 5,
+      "author": "Teddythecavapoo",
+      "submitted_at": "2025-06-09T12:09:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1193075277",
+      "title": "Our Labrador boys favourite treat",
+      "text": "Our 12 year old lab boy loves these treats . He hates when we go out but his one consolation is getting a handful of his favourite liver treats . When we walk up to petbarn to buy them we only get a couple of steps away from the shop and the bag is opened ready for him to enjoy",
+      "rating": 5,
+      "author": "Lissy15",
+      "submitted_at": "2025-06-08T13:52:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1191769527",
+      "title": "My pet loves this product",
+      "text": "I have bought this many times andu dog loves it",
+      "rating": 5,
+      "author": "Fussy Chihuahua",
+      "submitted_at": "2025-05-30T03:36:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1190236137",
+      "title": "Yum Yum Liver",
+      "text": "One of my Cavoodle's favourite treats",
+      "rating": 4,
+      "author": "BellaTheVoodle",
+      "submitted_at": "2025-05-27T04:57:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1189559840",
+      "title": "Easy reward treats",
+      "text": "My dogs always love these",
+      "rating": 5,
+      "author": "Petcavs",
+      "submitted_at": "2025-05-26T03:16:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1188078368",
+      "title": "Great treat.",
+      "text": "A healthy treat i can give to my pups 😊",
+      "rating": 5,
+      "author": "JeseG",
+      "submitted_at": "2025-05-23T13:27:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1187403375",
+      "title": "They are friendly",
+      "text": "He loves them",
+      "rating": 5,
+      "author": "Gary",
+      "submitted_at": "2025-05-21T23:26:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186701569",
+      "title": "He is difficult to change his food",
+      "text": "I bought this product last week and my dog is eating them better than the others recommended",
+      "rating": 5,
+      "author": "Well Trained Owner",
+      "submitted_at": "2025-05-19T07:46:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1186705627",
+      "title": "Essential for their wellbeing",
+      "text": "My dogs have enjoyed these for n my any years and never get sick of them",
+      "rating": 5,
+      "author": "Papillon lover",
+      "submitted_at": "2025-05-19T02:35:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186553160",
+      "title": "Great for reinforcement",
+      "text": "Perfect as rewards for appropriate behaviour when we’re out walking. He loves them. Sometimes there’s rather a lot of dust and unusable fragments in the bag though.",
+      "rating": 5,
+      "author": "Urban’s dad",
+      "submitted_at": "2025-05-15T21:34:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186290457",
+      "title": "Good easy treats, great to use for behavior training",
+      "text": "Great treats",
+      "rating": 5,
+      "author": "Grover",
+      "submitted_at": "2025-05-11T09:32:30.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186146119",
+      "title": "Bribery and reward dog treat",
+      "text": "A reward treat for attending the groomers at Petbarn",
+      "rating": 5,
+      "author": "Rusty",
+      "submitted_at": "2025-05-08T10:41:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186099567",
+      "title": "Dog likes this product",
+      "text": "Too expensive \nCan I buy in bulk?",
+      "rating": 5,
+      "author": "Bluey",
+      "submitted_at": "2025-05-07T11:08:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1185993619",
+      "title": "Convenient and dogs love it.",
+      "text": "Great treat for training and easy to crunch up in the bag as it is thicker plastic.",
+      "rating": 5,
+      "author": "Yogi+Bear chihuahuas",
+      "submitted_at": "2025-05-05T12:18:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1185695349",
+      "title": "My dog loves liver treats",
+      "text": "I bought this for my dog to train and reward him when going to bed.",
+      "rating": 5,
+      "author": "Silky Terrier",
+      "submitted_at": "2025-04-30T21:26:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1185156346",
+      "title": "Ted loved this product",
+      "text": "Beef Liver",
+      "rating": 5,
+      "author": "Teddy",
+      "submitted_at": "2025-04-22T08:56:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1184949094",
+      "title": "Love them",
+      "text": "I buy these regularly when on special and both our dogs absolutely love them ❤️",
+      "rating": 5,
+      "author": "Danbre",
+      "submitted_at": "2025-04-18T02:34:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1184683502",
+      "title": "My dog loves these",
+      "text": "The dog absutely loves these- so good for training",
+      "rating": 5,
+      "author": "Pluto",
+      "submitted_at": "2025-04-13T11:14:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1184493313",
+      "title": "The dog does love the taste.",
+      "text": "Have been buying this product for years, notice it is getting thicker and harder to break into small pieces.",
+      "rating": 4,
+      "author": "Geoff",
+      "submitted_at": "2025-04-09T23:28:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1183938151",
+      "title": "Liver treats",
+      "text": "Good value, cheaper than supermarkets!",
+      "rating": 5,
+      "author": "Chalkboyz",
+      "submitted_at": "2025-04-02T19:36:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1182374383",
+      "title": "My Dog loves Petbarn",
+      "text": "Great product, my dog loves them",
+      "rating": 5,
+      "author": "KJ",
+      "submitted_at": "2025-03-08T19:09:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1182095763",
+      "title": "Perfect for a picky dog",
+      "text": "Best treat for training my dog",
+      "rating": 5,
+      "author": "Kazza1123",
+      "submitted_at": "2025-03-03T01:40:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181274686",
+      "title": "Omg the puppies love these definitely a favourite! Can’t get enough of these and will do anything fo",
+      "text": "Beef liver",
+      "rating": 5,
+      "author": "BorderCollieMumma",
+      "submitted_at": "2025-02-23T22:40:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181178328",
+      "title": "Treats!",
+      "text": "My dog loves these!!!",
+      "rating": 5,
+      "author": "I love my dog",
+      "submitted_at": "2025-02-21T23:24:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1181138119",
+      "title": "Treats",
+      "text": "Fresh and crunchy. For my dog of course.",
+      "rating": 5,
+      "author": "Ryder",
+      "submitted_at": "2025-02-21T07:27:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1181078400",
+      "title": "My Labradoodle loves liver treats",
+      "text": "I buy these regularly for my very fussy Labradoodle. They are her favourite sprinkle",
+      "rating": 5,
+      "author": "Bobby’s Mum",
+      "submitted_at": "2025-02-20T00:06:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181052049",
+      "title": "My pet loves this product",
+      "text": "I bought 2 days ago",
+      "rating": 5,
+      "author": "Minakshi",
+      "submitted_at": "2025-02-19T12:39:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1180649614",
+      "title": "My dog loves em",
+      "text": "I also like that you can break them up for training treats or to stuff in a Kong",
+      "rating": 5,
+      "author": "Moochymum",
+      "submitted_at": "2025-02-12T05:51:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1180534105",
+      "title": "The name tells it all.",
+      "text": "My dog doesn't normally accept treats but loves \"Love 'em\" almost too much.",
+      "rating": 5,
+      "author": "catfan",
+      "submitted_at": "2025-02-10T12:39:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1180381816",
+      "title": "Best thing on the market for my foxy",
+      "text": "Marley likes the liver treats - I reward him with these",
+      "rating": 5,
+      "author": "Marley’s mum",
+      "submitted_at": "2025-02-07T20:18:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1180156644",
+      "title": "Best treats for our dog",
+      "text": "Our dog loves these, always has and they are hard to find, so glad Petbarn have them.",
+      "rating": 5,
+      "author": "Cat slave",
+      "submitted_at": "2025-02-03T20:52:31.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179863907",
+      "title": "Fussy pet loves this project!",
+      "text": "My fussy dog goes crazy over these and what’s even better is that it is only one ingredient!",
+      "rating": 5,
+      "author": "Jayda",
+      "submitted_at": "2025-01-29T20:02:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1179498574",
+      "title": "Can I have more please 🐶",
+      "text": "Our dog loves these crunchy snacks as a treat or broken up over her dry food.",
+      "rating": 5,
+      "author": "Jb",
+      "submitted_at": "2025-01-24T00:30:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1178635527",
+      "title": "It is our dogs favourite treat",
+      "text": "I bought dried liver 500gr at a good price",
+      "rating": 5,
+      "author": "Shih tzu s housekeeper",
+      "submitted_at": "2025-01-10T00:41:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1178219052",
+      "title": "My dog loves this product",
+      "text": "Tasty and healthy treat or a little as food topper",
+      "rating": 5,
+      "author": "Starlight",
+      "submitted_at": "2025-01-03T20:20:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1178114720",
+      "title": "jack loves the love me liver",
+      "text": "love the staff at petbarn always happy and willing to help me",
+      "rating": 5,
+      "author": "german shepard jack",
+      "submitted_at": "2025-01-02T09:40:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1177864701",
+      "title": "Delicious treat",
+      "text": "My little pup loves these treats and they are very helpful in training your pup.",
+      "rating": 5,
+      "author": "Tash",
+      "submitted_at": "2024-12-29T07:47:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1176902087",
+      "title": "The best training/reward treat out.",
+      "text": "I’ve been using love em beef liver to train/treat my assistive dog for a number of years now.\nBecause she gets many in a day, this treat can be broken into smaller pieces.",
+      "rating": 5,
+      "author": "Love beardo dogs",
+      "submitted_at": "2024-12-13T19:09:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1176732015",
+      "title": "I buy them often and she cant get enough of them.",
+      "text": "My dog loves the treets",
+      "rating": 5,
+      "author": "Rubys human",
+      "submitted_at": "2024-12-11T11:53:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1176243019",
+      "title": "I would recommend this product",
+      "text": "My dog loves this food. Won’t eat any other type of kibble. But it’s expensive",
+      "rating": 5,
+      "author": "Small Labradoodle",
+      "submitted_at": "2024-12-03T19:51:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1175368451",
+      "title": "Tasty treats for training rewards!",
+      "text": "Excellent product - great for treats",
+      "rating": 5,
+      "author": "Westie doggies",
+      "submitted_at": "2024-11-21T02:46:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1175197796",
+      "title": "Tommy really Enjoys Love Em Beef Liver Treats",
+      "text": "Healthy and Tasty !",
+      "rating": 5,
+      "author": "Tommy’s Mum",
+      "submitted_at": "2024-11-18T00:51:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1175036874",
+      "title": "They love this product",
+      "text": "This is a good treat for my labs no chicken no grains",
+      "rating": 5,
+      "author": "Sally",
+      "submitted_at": "2024-11-14T20:10:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1174981677",
+      "title": "Great for training",
+      "text": "Great for training, the dogs love this",
+      "rating": 5,
+      "author": "Toomanydogs",
+      "submitted_at": "2024-11-13T19:38:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1174942229",
+      "title": "Loves",
+      "text": "Upon taking my 9 week old pup for her second round of shots, the vet bribed her with liver treats & she was obsessed from the first bite. They have been a valuable treat for training her.",
+      "rating": 5,
+      "author": "Canecorsomummy",
+      "submitted_at": "2024-11-13T00:34:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1174124713",
+      "title": "Dogs favourite treat",
+      "text": "Great treat for my dog at any time.",
+      "rating": 4,
+      "author": "Westie",
+      "submitted_at": "2024-11-06T08:28:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1173562995",
+      "title": "Dogs love these treats",
+      "text": "I have three dogs at home and they love these treats.",
+      "rating": 5,
+      "author": "lovemydogs",
+      "submitted_at": "2024-10-30T22:34:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1173050690",
+      "title": "Love em pet treat",
+      "text": "I brought this product on weekend for my dog. He love's them. I buy them as a special treat",
+      "rating": 5,
+      "author": "Suuzie-Q",
+      "submitted_at": "2024-10-21T10:44:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1173023987",
+      "title": "He likes them",
+      "text": "Brought these for our brand new puppy",
+      "rating": 5,
+      "author": "Puppymama",
+      "submitted_at": "2024-10-20T19:44:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172633207",
+      "title": "Liver treats for the win",
+      "text": "My dog absolutely loves these",
+      "rating": 5,
+      "author": "Adelke77",
+      "submitted_at": "2024-10-13T07:32:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172629153",
+      "title": "Liver treats",
+      "text": "Great product. Our go to dog treat",
+      "rating": 5,
+      "author": "NeoLove",
+      "submitted_at": "2024-10-13T04:40:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1172396017",
+      "title": "Benson loves this product",
+      "text": "Excellent venues and staff always kind and dedicated.",
+      "rating": 5,
+      "author": "Benson",
+      "submitted_at": "2024-10-07T23:07:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    }
+  ],
+  "product_name": "Love Em Air Dried Beef Liver Dog Treat 200g",
+  "product_url": null,
+  "source": "cache",
+  "fetched_at": "2026-09-19T06:01:45+00:00"
+}

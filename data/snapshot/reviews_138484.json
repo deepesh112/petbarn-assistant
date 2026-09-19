@@ -1,0 +1,2518 @@
+{
+  "sku": "138484",
+  "stats": {
+    "average_rating": 4.79,
+    "total_reviews": 352,
+    "text_review_count": 336,
+    "rating_distribution": {
+      "5": 293,
+      "4": 49,
+      "3": 7,
+      "2": 2,
+      "1": 1
+    },
+    "recommended_count": 294,
+    "not_recommended_count": 7,
+    "secondary_rating_averages": {
+      "Pet satisfaction": 4.87,
+      "Quality": 4.85,
+      "Value for money": 4.53
+    },
+    "first_review_at": "2022-06-25T12:44:11.000+00:00",
+    "last_review_at": "2026-09-15T03:31:51.000+00:00"
+  },
+  "reviews": [
+    {
+      "review_id": "1221613051",
+      "title": "Proplan is Puddha approved",
+      "text": "My very fussy cat loves proplan chicken.",
+      "rating": 5,
+      "author": "Firehorse888",
+      "submitted_at": "2026-06-09T13:14:26.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215147072",
+      "title": "Excellent",
+      "text": "Always a favourite",
+      "rating": 5,
+      "author": "Francine",
+      "submitted_at": "2026-03-15T12:38:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207524499",
+      "title": "No question too hard!",
+      "text": "I had some very specific dietary questions about my lovely Ragdoll cat. The staff member I spoke to was wonderful, she fully understood what I needed! So far one extremely happy cat and owner!",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-11-29T13:23:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1198841880",
+      "title": "Fussy cat",
+      "text": "Fussy senior cat enjoys this food",
+      "rating": 5,
+      "author": "JC",
+      "submitted_at": "2025-08-07T05:02:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1193380146",
+      "title": "Our white Persian thinks Pro Plan Rocks",
+      "text": "This is the only wet food our cat eats aside from Pork Mince. Loves them mixed together.",
+      "rating": 5,
+      "author": "White animal Member",
+      "submitted_at": "2025-06-13T20:44:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1192417028",
+      "title": "My cats love it",
+      "text": "My cats love this and no more uneaten food left in their bowls",
+      "rating": 5,
+      "author": "Cat friend",
+      "submitted_at": "2025-05-31T02:39:26.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1186331387",
+      "title": "Consistently favoured by my cats",
+      "text": "My cats always know they’re getting something special when I give them Pro Plan wet cat food. They love it. It’s packed with good natural flavours and plenty of protein. I only ever buy it when it’s discounted or sold as a deal because it’s expensive.",
+      "rating": 5,
+      "author": "Hunter Bargain",
+      "submitted_at": "2025-05-12T03:46:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1183108284",
+      "title": "Am very happy with it",
+      "text": "My cats love this food",
+      "rating": 5,
+      "author": "Burmese lover.",
+      "submitted_at": "2025-03-20T22:35:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1181482588",
+      "title": "Fantastic",
+      "text": "Lenny and the lads loved it",
+      "rating": 5,
+      "author": "Lenny is a legend",
+      "submitted_at": "2025-02-27T03:07:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1172672502",
+      "title": "my cat loves it",
+      "text": "cat loves it",
+      "rating": 5,
+      "author": "Cat owerner",
+      "submitted_at": "2024-10-13T23:38:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1172630481",
+      "title": "The reviews don't lie!",
+      "text": "My cat is fussy as hell shes around 4 years old, she also has gingivitis so I try keep her on wet food so it's not sore on her teeth. I use to feed her the chef loaf and mash it up with water but she was always leaving so much behind and just licking up the gravy, I decided to buy some different wet food based on reviews and this one she loved she ate so much meat and of course licked up all the gravy but after she was done she walked off and went to loaf on her bed instead of meowing and hanging around for something different to eat! The reviews weren't lying and I'm confident we've found a winner for her!",
+      "rating": 5,
+      "author": "Tallulah",
+      "submitted_at": "2024-10-13T05:55:01.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1172233411",
+      "title": "Happy cats",
+      "text": "The cats love Purina Pro Plan.",
+      "rating": 5,
+      "author": "SP",
+      "submitted_at": "2024-10-04T08:00:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1170941607",
+      "title": "Shiny coats and healthy cats",
+      "text": "This has been my go to cat food for a few years now, and it’s the best food in its price range. My cats have never been healthier.",
+      "rating": 5,
+      "author": "Mike",
+      "submitted_at": "2024-09-08T09:40:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1159386379",
+      "title": "Cat likes it",
+      "text": "Cat really likes it. It's a good balance between meat and gravy. The meat part looks a bit like mince IE small",
+      "rating": 5,
+      "author": "Karen F",
+      "submitted_at": "2024-04-04T10:01:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1157831515",
+      "title": "Pro Plan Adult Chicken Cat Food - 5 Stars",
+      "text": "This is my 2nd review for this product. I can’t rave enough about it! Our cat loves it. With essential nutrients and real meat at an affordable price, you couldn’t ask for anything more.",
+      "rating": 5,
+      "author": "Cat Lover",
+      "submitted_at": "2024-03-10T00:33:35.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1157607858",
+      "title": "The cat loved it",
+      "text": "Was lucky enough to be given some samples of this and my fussy 12year old loved them. They are not too smelly for a wet food either",
+      "rating": 5,
+      "author": "Catmum",
+      "submitted_at": "2024-03-05T10:56:01.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 4.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1156550865",
+      "title": "My cats devoured it",
+      "text": "My 2 cats Zoey who is a 2 year old ragdoll cat and Zeus who is a 1 year old tabby cat, absolutely loved it. It was gone within a few minutes of it being put in their food bowls and they licked them clean. Would absolutely recommend to anyone with cats.",
+      "rating": 5,
+      "author": "Channi88",
+      "submitted_at": "2024-02-19T22:36:15.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1156548217",
+      "title": "Loved it",
+      "text": "My cat enjoyed it!",
+      "rating": 5,
+      "author": "AllaboutCats",
+      "submitted_at": "2024-02-19T21:06:13.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1156548078",
+      "title": "Happy Kitty!!",
+      "text": "My cat Bella is often very fussy with her food, but this must have been purrfection as she was quick to her bowl and quicker to devour every last morsel in her bowl! There was never a scrap left of this food and it looks so much better than other preprepared cat foods on the market!",
+      "rating": 5,
+      "author": "Amandaq311",
+      "submitted_at": "2024-02-19T20:55:16.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1156505572",
+      "title": "A winner in our house",
+      "text": "My cat absolutely loved this cat food. The gravy was the best bit apparently.",
+      "rating": 5,
+      "author": "Nikki",
+      "submitted_at": "2024-02-19T11:34:06.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1156504100",
+      "title": "Highly Recommend!!",
+      "text": "Fussy cat loves Purina Pro Plan\n\n I had serious doubts to whether our cat would even go near his bowl since I was going to give him something new. He’s fussy, very fussy.\n I opened the packet of Purina Pro Plan and let him smell it first. He meowed, which was a great sign. I put it in his bowl and he ate it all in one go!!\n When I opened it I was surprised it didn’t smell like cat food. It smelt and looked like chicken in gravy.\n My cat was happy, so are we! Highly recommend Purina Pro Plan.",
+      "rating": 5,
+      "author": "Trish",
+      "submitted_at": "2024-02-19T10:45:08.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1156495191",
+      "title": "Great product",
+      "text": "My cats are fussy but they loved this",
+      "rating": 4,
+      "author": "Allyb",
+      "submitted_at": "2024-02-19T08:53:19.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 4.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1156493077",
+      "title": "Amazing cat food",
+      "text": "One of the best cat food I have tried it’s smelt nice and not smelly like most cat foods it also has real meat and not process meat they definitely have my vote.",
+      "rating": 5,
+      "author": "Belle91",
+      "submitted_at": "2024-02-19T06:44:12.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1156129099",
+      "title": "A Tasty Meal",
+      "text": "My 18yr old Queen of the house actually liked PRO PLAN Adult Chicken Wet Cat Food.\nShe has been so fussy now that she has “matured”, so hunting down a decent healthy cat food is so hard.\nPro Plan provides most of the nutrients my adult cat needs.",
+      "rating": 5,
+      "author": "Mum's are Best",
+      "submitted_at": "2024-02-17T17:32:07.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155723616",
+      "title": "Nutritious, delicious and hits all the notes!",
+      "text": "Clearly high quality. A unanimous verdict from our feline jury. Our cats tucked in and didn't stop till the plate was clean. Satisfaction was had by all involved. From the moment you open the pouch, you can tell this is something special; a sentiment shared by our purring companions. We definitely recommend.",
+      "rating": 5,
+      "author": "R.G.",
+      "submitted_at": "2024-02-15T08:55:06.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155665000",
+      "title": "My cat loved it",
+      "text": "I feed PRO PLAN Adult Chicken wet cat food to my cat once I got the sample. For 3 days he finished everything in one go. It was easy to use and just one sachet for every evening will be enough for the nutrients he needs for the whole day. Will definitely buy them again. Thank you.",
+      "rating": 5,
+      "author": "Kittyfairy",
+      "submitted_at": "2024-02-14T06:39:26.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155515796",
+      "title": "Cat approved!",
+      "text": "I have a very fussy cat who will let the birds eat her food if she doesn't like it. The birds have absolutely no chance with the Pro Plan wet cat food, she ate it up much quicker than usual. For her to eat her whole bowl straight away speaks volumes. Definitely two paws up from my fur baby.",
+      "rating": 5,
+      "author": "LaceyCat",
+      "submitted_at": "2024-02-12T23:50:19.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155487996",
+      "title": "Two Paws Up from Boogie!",
+      "text": "Boogie enjoyed trialling his Purina Pro Plan Adult cat food pouches. His bowl was licked clean each time, so I guess that means he gives it a two paws up rating! :)",
+      "rating": 5,
+      "author": "loulovestoskate",
+      "submitted_at": "2024-02-12T12:32:08.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155457965",
+      "title": "Fussy feline",
+      "text": "My beautiful yet very wilful cat Scarlett is much like her namesake Scarlett Ohara and doesn't follow trends very well. Unfortunately PRO PLAN chicken was not on the menu for Ms Scarlett and although she did lick a couple of slurps of the sauce the rest was left untouched . My cat knows that it would have been a good meal for her thus didn't touch it",
+      "rating": 2,
+      "author": "Frantic feline owner",
+      "submitted_at": "2024-02-11T22:36:45.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 3.0,
+        "Value for money": 3.0,
+        "Pet satisfaction": 1.0
+      }
+    },
+    {
+      "review_id": "1155456254",
+      "title": "My cat loved PRO PLAN Adult Chicken Wet Cat Food",
+      "text": "My cat loved PRO PLAN Adult Chicken Wet Cat Food. He ate it quickly and didn’t leave a drop leftover in his bowl!",
+      "rating": 4,
+      "author": "Cat owner",
+      "submitted_at": "2024-02-11T20:46:34.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 4.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1155379875",
+      "title": "My cat loved it",
+      "text": "My cat enjoyed the Pro Plan wet food sachets so much that she licked the plate clean. I highly recommend it, but I suggest buying them on sale as they can be pricey.",
+      "rating": 4,
+      "author": "Omyara",
+      "submitted_at": "2024-02-10T10:31:21.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 4.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1155362050",
+      "title": "Puddings new favourite!",
+      "text": "Pudding is a fussy old boy but boy did he love the new Pro Plan Chicken Wet Food. I couldn’t even open the packet completely before he was trying to eat it and now he won’t eat the old brand we were buying. He’s had a taste of the best and won’t settle for less.",
+      "rating": 5,
+      "author": "OdinsMumma",
+      "submitted_at": "2024-02-10T00:40:04.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155363162",
+      "title": "Healthy Food for Healthy Cats",
+      "text": "My two cats absolutely enjoyed the PRO PLAN Adult Chicken Wet Cat Food and finished it quite quickly. I love that it's real meat and I'm sure my cats enjoyed that too. It also has the right ingredients for a healthy diet. I will be looking to buy this product in future and recommend to other cat-loving family and friends",
+      "rating": 5,
+      "author": "TamZ",
+      "submitted_at": "2024-02-10T00:03:18.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155355562",
+      "title": "Purina PRP Pan",
+      "text": "Coco enjoyed consuming this product and I felt good about giving it to her because she was getting all the nutrients she needs.",
+      "rating": 5,
+      "author": "Cococat",
+      "submitted_at": "2024-02-09T19:23:26.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155332912",
+      "title": "Great Quality Food!",
+      "text": "My cats really love this product!",
+      "rating": 5,
+      "author": "dragonsheba",
+      "submitted_at": "2024-02-09T12:17:12.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155329085",
+      "title": "Great for fussy cats!",
+      "text": "I had to try this for my cats as part of a product review and I was pleasantly surprised when my very fussy cats ate the lot.",
+      "rating": 5,
+      "author": "Catlover",
+      "submitted_at": "2024-02-09T09:45:25.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155325651",
+      "title": "Nutritious and convenient",
+      "text": "Nutritious and convenient cat food in a pouch. My two cats thoroughly enjoyed this sample and I'll be buying more. There is just the right amount of gravy and it smelt nice.",
+      "rating": 5,
+      "author": "natzerat",
+      "submitted_at": "2024-02-09T09:39:59.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155325490",
+      "title": "Happy kitty!",
+      "text": "Recently received this for my kitty to try, she was very happy to tuck in! Seemed to have the perfect mix of chunks and gravy",
+      "rating": 5,
+      "author": "AmandaKnows311",
+      "submitted_at": "2024-02-09T09:35:05.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1155323761",
+      "title": "Cat likes it",
+      "text": "My cat really liked the pro plan chicken wet food. It is a great size. Will get again.",
+      "rating": 3,
+      "author": "Alysse91",
+      "submitted_at": "2024-02-09T08:58:31.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 4.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1155320778",
+      "title": "Great for a fussy eater",
+      "text": "My cat loved the chicken adult pouches, he usually is a fussy eater, he finished it at one go and wanted more.",
+      "rating": 5,
+      "author": "Ash",
+      "submitted_at": "2024-02-09T07:53:43.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155323426",
+      "title": "Great Product",
+      "text": "PRO PLAN Adult Chicken Wet Cat Food Pouch was really enjoyed by my cat.The meat looked nice and wasn't overpowering in smell.The pouchs are a good size portion and easy to use.Full of nutrients and fibre which is good to know.Highly recommend this premium cat food.",
+      "rating": 5,
+      "author": "Keri",
+      "submitted_at": "2024-02-09T07:38:15.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155318521",
+      "title": "My cats loved it",
+      "text": "I trialled this through Mouths of Mum. I shared the samples between my two cats who seemed to enjoy it. They ate it all and didnt snub there noses up like they do with new food. It was meaty and that was a big plus.",
+      "rating": 5,
+      "author": "Cat Lover",
+      "submitted_at": "2024-02-09T06:32:34.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155318327",
+      "title": "Great pouch for my fussy cat",
+      "text": "My cat is VERY fussy and usually only eats tuna pouches, so I was quite doubtful as to whether she'd like it.\nI was very surprised when she ate the lot!!\nThe pouches make it mess free and it's just the right amount.\nA great meal for our cat!",
+      "rating": 5,
+      "author": "Tarly82",
+      "submitted_at": "2024-02-09T05:18:04.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 3.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155316867",
+      "title": "Devoured and wanted seconds",
+      "text": "I’d actually forgotten I’d applied to sample this product. So it was a nice surprise when it came in the mail. Of course, we had to give it to our cat, Loki for dinner that night. As soon as I had torn open the sachet, he came bounding in like a madman. We always get him to sit before we place his food in front of him, and he was quite impatient, licking his chops and barely staying still. Once his bowl was placed in front of him, he devoured it in seconds! Definitely will get this again",
+      "rating": 5,
+      "author": "Channyb",
+      "submitted_at": "2024-02-09T05:12:55.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155318300",
+      "title": "Kitty loved it",
+      "text": "My cat Luna loved it. She licked her dinner bowl clean. Would definitely buy for her in the future, and see if there is other flavours that she would like to try as well. She loves chicken, beef, and fish flavours, especially those with gravy added. She gives it all paws up, 10/10.",
+      "rating": 5,
+      "author": "Luna's mum",
+      "submitted_at": "2024-02-09T05:12:30.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155316696",
+      "title": "No fuss thanks to pro plan",
+      "text": "My fussy cat loved this product, I loved it to as it meant kitty was satisfied for the day and no smelly odorous from the food bowl.",
+      "rating": 5,
+      "author": "Karen",
+      "submitted_at": "2024-02-09T04:59:37.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 3.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155316669",
+      "title": "Puurfect! as per my cats",
+      "text": "I received this as a trial and my usually fussy cats loved the taste. They enjoyed the gravy element and it looks like real meat. Healthy and nutritious!",
+      "rating": 5,
+      "author": "Puuurfect",
+      "submitted_at": "2024-02-09T04:56:12.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155316640",
+      "title": "My Cats love it!",
+      "text": "My two adult cats are usually fussy eaters but couldn't get enough of Pro Plan Chicken wet cat food.\nGood to know it's a complete food and giving my cats all the nutrition they need, Definitely adding this to my shopping list.",
+      "rating": 5,
+      "author": "Loulou",
+      "submitted_at": "2024-02-09T04:54:04.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155316419",
+      "title": "Pro Plan Chicken 4theWIN",
+      "text": "Well I had no issue in getting Mr Fluffy to eat this trial, the only thing I was sad of was that there was not more in the trial pack. He absolutely loved the packs and knowing that it was actually healthy for him to eat put my mind at ease as well. Would absolutely recommend these to anyone looking for great tasting (in Mr Fluffys opinion) and healthy dinners to look no further than Pro Plan Adult Wet Cat Food.",
+      "rating": 5,
+      "author": "Mr Fluffys Master",
+      "submitted_at": "2024-02-09T04:45:12.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155316329",
+      "title": "Very happy",
+      "text": "Our fussy cat liked this food. Very happy with the pouches. Would buy these in future.",
+      "rating": 5,
+      "author": "Amanda",
+      "submitted_at": "2024-02-09T04:37:58.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155316324",
+      "title": "My pet loves this product",
+      "text": "My cats appreciate the food and loved the taste will be getting from now on",
+      "rating": 5,
+      "author": "Eb",
+      "submitted_at": "2024-02-09T04:37:48.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155217273",
+      "title": "Great food for my cats!",
+      "text": "Our cats loved this cat food. It passed the test of our cats with flying colors. I love that it contains real meat and looks like it too. It doesn’t contain too much liquid and is more solid. \nI am happy to recommend this product to anyone that loves their cats and is looking for something for their cats to enjoy while giving them nutrition as well. \nThanks for allowing me and my babies to sample this.",
+      "rating": 5,
+      "author": "Frangipetal",
+      "submitted_at": "2024-02-07T10:41:42.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155214140",
+      "title": "My cat really loves this product",
+      "text": "My cat adored this wet food alternative. High in nutrients. With added insulin to help with absorbing all the nutrients. Added supplements to reduce the pesty fur balls.\nA must try for all the fur children.",
+      "rating": 5,
+      "author": "Ben921",
+      "submitted_at": "2024-02-07T10:34:16.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155213508",
+      "title": "Winner with both cats",
+      "text": "This was a great product, both the cats loved it which is super rare. We would definitely buy.",
+      "rating": 4,
+      "author": "Catlover",
+      "submitted_at": "2024-02-07T10:16:12.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1155211502",
+      "title": "Leela loves it!",
+      "text": "Leela ate this way too fast - which is a good thing…!! Didn’t stink & felt nice knowing I was feeding her something quite healthy.",
+      "rating": 5,
+      "author": "Catmum",
+      "submitted_at": "2024-02-07T09:39:21.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1155085494",
+      "title": "A Sure Winner",
+      "text": "My 2 cats scoffed these pouches down in record time - they adore it. A very premium product and I will be continuing to purchase from this brand in the future.",
+      "rating": 5,
+      "author": "Angieg2",
+      "submitted_at": "2024-02-05T05:23:53.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155048791",
+      "title": "finished all the pouch",
+      "text": "my cat dora is fussy at what she eats and rarely finishes her food but she had no issues finishing pro plan pouch so it’s gets a huge tick of approval from dora",
+      "rating": 5,
+      "author": "nicole g",
+      "submitted_at": "2024-02-04T11:28:40.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1155026952",
+      "title": "My picky cat loved it",
+      "text": "We were lucky enough to be sent a sample of the pro plan adult cat food to try out and honestly? It was great! My cat really enjoyed it and we noticed a difference in her coat and she was actually full after eating her serving,",
+      "rating": 5,
+      "author": "Animal lover 99",
+      "submitted_at": "2024-02-04T02:13:40.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154970958",
+      "title": "Tasty and healthy",
+      "text": "PRO PLAN's pouch, a feline surprise, my chonky cat's widened eyes. Unbeknownst to him, a lean delight, protein and calories in a stealthy bite. The jig's up, my pleasantly plump friend, a slimmer path you didn't intend, yet in every pouch, the secret's lend.",
+      "rating": 5,
+      "author": "LadyMum",
+      "submitted_at": "2024-02-03T04:47:29.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154959507",
+      "title": "Great cat food",
+      "text": "I was kindly gifted some samples of this for my cat to try and he absolutely loved it. I love that the number one ingredient is actually meat and the pouches were the perfect size for my cat",
+      "rating": 5,
+      "author": "Tammy",
+      "submitted_at": "2024-02-02T21:30:03.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154884841",
+      "title": "Pro Plan Adult chicken pouch.",
+      "text": "The Pro Plan Adult Chicken pouch was easy to open and dish up with a good sized serving inside. My cat who can be quite fussy, sniffed it and started eating straight away. It's good to know she is getting the nutrients she needs in a tasty, convenient meal. I would buy the Pro Plan pouches again and recommend to others.",
+      "rating": 5,
+      "author": "rena421",
+      "submitted_at": "2024-02-01T12:36:26.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154871982",
+      "title": "Cat approved!",
+      "text": "My 3 cats can often be a pain to buy for, with at least 1 of them disagreeing with the food. This however, was a win for all of them, and not one upset kitty to be seen!",
+      "rating": 5,
+      "author": "Monster",
+      "submitted_at": "2024-02-01T06:36:49.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154866680",
+      "title": "Incredible",
+      "text": "I was so happy that finally my adult cat has started to eat wet food again. He's so fussy that I didn't think I would ever find anything again that he would eat.\nI would strongly recommend to anyone that struggles to get wet food into their cats to give this ago.",
+      "rating": 5,
+      "author": "CatMumma",
+      "submitted_at": "2024-02-01T04:02:23.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1154865587",
+      "title": "Snobby cat loves",
+      "text": "My fussy cat who is such a snob would only eat a certain other brand until now. She loved it!",
+      "rating": 5,
+      "author": "Missymoo",
+      "submitted_at": "2024-02-01T03:01:00.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1154836308",
+      "title": "Two thumbs up",
+      "text": "My cat would have given it two thumbs up if she had opposable thumbs! This premium pouch was absolutely devoured and would definitely buy it again! Highly recommended!",
+      "rating": 5,
+      "author": "Pennyandthemba",
+      "submitted_at": "2024-01-31T14:00:45.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154832954",
+      "title": "My cats love this!!",
+      "text": "My cats were lucky enough to trial this product and they both loved this food and couldn't get enough. Even the fussy eater finished all her food.",
+      "rating": 5,
+      "author": "CatMum",
+      "submitted_at": "2024-01-31T12:43:21.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154829959",
+      "title": "Happy healthy family cat!",
+      "text": "We sampled pro plan for our fussy cat and have been amazed with the results! Our cat loves the meaty flavour and smell so much she comes racing in as soonest I open a packet, eats the whole thing and licks the bowl! She use to love kibble more but her now favourite is the wet pro plan. I love that it helps increase her water in take, especially during hot summer days! Happy cat happy family!",
+      "rating": 5,
+      "author": "Coco",
+      "submitted_at": "2024-01-31T11:42:28.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154829255",
+      "title": "Cat loved it",
+      "text": "My cat isn't overly fussy, but there certainly has been a few brands she has turned her nose up over the years. Happy to report this was not one of them. She seemed to really enjoy this one, and knowing it contains real meat is a a bonus!",
+      "rating": 5,
+      "author": "Brooke",
+      "submitted_at": "2024-01-31T10:19:25.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154827579",
+      "title": "Fussy cat loves it",
+      "text": "My 10+ year old cat really enjoyed this. He is super fussy when it comes to wet cat food but he immediately ran for his food bowl and chowed these pouches down. Extra bonus points for being one of the few wet foods that he didn't vomit back up.",
+      "rating": 5,
+      "author": "Pets are family",
+      "submitted_at": "2024-01-31T09:30:53.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154823035",
+      "title": "Amazing!",
+      "text": "This product is fantastic for fussy eaters. Miss Skitty Kitty couldn't get enough of this product! 0 out of 10!",
+      "rating": 5,
+      "author": "Scipia12",
+      "submitted_at": "2024-01-31T07:54:25.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154816022",
+      "title": "Wolsey approved!",
+      "text": "My cat Wolsey has become a bit of a picky eater in his old age. I've lost track of the number of times I've dropped a new cat food in front of him as he miaows madly, only for him to turn up his nose and walk away, offended. I was worried that Pro Plan Adult Chicken Wet Cat Food might be another victim of his refined palate. I need not have worried, he loved it, licked the plate entirely clean and was sniffing around for more! Definitely recommended by Wolsey and we'll be looking for this brand next time we go shopping!",
+      "rating": 5,
+      "author": "rickydee123",
+      "submitted_at": "2024-01-31T05:55:58.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154814530",
+      "title": "Very happy cat",
+      "text": "I received samples of the Pro Plan Chicken Adult cat pouches and my cat absolutely loved it. I loved that its in easy pouches making it easy to grab and feed a hungry cat. Very happy that its real meat",
+      "rating": 4,
+      "author": "Wendywo",
+      "submitted_at": "2024-01-31T04:31:26.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154813439",
+      "title": "Perfect pouch",
+      "text": "My cat loved this food. She is the fussiest of cats but not this one she went straight in and ate it all nothing left. Usually she will sniff and try and then leaves it to go to waste but not with this product.",
+      "rating": 5,
+      "author": "Kiki",
+      "submitted_at": "2024-01-31T02:09:22.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154807685",
+      "title": "My cat really enjoyed PRO PLAN Adult Chicken Wet Cat Food",
+      "text": "I placed the PRO PLAN Adult Chicken Wet Cat Food Pouch in our cat's bowl however he ate it so quickly I couldn't even take a photo before it was gone. I think that's a positive/paws up recommendation!!",
+      "rating": 4,
+      "author": "Binkas",
+      "submitted_at": "2024-01-30T22:49:51.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 4.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154807713",
+      "title": "My cat loves this.",
+      "text": "My cat loves this food. He happily ate everything in one sitting when normally he grazes his food over a couple of hours.",
+      "rating": 5,
+      "author": "Ginger cat!",
+      "submitted_at": "2024-01-30T21:22:04.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154803010",
+      "title": "Less hairball gagging as promised. YAY!",
+      "text": "We are so happy with this wet food option for our cat! We didn’t have any hairball gagging which is a regular Occurance with our Selkirk Rex cat and the litter box odour was barely there!",
+      "rating": 5,
+      "author": "Loulou",
+      "submitted_at": "2024-01-30T19:30:03.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154781550",
+      "title": "Cats went crazy trying to get in first",
+      "text": "Cats adored trying out this new wet food pouches. There was a stampede of desperate meows trying to make sure they got a taste of the delicious meaty goodness. Love the fact that it’s got inulin to help their guts and real meat plus the saucy gravy factor was a huge hit with the kitties.",
+      "rating": 5,
+      "author": "Kazer",
+      "submitted_at": "2024-01-30T13:33:54.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154780019",
+      "title": "Four Paws Up!",
+      "text": "All I can say is, Simba loved the Purina PRO PLAN Adult Chicken in gravy. He munched into the food and devoured it all. One little problem, it was a slightly hard to remove all the food from the pouch while Simba was telling me to, “Hurry up!” Simba votes four paws up.",
+      "rating": 5,
+      "author": "Simba Lover",
+      "submitted_at": "2024-01-30T12:55:17.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154777670",
+      "title": "Top Quality!",
+      "text": "Both my cats loved this top quality food! Nutritious, delicious in flavour & aroma, healthy, quality ingredients.\nEasy pouch to open & disperse good!\nMy car’s favourite!",
+      "rating": 5,
+      "author": "Purrfect",
+      "submitted_at": "2024-01-30T12:11:54.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154776912",
+      "title": "My pet loves this food!",
+      "text": "My cat absolutely loves this premium cat food so much that I’ve never seen him lick his bowl perfectly clean trying to get every last piece with any other. This finely cut real meat is a premium food and is a clear favourite for our pet.",
+      "rating": 5,
+      "author": "Charlie Arlo",
+      "submitted_at": "2024-01-30T11:50:41.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154776885",
+      "title": "My cat really enjoyed this product",
+      "text": "My cat can be a little on the fussy side, so I was excited to trial something new to see if he would like it. Well what can I say, he absolutely loved it and licked his bowl clean. The sachets were super convenient and easy to open and clean up is so easy as you just throw it out after opening. I will definitely be buying more of these in the near future.",
+      "rating": 5,
+      "author": "Black Cat",
+      "submitted_at": "2024-01-30T11:50:19.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154776161",
+      "title": "Bowl polished clean",
+      "text": "We tried several of the pouches and my cat demolished them. It had a good amount of gravy which is important when we look for a wet cat food.",
+      "rating": 4,
+      "author": "Bdreamy",
+      "submitted_at": "2024-01-30T11:41:23.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 4.0,
+        "Value for money": 3.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154773936",
+      "title": "Mr Fussy Pants Approved",
+      "text": "My cat is so fussy and hard to please. But he gobbled this food up in no time. I would get this again but only when on sale. It’s expensive but obviously very delicious and nutritious",
+      "rating": 5,
+      "author": "Emma",
+      "submitted_at": "2024-01-30T10:51:16.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 3.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154772844",
+      "title": "Fussy Cat? No issues with Pro Plan!",
+      "text": "My cats are extremely fussy but they did not have any issue gulping the Pro Plan Chicken wet food in no time. I appreciate the pouch that could be easily opened with one rip and distributed.",
+      "rating": 5,
+      "author": "Steph",
+      "submitted_at": "2024-01-30T10:34:47.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154776569",
+      "title": "One very happy old Cat",
+      "text": "My big cat is quite fussy and will usually eat only a few select brands and I’m happy to say he LOVES Pro plan sachets. I will be going to pet barn to buy more!",
+      "rating": 5,
+      "author": "Mrs Doyle",
+      "submitted_at": "2024-01-30T10:28:05.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154775344",
+      "title": "Purina pro plan loved by my fussy cat",
+      "text": "Just tried my first pouch of Purina Pro Plan tender pieces with chicken in gravy. I have two cats and the one is very fussy therefore I’m very skeptical with trying new food, but my fussy cat loved it and that’s a big win! More importantly the Purina Pro Plan provides for my adult cats a healthy and nutritious diet that contains real meat. The meat is shredded and includes the right amount of gravy compared to some other brands. Love the fact that it is Australian made. I will definitely been trying out the other flavours.",
+      "rating": 5,
+      "author": "Misto",
+      "submitted_at": "2024-01-30T10:19:08.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154772327",
+      "title": "The best among the best",
+      "text": "My cat loves this food, she’s a fussy eater would never wanna try new food but when i fed her this food, within seconds she finish it",
+      "rating": 5,
+      "author": "naylaay",
+      "submitted_at": "2024-01-30T09:17:15.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154766391",
+      "title": "Pro Plan Pro Kitty",
+      "text": "All I can say is my cat devoured this Purina Pro Plan wet food pouch so I’m guessing that means they are delicious! \n\nWith smaller portion sizes to help with purrfect portion control, my kitty got all the nutrients an adult cat needs. \n\nDesigned to encourage consumption with textures and ingredients cats will love, it’s also designed to help increase cats water intake. \n\nWinner winner chicken dinner for the happy cat!",
+      "rating": 5,
+      "author": "Kitty Kitty",
+      "submitted_at": "2024-01-30T08:24:20.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154768940",
+      "title": "Empty bowl",
+      "text": "When I gave it to my cat, she ate all of it straight away. Normally introducing new foods can be difficult but there was no issue when trying this one.",
+      "rating": 4,
+      "author": "Cat mum",
+      "submitted_at": "2024-01-30T08:05:37.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 3.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154763240",
+      "title": "This wins the approval of my 3.",
+      "text": "My three cats were really impatient as soon as i opened the first packet, they were crying at me to hurry up. All three ate the whole lot, I had to use a spoon to remove all the product from the pouch. My female cat locked her bowl clean. Definitely a winner for my babies",
+      "rating": 5,
+      "author": "PositivelyBek",
+      "submitted_at": "2024-01-30T07:00:38.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154761966",
+      "title": "Happy Meow",
+      "text": "My fussy boy loved the chicken in gravy. He wouldn't normally eat food with chunks. He actually ate the lot. \nEasy to use pouches. \nWould recommend to try if you haven't already.",
+      "rating": 5,
+      "author": "Shell67",
+      "submitted_at": "2024-01-30T06:16:12.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154761953",
+      "title": "Master Teddy’s new favourite meal",
+      "text": "Master Teddy LOVED eating Pro Plan Chicken. He is a very fussy little man but to my surprise he absolutely loved it. \nHe tucked straight into the food & after eating the whole serving, looked at me waiting for more !!",
+      "rating": 5,
+      "author": "TeddysMyBoy",
+      "submitted_at": "2024-01-30T06:15:41.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0
+      }
+    },
+    {
+      "review_id": "1154761581",
+      "title": "Generous sized serves",
+      "text": "I have 2 cats who both have their own individual likes and dislikes but both cats love the Purina Pro Plan and have thoroughly enjoyed the tender pieces with chicken in gravy variety. I find that the sachets are quite a generous size too!",
+      "rating": 5,
+      "author": "xbeccax",
+      "submitted_at": "2024-01-30T05:52:01.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154758671",
+      "title": "Approved by cat",
+      "text": "I have a fussy cat that dislikes wet food, he really enjoyed this! I introduced slowly and he ate it all! The food looked premium and will definitely add water to his diet which he needs",
+      "rating": 5,
+      "author": "Mozzie",
+      "submitted_at": "2024-01-30T03:00:28.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1154758655",
+      "title": "My fussy cat loved Purina Pro Plan",
+      "text": "We were very happy to be able to try the Purina PRO PLAN Adult Chicken Wet Cat Food as it looked like a great quality product and it's always great to try our cat, Blossom, out with different products. I wasn't sure how Blossom would go with this Purina Pro Plan as she has shown to be very fussy with many brands but she loved it and devoured it in record time.\n\nNice mix of meat and gravy with no extra preservatives, colours or flavours and benefits that make me feel good about feeding Purina Pro Plan to Blossom. The packaging is helpful as it is very clear as to what is in the product, how to use it as well as other relevant information.\n\nWe will purchase this in the future but I will wait until it is on special as it is more expensive than our usual brand.",
+      "rating": 5,
+      "author": "Blossom",
+      "submitted_at": "2024-01-30T03:00:08.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154756758",
+      "title": "Mmmm chicken!",
+      "text": "My cats seemed to really love this. It looked rich and meaty and slipped out of the pouch easily. I plan to buy more when they finish their other pouches off.",
+      "rating": 5,
+      "author": "Kittycat",
+      "submitted_at": "2024-01-30T01:19:47.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154756288",
+      "title": "My fussy cat loves it.",
+      "text": "My cat is super fussy about the food she will eat but when I introduced her to the Pro Plan Adult Chicken Wet Cat Food she was impatient to try it and then gobbled it down and then wanted more. We gave her the pouches each day for 3 days, and she still wanted it, which is unusual for her. I am so happy that I was gifted this cat food for my honest review, and I will definitely be getting more in the future for my fussy cat.",
+      "rating": 5,
+      "author": "Naomi_and_Honey",
+      "submitted_at": "2024-01-30T01:04:03.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154756711",
+      "title": "Pro Plan Adult cat pouches A+",
+      "text": "I have a fussy girl who only eats gravy.\nThese pouches are marked as jelly but it’s a softer gravy like texture and she loves them.\nI’ll be buying these for her again",
+      "rating": 5,
+      "author": "Susiep74",
+      "submitted_at": "2024-01-30T00:14:54.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154677152",
+      "title": "Purrfect Pouches!",
+      "text": "Our cat really enjoyed the Purina Pro Plan adult wet food! She's an older girl who is extremely fussy these days (aren't they all) so we were a little apprehensive. So we were delighted to see that she ate it all very quickly - she loved the chicken in gravy! Reading the ingredients you can see the Purina Pro Plan pouches are nutritious and excellent quality. We would highly recommend the Purina Pro Plan wet food to anyone who would like to feed their cat high quality food.",
+      "rating": 5,
+      "author": "rochie157",
+      "submitted_at": "2024-01-29T15:06:06.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1154668359",
+      "title": "Great Cat Food",
+      "text": "I received a few pouches for my cat to review. She is an outdoor cat who will usually eat whatever we put in her plate but has never had packaged cat food. She really loved this type of food and did not leave a lick behind!",
+      "rating": 5,
+      "author": "Nifa",
+      "submitted_at": "2024-01-29T12:45:24.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154671233",
+      "title": "A delight for a cat’s senses!",
+      "text": "Wow, we were lucky enough to be chosen to sample Purina Pro Plan, and what a delight for my two boys! I have one cat who will eat anything, but the other is extremely fussy and will turn his nose up at most brands we’ve tried. Not in this case! Both boys absolutely devoured the pouch in record speed. \n\nThey loved the food, I absolutely love that it’s made in Australia, as the manufacturing location sometimes worries me. Would highly recommend Purina Pro Plan to others, especially if they have a fussy cat!",
+      "rating": 5,
+      "author": "societyanxiety",
+      "submitted_at": "2024-01-29T12:26:36.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 3.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154666562",
+      "title": "Great quality food, my cat loved",
+      "text": "My cat enjoyed eating these.\nBefore opening the pouch, it felt like a high quality food. It had a good balance of chunky meat to gravy ratio, and the gravy wasn't too thin. \nI found this pouch was gentle on my cats stomach, and helped with digestion, compared to previously bought brands. \nMy cat seemed to be happier as well after eating this pouch",
+      "rating": 5,
+      "author": "Miraaaanda",
+      "submitted_at": "2024-01-29T12:03:49.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154668669",
+      "title": "Excellent quality premium cat food!",
+      "text": "Our cat absolutely loved this Purina Pro Plan adult wet food! She loved the flavour of the chicken in gravy, and we loved that the food was nutritious and excellent quality. Our cat has quite discerning taste and can be fussy with cat food, but she didn't hesitate with this variety - she ate it all in an instant! I would highly recommend this premium cat food for anyone who would like to feed their special pet only the best!",
+      "rating": 5,
+      "author": "Josie_reviews",
+      "submitted_at": "2024-01-29T11:39:56.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154668437",
+      "title": "Best Cat Wet Food in market",
+      "text": "The Pro Plan not only contains the good quality protein, it also smells and tastes good. My cat just loves it.",
+      "rating": 5,
+      "author": "Cooper C",
+      "submitted_at": "2024-01-29T11:25:39.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0
+      }
+    },
+    {
+      "review_id": "1154660289",
+      "title": "My cat loved it!",
+      "text": "I received some free sample sachets for my cat and my cat loved the PRO Plan adult chicken wet cat food. He ate it so quickly and was looking for more. I love that it is full of nutrients and good stuff for my cat. It gives me a peace of mind that my cat is eating quality food. I will definitely buy this for my cat",
+      "rating": 5,
+      "author": "Kittykat",
+      "submitted_at": "2024-01-29T10:01:59.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154658081",
+      "title": "Chew and easy pouch",
+      "text": "I was given some sample of this Pro Plan chicken wet and dry pouches. I’m so surprised at how much my cat loved these. The main benefits are easy and conveniency of the pouch and portion and also the actual texture of the cat food and my cat has to chew.",
+      "rating": 5,
+      "author": "Easycat",
+      "submitted_at": "2024-01-29T09:24:08.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154661080",
+      "title": "Great food",
+      "text": "My cat loves this food. She devoured the whole pouch. I also love that it's Australian made.",
+      "rating": 5,
+      "author": "Elise",
+      "submitted_at": "2024-01-29T09:03:35.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154659386",
+      "title": "Purrrrfection",
+      "text": "Purina Pro Plan cat food pouches are purrrfection. My cats love them and their enthusiastic response speaks volumes about the deliciousness and quality",
+      "rating": 5,
+      "author": "Magoo",
+      "submitted_at": "2024-01-29T08:38:53.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154655304",
+      "title": "Both of my cats went nuts for this",
+      "text": "I normally just split one pouch of wet food between my two cats, as one of them has a tendency to just have a little nibble and leave the rest, whereas the other will gobble down her share and then go looking for more (and eats whatever the other cat leaves behind).\nWELL, looks like I'll be needing to give them a pouch each if I buy more of the Purina Pro Plan chicken in gravy! BOTH of them absolutely loved it - even the cat that normally leaves food behind did not leave a single piece of this stuff behind (much to the other cat's disappointment!).\nAnd the cat that always loves her wet food basically set a new personal record for time taken to eat her wet food - she gobbled this stuff down like it was the most delicious thing she'd eaten in her entire life... and hey, maybe it was!",
+      "rating": 5,
+      "author": "Megr0n",
+      "submitted_at": "2024-01-29T08:33:41.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154653959",
+      "title": "Both cats love it",
+      "text": "Both our cats loved it and ate the lot.",
+      "rating": 5,
+      "author": "Lindaman",
+      "submitted_at": "2024-01-29T08:05:32.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154654115",
+      "title": "Gravy heaven",
+      "text": "Our gravy girl licked the gravy clean off the meaty bits, then came back the next morning and finished the rest off. Its the first time she has eaten the meat in wet cat food, she's only ever eaten the gravy in the past so we were really impressed by this.. and apparently so was she!",
+      "rating": 5,
+      "author": "Catgirl",
+      "submitted_at": "2024-01-29T08:05:19.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154653452",
+      "title": "Cat loved it and it helps furballs",
+      "text": "My senior long hair cat usually eat pellets for furballs, I tried the Pro Plan adult wet Chicken pouches which also supports her furball condition, and she loved it!",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2024-01-29T07:44:54.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154653296",
+      "title": "My cat loves this food and refuses to eat anything else",
+      "text": "We got a few packs of this food as a trial. My cat cleaned his bowl and now refuses to eat anything else. I love that it’s real chicken and will only be buying this food from now on",
+      "rating": 5,
+      "author": "Mq",
+      "submitted_at": "2024-01-29T06:28:25.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154645072",
+      "title": "Winner",
+      "text": "I have a fussy cat and an ‘eats anything that resembles food’ cat! Both of them smashed their dinners, eating the whole portion.\nDefinitely a winner in our house.",
+      "rating": 5,
+      "author": "BeeBee",
+      "submitted_at": "2024-01-29T00:32:59.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154643156",
+      "title": "Pumpkin approved",
+      "text": "OMG!! that must be a really good and tasty as there was no bit left...looks I don't need to even wash the bowl 🤣 .\n\nPumpkin ( aka \" pumper schnitzel \") is a wonderful cat but she is super fussy with her food..she is almost like Manu from My Kitchen rules with her look \" where is the sauce\" as she loves loves food with lots of gravy and this food definitely tiked that box.\n Purine Pro Plan - tender pieces with chicken on gave not only is reachbin sauce but also \n💛 diary fibre helps reduce hairball formation and support a healthy system ( oh I wish to know that ealier as my poor baby spat the biggest hairball few weeks ago...10cm big...)\n💛 contains insulin to help reduce litter odorous ( ha ha I don't need to convince anyone with it...our cats are beautiful...clean animals but the litter box odours after few day...in hot weather..its a killer 🤣 )\n💛 balance of protein and calories to help maintain a lean body conditions ( especially for indoor cats its very important as my Pumpkin is a \"couch potato \" so she is just sleeping...eating...and looking through the window ...so not much exercise...its good to know she will not get overweight and stay healthy )\n\nThank you @mouths_of_mums and @ProPlan for the opportunity to try and review your products. \n\nBTW Pumpkin is more than happy to become your food tester🤣 she really enjoyed it and spend almost 10min on cleaning and grooming herself after it. you definitely ticked all her boxes.",
+      "rating": 5,
+      "author": "Zmijka86",
+      "submitted_at": "2024-01-29T00:22:12.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154643750",
+      "title": "Adult fussy cat devoured these pouches!",
+      "text": "I was lucky enough to receive some samples of these pouches and my cat LOVED them!\nI’d highly recommend this cat food, which is hearty, meaty, and also ensures great water intake which is oh so important in our Aussie summers.\nThanks for a great product and the chance to review :)",
+      "rating": 5,
+      "author": "Non crazy cat lady",
+      "submitted_at": "2024-01-28T23:42:15.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154638470",
+      "title": "All gone!",
+      "text": "My cat devoured this so it’s 2 paws up from her",
+      "rating": 5,
+      "author": "Toffee",
+      "submitted_at": "2024-01-28T21:56:36.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154636769",
+      "title": "Purina Chicken in Gravy",
+      "text": "I got to trial this cat food all our cats loved it will will ne purchasing this for them going forward.",
+      "rating": 5,
+      "author": "Cat",
+      "submitted_at": "2024-01-28T21:16:06.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154634233",
+      "title": "Quality",
+      "text": "My cat really enjoyed the chicken and gravy - licking every last bit. The nutritional content and quality of these pouches were fantastic",
+      "rating": 5,
+      "author": "Fredcat",
+      "submitted_at": "2024-01-28T20:34:38.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154617211",
+      "title": "Amazing cat food",
+      "text": "My cats just loved the Purina Pro Plan cat food. It has all the essential nutrients needed for my cat. I was bit hesitant to give it to my cats since they are bit fussy with their food but I was surprised when I saw how quickly they finished eating. I would definitely recommend it to my friends.",
+      "rating": 5,
+      "author": "Sydney",
+      "submitted_at": "2024-01-28T12:47:28.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154616277",
+      "title": "Purrfect for fussy eaters",
+      "text": "My cat is terribly fussy especially now she's getting closer to being a senior cat but she thoroughly enjoyed the samples we got and needless to say, I will be purchasing more for dinners to come",
+      "rating": 5,
+      "author": "MycatLoki",
+      "submitted_at": "2024-01-28T12:39:12.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154611116",
+      "title": "My fussy cat loved it",
+      "text": "Usually my cat is fussy with food and doesn’t finish it but with this pouch she ate the whole lot and was looking for more",
+      "rating": 5,
+      "author": "Dad of boys",
+      "submitted_at": "2024-01-28T11:46:21.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154597860",
+      "title": "My cats love this",
+      "text": "My 2 cats absolutely loved eating the PRO PLAN Adult Chicken Wet Cat Food from this pouch. Have been keeping the pouches in the fridge and has been fantastic for them on these hot days that they have been lapping the chicken gravy up without leaving any of the food behind, have been mixing it with their dry food. Will be buying this for them again.",
+      "rating": 5,
+      "author": "mom81561",
+      "submitted_at": "2024-01-28T05:55:31.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154595487",
+      "title": "PRO PLAN Adult Chicken Wet Cat Food Pouch",
+      "text": "My cat absolutely loved the PRO PLAN Adult Chicken Wet Cat Food Pouch. Her senses kicked right in and she devoured the whole plate. And she’s a bit of a fussy eater. It’s a great cat food with the essential ingredients for a healthy diet. I definitely recommend giving this cat food a go.",
+      "rating": 5,
+      "author": "Em_89",
+      "submitted_at": "2024-01-28T05:23:07.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154597004",
+      "title": "My cat licked the plate clean!",
+      "text": "The Pro Plan Adult Cat Food Pouches were a big hit with my 3 year old cat. \nThe product was easy to open and squeeze straight into his food bowl. By looks, you can definitely tell that there is real meat it didn’t have the ‘jelly-like’ consistency other pouches can. \nHe definitely loved it. It wasn’t long after I gave it to him that he had completely licked the bowl clean. \nWhen it was time to feed him his second pouch he was at my feet the whole time during preparation, ready to eat. \nI recommend trying Pro Plan Adult Cat Food Pouches with your cat.",
+      "rating": 5,
+      "author": "Karren",
+      "submitted_at": "2024-01-28T05:22:37.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154593286",
+      "title": "Claude's Favourite",
+      "text": "I tried this product a few days ago and our cat absolutely loved it. He woofed into it, finishing the lot and looking for more. It looks good and doesn't have a nasty smell. And it is nutritional. It's a winner, Purina.",
+      "rating": 5,
+      "author": "Maureen",
+      "submitted_at": "2024-01-28T03:15:12.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154591314",
+      "title": "Great food option for adult cats",
+      "text": "My cat Roxy turns 14 years next Monday, so she had plenty of different food options over the years. But she loved this one, as she finished it in one go. I love the fact that it’s full of essential nutrients, which is important for a mature cat like Roxy.",
+      "rating": 4,
+      "author": "Experienced cat lover",
+      "submitted_at": "2024-01-28T01:36:51.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1154592679",
+      "title": "Proplan Cat Food",
+      "text": "Loved the pouch size because it was the perfect portion. My cat loved it and left nothing in his plate. Great cat food with the essential ingredients for a healthy diet.",
+      "rating": 5,
+      "author": "Liz",
+      "submitted_at": "2024-01-28T01:36:24.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154591973",
+      "title": "Great for even the fussy ones!",
+      "text": "My older girl loved her PRO PLAN Adult Chicken Wet Cat Food Pouch. She can sometimes be fussy with her food but she ate every single morsel, every single time! Nice texture too. Will purchase again",
+      "rating": 5,
+      "author": "Nicky99",
+      "submitted_at": "2024-01-28T00:44:47.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154590173",
+      "title": "Great product for your adult cat!",
+      "text": "I had the opportunity to review this product through Mouths of mums. \n\nI have a 7-year-old Russian Blue rescue cat.\n\nNeedless to say, she can be a little picky when it comes to food, and will definitely let you know when she doesn’t like the food set down in front of her. \n\nAfter sniffing the meal set down in front of her (she clearly knew this wasn’t her regular feed) I thought I was done for and she would turn her nose up at it. \n\nI was pleasantly surprised to see that after a few sniffs, she ate the meal without any issue. \n\nI kept an eye on her litter tray for a few days after as sometimes after a new type of food she can have runny poos. They were completely normal. \n\nWe will definitely be buying this product in the future.",
+      "rating": 5,
+      "author": "Mel",
+      "submitted_at": "2024-01-28T00:39:31.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154585785",
+      "title": "My pet wanted more. He loved it.",
+      "text": "My elderly cat Frankie really enjoyed the PRO PLAN chicken adult cat pouch. He is a very fussy eater but he absolutely gobbled up all this pouch and wanted more",
+      "rating": 5,
+      "author": "Cat mum",
+      "submitted_at": "2024-01-27T22:30:49.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1154588345",
+      "title": "Garfield was finally happy to eat cat food",
+      "text": "Our once street cat, Garfield, is not a fan of cat food. He'd rather be eating lasagne, Anzac biscuits and roast potatoes. However, when I gave him the ProPlan Tender Pieces of Chicken in Gravy he gobbled it up. We may make a real cat out of him yet. Off to Petbarn to buy more ProPlan",
+      "rating": 5,
+      "author": "GillieFergus",
+      "submitted_at": "2024-01-27T22:25:54.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154556862",
+      "title": "My Cats Loved It",
+      "text": "My cats loved trying out Purina PRO PLAN Adult Chicken Wet Cat Food. They ate all of it and I will definitely purchase it as they like it so much. The cat food looked like it was good quality, with big chunky meat and plenty of sauce. They also didn’t have a smell like some other brands.",
+      "rating": 5,
+      "author": "Rbw4",
+      "submitted_at": "2024-01-27T11:41:15.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154554787",
+      "title": "My cat Max really loved his Purina Pro Plan Chicken in Gravy",
+      "text": "Max absolutely loved his Purina Pro Plan Chicken in Gravy. He couldn’t get enough. He absolutely licked the bowl clean. There was just the right amount of gravy and meat ratio. I will definitely be buying Purina Pro Plan Chicken in gravy for Max. I also have another cat named Jonesy, he really enjoyed it also.",
+      "rating": 5,
+      "author": "Budgie65",
+      "submitted_at": "2024-01-27T10:00:51.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154549591",
+      "title": "Great food the cat loves",
+      "text": "My cat highly enjoyed and will continue to enjoy Pro Plan Adult. Whilst feeding he shoves my hand out the way due to wanting to tuck in before I am finished. He leaves nothing in his bowl (which can happen with lower quality food) and now looks forward to his dinner each evening. I love that it is made with quality ingredients and that he obviously loves it so much.",
+      "rating": 5,
+      "author": "Ali O",
+      "submitted_at": "2024-01-27T08:15:32.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154540514",
+      "title": "Mu cat looooves this food.",
+      "text": "My cat loves this wet food. She was so curious when I opened the first pack, she stood in her 2 hind feet. The moment I put it in her plate she ate it so quickly.",
+      "rating": 5,
+      "author": "CatCarer",
+      "submitted_at": "2024-01-27T04:36:06.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154540989",
+      "title": "Great product",
+      "text": "Greta product, my cat enjoyed it and the portion size was just right",
+      "rating": 4,
+      "author": "Misscaty",
+      "submitted_at": "2024-01-27T04:01:01.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 3.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1154536500",
+      "title": "My cat loves this!",
+      "text": "My cat devoured the Pro Plan adult chicken wet cat food. It was almost like she hadn't eaten in a week! \nThe cat food looked like premium quality and filled with lots of shredded chicken with not too much gravy.",
+      "rating": 5,
+      "author": "Pentahedron",
+      "submitted_at": "2024-01-26T23:50:51.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154510642",
+      "title": "Luna was so happy",
+      "text": "My cat Luna was hesitant at first but ended up really enjoying it.",
+      "rating": 5,
+      "author": "Kittykatlover",
+      "submitted_at": "2024-01-26T13:09:57.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154488142",
+      "title": "He wolfed it down!",
+      "text": "I am totally amazed that my very fussy and very stubborn boy was actually trying to eat the food as I was forking it out of the pouch into his bowl! I am glad to find something he doesn’t shake his legs and flick his tail at, then stare balefully at me for daring to expect him to eat. I guess I’ll be buying more of this!",
+      "rating": 5,
+      "author": "Libracat",
+      "submitted_at": "2024-01-26T06:43:12.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154484911",
+      "title": "Feline Fine!",
+      "text": "My Cat is rather fussy at meal times so I was very excited to review the PRO PLAN Adult. Chicken wet cat food pouches. From the moment I opened the pouch, I got my Cat’s attention. She is a big gravy lover and immediately her tongue came out and she was devouring the sauce! She then proceeded to eat the chicken meat without hesitation and this continued with the next few pouches she was given at other meal times. I would highly recommend this product as all real meat, tasty and convenient meal for an adult Cat and where you are rest assured even the fussiest of eaters will be feeling fine!",
+      "rating": 5,
+      "author": "Mon",
+      "submitted_at": "2024-01-26T06:35:45.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1154483642",
+      "title": "Harry loved this product",
+      "text": "Harry is generally very fussy so I wasn’t sure if she would like this. She took a sniff and then started eating and never stopped. I’m pleased that I now have a new nutritionally balance food to feed Harry. So it’s a big yes from Harry and me.",
+      "rating": 5,
+      "author": "Harry’s mum",
+      "submitted_at": "2024-01-26T05:48:34.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154484756",
+      "title": "Fussy Cat Win",
+      "text": "Our fussy cat licked her plate clean. Such a relief to find something she likes after weeks of wasted and half eaten food.",
+      "rating": 4,
+      "author": "EllasMum",
+      "submitted_at": "2024-01-26T05:27:45.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154482698",
+      "title": "Purina Pro Plan",
+      "text": "This is a premium quality product which uses real meat and the cats all seemed to love the flavour and texture and the gravy. Some of them are fussy eaters but they all licked the bowls clean. I would like to purchase this product, however, with six hungry mouths to feed this would be too expensive for me.",
+      "rating": 5,
+      "author": "Catwoman",
+      "submitted_at": "2024-01-26T04:52:28.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 2.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154483829",
+      "title": "A good option",
+      "text": "One of my cats is a bit of a fussy eater, so I was worried he wouldn't like the Purina Pro Plan sachet. But I was wrong! He slurped it up in one go which he rarely does, and he clearly wanted more. And it wasn't a one time thing either! He did the same the next night and the one after. I'm pleasantly surprised (and I'm sure so was he!)!",
+      "rating": 4,
+      "author": "catmum",
+      "submitted_at": "2024-01-26T04:36:08.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 4.0,
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154481444",
+      "title": "Harry loves this product",
+      "text": "Harry is a fussy cat and so I didn't know what to expect when I put this in Harry’s bowl. She sniffed it and I thought “oh no” but then she started eating and didn’t stop until she had finished. I’m happy that this meets Harry’s nutritional needs also. So it’s a big yes from Harry for this product.",
+      "rating": 5,
+      "author": "catherines",
+      "submitted_at": "2024-01-26T02:16:44.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1154478322",
+      "title": "My cat loves it",
+      "text": "This cat food is great. My cat absolutely loved it and even our dog wanted to try it.",
+      "rating": 4,
+      "author": "Kymhhy",
+      "submitted_at": "2024-01-26T00:55:51.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154476810",
+      "title": "All gone",
+      "text": "Gizzy just loved the Pro Plan Chicken, she demolished it like it was her first and last feed and her kittens first pouch to trial also, but it is a huge hit with all my fur babies.",
+      "rating": 5,
+      "author": "Cat Mumma",
+      "submitted_at": "2024-01-25T23:52:06.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1154478497",
+      "title": "Real Meat and complete nutrition for my cat",
+      "text": "Thanks for allowing us to trial this Proplan (by Purina) wet food pouch for adult cats. \nOur cat is fussy when it comes to trying new food so it can be hit and miss. She also isn’t a big fan of chicken dishes. Fortunately she has a weak spot for saucy or gravy containing wet food. \nThis particular pouch did have some gravy which she happily licked up first before devouring the meat portion. \nI like that it is a complete balanced meal with all the nutritional goodness for adult cats. \nGreat quality food, from a brand you can trust. \nHighly recommend if you want to give your cat something special at mealtime. \nAlso gave a pouch to my parents’s cat and he loved it.",
+      "rating": 4,
+      "author": "Kooshi",
+      "submitted_at": "2024-01-25T23:47:47.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1154476050",
+      "title": "My cat really enjoy it",
+      "text": "I was lucky enough to get to review this product, my cat absolutely devoured it, he loved the gravy and the chuncks of chicken, perfect size pouch, with certain brands of gravy food my cat refuses to eat but absolutely loved this one. It's definitely a winner will be continuing to purchase this for our cat now!",
+      "rating": 5,
+      "author": "Scrumptiouskitty",
+      "submitted_at": "2024-01-25T22:00:31.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    }
+  ],
+  "product_name": "Pro Plan Chicken Adult Cat Pouch 85gx12",
+  "product_url": null,
+  "source": "cache",
+  "fetched_at": "2026-09-19T06:01:41+00:00"
+}

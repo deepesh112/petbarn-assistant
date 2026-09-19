@@ -1,0 +1,11 @@
+# Theme only. Server settings are left to the host so that Streamlit Community
+# Cloud, a local run and a container all behave the way their operator expects.
+[theme]
+base = "light"
+primaryColor = "#0F8B8D"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F6F6"
+textColor = "#16241F"
+
+[browser]
+gatherUsageStats = false

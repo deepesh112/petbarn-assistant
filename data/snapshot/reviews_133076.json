@@ -1,0 +1,2468 @@
+{
+  "sku": "133076",
+  "stats": {
+    "average_rating": 4.79,
+    "total_reviews": 1232,
+    "text_review_count": 536,
+    "rating_distribution": {
+      "5": 1067,
+      "4": 113,
+      "3": 23,
+      "1": 16,
+      "2": 13
+    },
+    "recommended_count": 413,
+    "not_recommended_count": 15,
+    "secondary_rating_averages": {
+      "Pet satisfaction": 4.84,
+      "Quality": 4.82,
+      "Value for money": 4.54
+    },
+    "first_review_at": "2022-07-23T12:10:20.000+00:00",
+    "last_review_at": "2026-09-18T23:01:26.000+00:00"
+  },
+  "reviews": [
+    {
+      "review_id": "1230049126",
+      "title": "Great for dogs with chicken allergies",
+      "text": "Have used this product for over a year and my dog loves it",
+      "rating": 5,
+      "author": "Oodle lover",
+      "submitted_at": "2026-09-17T23:35:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1230008046",
+      "title": "Shiny coat, no allergies",
+      "text": "Been using this product for a few months now.",
+      "rating": 5,
+      "author": "I❤️staffies",
+      "submitted_at": "2026-09-17T12:20:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1229971750",
+      "title": "Product is good but price is too high",
+      "text": "Prime100 rolls are great quality and my dog absolutely loves them. She has a very sensitive stomach, but has had no issues at all with Prime100. My only complaint is that Petbarn’s price is around 8% higher than other local competitors.",
+      "rating": 4,
+      "author": "spitzlover",
+      "submitted_at": "2026-09-16T22:52:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1229900798",
+      "title": "Our dog loves this product!",
+      "text": "Our dog became allergic to chicken and this product was recommended. So much easier now to prep her meals!!",
+      "rating": 5,
+      "author": "Whippet Grace",
+      "submitted_at": "2026-09-16T01:12:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1229559250",
+      "title": "My dogs love it!",
+      "text": "I have two dogs a Maltese and a labradoodle \nThe only food they love to eat and is gentle on their stomach is Prime 100 Kangaroo and pumpkin rolls \nThey don’t like anything else",
+      "rating": 5,
+      "author": "Lisa",
+      "submitted_at": "2026-09-11T23:40:24.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1229439268",
+      "title": "She really likes this.",
+      "text": "I bought this for my fussy dog less than a week ago and to my surprise she is enjoying it.",
+      "rating": 4,
+      "author": "Cuddles",
+      "submitted_at": "2026-09-10T12:09:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1228961207",
+      "title": "Quality",
+      "text": "Good ingredients with minimal artificial preservatives, slavers etc",
+      "rating": 5,
+      "author": "Ivan",
+      "submitted_at": "2026-09-04T02:54:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228881125",
+      "title": "Ruby loves it.",
+      "text": "The vet recommended we try this for Ruby to help with her ongoing skin condition.",
+      "rating": 5,
+      "author": "Husky Owner",
+      "submitted_at": "2026-09-02T23:49:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1228594135",
+      "title": "My dog loves kit",
+      "text": "I’ve brought this product because my dog has allergies and it’s been good for her",
+      "rating": 5,
+      "author": "Love my beautiful dog",
+      "submitted_at": "2026-08-30T13:14:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228555736",
+      "title": null,
+      "text": "My dog loves her prime 100",
+      "rating": 5,
+      "author": "Cavoodle mum",
+      "submitted_at": "2026-08-29T22:40:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228348768",
+      "title": "SPD Kangaroo",
+      "text": "Top quality food",
+      "rating": 5,
+      "author": "TJ",
+      "submitted_at": "2026-08-27T09:09:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1228331981",
+      "title": "Roxy absolutely loves this was recommended by the vet",
+      "text": "",
+      "rating": 5,
+      "author": "Roxygirl",
+      "submitted_at": "2026-08-27T01:57:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228331468",
+      "title": "Billy loves kangaroo roll ❤️",
+      "text": "My dog Billy loves the kangaroo roll .he has more energy and has lost a bit of weight too .",
+      "rating": 5,
+      "author": "Pamela",
+      "submitted_at": "2026-08-27T01:26:31.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228331315",
+      "title": "No more runny poos!!",
+      "text": "I have being using this product for several years now. It has changed the game for me as my dog has GI upsets regularly prior to starting on Prime 100 he now has stabilised and has much better formed stools and less paw licking and signs of GI upset.",
+      "rating": 5,
+      "author": "Freds mum",
+      "submitted_at": "2026-08-27T01:14:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228165597",
+      "title": "My dog is crazy for this",
+      "text": "My dog is crazy about this. He jumps and spins waiting for it to be put in his bowl.",
+      "rating": 5,
+      "author": "Magoo",
+      "submitted_at": "2026-08-24T21:29:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1228076659",
+      "title": "Dog roll",
+      "text": "My dog eats the kangaroo roll every night she seems to like it there is always nothing left",
+      "rating": 4,
+      "author": "Jesse's human",
+      "submitted_at": "2026-08-24T06:56:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1228069505",
+      "title": "Loves it",
+      "text": "Very happy has really improved my dogs gut health",
+      "rating": 5,
+      "author": "Pud",
+      "submitted_at": "2026-08-24T03:13:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1227942170",
+      "title": "Kangaroo and y",
+      "text": "Our very particular Belgian Shepherd loves the kangaroo and pumpkin, she can't get enough of it !!!",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-08-22T02:16:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1227931722",
+      "title": "for dogs with allergies try this",
+      "text": "My vet recommended Prime 100 SPD and my dog Rocky loves it bouncing nonstop in the morning until he is fed.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-08-21T20:23:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1227868464",
+      "title": "My dog loves this",
+      "text": "Definitely would recommend this product, my dog is 16 years old and has arthritis etc but still manages to do her jumps and twirls, get so excited when she sees her food bowl. It has cleared up her horrible bowel movement, and in general is in good health, so would have to say she is totally satisfied, it is quite pricey, but you pay for what you get.",
+      "rating": 4,
+      "author": "Doggy mom",
+      "submitted_at": "2026-08-20T21:18:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1227804209",
+      "title": "My dogs love this product.",
+      "text": "My dogs love most of the Prime100 range, but the kangaroo is their favourite. One was initially a very fussy eater and would only eat chicken, now she won't touch chicken and opts for the kangaroo every time.",
+      "rating": 5,
+      "author": "Kirra&Evie",
+      "submitted_at": "2026-08-19T23:12:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1227799960",
+      "title": "Loves it!",
+      "text": "The staff at Clayton are all so helpful, Josh recommended this product too! He’s so lovely & always so helpful & knowledgeable",
+      "rating": 5,
+      "author": "Jeannie",
+      "submitted_at": "2026-08-19T21:06:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1227731133",
+      "title": "Low allergenic",
+      "text": "Good product for my gog's sllergies snd she lo ves it.",
+      "rating": 5,
+      "author": "Eddy",
+      "submitted_at": "2026-08-18T21:32:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1222375066",
+      "title": "My allergy prone girl is a fussy eater.",
+      "text": "My little girl has allergies so it’s been a process trying to sort out what she can or can’t eat. I give her this chopped up with a little wet food and she woofs it down. Certainly is trial and error and early days yet but there has been a lessening of her itching and licking so far.",
+      "rating": 4,
+      "author": "Abby’s mum",
+      "submitted_at": "2026-06-19T10:58:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1222284495",
+      "title": "Two very happy Cavalier Spaniels 🐶🐶",
+      "text": "I have just purchased this product for my 2 Cavalier Spaniels. They love it & look for more. My dogs need a low fat diet so far so very good.",
+      "rating": 5,
+      "author": "Cavlover",
+      "submitted_at": "2026-06-18T09:24:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1222264890",
+      "title": "Pet food",
+      "text": "My little dachshund loved the prime 100 dog roll",
+      "rating": 5,
+      "author": "Brownie",
+      "submitted_at": "2026-06-18T00:55:31.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1222263534",
+      "title": "Elimination diet",
+      "text": "I have a dog with allergies i am trying a single protein without beef chicken or grain so far so good",
+      "rating": 5,
+      "author": "Frenchie",
+      "submitted_at": "2026-06-18T00:00:36.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1222030775",
+      "title": "Buy this for my dog",
+      "text": "I buy this every week for my dog as he has some intolerances and he loves it! The kangaroo and pumpkin keeps his tummy happy!",
+      "rating": 5,
+      "author": "Freddy",
+      "submitted_at": "2026-06-15T03:19:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1222027275",
+      "title": "Poor Gut",
+      "text": "So far so good my dog has gut issues but his stomach has been okay at this time",
+      "rating": 4,
+      "author": "Cody",
+      "submitted_at": "2026-06-14T22:43:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1221847005",
+      "title": "Travelling with Pets",
+      "text": "Great roll for taking on the road when we travel with the dogs. No upset stomachs and very keen to eat.",
+      "rating": 5,
+      "author": "Keg",
+      "submitted_at": "2026-06-12T11:24:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221734599",
+      "title": "My fussy eater loves the SPD range of products",
+      "text": "Prime100 SPD Kangaroo & Pumpkin Roll has been fantastic for my senior dog. She’s very fussy and suffers from digestive issues, but this is the first food she’s happily eaten on a consistent basis. Great quality and easy to serve. Highly recommended",
+      "rating": 5,
+      "author": "Happy furbaby Mum",
+      "submitted_at": "2026-06-11T00:45:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221731244",
+      "title": "My dog loves this brand",
+      "text": "I have bought this product before as my dog loves it",
+      "rating": 5,
+      "author": "Frenchie lover",
+      "submitted_at": "2026-06-10T22:34:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1221723541",
+      "title": "Can’t go wrong with kangaroo. The dogs love this, great to mix up with fresh meat.",
+      "text": "Bought for 2 kelpie pups",
+      "rating": 5,
+      "author": "Charlie 16",
+      "submitted_at": "2026-06-10T20:01:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221494341",
+      "title": "My poodle puppy loves this",
+      "text": "Excellent product",
+      "rating": 5,
+      "author": "Poodle Lover",
+      "submitted_at": "2026-06-07T23:58:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221423628",
+      "title": "Kangaroo Roll.",
+      "text": "My dog needs the one protein rolls due to allergies and she loves them. Thank you for having the small rolls available again as she is a small dog and is so convenient.",
+      "rating": 5,
+      "author": "Millie",
+      "submitted_at": "2026-06-07T03:13:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221346028",
+      "title": "Ate it with gusto",
+      "text": "Good quality",
+      "rating": 5,
+      "author": "Kaiser",
+      "submitted_at": "2026-06-05T22:10:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221303450",
+      "title": "My pet loves this product",
+      "text": "Great low fat product for dogs with digestive problems. My dog is very fussy but loves this product",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-06-05T10:59:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1221141032",
+      "title": "Excellent Product",
+      "text": "Prime100 SPD is a top quality product at a very reasonable price. And my dog, Ellie, loves the Kangaroo and Pumkin, and the Lamb and Rosemary flavours.",
+      "rating": 5,
+      "author": "Paul&Ellie",
+      "submitted_at": "2026-06-03T13:27:26.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221105539",
+      "title": "Sometimes It happens to find some bones that I need to remove.",
+      "text": "I have 3 dogs and I feed them with Prime 100 only",
+      "rating": 4,
+      "author": "Animal lover",
+      "submitted_at": "2026-06-03T00:29:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1221058434",
+      "title": "Great for a healthy tummy!",
+      "text": "I bought this product on recommendation of my vet, for my groodle who has had an upset tummy. Within days his tummy was back to normal, and he loves the flavour so much we’ll keep buying it!",
+      "rating": 5,
+      "author": "Groodleloverrr",
+      "submitted_at": "2026-06-02T10:42:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221035122",
+      "title": "Prime 100 SPD Dog Roll is a great product",
+      "text": "I’ve been buying Prime 100 Dog roll for a few years now and it’s been a hit with my dogs. Currently my elderly chihuahua with no teeth is eating it and when cut into small cubes he can easily pick it up. It also is soft enough for him to give it a bit of a chew before swallowing. The quality is always consistent and there a lots of different proteins to choose from.",
+      "rating": 5,
+      "author": "Joban",
+      "submitted_at": "2026-06-02T00:49:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220971140",
+      "title": "She’s not sure",
+      "text": "She’s still out on this will have some but not all",
+      "rating": 5,
+      "author": "Loz",
+      "submitted_at": "2026-06-01T07:25:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1220961335",
+      "title": "Great product!",
+      "text": "Great product! My dogs have always loved it, its consistent which is good for one of my dogs with major food allergies. However the price $$$ — these days is rough!!!!",
+      "rating": 4,
+      "author": "My.best.mates.are.dogs!",
+      "submitted_at": "2026-06-01T03:21:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 2.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220948323",
+      "title": "Incredible product",
+      "text": "I bought this product a few months back when my dog had digestive issues",
+      "rating": 5,
+      "author": "Bulldoggal",
+      "submitted_at": "2026-05-31T20:05:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220792474",
+      "title": "They absolutely love and great for there skin and coat",
+      "text": "Both my dogs been eating the prime 100 since they were puppies",
+      "rating": 5,
+      "author": "Renae",
+      "submitted_at": "2026-05-29T17:28:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220702610",
+      "title": "Gecko",
+      "text": "I have 2 dogs that love the prime rolls",
+      "rating": 5,
+      "author": "gecko",
+      "submitted_at": "2026-05-28T13:47:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220661231",
+      "title": "He loves it - Want to try the turkey next!",
+      "text": "I bought this for our dog to add some variety to his diet",
+      "rating": 5,
+      "author": "Milo's human mum",
+      "submitted_at": "2026-05-27T22:02:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220441385",
+      "title": "Special treat",
+      "text": "I generally buy this when we are going camping so the dogs get a special treat for dinner. It’s also easier to throw it in the esky and keep it cool. I do bring some dry food for them as well, but this is their special treat and believe you me there is never a crumb left behind with this SPD roll.",
+      "rating": 5,
+      "author": "Melzy",
+      "submitted_at": "2026-05-24T20:20:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220390203",
+      "title": "My dog loves this product, though he has to be handed a few morsels to start eating his meal.",
+      "text": "I buy this product because it was recommended by a vet.",
+      "rating": 5,
+      "author": "lover",
+      "submitted_at": "2026-05-24T02:41:44.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220388251",
+      "title": "Fussy miss",
+      "text": "My little mate loves this especially when I warm it up slightly first. It makes it a little more juicy and irresistible. 😉 As she’s a small dog I slice it all up and freeze it in portion sizes so no wastage.",
+      "rating": 5,
+      "author": "Lucylou",
+      "submitted_at": "2026-05-23T23:52:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1220325081",
+      "title": "Prime 100 kangaroo",
+      "text": "I have changed my temperamental\nTummied frenchie over to this months ago the change has been incredible, healthy tummy, healthy coat and happy dog:)",
+      "rating": 5,
+      "author": "Happy tummy",
+      "submitted_at": "2026-05-22T22:49:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1220265718",
+      "title": "Leroy gets very excited when he sees us get his meat out of the fridge. Dinner is now a happy place.",
+      "text": "Our beautiful boy Leroy is now eating he was a little overweight the vet said he is now the perfect weight. Picking up his droppings is so much better its not soft which makes it hard to pick. Now he has firm droppings",
+      "rating": 5,
+      "author": "Leroy",
+      "submitted_at": "2026-05-22T03:33:27.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220257367",
+      "title": "Our boy loves these rolls!",
+      "text": "Won’t use anything else now. Shiny coat, no itchy skin, good poops and a happy pup.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-05-21T21:53:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220094177",
+      "title": "Prime 100 Kangaroo and Pumpkin",
+      "text": "My two vacuum cleaners took longer to eat it as if it was really delicious. It put my home cooked meals to shame.",
+      "rating": 5,
+      "author": "Dogs slave",
+      "submitted_at": "2026-05-21T01:09:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1219824549",
+      "title": "SPD dog roll",
+      "text": "We buy this for my daughter’s old King Charles Cavi as she needs good food for her sensitive tummy",
+      "rating": 5,
+      "author": "Lovely Old King Charles",
+      "submitted_at": "2026-05-16T03:28:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1219500870",
+      "title": "Great Product",
+      "text": "This is a great product ,low fat and my dog has pancreatic issues and no problem having this product",
+      "rating": 5,
+      "author": "KelpiexCattledog",
+      "submitted_at": "2026-05-11T21:34:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219233389",
+      "title": "Happy puppy and a happy mumma",
+      "text": "Our second favourite",
+      "rating": 5,
+      "author": "Poodlelove",
+      "submitted_at": "2026-05-08T00:21:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219110317",
+      "title": "Bullseye!",
+      "text": "I have a fussy spoodle and it has taken many attempts to find something he will eat. It has now been two months and he is still eager to eat his dinner",
+      "rating": 5,
+      "author": "Spoodle slave",
+      "submitted_at": "2026-05-06T11:33:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219082490",
+      "title": "The favours and options are great and always appreciate by my 3 poodles",
+      "text": "Great Quality food for dogs and recommend",
+      "rating": 4,
+      "author": "Scotty poodles",
+      "submitted_at": "2026-05-06T01:21:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219006824",
+      "title": "The dogs love ❤️ PRIME",
+      "text": "This is a nutritious single protein diet that the dogs love.",
+      "rating": 5,
+      "author": "Chewy",
+      "submitted_at": "2026-05-04T22:36:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218956330",
+      "title": "Buster loves his Prime100 SPD meal times",
+      "text": "My dog Buster, is a 10 year old American Staffy who has been eating Prime100 PSPC Kangaroo & Pumpkin for several years as it was so good to help keep his skin clear and poos firm. He enjoys it so much I cut off small pieces for treats for him to have. Any other food I’ve given Buster to eat has given him a belly ache but SPC is the perfect food for him and he always wants more.",
+      "rating": 5,
+      "author": "Busty Big Boy",
+      "submitted_at": "2026-05-04T09:58:18.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1218936049",
+      "title": "Perfect product for my dog",
+      "text": "This product is perfect for my dog, she has been eating it for about 3 years and loves it. She has allergies to chicken so its perfect",
+      "rating": 5,
+      "author": "Jules",
+      "submitted_at": "2026-05-04T02:09:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218932886",
+      "title": "Excellent dog food",
+      "text": "Great product that my Cavoodle loves.",
+      "rating": 5,
+      "author": "Trickee",
+      "submitted_at": "2026-05-03T23:24:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218785126",
+      "title": "My Jack Russell Terriers love this product.",
+      "text": "I started my two dogs on this product a month ago as they have allergies to chicken. I have already noticed a huge improvement with less scratching. Aussie owned and locally made, what’s not to love. I would recommend any prime100 product to dog owners.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-05-01T18:48:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218654200",
+      "title": "prime roll",
+      "text": "dogs love prime roll",
+      "rating": 5,
+      "author": "Toller1",
+      "submitted_at": "2026-04-29T22:49:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1218528453",
+      "title": "Low fat percentage",
+      "text": "Our dog had his gallbladder out last year, he loves this food (fussy Maltese x) and its the right % of fat for his condition. I was referred to it by a friend whose dog has pancreatitis (also suitable for their dog!)",
+      "rating": 5,
+      "author": "Zoe and Boris",
+      "submitted_at": "2026-04-28T09:00:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217890713",
+      "title": "Cavoodle Mum",
+      "text": "My dogs like this pet food",
+      "rating": 5,
+      "author": "Cavoodle mum",
+      "submitted_at": "2026-04-21T22:12:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217818031",
+      "title": "This Product is literally a Life Saver!",
+      "text": "We have been using this product for three years. Ollie nearly died and it left him with a very sensitive stomach and pancreatic problems. Prime 100 is the only food we will feed him and thankfully he loves it! The Animal Hospital advised us to put him on to it.",
+      "rating": 5,
+      "author": "Hooman Mom.",
+      "submitted_at": "2026-04-20T23:59:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217623029",
+      "title": "Good quality product",
+      "text": "My dog enjoys it & I like that it uses human grade ingredients",
+      "rating": 5,
+      "author": "Boxerlover",
+      "submitted_at": "2026-04-18T12:02:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217581228",
+      "title": "Great for dogs with allergies",
+      "text": "My staffy has good allergies and this single protein meal is great. He doesn’t have any reactions and loves the flavour.",
+      "rating": 5,
+      "author": "Staffy lover",
+      "submitted_at": "2026-04-17T17:15:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1217428832",
+      "title": "Torro loves it, and it doesn't make him itch!",
+      "text": "This is our Go-To treat for a very particularly skin-allergic Westie. Safest and most reliable... not to mention super-yummy. Literally makes Torro's day... I think he wakes up for it.",
+      "rating": 5,
+      "author": "Totorro",
+      "submitted_at": "2026-04-16T01:41:26.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217423858",
+      "title": "No more diarrhoea!",
+      "text": "It resolved my dogs diarrhoea within two days!",
+      "rating": 5,
+      "author": "Iggylover",
+      "submitted_at": "2026-04-15T21:04:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0
+      }
+    },
+    {
+      "review_id": "1217390849",
+      "title": "My girl loves this product.",
+      "text": "I've only just purchased this product for my dog and she loves it.",
+      "rating": 5,
+      "author": "Staffie lover",
+      "submitted_at": "2026-04-15T13:32:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217353111",
+      "title": "A favourite",
+      "text": "Our girl loves this",
+      "rating": 5,
+      "author": "Cobberdog",
+      "submitted_at": "2026-04-14T21:40:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217306550",
+      "title": "Prime 100 SPD Kangaroo and Pumpkin",
+      "text": "The best quality and good for my dog like all of these in the range. Tried this one for a change and \"Finn\" loved it!",
+      "rating": 5,
+      "author": "Finn and Miss Marple",
+      "submitted_at": "2026-04-14T10:14:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217207103",
+      "title": "Cavoodle Mum",
+      "text": "My dogs like this food",
+      "rating": 4,
+      "author": "Cavoodle mum",
+      "submitted_at": "2026-04-12T23:37:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1217138285",
+      "title": "Kangaroo roll",
+      "text": "My dog Freddie loves the SP100 Kangaroo and pumpkin roll",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-04-11T23:44:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1216994518",
+      "title": "Great product",
+      "text": "Always a good extra on top of biscuits. My dog needed medication on a full tummy and adding a slice on top of his biscuits actually made him eat breakfast and dinner, he’s not a food driven dog and usually only eats once a day. And best of all it doesn’t give him an upset tummy.",
+      "rating": 5,
+      "author": "Dukey boy",
+      "submitted_at": "2026-04-10T00:02:26.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216914394",
+      "title": "Great For my Senior Dog",
+      "text": "My senior dog loves his Kangaroo and Pumpkin roll. We originally started him on it due to concerns of a food allergy to chicken and we've kept him on it ever since. So much better than the supermarket foods full of who knows what.",
+      "rating": 5,
+      "author": "MoodleMum",
+      "submitted_at": "2026-04-08T20:40:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216748078",
+      "title": "No complaints yet",
+      "text": "My dogs seem to like it",
+      "rating": 5,
+      "author": "Sunnyliza",
+      "submitted_at": "2026-04-06T21:05:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216683842",
+      "title": "Jeet's choice",
+      "text": "Jewtt has enjoyed this product immensely",
+      "rating": 5,
+      "author": "Jett",
+      "submitted_at": "2026-04-06T00:10:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216570951",
+      "title": "The empty bowl says it all",
+      "text": "At last I have found a product that my dog will eat without a food topping to entice him to eat his meal. Before I had to put little treats on top. Not now. The vet recommended I use this product for skin allergies and I am noticing a difference. It will be back to petbarn for me today to buy more kangaroo and pumpkin.",
+      "rating": 5,
+      "author": "Quinny",
+      "submitted_at": "2026-04-04T00:45:13.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216503841",
+      "title": "Loved by pet and owner",
+      "text": "This fixed my bordoodles tummy problems overnight and was vet recommended",
+      "rating": 5,
+      "author": "Bordoodle Lover",
+      "submitted_at": "2026-04-02T23:06:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216268681",
+      "title": "Excellent product",
+      "text": "Roxy only has Prime100 single protein, she loves it!",
+      "rating": 5,
+      "author": "Cutestaffy",
+      "submitted_at": "2026-04-01T09:06:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216262843",
+      "title": "Joe",
+      "text": "Dog loves it",
+      "rating": 5,
+      "author": "Joe",
+      "submitted_at": "2026-04-01T08:39:44.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1216191010",
+      "title": "My Betty loves it !",
+      "text": "Excellent for dogs with allergies and sensitive gut ! 👍👏",
+      "rating": 5,
+      "author": "ShihTzu lover ❤️",
+      "submitted_at": "2026-03-31T08:19:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1216153107",
+      "title": "My dogs love Prime",
+      "text": "Healthy, prime products",
+      "rating": 5,
+      "author": "Nerrie",
+      "submitted_at": "2026-03-30T15:46:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216134621",
+      "title": "My dogs love this product!",
+      "text": "I have been feeding this to my dogs for over 5 years now and they absolutely love it! Highly recommend!",
+      "rating": 5,
+      "author": "Cavoodlelover",
+      "submitted_at": "2026-03-30T11:14:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216108080",
+      "title": "early days",
+      "text": "Bought for hopeful weight loss, a little too wet",
+      "rating": 4,
+      "author": "Zaya",
+      "submitted_at": "2026-03-29T23:52:28.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1216046400",
+      "title": "He loves it.",
+      "text": "At last he loves it. Something he will eat with gusto.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-03-29T00:00:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215982578",
+      "title": "My boy loves this product",
+      "text": "Excellent product use it for keeping weight down on my schnauzer and he loves it!",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-03-27T22:32:18.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1215908508",
+      "title": "My dog loves this Combo.",
+      "text": "Mix this with the raw mince. Small portions - twice a day.",
+      "rating": 5,
+      "author": "Border collie follower.",
+      "submitted_at": "2026-03-26T19:32:26.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215705611",
+      "title": "My dogs love this product",
+      "text": "My dogs have been eating this product for years.",
+      "rating": 5,
+      "author": "Old girl.",
+      "submitted_at": "2026-03-23T20:31:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215650662",
+      "title": "Would recommend, great for sensitive tummies!",
+      "text": "We’ve been using the Prime100 rolls for our dogs for a while now, but since moving to the Kangaroo rolls we’ve really noticed a shift in their gut health improvement and their willingness to eat",
+      "rating": 5,
+      "author": "Heidi",
+      "submitted_at": "2026-03-23T03:15:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1215645261",
+      "title": "Only bought cos smaller one was out of stock every",
+      "text": "I have a chihuahua so the 2kg roll is way too much. There was not one store near me that had the 800g roll which is sooo disappointing",
+      "rating": 3,
+      "author": "Jt",
+      "submitted_at": "2026-03-22T22:56:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215593814",
+      "title": "Loves the taste",
+      "text": "My dog has skin allergies and this food has helped so much. This is all I give him now",
+      "rating": 5,
+      "author": "Dog lover",
+      "submitted_at": "2026-03-22T06:41:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215585732",
+      "title": "My dogs love Prime",
+      "text": "I buy this every week for my German Shepherds. Been giving it to my dogs for over 10yrs. Great when there is a chicken allergy & pumpkin is good for the digestion & glands.",
+      "rating": 5,
+      "author": "Scarlett’s Mum",
+      "submitted_at": "2026-03-21T23:10:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215584727",
+      "title": "Daisy lives it",
+      "text": "Very happy with this product it’s the first meat roll we’ve tried for our Daisy and she loves it.",
+      "rating": 4,
+      "author": "Nicky",
+      "submitted_at": "2026-03-21T22:36:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0
+      }
+    },
+    {
+      "review_id": "1215580906",
+      "title": "Tender tummied greyhound",
+      "text": "Our Greyhound has a sensitive tum We are trialing her on various foods after 6 weeks on just Hypoallergenic food. The Prime kangaroo & pumpkin has been excellent - no flare-ups and she seems to enjoy eating it!",
+      "rating": 5,
+      "author": "Peppa's person",
+      "submitted_at": "2026-03-21T20:59:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1215403407",
+      "title": "My dog loves it",
+      "text": "I bought the product a year ago my dog loves it",
+      "rating": 5,
+      "author": "Simmo",
+      "submitted_at": "2026-03-18T22:42:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1215250518",
+      "title": "Thumbs up from my fussy pooch",
+      "text": "My vet suggested I try this. I used to cook all my dog’s food which is time consuming and was never certain the mix was best. He has turned away from dog food in the past but this kangaroo was a real winner. My life is much easier, my dog is happy and I’m sure he’s getting the nutrition needed.",
+      "rating": 5,
+      "author": "Marnie",
+      "submitted_at": "2026-03-16T22:42:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215184147",
+      "title": "My dog loves Prime100 roll",
+      "text": "We buy this regularly and love that Petbarn price match if we find it cheaper somewhere else",
+      "rating": 5,
+      "author": "FrenchieMum",
+      "submitted_at": "2026-03-16T01:43:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215131789",
+      "title": "My pets live this dog roll",
+      "text": "Dogs love the roll and it’s ingredients suit them",
+      "rating": 5,
+      "author": "ChezJ007",
+      "submitted_at": "2026-03-15T07:58:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215063812",
+      "title": "Fussy poodle",
+      "text": "He is enjoying it atm, but being a poodle this could change at any moment!",
+      "rating": 5,
+      "author": "Fussypoodle",
+      "submitted_at": "2026-03-14T03:50:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214838419",
+      "title": "He enjoys his dinner and his medication can be slipped into the sausage too.",
+      "text": "Bought this product because it only has what it says, there are no added meats, dog cannot eat chicken or Beef. Where other products have these in them even though they say Kangaroo.",
+      "rating": 5,
+      "author": "American Staffy",
+      "submitted_at": "2026-03-11T08:54:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214828933",
+      "title": "Great healthy food",
+      "text": "My dog loves this food",
+      "rating": 5,
+      "author": "Lindy Lou",
+      "submitted_at": "2026-03-11T05:05:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214786468",
+      "title": "Roo & pumpkin roll",
+      "text": "Fantastic for dogs with allergies to other meats.\nPumpkin added in makes it softer for small dogs to eat the cut up roll",
+      "rating": 5,
+      "author": "Dashie nana",
+      "submitted_at": "2026-03-10T11:19:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214772618",
+      "title": "My pet does not tolerate this particular product.",
+      "text": "I bought this product a few weeks ago but unfortunately it has resulted in re-igniting my poodle’s allergy a has had to be discontinued.",
+      "rating": 2,
+      "author": "Toy poidle",
+      "submitted_at": "2026-03-10T08:18:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1214693668",
+      "title": "My dog loves his kangaroo.",
+      "text": "We were a a bit worried that our little man would turn his nose up at his new food cause we had to have a big change to his diet that meaning no more chicken. I know kangaroo has a strange smell to it but it’s not that bad and it’s really good for our boy and there was a little hesitation when we first gave it to him but it didn’t take long for him to love it. We’re very happy. Strange thing is one of my cats tried it and hated it and the other one loves it, it must be good.",
+      "rating": 5,
+      "author": "Shan",
+      "submitted_at": "2026-03-08T22:39:28.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214680911",
+      "title": "All the dogs I know love this!",
+      "text": "All the dogs I know love this! I cut it up and freeze it, and then use it as treats.",
+      "rating": 5,
+      "author": "Ilovebigdogs",
+      "submitted_at": "2026-03-08T18:37:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214551732",
+      "title": "My pet loves his food",
+      "text": "This product is excellent has everything my dog needs",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-03-06T15:04:30.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214520403",
+      "title": "new product",
+      "text": "my dog loves this product",
+      "rating": 5,
+      "author": "poodlelover",
+      "submitted_at": "2026-03-06T03:24:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1214511084",
+      "title": "SPD Kangaroo & Pumpkin Roll",
+      "text": "My dog has allergies, so this is the best food for her and she loves it.",
+      "rating": 5,
+      "author": "Frangie",
+      "submitted_at": "2026-03-05T20:31:30.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1214450080",
+      "title": "Prime 100",
+      "text": "My dog loves this product. On a Single protien die5.",
+      "rating": 5,
+      "author": "Animal lover",
+      "submitted_at": "2026-03-04T22:48:18.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214433378",
+      "title": "My dog loves it!",
+      "text": "Bought this for the first time and my dog loves it! She finishes it so quickly. I will definitely keep buying this again.",
+      "rating": 5,
+      "author": "Goldie",
+      "submitted_at": "2026-03-04T19:01:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214353029",
+      "title": "Prefer smaller size",
+      "text": "I have regularly been using this product but have always bought the smaller roll. I only have a small dog and the big roll takes so long for her to finish it that i sometimes have to discard it before it is finished as it is no longer fresh. I was told that they were possibly no longer going to be stocking the smaller rolls of the pumpkin and kangaroo and that is very disappointing.",
+      "rating": 3,
+      "author": null,
+      "submitted_at": "2026-03-04T06:13:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 3.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214351586",
+      "title": "Great product",
+      "text": "My 2 Cavoodles both eat this happily, and backyard cleanup is easy",
+      "rating": 5,
+      "author": "Scout and Loki",
+      "submitted_at": "2026-03-04T05:07:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214274660",
+      "title": "Great product",
+      "text": "Great for dogs who have health concerns that need a balanced diet.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-03-02T21:24:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214228543",
+      "title": "SPD Dog Roll",
+      "text": "What can I say.....a great product that my dog loves .\nContinue the good work",
+      "rating": 5,
+      "author": "Crazy dog Mum",
+      "submitted_at": "2026-03-02T07:47:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214215143",
+      "title": "Great for Training",
+      "text": "The dog trainer brought the Prime100 Kangaroo & Pumpkin Roll cut up in small pieces to use for training and my dog loves it. It works well with his very sensitive tummy and because kangaroo is such a lean meat it won't interfere with his usual nutrition.",
+      "rating": 5,
+      "author": "Rob H",
+      "submitted_at": "2026-03-01T22:31:49.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214162752",
+      "title": "Rosie loves this product",
+      "text": "I bought this for my dog after seeing the ad on tv recommending it by a vet. After my dog trying it she loved it so this is what she eats now.",
+      "rating": 5,
+      "author": "Staffy mum",
+      "submitted_at": "2026-03-01T06:19:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214036264",
+      "title": "Great product",
+      "text": "We have been buying this product for some time and our dog loves it!",
+      "rating": 4,
+      "author": "Best friend",
+      "submitted_at": "2026-02-26T23:08:42.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1213975344",
+      "title": "Scotties love this product",
+      "text": "This one is new to my Scottie dog but whenever I lift the roll out of the fridge he can’t wait to get stuck into it.",
+      "rating": 5,
+      "author": "Scottie MacC",
+      "submitted_at": "2026-02-26T02:23:12.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213972767",
+      "title": "they love this product",
+      "text": "I bought this meat for my two small dogs after being recommended by a friend. She gave them some to try and are now hooked.",
+      "rating": 5,
+      "author": "Jilly",
+      "submitted_at": "2026-02-26T00:04:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213865469",
+      "title": "He loves this product",
+      "text": "I bought this to try for my little dog who has stomach issues so far so good",
+      "rating": 5,
+      "author": "Poodle man",
+      "submitted_at": "2026-02-24T11:33:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213711130",
+      "title": "Some days will eat all some days none still getting used to it",
+      "text": "As this is all my dog can eat, due to allergies, she is still getting used to it.",
+      "rating": 4,
+      "author": "ned",
+      "submitted_at": "2026-02-22T00:40:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1213647398",
+      "title": "I hate Petbarn and the constant bombardment",
+      "text": "I hate Petbarn and the constant bombardment",
+      "rating": 1,
+      "author": "I hate Petbarn and the co",
+      "submitted_at": "2026-02-20T23:57:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1213572308",
+      "title": "My Poodle has a sensitive gut",
+      "text": "My Poodle loves the Kangaroo and she is very fussy",
+      "rating": 5,
+      "author": "Pinky",
+      "submitted_at": "2026-02-19T20:21:40.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1213519485",
+      "title": "My pet is eating this at the moment, she is very fussy",
+      "text": "I brought this to start to introduce to my dog who is in heart failure and has runny motions \nI is working so far and she is eating it so far \nShe has become very fussy",
+      "rating": 3,
+      "author": "Trac",
+      "submitted_at": "2026-02-19T05:18:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 3.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1213446736",
+      "title": "Kangaroo is his favourite",
+      "text": "I bought the prime 100 dog roll he loves them",
+      "rating": 4,
+      "author": "Fussy Cavoodle",
+      "submitted_at": "2026-02-18T04:04:27.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1213439425",
+      "title": "Picky Poodle eats this!",
+      "text": "Our rescued Miniature Poodle who is very picky about what he eats (except if it’s wanting our own meals!) ate this up straight away! Such a relief! He has to have a low fat diet due to having had his gallbladder removed some years ago.",
+      "rating": 5,
+      "author": "Rowlsar",
+      "submitted_at": "2026-02-17T22:27:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1213294383",
+      "title": "My poodles love this",
+      "text": "This is so healthy for my dogs. And they absolutely love it",
+      "rating": 5,
+      "author": "toypoodle mumma",
+      "submitted_at": "2026-02-16T00:55:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213230856",
+      "title": "Prime100 SPD Kangaroo & Pumpkin",
+      "text": "My puppy loves this food.",
+      "rating": 5,
+      "author": "Chihuahua obsessed",
+      "submitted_at": "2026-02-15T01:28:13.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213099672",
+      "title": "My pet barks at 5pm he scoffs it down",
+      "text": "My dog has been on this for close to a year, it has helped his digestion\nHoping his red itchy skin will settle down too.",
+      "rating": 5,
+      "author": "Chi mum",
+      "submitted_at": "2026-02-13T00:39:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212887902",
+      "title": "My dogs loved the kangaroo roll",
+      "text": "My dogs loved this roll",
+      "rating": 5,
+      "author": "Gillie",
+      "submitted_at": "2026-02-10T06:16:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212876728",
+      "title": "Great results really quickly",
+      "text": "My 15 year old staffy developed bad digestive issues: very loose stools, tummy noises and very bad flatulence. I could also see he was in discomfort. I was cooking rice, meat, veggies, but this didnt resolve the issues. After speaking with a Petbarn sales person I purchased this kangaroo and pumpkin roll. My finicky staffy has been on this product for almost 2 weeks and he loves it. I noticed within a week that his digestion back to how it was when he was much younger. He is happier and his stools are constantly solid.",
+      "rating": 5,
+      "author": "Lauren",
+      "submitted_at": "2026-02-09T21:53:37.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212611738",
+      "title": "My Frenchie loves it",
+      "text": "My Frenchie loves it. And he doesn’t get sick as it’s single protein",
+      "rating": 5,
+      "author": "Chuchi",
+      "submitted_at": "2026-02-06T03:45:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212351641",
+      "title": "Prime spd kangaroo & pumpkin",
+      "text": "I have a fussy shih zhu who also cant eat chicken, tried everything, all is good\nHe is eating no allergies now",
+      "rating": 5,
+      "author": "Shih zhu lover",
+      "submitted_at": "2026-02-02T12:32:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212291161",
+      "title": "Lifesaving food",
+      "text": "Have been trying a range of different foods for my dog who has allergies. He recently became ill and this is virtually the only food he can eat and then pass solid stools. Not a pleasant topic but the food is literally a lifesaver.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-02-01T15:36:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212186255",
+      "title": "Best thing ever finally",
+      "text": "One week ago hes loving it",
+      "rating": 5,
+      "author": "Maltese",
+      "submitted_at": "2026-01-31T03:51:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1212184987",
+      "title": "My dog absolutely loves this product it has taken a weight of because of his allergies",
+      "text": "Best thing ever finally",
+      "rating": 5,
+      "author": "Maltese",
+      "submitted_at": "2026-01-31T01:48:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212018153",
+      "title": "She loves this product.",
+      "text": "I cook all our dogs meals and this is a good change",
+      "rating": 5,
+      "author": "Shepherd lover",
+      "submitted_at": "2026-01-28T19:06:10.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211771673",
+      "title": "Great product great team",
+      "text": "Amazing product and wonderful help from the Erina team to pick the right meal for my pup. Who needed something low fat but nutritional \n\nThankyou girls",
+      "rating": 5,
+      "author": "Dog lady",
+      "submitted_at": "2026-01-25T20:18:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211311511",
+      "title": "Peaches really loves this",
+      "text": "I brought this product after Christmas. Had a big scare Christmas Night, had to visit Emergency Veterinary Services. Peaches was coughing and bringing up white foam. I found out that she has a small wind pipe which is classified as a birth defect and she has to wear a harness and loose weight",
+      "rating": 5,
+      "author": "Fussy Eater",
+      "submitted_at": "2026-01-19T22:38:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211238152",
+      "title": "My Frenchie loves this one",
+      "text": "My Frenchie’s stomach issues have resolved using this product.",
+      "rating": 5,
+      "author": "Chuchi",
+      "submitted_at": "2026-01-19T00:48:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211092876",
+      "title": "Fantastic Prime 100 range",
+      "text": "So happy with this product, our little Dashund loves it and the variety of flavours. Makes up his nutritional plan completely. Reward base for training him is a breeze. Definitely recommend this product",
+      "rating": 5,
+      "author": "Mitzi",
+      "submitted_at": "2026-01-16T20:12:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211035060",
+      "title": "Worked a treat",
+      "text": "Purchased the role on the recommendation of our trainer who thought it would be a good reward\nSame to work quite well as the puppy was interested and enjoyed the treat",
+      "rating": 4,
+      "author": null,
+      "submitted_at": "2026-01-15T21:34:37.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210977311",
+      "title": "Lola loves it",
+      "text": "My dog loves it and it does not affect her allergies",
+      "rating": 5,
+      "author": "Lola's Mum",
+      "submitted_at": "2026-01-14T23:52:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210751542",
+      "title": "Great for allergies",
+      "text": "Due to allergies with chicken, my frenchies have been on this for a few months - no more breakouts! I’m also happy with it, it has all the goodness and so easy to prepare.",
+      "rating": 5,
+      "author": "Witchy",
+      "submitted_at": "2026-01-11T23:07:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210552245",
+      "title": "My dog loves this product",
+      "text": "I buy this product regularly",
+      "rating": 4,
+      "author": "Cavoodle lover",
+      "submitted_at": "2026-01-08T23:47:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    }
+  ],
+  "product_name": "Prime100 SPD Kangaroo & Pumpkin Roll Dog Food 2kg",
+  "product_url": null,
+  "source": "cache",
+  "fetched_at": "2026-09-19T06:01:20+00:00"
+}

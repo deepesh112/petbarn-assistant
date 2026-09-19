@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Runtime HTTP cache -- regenerated on demand, never committed
+.cache/
+
+# Secrets. The committed *.example files show the expected shape.
+.streamlit/secrets.toml
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

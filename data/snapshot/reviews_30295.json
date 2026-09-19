@@ -1,0 +1,2339 @@
+{
+  "sku": "30295",
+  "stats": {
+    "average_rating": 4.85,
+    "total_reviews": 847,
+    "text_review_count": 366,
+    "rating_distribution": {
+      "5": 750,
+      "4": 78,
+      "3": 11,
+      "1": 5,
+      "2": 3
+    },
+    "recommended_count": 301,
+    "not_recommended_count": 2,
+    "secondary_rating_averages": {
+      "Pet satisfaction": 4.87,
+      "Value for money": 4.6,
+      "Quality": 4.93
+    },
+    "first_review_at": "2022-04-06T01:16:41.000+00:00",
+    "last_review_at": "2026-09-18T08:03:45.000+00:00"
+  },
+  "reviews": [
+    {
+      "review_id": "1230064584",
+      "title": "My fussy cat loves these",
+      "text": "Was recommended by my vet and I'm glad I took their advice.",
+      "rating": 5,
+      "author": "NS",
+      "submitted_at": "2026-09-18T08:03:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1229889802",
+      "title": "Senior Cat Happiness",
+      "text": "This product is keeps my elderly cat healthy",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-09-15T19:49:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228738536",
+      "title": "My cat loved",
+      "text": "Best Cat food ,they loved and we are regular buyers of this brand",
+      "rating": 5,
+      "author": "AdoKangado",
+      "submitted_at": "2026-09-01T11:05:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1228413005",
+      "title": "Both cat loves the food no matter their age",
+      "text": "My 12 year old cat loves this food, slowly introducing it to our 12 month old kitten. He absolutely loves the flavour but I must say he loves the box that the food came in more. 😊",
+      "rating": 5,
+      "author": "Dee",
+      "submitted_at": "2026-08-28T04:41:43.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1227787040",
+      "title": null,
+      "text": "My cat loves a mixture of this dry food with her wet food (Royal Canin Indoor Jelly Adult Cat Pouch 85g)",
+      "rating": 5,
+      "author": "G",
+      "submitted_at": "2026-08-19T17:15:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1222348036",
+      "title": "Trustworthy",
+      "text": "The specials make this decent value for money when you buy the bigger bags and the cats enjoy it. I trust the brand.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-06-19T01:53:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1222269021",
+      "title": "Royal Canine Indoor Cat dry food",
+      "text": "Bought this dry food for my 2 cats",
+      "rating": 5,
+      "author": "Catlover",
+      "submitted_at": "2026-06-18T04:43:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1222144838",
+      "title": "Happy cat-Royal Canin or nothing!",
+      "text": "Our very picky cat loves this product and won't eat anything else!",
+      "rating": 5,
+      "author": "Cat mum",
+      "submitted_at": "2026-06-16T13:16:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1222030280",
+      "title": "My cat loves this",
+      "text": "cat loved these",
+      "rating": 5,
+      "author": "cat mum",
+      "submitted_at": "2026-06-15T02:45:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221736321",
+      "title": "Likes the food so much",
+      "text": "I brought this cat food for my sons cat and seems he likes it",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-06-11T02:09:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221428868",
+      "title": "My cats enjoy this dry food.",
+      "text": "I bought this product for my cats and they have been enjoying it. It's not their favourite but they still seem to like it.",
+      "rating": 4,
+      "author": "Cat Lover",
+      "submitted_at": "2026-06-07T06:27:35.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0
+      }
+    },
+    {
+      "review_id": "1221303554",
+      "title": "My cats love this product",
+      "text": "I have been buying this product for our two indoor cats and they both love it. Their coats are silky and shiny. They look so healthy and I know they are getting the best food.",
+      "rating": 5,
+      "author": "My Kitty Kats",
+      "submitted_at": "2026-06-05T09:41:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1221179087",
+      "title": "Yummy cat food",
+      "text": "My cat always gobbles this up when genus fed",
+      "rating": 5,
+      "author": "Ziggy",
+      "submitted_at": "2026-06-04T00:03:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221174870",
+      "title": "My cats love Royal canin",
+      "text": "My cats have been eating Royal canin indoor for years, it’s a great food my cats love it it keeps there coats healthy and shinny and there stools form.",
+      "rating": 5,
+      "author": "Kat",
+      "submitted_at": "2026-06-03T20:22:41.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221104477",
+      "title": "Happy w it",
+      "text": "Happy w price and quality",
+      "rating": 5,
+      "author": "S&C",
+      "submitted_at": "2026-06-02T23:44:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221059320",
+      "title": "Cat loves this product",
+      "text": "My cat stands beside the auto feeder every morning and night demanding that it release the food.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-06-02T10:54:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1221013997",
+      "title": "Puppies love this",
+      "text": "Love the size of these as they fit perfectly into my puppy packs",
+      "rating": 5,
+      "author": "Nevaeh Sky- Mini dachshun",
+      "submitted_at": "2026-06-01T17:37:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220949766",
+      "title": "My pet loves her biscuits!",
+      "text": "I have bought this for my cat since I’ve had her. She always looks forward to her biscuits. Royal Canin gives her a beautiful shiny coat, helps her drink plenty of water and maintains her weight.",
+      "rating": 5,
+      "author": "Friend of Kitty",
+      "submitted_at": "2026-05-31T20:36:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220738501",
+      "title": "My cats enjoyed this dry food",
+      "text": "good and for my cats",
+      "rating": 5,
+      "author": "ally",
+      "submitted_at": "2026-05-28T22:59:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220730846",
+      "title": "I think RC is the best quality food available and my cat loves it",
+      "text": "I wouldn’t give my cat any othe product.",
+      "rating": 5,
+      "author": "Di",
+      "submitted_at": "2026-05-28T20:32:07.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220658625",
+      "title": "Royal Canin Indoor",
+      "text": "My cat Marnie is an indoor cat and I want to make sure she has the best life. She loves this cat food and doesn't throw up afterwards like some of the other food she has eaten.",
+      "rating": 5,
+      "author": "Marnie's Human",
+      "submitted_at": "2026-05-27T21:07:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220519688",
+      "title": "My pet only eats this brand.",
+      "text": "Only brand my cat will eat.",
+      "rating": 5,
+      "author": "Catlover",
+      "submitted_at": "2026-05-25T23:18:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220448716",
+      "title": "Timmy loves it",
+      "text": "I am happy with food",
+      "rating": 5,
+      "author": "Timmy",
+      "submitted_at": "2026-05-24T23:31:14.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220388499",
+      "title": "My cats love it",
+      "text": "Its really helping my cats.",
+      "rating": 4,
+      "author": null,
+      "submitted_at": "2026-05-24T01:07:28.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1220049687",
+      "title": "Royal Canin Indoor Adult Cat Food 4kg",
+      "text": "I have two rescue cats, both on this dry food. They started on Royal Canin Kitten and changed as they got older. Now 7 & 8 years old, this is their favourite. We are now getting ready for the change for the 7 yr + variety.",
+      "rating": 5,
+      "author": "Cat Lover",
+      "submitted_at": "2026-05-19T03:31:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219847420",
+      "title": "Recommended by the cat shelter",
+      "text": "Recommended by the cat shelter so I bought it and my cat loves it",
+      "rating": 4,
+      "author": "Harper02",
+      "submitted_at": "2026-05-16T12:03:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1219666624",
+      "title": "Top up food",
+      "text": "I bought this food for my cat , as I needed a top up ,",
+      "rating": 5,
+      "author": "Cass",
+      "submitted_at": "2026-05-13T20:50:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219552574",
+      "title": "My cat loves this product",
+      "text": "This cat food is my pets' favorite, and it also ensures their health.",
+      "rating": 5,
+      "author": "Potato",
+      "submitted_at": "2026-05-12T13:11:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1219446934",
+      "title": "The best",
+      "text": "This is great dry food for our indoor cat, he loves it won’t eat the other supermarket brands now",
+      "rating": 5,
+      "author": "Ann",
+      "submitted_at": "2026-05-11T10:24:10.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1219352335",
+      "title": "Muncheable goodness for my cat.",
+      "text": "I needed some dry food for Zazu my cat and thought I’d try the indoor formula. She took to it straight away and happily munched away.",
+      "rating": 5,
+      "author": "Zazu’s mum.",
+      "submitted_at": "2026-05-09T20:03:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217734743",
+      "title": "My pet loves this product",
+      "text": "Cat loves this",
+      "rating": 5,
+      "author": "Tibetan",
+      "submitted_at": "2026-04-19T23:41:53.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217342863",
+      "title": "Royal Canin Indoor cat biscuits",
+      "text": "These are what our cat was being fed at the RSPCA when she adopted us. We continued with these to minimise the stress for her while she got used to her new home.",
+      "rating": 5,
+      "author": ".",
+      "submitted_at": "2026-04-14T18:55:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217309414",
+      "title": "Ms",
+      "text": "Good for my cat",
+      "rating": 4,
+      "author": "Anna",
+      "submitted_at": "2026-04-14T10:56:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1217167586",
+      "title": "My cat loves these biscuits",
+      "text": "RSPCA recommends this product",
+      "rating": 5,
+      "author": "Poodlelover",
+      "submitted_at": "2026-04-12T12:39:51.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217145289",
+      "title": "Loved by both cats",
+      "text": "My cat has been eating this food since we got her 3 years ago. She won't touch any other dry food. Now we have a kitten as well who keeps stealing our older cats food!",
+      "rating": 5,
+      "author": "Krystallis",
+      "submitted_at": "2026-04-12T06:15:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1217097650",
+      "title": "Great All Round Kibble",
+      "text": "This is Tommy's (6 year old Ragdoll) staple kibble and he looks amazing",
+      "rating": 5,
+      "author": "Tommy's Mama",
+      "submitted_at": "2026-04-11T11:50:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216686792",
+      "title": "Rescue Cat has adapted well",
+      "text": "My rescue Cat has adapted from Royal Canin Kitten to Royal Canin Indoor without a problem",
+      "rating": 5,
+      "author": "Lyra’s Mum",
+      "submitted_at": "2026-04-06T02:08:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1216550627",
+      "title": "Priced for excellence and best for indoor cats",
+      "text": "Fantastic pricing when compared to other stores and the ideal food for indoor cats.\nCats love it.",
+      "rating": 5,
+      "author": "Cat mum",
+      "submitted_at": "2026-04-03T16:47:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216503122",
+      "title": "My cats loves this product.",
+      "text": "For a few years now I have been buying this product & my cats loves it.",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2026-04-02T22:38:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1216316132",
+      "title": "Great size!",
+      "text": "My cats have always loved Royal Canin and it’s awesome to have a smaller bag option :)",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2026-04-02T02:40:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1216239192",
+      "title": "Good",
+      "text": "My cat likes it.",
+      "rating": 5,
+      "author": "Bep",
+      "submitted_at": "2026-03-31T19:31:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215936248",
+      "title": "Premium food for premium cats!",
+      "text": "As Tonkinies, our humans say, you can't feed $5 food to a $1000 cat. Indoor Cat Royal Canin is scrumptious and superior, just like we are. We always have the soft food first, then we are given the kibble, or, hard food as our humans call it. We love it keeps us regular, full of energy and our gorgeous coats are an example of this top-shelf food.",
+      "rating": 5,
+      "author": "Cat Staff",
+      "submitted_at": "2026-03-27T09:23:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215708433",
+      "title": "Fussy cat approved",
+      "text": "Fussy cat surprisingly likes this one. He usually only eats a particular supermarket fish flavoured dry, but he likes this thankfully",
+      "rating": 5,
+      "author": "J",
+      "submitted_at": "2026-03-23T21:19:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215587763",
+      "title": "Great Brand if Cat Food",
+      "text": "I know they are getting all the nourishment they need and they live it.",
+      "rating": 5,
+      "author": "MareeP",
+      "submitted_at": "2026-03-22T00:25:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215482116",
+      "title": "Cats improve on this product",
+      "text": "My cats needed a change of dry food, they seemed to need to eat all the time on their previous food. The change to Royal Canin has made a big difference. My cats are more settled and less hungry. I’m pleased with the outcome.",
+      "rating": 5,
+      "author": "Catadmirer",
+      "submitted_at": "2026-03-20T08:13:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1215339781",
+      "title": "Cats love it",
+      "text": "Always buy for the cats",
+      "rating": 5,
+      "author": "JC",
+      "submitted_at": "2026-03-17T23:18:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1215117368",
+      "title": "High quality cat food, loved by my girl!",
+      "text": "We use Royal Canin Indoor with our young girl. She's a huge fan and finishes the plate every time. Can't ask for more than that.",
+      "rating": 5,
+      "author": "RossH67",
+      "submitted_at": "2026-03-14T21:47:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214967120",
+      "title": "Miss",
+      "text": "My cats like the food #",
+      "rating": 5,
+      "author": "Christine",
+      "submitted_at": "2026-03-13T08:31:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1214608762",
+      "title": "New and flavourful",
+      "text": "I am introducing this to my cat, who is adjusting to the flavour and texture",
+      "rating": 4,
+      "author": "Eskee Mum",
+      "submitted_at": "2026-03-07T13:50:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1214345013",
+      "title": "Fresh nice food",
+      "text": "The girls love this. The only downfall is no seal to realise the bag. I put it in a plastic container.",
+      "rating": 5,
+      "author": "Izzy",
+      "submitted_at": "2026-03-03T22:56:58.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214240599",
+      "title": "Can’t fault this product!",
+      "text": "I genuinely can not fault this product. My cats LOVE it and I have that added security knowing it’s backed by professionals.",
+      "rating": 5,
+      "author": "Bree",
+      "submitted_at": "2026-03-02T12:06:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1214162742",
+      "title": "All of our cats love this dry food",
+      "text": "I bought this for our cats and am happy with this product as it satisfies all dietary requirements",
+      "rating": 5,
+      "author": "Dawnsedge",
+      "submitted_at": "2026-03-01T06:15:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1214044190",
+      "title": "She loves it",
+      "text": "I bought this dry food when I adopted my cat.",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2026-02-27T05:50:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213443653",
+      "title": "My pet loves this.",
+      "text": "I bought this product last Sunday. My cat, Coolcat lapped it up.",
+      "rating": 5,
+      "author": "Ian",
+      "submitted_at": "2026-02-18T00:52:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1213375751",
+      "title": "Great car food",
+      "text": "This Royal Canin dry food is one of our two staple cat food products - which our cat loves, and it keeps her regular and non-smelly! :-)",
+      "rating": 5,
+      "author": "Peter & Pipi",
+      "submitted_at": "2026-02-17T08:04:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213367977",
+      "title": "My cat loves this dry food awesome",
+      "text": "Great product my cat loves it",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2026-02-17T02:50:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1213219649",
+      "title": "Absolutely fav",
+      "text": "I buy this product for my very fussy cat, it’s her favourite food.",
+      "rating": 5,
+      "author": "HuskyMum",
+      "submitted_at": "2026-02-14T20:02:34.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1213130123",
+      "title": "Happy cat, happy owner",
+      "text": "I changed my Ragdoll over to this food and found she has taken to it very easily. Very happy with the result. I bought the small bag to try her on it and will be buying full size next purchase.",
+      "rating": 5,
+      "author": "EmV",
+      "submitted_at": "2026-02-13T13:45:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212745930",
+      "title": "My kitty loves this dry food!",
+      "text": "This is the brand that came home from the shelter with. I’ve since tried other brands and she won’t eat them",
+      "rating": 5,
+      "author": "Trixie",
+      "submitted_at": "2026-02-08T00:42:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212533659",
+      "title": "My cat likes the product !",
+      "text": "I bought this product for my indoor cat & she loves it … I feed her 90% of wet food & 10% dryfood …",
+      "rating": 5,
+      "author": "Sandy",
+      "submitted_at": "2026-02-04T22:38:57.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1212138940",
+      "title": "Trust",
+      "text": "I only give my cats Royal Canin indoor because not only do the cats love the taste, for me it’s about trust and I trust Royal Canin cat food",
+      "rating": 5,
+      "author": "Raggy Dolls",
+      "submitted_at": "2026-01-30T11:55:19.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1212118410",
+      "title": "Fill it up",
+      "text": "We adopted our cats knowing they would be kept indoors so wanted them to have all their needed nutrition.Our cats love these biscuits,they give the crunch and the flavour must be 10/10 as both cats insist the biscuit bowl is constantly refilled.Also good sized bags.",
+      "rating": 5,
+      "author": "Hayman",
+      "submitted_at": "2026-01-30T04:58:09.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1212072126",
+      "title": "Clearly cat approved",
+      "text": "My rescue cats have been on this for years and I put all my foster cats on it too. One of the only dried foods they consistently eat.",
+      "rating": 5,
+      "author": "Zephyr",
+      "submitted_at": "2026-01-29T11:45:53.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1212053298",
+      "title": "Really good for cats",
+      "text": "I bought this a week ago and it was amazing my cat loves it",
+      "rating": 5,
+      "author": "Xen129",
+      "submitted_at": "2026-01-29T07:13:50.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1212042755",
+      "title": "Great product and health benefits",
+      "text": "I use this for my rescue kitty's and they love it and their condition improves so much after being strays to being fed quality food.",
+      "rating": 5,
+      "author": "TLC Kitty Rescue",
+      "submitted_at": "2026-01-29T03:39:29.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1212041772",
+      "title": "Highly recommend",
+      "text": "Have been buying this for my cat who is FIV+ and he is so healthy and energetic. Leaves him with such a fluffy healthy coat too",
+      "rating": 5,
+      "author": "tamarah_22",
+      "submitted_at": "2026-01-29T02:30:47.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1212003223",
+      "title": "Fantastic indoor cat wet food",
+      "text": "My cat a fussy calico has been on this 2 years now. She loves the texture n even eats it cold in summer!",
+      "rating": 5,
+      "author": "Human to Alba",
+      "submitted_at": "2026-01-28T16:03:07.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211941789",
+      "title": "Royal canin",
+      "text": "My cat really enjoys there biscuits",
+      "rating": 5,
+      "author": "Pebbles",
+      "submitted_at": "2026-01-27T23:16:55.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211785837",
+      "title": "Pure Quality for your babies",
+      "text": "Since adopting my 2 kittys, they have eaten Royal Canin Indoor. The measurement guide on the back if the bag is a god send. Their coats are lovely and soft and they even have what is called 'garlic fur', which is a sign of excellent well looked after coats. This is all down to the high quality food they love to eat.",
+      "rating": 5,
+      "author": "TS20",
+      "submitted_at": "2026-01-26T02:48:11.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211744126",
+      "title": "Reduced the smell of the kitty littler.",
+      "text": "Are you jokin? My cat loves this stuff! & I love that the room with the kitty litter isn’t so smelly! 🤣",
+      "rating": 5,
+      "author": "HeyHelena",
+      "submitted_at": "2026-01-25T11:58:24.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211718367",
+      "title": "Amazing everyday food to keep your cats healthy",
+      "text": "We have been using this cat food for 4 years now, for three different cats. They all love it, their vet says they’re healthy and they hate when we run out and have to give them other food for a day or two. Highly recommend!",
+      "rating": 5,
+      "author": "Misstjxo",
+      "submitted_at": "2026-01-25T04:05:56.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211676796",
+      "title": "raefran4eva@gmail.com",
+      "text": "Our girls really enjoy eating this food, it keeps them healthy and happy with lovely coats.",
+      "rating": 5,
+      "author": "Alm26",
+      "submitted_at": "2026-01-24T12:04:17.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211650412",
+      "title": "Great quality indoor cat food",
+      "text": "I’ve been using this indoor cat food for a while now and I’m extremely happy with it. My cats love the taste, their coats look healthier, and digestion has noticeably improved with less smell from the litter tray. It’s gentle on their stomachs and keeps them satisfied without overeating. I feel confident feeding this as part of their daily diet and will definitely continue buying it. Highly recommend for indoor cats.",
+      "rating": 5,
+      "author": "Bec S",
+      "submitted_at": "2026-01-24T04:34:29.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211634244",
+      "title": "Better for an older cat",
+      "text": "This is much healthier for my 12 yo cat.. Appropriate to her age. She seems to like it.",
+      "rating": 5,
+      "author": "JanG",
+      "submitted_at": "2026-01-23T20:17:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211612952",
+      "title": "Royal canin indoor dry",
+      "text": "My cat love this food been using for years\nIndoor dry for years",
+      "rating": 5,
+      "author": "Jill",
+      "submitted_at": "2026-01-23T14:40:11.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211604693",
+      "title": "High quality",
+      "text": "My 6 cats all love this and graze throughout the day as a supplement with to their also favourite royal canin indoor adult jelly wet food",
+      "rating": 5,
+      "author": "Phil91",
+      "submitted_at": "2026-01-23T12:39:01.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211592635",
+      "title": "10kg Indoor deal",
+      "text": "I’ve bought this a couple times in the 10kg bag. The value of the 10kg is good and worth getting the bigger bag of you can.",
+      "rating": 5,
+      "author": "Homefree28",
+      "submitted_at": "2026-01-23T09:50:53.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211587946",
+      "title": "Great",
+      "text": "I’ve been using this product for my two fur babies, they love the taste together with the Jelly satchels.",
+      "rating": 5,
+      "author": "Linda",
+      "submitted_at": "2026-01-23T08:36:09.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211572671",
+      "title": "Fantastic diet",
+      "text": "I do cat rescue and all my foster kitties are fed Royal Canin wet, dry and mousse. Their coats are silky soft and i know they are getting the best possible start to a healthy life. I also give the new owner an adoption pack that has Royal Canin wet n dry food so they dont change their diets. Only the best for my fosters and my own 13 Cats",
+      "rating": 5,
+      "author": "Lisa",
+      "submitted_at": "2026-01-22T23:42:14.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211482305",
+      "title": null,
+      "text": "I have been buying this product for years, I have 6 strictly indoor cats as they are FIV+. They all really enjoy this one and it keeps them in good health. The only problem is when the bowls are 3/4 empty, it is a catastrophe to them that must be fixed straight away!\nHighly recommend.",
+      "rating": 5,
+      "author": "Ree11",
+      "submitted_at": "2026-01-22T08:58:32.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211475356",
+      "title": "Great dry food for everyday",
+      "text": "[This review was collected as part of a promotion.] Awesome dry food. Use it for my permanent cats and our foster cats in care. They all love it and you can see the benefits in their health and coat when they start it.",
+      "rating": 5,
+      "author": "Girlfromoz",
+      "submitted_at": "2026-01-22T06:46:29.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211473094",
+      "title": "Great quality food",
+      "text": "[This review was collected as part of a promotion.] My two cats thrive on this food! They’re both a healthy weight, have soft, shiny coats, and a lot of energy. They also love eating it. No pickiness. They’ve been on Royal Canin all their lives - about 6 years now.",
+      "rating": 5,
+      "author": "audrey1",
+      "submitted_at": "2026-01-22T05:41:51.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211321957",
+      "title": "Keeps them full all day long!",
+      "text": "Ever since we have used the indoor cat food ive found my cats have really improved in their energy levels, super shiny coats and keeps them full all day till their nightly meal. No more scavenging or trying to eat our human food of our plates! Thoroughly recommend.",
+      "rating": 5,
+      "author": "Alanarene88",
+      "submitted_at": "2026-01-20T04:44:02.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211312089",
+      "title": "Easy and great instructions!!",
+      "text": "Our cats love the Royal Canin Indoor! The feeding guide on the back of the bag is very clear and easy to follow, especially if your cat needs to go on a slight diet - the instructions make it easy to know how much to feed if they are slightly over their ideal weight. \nThe biscuits are the perfect size for our automatic feeder, and we haven’t had an issue with hairballs. It is also great to know that my cats are receiving everything they need in their diet for their indoor lifestyle. \n\nBased on how much my cats love this, it would be criminal for me to ever switch to anything other than Royal Canin. The big bags also make it really easy to stock up!",
+      "rating": 5,
+      "author": "Chotobaki",
+      "submitted_at": "2026-01-19T21:51:08.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211243098",
+      "title": "Premium Taste",
+      "text": "[This review was collected as part of a promotion.] Teddy our cat love Royal canin. He will not eat anything else. The quality is next to none. Only made with good ingredients. Teddy has premium taste.",
+      "rating": 5,
+      "author": "Fefe",
+      "submitted_at": "2026-01-19T05:26:04.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211195539",
+      "title": "Kibble connaisseurs",
+      "text": "oyal Canin Indoor Cat Dry Food has been a really positive change for my two indoor cats. One of my boys especially struggled with digestion before, but since switching to this food there are no more runny poos — and no more mess stuck in his fluffy fur, which has been a huge relief. Their digestion is clearly much better overall.\n\nI’ve also noticed that it helps slow down and regulate their energy levels. They seem more settled and content throughout the day, which is great for indoor cats.\n\nThe only downside is the kibble size or texture. My two cats (brothers) tend to bite the pieces in half and leave broken bits scattered outside the bowl. This was never an issue when they were on Royal Canin Kitten dry food, so it can get a bit messy.\n\nOverall, it’s a great quality food with clear digestive and behavioural benefits — just wish the kibble design didn’t lead to so much mess.",
+      "rating": 4,
+      "author": "Yeti and Yowie",
+      "submitted_at": "2026-01-18T12:16:36.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211130708",
+      "title": "Superb",
+      "text": "My cats love both are indoor cats \nPepper and Perry approved",
+      "rating": 5,
+      "author": "Silvanagu",
+      "submitted_at": "2026-01-17T12:10:42.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211110551",
+      "title": "Great product",
+      "text": "Bought this as a starter pack for my car and he LOVES it!!",
+      "rating": 5,
+      "author": "Phoenix",
+      "submitted_at": "2026-01-17T05:13:39.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211107845",
+      "title": "My pet loves this product",
+      "text": "My cat loves these biscuits. She unfortunately has cardiomyopathy so I want to give her the best food possible for the time she has left. She runs when she hears me open the bag. Definitely recommended",
+      "rating": 5,
+      "author": "Mollymoo",
+      "submitted_at": "2026-01-17T03:42:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1211104878",
+      "title": "Excellent nutrition for indoor cats",
+      "text": "My new 1 year old rescue cat loves Royal Canin - and it is especially good as she is an indoor cat.",
+      "rating": 5,
+      "author": "Cat lover",
+      "submitted_at": "2026-01-17T00:56:52.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211062911",
+      "title": "Bikkie boy loves them",
+      "text": "[This review was collected as part of a promotion.] KK the bikkie boy is first to the bowl when these bikkies are poured!",
+      "rating": 5,
+      "author": "Julz",
+      "submitted_at": "2026-01-16T11:29:16.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211051679",
+      "title": "Cat very impressed",
+      "text": "I bought this for the first time recently on recommendation and I'm glad I did! My fussy cat loves it! Will happily continue to buy it.",
+      "rating": 5,
+      "author": "Rogue",
+      "submitted_at": "2026-01-16T08:00:18.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211048163",
+      "title": "Highly palatable and healthy",
+      "text": "[This review was collected as part of a promotion.] My cat is generally not a fan of dry kibbles and would much rather eat wet food permanently. I swapped to this dry food after using a different brand because I heard they’re the most palatable, and I agree! My cat cleans her bowl with this product. Other things I’ve noticed is that she is a much healthier weight, has a really soft, thick and shiny coat and her litter box doesn’t smell as much. I couldn’t recommend this more",
+      "rating": 5,
+      "author": "Luna29",
+      "submitted_at": "2026-01-16T06:45:30.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211046187",
+      "title": "Happy Kitty!",
+      "text": "My rescue cat LOVES these biccies. Since being home and having these, his stomach has gotten so much better! \n\nWe have always used these biscuits over the years, they never disappoint 😊",
+      "rating": 5,
+      "author": "UnlceFester1",
+      "submitted_at": "2026-01-16T05:42:52.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211043223",
+      "title": "Well loved!",
+      "text": "[This review was collected as part of a promotion.] We were nervous about transitioning from kitten food to adult food but our cat loved this instantly. We have a very happy cat who is regularly emptying his bowl!",
+      "rating": 5,
+      "author": "Madi16",
+      "submitted_at": "2026-01-16T02:12:49.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1211042727",
+      "title": "The only food we will use!",
+      "text": "We went from Kitten to Indoor and my ragdoll, Betty, is absolutely thriving. I love that we can buy it in bulk and it saves us money - while giving her all the nutrients and benefits she needs being a spoilt indoor kitty! We love Royal Canin.",
+      "rating": 5,
+      "author": "Mamajags",
+      "submitted_at": "2026-01-16T01:46:21.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1210684087",
+      "title": "Cats thrive on this blend",
+      "text": "My indoor cats don’t suffer with hair balls when on ROYAL CANIN indoor. They love feed time and are shiny, in the correct weight range and content.",
+      "rating": 5,
+      "author": "Dahbie",
+      "submitted_at": "2026-01-10T22:38:08.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210390887",
+      "title": "Happy customer",
+      "text": "A well balanced quality dry cat food. Our boy loves this.",
+      "rating": 5,
+      "author": "Customer",
+      "submitted_at": "2026-01-06T21:20:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1210273973",
+      "title": "I always buy these biscuits for my cat , she loves them",
+      "text": "I always buy these",
+      "rating": 5,
+      "author": "Daisy Cat",
+      "submitted_at": "2026-01-05T10:05:18.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1209834653",
+      "title": "My cat, Lucky, quite likes Royal Canin.",
+      "text": "By recommendation from my wife, Lucky quite likes this flavour of Royal Canin. I normally feed him twice a day, however, it’s so delicious that he ends up eating all of his morning and evening portions. I now need to feed him thrice a day. I’m very mindful to split the portions to be smaller so he only eats just enough to be full and not overeat.",
+      "rating": 5,
+      "author": "Lucky’s Owner",
+      "submitted_at": "2025-12-30T06:56:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1209728214",
+      "title": "Great product and good price",
+      "text": "Great product and not too expensive. Our cats love these biscuits.",
+      "rating": 5,
+      "author": "Kirar101",
+      "submitted_at": "2025-12-28T20:38:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1209697262",
+      "title": "My Boys Love This Food",
+      "text": "I purchased a sample pack to make sure my two young boys would like this food, they loved it. Purchased the bigger bag and definitely recommend this dry food for indoor cats. Reduced odour in the litter tray and they happily consume this quality food.",
+      "rating": 5,
+      "author": "Kittymumma",
+      "submitted_at": "2025-12-28T12:53:20.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1209544711",
+      "title": "My Boys Love This Food",
+      "text": "I have just transitioned my two boys from kitten food to this adult food. They absolutely love it. I am also really impressed at how it controls their litter tray odour too.",
+      "rating": 5,
+      "author": "Kittymumma",
+      "submitted_at": "2025-12-26T11:52:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1209194510",
+      "title": "Awesome product",
+      "text": "My Cats love this",
+      "rating": 5,
+      "author": "Phoenix",
+      "submitted_at": "2025-12-20T21:38:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1208369445",
+      "title": "Hurley loves his food!",
+      "text": "I got Hurley, my cat, from the Lonsdale shelter 5 years ago. Absolutely love him to bits and wanted the best food for him.. after much research chose Royal Canin. Have never looked back. He is thriving.",
+      "rating": 5,
+      "author": "Hurley’s Mum",
+      "submitted_at": "2025-12-10T12:53:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1208366750",
+      "title": "Bella loves this dry food",
+      "text": "My cat loves this she prefers this to wet food",
+      "rating": 5,
+      "author": "N",
+      "submitted_at": "2025-12-10T12:14:56.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1208002443",
+      "title": "Good quality product",
+      "text": "I’ve been buying this since we adopted our little guy and it’s been awesome. But I think we might consider changing soon to another flavour or something because I think our cat might be bored with the same biscuits",
+      "rating": 4,
+      "author": "MJ",
+      "submitted_at": "2025-12-05T22:48:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1207779152",
+      "title": "Good product",
+      "text": "My cat first time she try royal canin cat foods,she love its so much",
+      "rating": 5,
+      "author": "Hargow",
+      "submitted_at": "2025-12-03T05:18:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207779898",
+      "title": "Best Cat Food!",
+      "text": "Best cat food for less litter smells! My cats also love it, even more than any wet foods! I usually but in 10KG bags but it was out of stock, so the store member was able to do a good deal on 2 x 4kg bags for me <3",
+      "rating": 5,
+      "author": "VC",
+      "submitted_at": "2025-12-03T04:42:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207623705",
+      "title": "My cat loved it",
+      "text": "I brought this food for my cat as the Breader of my cat suggested it for him",
+      "rating": 5,
+      "author": "Timmy",
+      "submitted_at": "2025-11-30T21:40:33.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207552163",
+      "title": "My cat loves this product",
+      "text": "My cat loves to eat crunches",
+      "rating": 5,
+      "author": "Max",
+      "submitted_at": "2025-11-29T20:21:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1207421646",
+      "title": "My cat loves this",
+      "text": "Great for my cat who is mainly indoor, her number 2's are not smelly & she loves it",
+      "rating": 5,
+      "author": "Cat owner",
+      "submitted_at": "2025-11-27T20:45:43.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1207175701",
+      "title": "My pets love this product",
+      "text": "i have been buying this product for about 4 yrs now since the girls transition from kitten food vey happy and love that it comes in the smaller size so its always fresh at home",
+      "rating": 5,
+      "author": "Meowmum",
+      "submitted_at": "2025-11-24T19:41:46.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1206598029",
+      "title": "Good loved purrrrfect",
+      "text": "My fur mates love it",
+      "rating": 5,
+      "author": "Hobb",
+      "submitted_at": "2025-11-18T11:43:45.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1206566557",
+      "title": "I use it as a supplementary feed and my cat enjoys this product and eats it all up",
+      "text": "Happy with this product. Serves the needs of my house cat",
+      "rating": 4,
+      "author": "Mickeythemouser",
+      "submitted_at": "2025-11-18T00:44:16.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 4.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1206418314",
+      "title": "A feline favourite!",
+      "text": "This one is wolfed down by a very fussy feline, no matter what.",
+      "rating": 5,
+      "author": "The Butler",
+      "submitted_at": "2025-11-16T05:50:21.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1206384560",
+      "title": "No FURBALLS",
+      "text": "Great indoor all rounder food. Poo doesn’t smell up the kitty litter box. The are all healthy and shiny, with good teeth and NO FURBALLS",
+      "rating": 5,
+      "author": "Dahbie",
+      "submitted_at": "2025-11-15T15:44:00.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": false,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1205894138",
+      "title": "Mr Fussy is not the biggest fan!",
+      "text": "Mr fussy doesnt like it as much as his ragdoll one",
+      "rating": 3,
+      "author": "CrazyPklz",
+      "submitted_at": "2025-11-09T23:47:06.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Quality": 3.0,
+        "Pet satisfaction": 2.0
+      }
+    },
+    {
+      "review_id": "1205792214",
+      "title": "They love them",
+      "text": "I bought these buscuits for our cats",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-11-08T13:36:01.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1205477454",
+      "title": "My cats love these dry cat food.",
+      "text": "I bought Royal Canin for my cats because they are tye highest quality cat foods.",
+      "rating": 5,
+      "author": "LoveMyKittyCats",
+      "submitted_at": "2025-11-06T17:46:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1205154721",
+      "title": "Indoor cats",
+      "text": "The royal canin is the best i have found for my 2 young cats.",
+      "rating": 5,
+      "author": "Scott",
+      "submitted_at": "2025-11-03T19:02:31.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1205029551",
+      "title": "A long term staple",
+      "text": "The food has been our staple diet for our indoor cats for a number of years and have found no need to change to another brand or variety.",
+      "rating": 5,
+      "author": "Pusswithoutboots",
+      "submitted_at": "2025-11-03T00:34:50.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1204017297",
+      "title": "My kitten loves it.",
+      "text": "I actually got the adult cat food by mistake, but got an exchange for the kitten one.An excellent product.",
+      "rating": 5,
+      "author": "cat lover",
+      "submitted_at": "2025-10-28T01:37:19.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1203533783",
+      "title": "I'm happu with that product",
+      "text": "I'm happu with that product",
+      "rating": 5,
+      "author": "1",
+      "submitted_at": "2025-10-21T09:00:17.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1203420425",
+      "title": "First time I’ve bought this product and the cats are eating it without any hesitation.",
+      "text": "Bought cat food for my cats and they seem to enjoy it",
+      "rating": 4,
+      "author": "Cat lovers",
+      "submitted_at": "2025-10-19T15:41:30.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1203176404",
+      "title": "Always a favourite!",
+      "text": "Since learning of these biscuits from the shelter where I adopted my first two rescue cats, I have introduced many more rescue cats to these tasty indoor cat cookies. Cats often change their food preferences, but I have never had a cat refuse these cookies and in fact they all continue enjoying them year after year.",
+      "rating": 5,
+      "author": "Vicki",
+      "submitted_at": "2025-10-15T22:35:48.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1203101266",
+      "title": "My cat seems to like Royal Canin products",
+      "text": "My cat has been eating the Indoor Royal Canin for approximately 2 1/2 years. Every now and then we alternate his meals by using the Royal Canin FurBall and Dental dry food. He seems happy with it",
+      "rating": 5,
+      "author": "Bugs",
+      "submitted_at": "2025-10-14T20:05:47.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1202655793",
+      "title": "One of my cat’s favourite",
+      "text": "I bought this small package for my cat and he loved. I like this size more with different tastes and products as my cat need a rotation.",
+      "rating": 5,
+      "author": "May",
+      "submitted_at": "2025-10-08T02:38:03.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1202614257",
+      "title": "Highly recommend, favourite dry food 4 my Cattery.",
+      "text": "I am the owner of a Cattery and have had 100's of cats holiday here over the last 8 years. Royal Canin indoor is my main dry food that I supply to visiting Cats. I would say over 95% of cats love it, and the owners often comment how lovely and soft their coats are on pick up. It helps keep poop smells in the Cattery down and it has the added benefit of ingredients to aid urinary health.",
+      "rating": 5,
+      "author": "Jenny",
+      "submitted_at": "2025-10-07T11:13:52.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1202614154",
+      "title": "Scrumptious!",
+      "text": "My elderly lady cat absolutely loves these biscuits. She can't get enough of them...",
+      "rating": 5,
+      "author": "Kittyluva",
+      "submitted_at": "2025-10-07T11:06:25.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1202355031",
+      "title": "Happy cat",
+      "text": "Great value. Juno loves it.",
+      "rating": 5,
+      "author": "Happy cat person",
+      "submitted_at": "2025-10-03T02:10:32.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1202032869",
+      "title": "Cat enjoys this product",
+      "text": "Always buy this product for my cat",
+      "rating": 5,
+      "author": "cat mum",
+      "submitted_at": "2025-09-27T23:01:48.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1201942780",
+      "title": "Ms",
+      "text": "I bought this package for a cat.",
+      "rating": 5,
+      "author": "Juls",
+      "submitted_at": "2025-09-26T10:18:39.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1201910699",
+      "title": "Amazing indoor cat food",
+      "text": "My cat Oliver tried this 2 months ago and we’re so happy with this decision! He has lost weight and is now way healthier and happier. Best cat food ever!!",
+      "rating": 5,
+      "author": "Mafegv",
+      "submitted_at": "2025-09-25T19:40:40.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1201822835",
+      "title": "Silky, smooth hair without the fuss",
+      "text": "[This review was collected as part of a promotion.] I love royal canine products for my indoor cat. I initially gave him the kitten kibble and wet food and he loved it. Then I moved up to this indoor kibble which he loves. I've noticed his fur is a lot more shinier, smoother and sheds less than other cats not eating royal canine. Love that he enjoys it as well as he can be a bit of a fussy prince. Overall, would highly recommend.",
+      "rating": 5,
+      "author": "Jask88",
+      "submitted_at": "2025-09-24T23:44:16.000+00:00",
+      "is_verified_purchaser": false,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1201752525",
+      "title": "Harry",
+      "text": "My cat Harry has loved Royal cannon for over 8 years. It’s has support his health and wellbeing 10",
+      "rating": 5,
+      "author": "Mum",
+      "submitted_at": "2025-09-23T23:31:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1201590513",
+      "title": "My Cat's love this products.",
+      "text": "Both my 1yr old Cat's love this product and enjoy the taste.",
+      "rating": 5,
+      "author": "Ollieandmissy",
+      "submitted_at": "2025-09-21T13:37:22.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201360858",
+      "title": "Will not eat other brands",
+      "text": "Cat was a show cat and has always been feed Royal Canin",
+      "rating": 4,
+      "author": null,
+      "submitted_at": "2025-09-18T02:57:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1201321245",
+      "title": "Gold",
+      "text": "Perfect for our indoor moggies.",
+      "rating": 5,
+      "author": "Bossladymum",
+      "submitted_at": "2025-09-17T10:02:23.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1201081392",
+      "title": "Cat loves it",
+      "text": "Cat loves it",
+      "rating": 5,
+      "author": "CuddleBunny",
+      "submitted_at": "2025-09-12T22:10:04.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 4.0
+      }
+    },
+    {
+      "review_id": "1200907239",
+      "title": "Excellent taste",
+      "text": "Cats LOVE this, because of course they do, only the best for Alaska and Missy!",
+      "rating": 5,
+      "author": "Jatosha",
+      "submitted_at": "2025-09-09T21:39:59.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 1,
+      "unhelpful_votes": 1,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200765739",
+      "title": "Cat food",
+      "text": "Our 10 year old cat, is fussy. However, after rejecting a couple of others, ( which she had prior.)\nShe really is settled back with Royal Canin. Thank you Sharon, for your kind friendly caring service at Q Super Store Mermaid Waters.",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-09-08T03:15:09.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Quality": 5.0
+      }
+    },
+    {
+      "review_id": "1200651417",
+      "title": "Thumbs up",
+      "text": "My two fur babies have gown up on this brand. They love it!",
+      "rating": 5,
+      "author": "JM",
+      "submitted_at": "2025-09-06T00:25:02.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1200517828",
+      "title": "Happy Cats",
+      "text": "Been buying this for my 2 cats for years",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-09-03T23:01:15.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1200172204",
+      "title": "My cats aren’t not keen on this one . But love the other flavours",
+      "text": "Not a favourite",
+      "rating": 3,
+      "author": "Cat lover",
+      "submitted_at": "2025-08-29T06:19:38.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 3.0,
+        "Pet satisfaction": 3.0
+      }
+    },
+    {
+      "review_id": "1200169420",
+      "title": "Cats love royal canin dry food",
+      "text": "I buy royal canin dry food because my cats enjoy the taste they get excited when I fill up their bowls ,it's a healthy alternative that I am happy to buy",
+      "rating": 5,
+      "author": null,
+      "submitted_at": "2025-08-29T04:31:05.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1200039258",
+      "title": "Sassy Senior Cat",
+      "text": "My 15 year old cat loves this product. Have been using it for many years.",
+      "rating": 5,
+      "author": "Senior Pet Lover",
+      "submitted_at": "2025-08-26T22:38:11.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0
+      }
+    },
+    {
+      "review_id": "1199982888",
+      "title": "Forest Siberian Cats adore these little bikkies",
+      "text": "Forest Siberian Cats adore these little bikkies",
+      "rating": 5,
+      "author": "Milla",
+      "submitted_at": "2025-08-26T03:30:24.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": null,
+      "helpful_votes": 0,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {}
+    },
+    {
+      "review_id": "1199983685",
+      "title": "Great indoor cat choice",
+      "text": "My Cats love this cat food, The 4kg pack lasts my 2 cats around 1.5 months which isnt too bad for the price. My cats are both long haired and are healthy weight, very rare furballs, paired with a good wet food they are happy :)",
+      "rating": 5,
+      "author": "Charchar",
+      "submitted_at": "2025-08-26T03:09:54.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 1,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 4.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    },
+    {
+      "review_id": "1199946395",
+      "title": "We have to grind her food because shy has no teeth",
+      "text": "My baby (cat) loves this food",
+      "rating": 5,
+      "author": "Minna’s Mumma",
+      "submitted_at": "2025-08-25T13:05:29.000+00:00",
+      "is_verified_purchaser": true,
+      "is_recommended": true,
+      "helpful_votes": 1,
+      "unhelpful_votes": 0,
+      "secondary_ratings": {
+        "Value for money": 5.0,
+        "Quality": 5.0,
+        "Pet satisfaction": 5.0
+      }
+    }
+  ],
+  "product_name": "Royal Canin Indoor Adult Cat Food 4kg",
+  "product_url": null,
+  "source": "cache",
+  "fetched_at": "2026-09-19T06:01:37+00:00"
+}

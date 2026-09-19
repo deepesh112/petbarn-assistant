@@ -1,0 +1,88 @@
+{
+  "sku": "30295",
+  "name": "Royal Canin Indoor Adult Cat Food 4kg",
+  "url": "https://www.petbarn.com.au/p/royal-canin-feline-indoor-cat-food/30295",
+  "brand": "ROYAL CANIN",
+  "category": "Cat Food",
+  "description": "Royal Canin Indoor is designed for cats living indoors (aged 1 to 10 years). The Royal Canin Cat Food Range offers innovation and nutritional precision for your cat's health. Ingredients Features and Benefits Returns Policy Member Price $63.00 Non-Member: $99.99 Member Price Check Repeat Delivery $59.85 Why repeat delivery? Add to cart 4 payments of $ 25.00 with Zip it from $10 a week with ZIP Reviews Additional information ROYAL CANIN Indoor Adult Cat Food",
+  "image": "https://www.petbarn.com.au/media/catalog/product/2/9/29357_n_royal-canin-feline-indoor-cat-food_5.jpg?optimize=medium&fit=bounds&height=120&width=120",
+  "gtin": "3182550706933",
+  "size": "4kg",
+  "price": 99.99,
+  "member_price": 63.0,
+  "currency": "AUD",
+  "availability": "In stock",
+  "average_rating": 4.8478,
+  "review_count": 854,
+  "is_bundle": false,
+  "variants": [
+    {
+      "sku": "29357",
+      "name": "Royal Canin Indoor Adult Cat Food 2kg",
+      "size": "2kg",
+      "price": 64.99,
+      "member_price": 55.0,
+      "currency": "AUD",
+      "availability": "In stock",
+      "gtin": "3182550704625",
+      "url": "https://www.petbarn.com.au/p/royal-canin-feline-indoor-cat-food/29357"
+    },
+    {
+      "sku": "29789",
+      "name": "Royal Canin Indoor Adult Cat Food 10kg",
+      "size": "10kg",
+      "price": 201.99,
+      "member_price": 137.0,
+      "currency": "AUD",
+      "availability": "In stock",
+      "gtin": "3182550706940",
+      "url": "https://www.petbarn.com.au/p/royal-canin-feline-indoor-cat-food/29789"
+    },
+    {
+      "sku": "30295",
+      "name": "Royal Canin Indoor Adult Cat Food 4kg",
+      "size": "4kg",
+      "price": 99.99,
+      "member_price": 63.0,
+      "currency": "AUD",
+      "availability": "In stock",
+      "gtin": "3182550706933",
+      "url": "https://www.petbarn.com.au/p/royal-canin-feline-indoor-cat-food/30295"
+    },
+    {
+      "sku": "29788",
+      "name": "Royal Canin Indoor Adult Cat Food 400g",
+      "size": "400g",
+      "price": 14.99,
+      "member_price": 13.0,
+      "currency": "AUD",
+      "availability": "In stock",
+      "gtin": "3182550704618",
+      "url": "https://www.petbarn.com.au/p/royal-canin-feline-indoor-cat-food/29788"
+    }
+  ],
+  "shipping": [
+    {
+      "name": "Standard Delivery",
+      "price": 0.0,
+      "currency": "AUD"
+    },
+    {
+      "name": "2hr Delivery",
+      "price": 7.5,
+      "currency": "AUD"
+    },
+    {
+      "name": "Next Day Delivery",
+      "price": 0.0,
+      "currency": "AUD"
+    },
+    {
+      "name": "Next Day Delivery",
+      "price": 7.5,
+      "currency": "AUD"
+    }
+  ],
+  "source": "cache",
+  "fetched_at": "2026-09-19T06:01:35+00:00"
+}
